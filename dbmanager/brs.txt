@@ -1,0 +1,2728 @@
+ Preparing for Import.......Invoking GetEvents method..... Done Calling http://webservices2.ticketnetwork.com/GetEvents.Importing data.... Array
+(
+    [Event] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 731256
+                    [Name] => Baltimore Orioles Vs. Boston Red Sox
+                    [Date] => 2008-05-30T03:30:00
+                    [DisplayDate] => 05/30/2008 TBA
+                    [Venue] => Oriole Park at Camden Yards
+                    [City] => Baltimore
+                    [StateProvince] => MD
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/orioleatCamden_baseball.gif
+                    [VenueID] => 230
+                    [StateProvinceID] => 21
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [1] => Array
+                (
+                    [ID] => 731257
+                    [Name] => Baltimore Orioles Vs. Boston Red Sox
+                    [Date] => 2008-05-31T03:30:00
+                    [DisplayDate] => 05/31/2008 TBA
+                    [Venue] => Oriole Park at Camden Yards
+                    [City] => Baltimore
+                    [StateProvince] => MD
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/orioleatCamden_baseball.gif
+                    [VenueID] => 230
+                    [StateProvinceID] => 21
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [2] => Array
+                (
+                    [ID] => 731258
+                    [Name] => Baltimore Orioles Vs. Boston Red Sox
+                    [Date] => 2008-06-01T03:30:00
+                    [DisplayDate] => 06/01/2008 TBA
+                    [Venue] => Oriole Park at Camden Yards
+                    [City] => Baltimore
+                    [StateProvince] => MD
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/orioleatCamden_baseball.gif
+                    [VenueID] => 230
+                    [StateProvinceID] => 21
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [3] => Array
+                (
+                    [ID] => 731259
+                    [Name] => Baltimore Orioles Vs. Boston Red Sox
+                    [Date] => 2008-06-02T03:30:00
+                    [DisplayDate] => 06/02/2008 TBA
+                    [Venue] => Oriole Park at Camden Yards
+                    [City] => Baltimore
+                    [StateProvince] => MD
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/orioleatCamden_baseball.gif
+                    [VenueID] => 230
+                    [StateProvinceID] => 21
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [4] => Array
+                (
+                    [ID] => 731287
+                    [Name] => Baltimore Orioles Vs. Boston Red Sox
+                    [Date] => 2008-08-18T03:30:00
+                    [DisplayDate] => 08/18/2008 TBA
+                    [Venue] => Oriole Park at Camden Yards
+                    [City] => Baltimore
+                    [StateProvince] => MD
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/orioleatCamden_baseball.gif
+                    [VenueID] => 230
+                    [StateProvinceID] => 21
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [5] => Array
+                (
+                    [ID] => 731288
+                    [Name] => Baltimore Orioles Vs. Boston Red Sox
+                    [Date] => 2008-08-19T03:30:00
+                    [DisplayDate] => 08/19/2008 TBA
+                    [Venue] => Oriole Park at Camden Yards
+                    [City] => Baltimore
+                    [StateProvince] => MD
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/orioleatCamden_baseball.gif
+                    [VenueID] => 230
+                    [StateProvinceID] => 21
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [6] => Array
+                (
+                    [ID] => 731289
+                    [Name] => Baltimore Orioles Vs. Boston Red Sox
+                    [Date] => 2008-08-20T03:30:00
+                    [DisplayDate] => 08/20/2008 TBA
+                    [Venue] => Oriole Park at Camden Yards
+                    [City] => Baltimore
+                    [StateProvince] => MD
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/orioleatCamden_baseball.gif
+                    [VenueID] => 230
+                    [StateProvinceID] => 21
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [7] => Array
+                (
+                    [ID] => 732592
+                    [Name] => Boston Red Sox Vs. Arizona Diamondbacks
+                    [Date] => 2008-06-23T19:05:00
+                    [DisplayDate] => 06/23/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [8] => Array
+                (
+                    [ID] => 732593
+                    [Name] => Boston Red Sox Vs. Arizona Diamondbacks
+                    [Date] => 2008-06-24T19:05:00
+                    [DisplayDate] => 06/24/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [9] => Array
+                (
+                    [ID] => 732594
+                    [Name] => Boston Red Sox Vs. Arizona Diamondbacks
+                    [Date] => 2008-06-25T19:05:00
+                    [DisplayDate] => 06/25/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [10] => Array
+                (
+                    [ID] => 732587
+                    [Name] => Boston Red Sox Vs. Baltimore Orioles
+                    [Date] => 2008-06-10T19:05:00
+                    [DisplayDate] => 06/10/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [11] => Array
+                (
+                    [ID] => 732588
+                    [Name] => Boston Red Sox Vs. Baltimore Orioles
+                    [Date] => 2008-06-11T19:05:00
+                    [DisplayDate] => 06/11/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [12] => Array
+                (
+                    [ID] => 733927
+                    [Name] => Boston Red Sox vs. Baltimore Orioles
+                    [Date] => 2008-06-12T19:05:00
+                    [DisplayDate] => 06/12/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [13] => Array
+                (
+                    [ID] => 732598
+                    [Name] => Boston Red Sox Vs. Baltimore Orioles
+                    [Date] => 2008-07-11T19:05:00
+                    [DisplayDate] => 07/11/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [14] => Array
+                (
+                    [ID] => 732599
+                    [Name] => Boston Red Sox Vs. Baltimore Orioles
+                    [Date] => 2008-07-12T19:05:00
+                    [DisplayDate] => 07/12/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [15] => Array
+                (
+                    [ID] => 732600
+                    [Name] => Boston Red Sox Vs. Baltimore Orioles
+                    [Date] => 2008-07-13T13:35:00
+                    [DisplayDate] => 07/13/2008 1:35PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [16] => Array
+                (
+                    [ID] => 732616
+                    [Name] => Boston Red Sox Vs. Baltimore Orioles
+                    [Date] => 2008-09-01T19:05:00
+                    [DisplayDate] => 09/01/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [17] => Array
+                (
+                    [ID] => 732617
+                    [Name] => Boston Red Sox Vs. Baltimore Orioles
+                    [Date] => 2008-09-02T19:05:00
+                    [DisplayDate] => 09/02/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [18] => Array
+                (
+                    [ID] => 732618
+                    [Name] => Boston Red Sox Vs. Baltimore Orioles
+                    [Date] => 2008-09-03T13:35:00
+                    [DisplayDate] => 09/03/2008 1:35PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [19] => Array
+                (
+                    [ID] => 732613
+                    [Name] => Boston Red Sox Vs. Chicago White Sox
+                    [Date] => 2008-08-29T19:05:00
+                    [DisplayDate] => 08/29/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [20] => Array
+                (
+                    [ID] => 732614
+                    [Name] => Boston Red Sox Vs. Chicago White Sox
+                    [Date] => 2008-08-30T19:05:00
+                    [DisplayDate] => 08/30/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [21] => Array
+                (
+                    [ID] => 732615
+                    [Name] => Boston Red Sox Vs. Chicago White Sox
+                    [Date] => 2008-08-31T13:35:00
+                    [DisplayDate] => 08/31/2008 1:35PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [22] => Array
+                (
+                    [ID] => 732626
+                    [Name] => Boston Red Sox Vs. Cleveland Indians
+                    [Date] => 2008-09-22T19:05:00
+                    [DisplayDate] => 09/22/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [23] => Array
+                (
+                    [ID] => 732627
+                    [Name] => Boston Red Sox Vs. Cleveland Indians
+                    [Date] => 2008-09-23T19:05:00
+                    [DisplayDate] => 09/23/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [24] => Array
+                (
+                    [ID] => 732628
+                    [Name] => Boston Red Sox Vs. Cleveland Indians
+                    [Date] => 2008-09-24T19:05:00
+                    [DisplayDate] => 09/24/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [25] => Array
+                (
+                    [ID] => 732629
+                    [Name] => Boston Red Sox Vs. Cleveland Indians
+                    [Date] => 2008-09-25T19:05:00
+                    [DisplayDate] => 09/25/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [26] => Array
+                (
+                    [ID] => 732563
+                    [Name] => Boston Red Sox Vs. Kansas City Royals
+                    [Date] => 2008-05-19T19:05:00
+                    [DisplayDate] => 05/19/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [27] => Array
+                (
+                    [ID] => 732564
+                    [Name] => Boston Red Sox Vs. Kansas City Royals
+                    [Date] => 2008-05-20T19:05:00
+                    [DisplayDate] => 05/20/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [28] => Array
+                (
+                    [ID] => 732565
+                    [Name] => Boston Red Sox Vs. Kansas City Royals
+                    [Date] => 2008-05-21T19:05:00
+                    [DisplayDate] => 05/21/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [29] => Array
+                (
+                    [ID] => 732566
+                    [Name] => Boston Red Sox Vs. Kansas City Royals
+                    [Date] => 2008-05-22T13:35:00
+                    [DisplayDate] => 05/22/2008 1:35PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [30] => Array
+                (
+                    [ID] => 732604
+                    [Name] => Boston Red Sox Vs. Los Angeles Angels Of Anaheim
+                    [Date] => 2008-07-28T19:05:00
+                    [DisplayDate] => 07/28/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [31] => Array
+                (
+                    [ID] => 732605
+                    [Name] => Boston Red Sox Vs. Los Angeles Angels Of Anaheim
+                    [Date] => 2008-07-29T19:05:00
+                    [DisplayDate] => 07/29/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [32] => Array
+                (
+                    [ID] => 732606
+                    [Name] => Boston Red Sox Vs. Los Angeles Angels Of Anaheim
+                    [Date] => 2008-07-30T19:05:00
+                    [DisplayDate] => 07/30/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [33] => Array
+                (
+                    [ID] => 732595
+                    [Name] => Boston Red Sox Vs. Minnesota Twins
+                    [Date] => 2008-07-07T19:05:00
+                    [DisplayDate] => 07/07/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [34] => Array
+                (
+                    [ID] => 732596
+                    [Name] => Boston Red Sox Vs. Minnesota Twins
+                    [Date] => 2008-07-08T19:05:00
+                    [DisplayDate] => 07/08/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [35] => Array
+                (
+                    [ID] => 732597
+                    [Name] => Boston Red Sox Vs. Minnesota Twins
+                    [Date] => 2008-07-09T13:05:00
+                    [DisplayDate] => 07/09/2008 1:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [36] => Array
+                (
+                    [ID] => 428936
+                    [Name] => Boston Red Sox vs. Minnesota Twins
+                    [Date] => 2007-09-27T19:05:00
+                    [DisplayDate] => 09/27/2007 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [37] => Array
+                (
+                    [ID] => 428956
+                    [Name] => Boston Red Sox vs. Minnesota Twins
+                    [Date] => 2007-09-28T19:05:00
+                    [DisplayDate] => 09/28/2007 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [38] => Array
+                (
+                    [ID] => 428958
+                    [Name] => Boston Red Sox vs. Minnesota Twins
+                    [Date] => 2007-09-29T19:05:00
+                    [DisplayDate] => 09/29/2007 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [39] => Array
+                (
+                    [ID] => 428937
+                    [Name] => Boston Red Sox vs. Minnesota Twins
+                    [Date] => 2007-09-30T14:05:00
+                    [DisplayDate] => 09/30/2007 2:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [40] => Array
+                (
+                    [ID] => 732601
+                    [Name] => Boston Red Sox Vs. New York Yankees
+                    [Date] => 2008-07-25T19:05:00
+                    [DisplayDate] => 07/25/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [41] => Array
+                (
+                    [ID] => 732602
+                    [Name] => Boston Red Sox Vs. New York Yankees
+                    [Date] => 2008-07-26T15:55:00
+                    [DisplayDate] => 07/26/2008 3:55PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [42] => Array
+                (
+                    [ID] => 732603
+                    [Name] => Boston Red Sox Vs. New York Yankees
+                    [Date] => 2008-07-27T13:35:00
+                    [DisplayDate] => 07/27/2008 1:35PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [43] => Array
+                (
+                    [ID] => 428954
+                    [Name] => Boston Red Sox vs. New York Yankees
+                    [Date] => 2007-09-14T19:05:00
+                    [DisplayDate] => 09/14/2007 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [44] => Array
+                (
+                    [ID] => 428955
+                    [Name] => Boston Red Sox vs. New York Yankees
+                    [Date] => 2007-09-15T15:55:00
+                    [DisplayDate] => 09/15/2007 3:55PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [45] => Array
+                (
+                    [ID] => 428957
+                    [Name] => Boston Red Sox vs. New York Yankees
+                    [Date] => 2007-09-16T14:05:00
+                    [DisplayDate] => 09/16/2007 2:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [46] => Array
+                (
+                    [ID] => 732630
+                    [Name] => Boston Red Sox Vs. New York Yankees
+                    [Date] => 2008-09-26T19:05:00
+                    [DisplayDate] => 09/26/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [47] => Array
+                (
+                    [ID] => 732631
+                    [Name] => Boston Red Sox Vs. New York Yankees
+                    [Date] => 2008-09-27T19:05:00
+                    [DisplayDate] => 09/27/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [48] => Array
+                (
+                    [ID] => 732632
+                    [Name] => Boston Red Sox Vs. New York Yankees
+                    [Date] => 2008-09-28T13:35:00
+                    [DisplayDate] => 09/28/2008 1:35PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [49] => Array
+                (
+                    [ID] => 733521
+                    [Name] => Boston Red Sox vs. Oakland Athletics
+                    [Date] => 2008-08-01T19:05:00
+                    [DisplayDate] => 08/01/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [50] => Array
+                (
+                    [ID] => 733522
+                    [Name] => Boston Red Sox vs. Oakland Athletics
+                    [Date] => 2008-08-02T19:05:00
+                    [DisplayDate] => 08/02/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [51] => Array
+                (
+                    [ID] => 733523
+                    [Name] => Boston Red Sox vs. Oakland Athletics
+                    [Date] => 2008-08-03T13:35:00
+                    [DisplayDate] => 08/03/2008 1:35PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [52] => Array
+                (
+                    [ID] => 428934
+                    [Name] => Boston Red Sox vs. Oakland Athletics
+                    [Date] => 2007-09-25T19:05:00
+                    [DisplayDate] => 09/25/2007 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [53] => Array
+                (
+                    [ID] => 428935
+                    [Name] => Boston Red Sox vs. Oakland Athletics
+                    [Date] => 2007-09-26T19:05:00
+                    [DisplayDate] => 09/26/2007 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [54] => Array
+                (
+                    [ID] => 732583
+                    [Name] => Boston Red Sox Vs. Seattle Mariners
+                    [Date] => 2008-06-06T19:05:00
+                    [DisplayDate] => 06/06/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [55] => Array
+                (
+                    [ID] => 732584
+                    [Name] => Boston Red Sox Vs. Seattle Mariners
+                    [Date] => 2008-06-07T15:55:00
+                    [DisplayDate] => 06/07/2008 3:55PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [56] => Array
+                (
+                    [ID] => 732585
+                    [Name] => Boston Red Sox Vs. Seattle Mariners
+                    [Date] => 2008-06-08T13:35:00
+                    [DisplayDate] => 06/08/2008 1:35PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [57] => Array
+                (
+                    [ID] => 732589
+                    [Name] => Boston Red Sox Vs. St. Louis Cardinals
+                    [Date] => 2008-06-20T19:05:00
+                    [DisplayDate] => 06/20/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [58] => Array
+                (
+                    [ID] => 732590
+                    [Name] => Boston Red Sox Vs. St. Louis Cardinals
+                    [Date] => 2008-06-21T15:55:00
+                    [DisplayDate] => 06/21/2008 3:55PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [59] => Array
+                (
+                    [ID] => 732591
+                    [Name] => Boston Red Sox Vs. St. Louis Cardinals
+                    [Date] => 2008-06-22T13:35:00
+                    [DisplayDate] => 06/22/2008 1:35PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [60] => Array
+                (
+                    [ID] => 732580
+                    [Name] => Boston Red Sox Vs. Tampa Bay Rays
+                    [Date] => 2008-06-03T19:05:00
+                    [DisplayDate] => 06/03/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [61] => Array
+                (
+                    [ID] => 732581
+                    [Name] => Boston Red Sox Vs. Tampa Bay Rays
+                    [Date] => 2008-06-04T19:05:00
+                    [DisplayDate] => 06/04/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [62] => Array
+                (
+                    [ID] => 732582
+                    [Name] => Boston Red Sox Vs. Tampa Bay Rays
+                    [Date] => 2008-06-05T19:05:00
+                    [DisplayDate] => 06/05/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [63] => Array
+                (
+                    [ID] => 732619
+                    [Name] => Boston Red Sox Vs. Tampa Bay Rays
+                    [Date] => 2008-09-08T19:05:00
+                    [DisplayDate] => 09/08/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [64] => Array
+                (
+                    [ID] => 732620
+                    [Name] => Boston Red Sox Vs. Tampa Bay Rays
+                    [Date] => 2008-09-09T19:05:00
+                    [DisplayDate] => 09/09/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [65] => Array
+                (
+                    [ID] => 732621
+                    [Name] => Boston Red Sox Vs. Tampa Bay Rays
+                    [Date] => 2008-09-10T19:05:00
+                    [DisplayDate] => 09/10/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [66] => Array
+                (
+                    [ID] => 732607
+                    [Name] => Boston Red Sox Vs. Texas Rangers
+                    [Date] => 2008-08-12T19:05:00
+                    [DisplayDate] => 08/12/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [67] => Array
+                (
+                    [ID] => 732608
+                    [Name] => Boston Red Sox Vs. Texas Rangers
+                    [Date] => 2008-08-13T19:05:00
+                    [DisplayDate] => 08/13/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [68] => Array
+                (
+                    [ID] => 732609
+                    [Name] => Boston Red Sox Vs. Texas Rangers
+                    [Date] => 2008-08-14T19:05:00
+                    [DisplayDate] => 08/14/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [69] => Array
+                (
+                    [ID] => 732610
+                    [Name] => Boston Red Sox Vs. Toronto Blue Jays
+                    [Date] => 2008-08-15T19:05:00
+                    [DisplayDate] => 08/15/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [70] => Array
+                (
+                    [ID] => 732611
+                    [Name] => Boston Red Sox Vs. Toronto Blue Jays
+                    [Date] => 2008-08-16T19:05:00
+                    [DisplayDate] => 08/16/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [71] => Array
+                (
+                    [ID] => 732612
+                    [Name] => Boston Red Sox Vs. Toronto Blue Jays
+                    [Date] => 2008-08-17T13:35:00
+                    [DisplayDate] => 08/17/2008 1:35PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [72] => Array
+                (
+                    [ID] => 732623
+                    [Name] => Boston Red Sox Vs. Toronto Blue Jays
+                    [Date] => 2008-09-12T19:05:00
+                    [DisplayDate] => 09/12/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [73] => Array
+                (
+                    [ID] => 732624
+                    [Name] => Boston Red Sox Vs. Toronto Blue Jays
+                    [Date] => 2008-09-13T19:05:00
+                    [DisplayDate] => 09/13/2008 7:05PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [74] => Array
+                (
+                    [ID] => 732625
+                    [Name] => Boston Red Sox Vs. Toronto Blue Jays
+                    [Date] => 2008-09-14T13:35:00
+                    [DisplayDate] => 09/14/2008 1:35PM
+                    [Venue] => Fenway Park
+                    [City] => Boston
+                    [StateProvince] => MA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/fenwayPark_baseball.gif
+                    [VenueID] => 21
+                    [StateProvinceID] => 20
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [75] => Array
+                (
+                    [ID] => 721111
+                    [Name] => Chicago White Sox Vs. Boston Red Sox
+                    [Date] => 2008-08-08T03:30:00
+                    [DisplayDate] => 08/08/2008 TBA
+                    [Venue] => US Cellular Field
+                    [City] => Chicago
+                    [StateProvince] => IL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/comiskeyPark_baseball.gif
+                    [VenueID] => 215
+                    [StateProvinceID] => 15
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [76] => Array
+                (
+                    [ID] => 721112
+                    [Name] => Chicago White Sox Vs. Boston Red Sox
+                    [Date] => 2008-08-09T03:30:00
+                    [DisplayDate] => 08/09/2008 TBA
+                    [Venue] => US Cellular Field
+                    [City] => Chicago
+                    [StateProvince] => IL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/comiskeyPark_baseball.gif
+                    [VenueID] => 215
+                    [StateProvinceID] => 15
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [77] => Array
+                (
+                    [ID] => 721113
+                    [Name] => Chicago White Sox Vs. Boston Red Sox
+                    [Date] => 2008-08-10T03:30:00
+                    [DisplayDate] => 08/10/2008 TBA
+                    [Venue] => US Cellular Field
+                    [City] => Chicago
+                    [StateProvince] => IL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/comiskeyPark_baseball.gif
+                    [VenueID] => 215
+                    [StateProvinceID] => 15
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [78] => Array
+                (
+                    [ID] => 721114
+                    [Name] => Chicago White Sox Vs. Boston Red Sox
+                    [Date] => 2008-08-11T03:30:00
+                    [DisplayDate] => 08/11/2008 TBA
+                    [Venue] => US Cellular Field
+                    [City] => Chicago
+                    [StateProvince] => IL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/comiskeyPark_baseball.gif
+                    [VenueID] => 215
+                    [StateProvinceID] => 15
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [79] => Array
+                (
+                    [ID] => 721844
+                    [Name] => Cincinnati Reds Vs. Boston Red Sox
+                    [Date] => 2008-06-13T03:30:00
+                    [DisplayDate] => 06/13/2008 TBA
+                    [Venue] => Great American Ball Park
+                    [City] => Cincinnati
+                    [StateProvince] => OH
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/greatAmerBallpark_baseball.gif
+                    [VenueID] => 309
+                    [StateProvinceID] => 36
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [80] => Array
+                (
+                    [ID] => 721845
+                    [Name] => Cincinnati Reds Vs. Boston Red Sox
+                    [Date] => 2008-06-14T03:30:00
+                    [DisplayDate] => 06/14/2008 TBA
+                    [Venue] => Great American Ball Park
+                    [City] => Cincinnati
+                    [StateProvince] => OH
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/greatAmerBallpark_baseball.gif
+                    [VenueID] => 309
+                    [StateProvinceID] => 36
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [81] => Array
+                (
+                    [ID] => 721846
+                    [Name] => Cincinnati Reds Vs. Boston Red Sox
+                    [Date] => 2008-06-15T03:30:00
+                    [DisplayDate] => 06/15/2008 TBA
+                    [Venue] => Great American Ball Park
+                    [City] => Cincinnati
+                    [StateProvince] => OH
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/greatAmerBallpark_baseball.gif
+                    [VenueID] => 309
+                    [StateProvinceID] => 36
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [82] => Array
+                (
+                    [ID] => 725272
+                    [Name] => Cleveland Indians Vs. Boston Red Sox
+                    [Date] => 2008-04-14T19:05:00
+                    [DisplayDate] => 04/14/2008 7:05PM
+                    [Venue] => Jacobs Field
+                    [City] => Cleveland
+                    [StateProvince] => OH
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/jacobsField_baseball.gif
+                    [VenueID] => 424
+                    [StateProvinceID] => 36
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [83] => Array
+                (
+                    [ID] => 725273
+                    [Name] => Cleveland Indians Vs. Boston Red Sox
+                    [Date] => 2008-04-15T19:05:00
+                    [DisplayDate] => 04/15/2008 7:05PM
+                    [Venue] => Jacobs Field
+                    [City] => Cleveland
+                    [StateProvince] => OH
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/jacobsField_baseball.gif
+                    [VenueID] => 424
+                    [StateProvinceID] => 36
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [84] => Array
+                (
+                    [ID] => 721017
+                    [Name] => Detroit Tigers Vs. Boston Red Sox
+                    [Date] => 2008-05-05T19:05:00
+                    [DisplayDate] => 05/05/2008 7:05PM
+                    [Venue] => Comerica Park
+                    [City] => Detroit
+                    [StateProvince] => MI
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/comericaPark_baseball.gif
+                    [VenueID] => 245
+                    [StateProvinceID] => 23
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [85] => Array
+                (
+                    [ID] => 721018
+                    [Name] => Detroit Tigers Vs. Boston Red Sox
+                    [Date] => 2008-05-06T19:05:00
+                    [DisplayDate] => 05/06/2008 7:05PM
+                    [Venue] => Comerica Park
+                    [City] => Detroit
+                    [StateProvince] => MI
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/comericaPark_baseball.gif
+                    [VenueID] => 245
+                    [StateProvinceID] => 23
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [86] => Array
+                (
+                    [ID] => 721019
+                    [Name] => Detroit Tigers Vs. Boston Red Sox
+                    [Date] => 2008-05-07T19:05:00
+                    [DisplayDate] => 05/07/2008 7:05PM
+                    [Venue] => Comerica Park
+                    [City] => Detroit
+                    [StateProvince] => MI
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/comericaPark_baseball.gif
+                    [VenueID] => 245
+                    [StateProvinceID] => 23
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [87] => Array
+                (
+                    [ID] => 721020
+                    [Name] => Detroit Tigers Vs. Boston Red Sox
+                    [Date] => 2008-05-08T19:05:00
+                    [DisplayDate] => 05/08/2008 7:05PM
+                    [Venue] => Comerica Park
+                    [City] => Detroit
+                    [StateProvince] => MI
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/comericaPark_baseball.gif
+                    [VenueID] => 245
+                    [StateProvinceID] => 23
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [88] => Array
+                (
+                    [ID] => 720015
+                    [Name] => Houston Astros Vs. Boston Red Sox
+                    [Date] => 2008-06-27T03:30:00
+                    [DisplayDate] => 06/27/2008 TBA
+                    [Venue] => Minute Maid Park
+                    [City] => Houston
+                    [StateProvince] => TX
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/minuteMaidPark_baseball.gif
+                    [VenueID] => 433
+                    [StateProvinceID] => 44
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [89] => Array
+                (
+                    [ID] => 720016
+                    [Name] => Houston Astros Vs. Boston Red Sox
+                    [Date] => 2008-06-28T03:30:00
+                    [DisplayDate] => 06/28/2008 TBA
+                    [Venue] => Minute Maid Park
+                    [City] => Houston
+                    [StateProvince] => TX
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/minuteMaidPark_baseball.gif
+                    [VenueID] => 433
+                    [StateProvinceID] => 44
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [90] => Array
+                (
+                    [ID] => 720017
+                    [Name] => Houston Astros Vs. Boston Red Sox
+                    [Date] => 2008-06-29T03:30:00
+                    [DisplayDate] => 06/29/2008 TBA
+                    [Venue] => Minute Maid Park
+                    [City] => Houston
+                    [StateProvince] => TX
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/minuteMaidPark_baseball.gif
+                    [VenueID] => 433
+                    [StateProvinceID] => 44
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [91] => Array
+                (
+                    [ID] => 722543
+                    [Name] => Kansas City Royals Vs. Boston Red Sox
+                    [Date] => 2008-08-04T03:30:00
+                    [DisplayDate] => 08/04/2008 TBA
+                    [Venue] => Kauffman Stadium
+                    [City] => Kansas City
+                    [StateProvince] => MO
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/kauffmanStadium_baseball.gif
+                    [VenueID] => 413
+                    [StateProvinceID] => 25
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [92] => Array
+                (
+                    [ID] => 722544
+                    [Name] => Kansas City Royals Vs. Boston Red Sox
+                    [Date] => 2008-08-05T03:30:00
+                    [DisplayDate] => 08/05/2008 TBA
+                    [Venue] => Kauffman Stadium
+                    [City] => Kansas City
+                    [StateProvince] => MO
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/kauffmanStadium_baseball.gif
+                    [VenueID] => 413
+                    [StateProvinceID] => 25
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [93] => Array
+                (
+                    [ID] => 722545
+                    [Name] => Kansas City Royals Vs. Boston Red Sox
+                    [Date] => 2008-08-06T03:30:00
+                    [DisplayDate] => 08/06/2008 TBA
+                    [Venue] => Kauffman Stadium
+                    [City] => Kansas City
+                    [StateProvince] => MO
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/kauffmanStadium_baseball.gif
+                    [VenueID] => 413
+                    [StateProvinceID] => 25
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [94] => Array
+                (
+                    [ID] => 722546
+                    [Name] => Kansas City Royals Vs. Boston Red Sox
+                    [Date] => 2008-08-07T03:30:00
+                    [DisplayDate] => 08/07/2008 TBA
+                    [Venue] => Kauffman Stadium
+                    [City] => Kansas City
+                    [StateProvince] => MO
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/kauffmanStadium_baseball.gif
+                    [VenueID] => 413
+                    [StateProvinceID] => 25
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [95] => Array
+                (
+                    [ID] => 731675
+                    [Name] => Los Angeles Angels Of Anaheim Vs. Boston Red Sox
+                    [Date] => 2008-07-18T03:30:00
+                    [DisplayDate] => 07/18/2008 TBA
+                    [Venue] => Angel Stadium
+                    [City] => Anaheim
+                    [StateProvince] => CA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/anaheim_angels_tn.png
+                    [VenueID] => 1392
+                    [StateProvinceID] => 5
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [96] => Array
+                (
+                    [ID] => 731676
+                    [Name] => Los Angeles Angels Of Anaheim Vs. Boston Red Sox
+                    [Date] => 2008-07-19T03:30:00
+                    [DisplayDate] => 07/19/2008 TBA
+                    [Venue] => Angel Stadium
+                    [City] => Anaheim
+                    [StateProvince] => CA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/anaheim_angels_tn.png
+                    [VenueID] => 1392
+                    [StateProvinceID] => 5
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [97] => Array
+                (
+                    [ID] => 731677
+                    [Name] => Los Angeles Angels Of Anaheim Vs. Boston Red Sox
+                    [Date] => 2008-07-20T03:30:00
+                    [DisplayDate] => 07/20/2008 TBA
+                    [Venue] => Angel Stadium
+                    [City] => Anaheim
+                    [StateProvince] => CA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/anaheim_angels_tn.png
+                    [VenueID] => 1392
+                    [StateProvinceID] => 5
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [98] => Array
+                (
+                    [ID] => 722630
+                    [Name] => Minnesota Twins Vs. Boston Red Sox
+                    [Date] => 2008-05-09T19:10:00
+                    [DisplayDate] => 05/09/2008 7:10PM
+                    [Venue] => Metrodome
+                    [City] => Minneapolis
+                    [StateProvince] => MN
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/HHHMetrodome_football.gif
+                    [VenueID] => 36
+                    [StateProvinceID] => 24
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [99] => Array
+                (
+                    [ID] => 722631
+                    [Name] => Minnesota Twins Vs. Boston Red Sox
+                    [Date] => 2008-05-10T18:10:00
+                    [DisplayDate] => 05/10/2008 6:10PM
+                    [Venue] => Metrodome
+                    [City] => Minneapolis
+                    [StateProvince] => MN
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/HHHMetrodome_football.gif
+                    [VenueID] => 36
+                    [StateProvinceID] => 24
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [100] => Array
+                (
+                    [ID] => 722632
+                    [Name] => Minnesota Twins Vs. Boston Red Sox
+                    [Date] => 2008-05-11T13:10:00
+                    [DisplayDate] => 05/11/2008 1:10PM
+                    [Venue] => Metrodome
+                    [City] => Minneapolis
+                    [StateProvince] => MN
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/HHHMetrodome_football.gif
+                    [VenueID] => 36
+                    [StateProvinceID] => 24
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [101] => Array
+                (
+                    [ID] => 722633
+                    [Name] => Minnesota Twins Vs. Boston Red Sox
+                    [Date] => 2008-05-12T19:10:00
+                    [DisplayDate] => 05/12/2008 7:10PM
+                    [Venue] => Metrodome
+                    [City] => Minneapolis
+                    [StateProvince] => MN
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/HHHMetrodome_football.gif
+                    [VenueID] => 36
+                    [StateProvinceID] => 24
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [102] => Array
+                (
+                    [ID] => 733865
+                    [Name] => New York Yankees vs. Boston Red Sox
+                    [Date] => 2008-07-03T19:05:00
+                    [DisplayDate] => 07/03/2008 7:05PM
+                    [Venue] => Yankee Stadium
+                    [City] => Bronx
+                    [StateProvince] => NY
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/YankeeStadium_baseball.gif
+                    [VenueID] => 68
+                    [StateProvinceID] => 35
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [103] => Array
+                (
+                    [ID] => 733866
+                    [Name] => New York Yankees vs. Boston Red Sox
+                    [Date] => 2008-07-04T13:05:00
+                    [DisplayDate] => 07/04/2008 1:05PM
+                    [Venue] => Yankee Stadium
+                    [City] => Bronx
+                    [StateProvince] => NY
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/YankeeStadium_baseball.gif
+                    [VenueID] => 68
+                    [StateProvinceID] => 35
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [104] => Array
+                (
+                    [ID] => 733867
+                    [Name] => New York Yankees vs. Boston Red Sox
+                    [Date] => 2008-07-05T15:55:00
+                    [DisplayDate] => 07/05/2008 3:55PM
+                    [Venue] => Yankee Stadium
+                    [City] => Bronx
+                    [StateProvince] => NY
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/YankeeStadium_baseball.gif
+                    [VenueID] => 68
+                    [StateProvinceID] => 35
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [105] => Array
+                (
+                    [ID] => 733868
+                    [Name] => New York Yankees vs. Boston Red Sox
+                    [Date] => 2008-07-06T03:30:00
+                    [DisplayDate] => 07/06/2008 TBA
+                    [Venue] => Yankee Stadium
+                    [City] => Bronx
+                    [StateProvince] => NY
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/YankeeStadium_baseball.gif
+                    [VenueID] => 68
+                    [StateProvinceID] => 35
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [106] => Array
+                (
+                    [ID] => 733890
+                    [Name] => New York Yankees vs. Boston Red Sox
+                    [Date] => 2008-08-26T19:05:00
+                    [DisplayDate] => 08/26/2008 7:05PM
+                    [Venue] => Yankee Stadium
+                    [City] => Bronx
+                    [StateProvince] => NY
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/YankeeStadium_baseball.gif
+                    [VenueID] => 68
+                    [StateProvinceID] => 35
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [107] => Array
+                (
+                    [ID] => 733891
+                    [Name] => New York Yankees vs. Boston Red Sox
+                    [Date] => 2008-08-27T19:05:00
+                    [DisplayDate] => 08/27/2008 7:05PM
+                    [Venue] => Yankee Stadium
+                    [City] => Bronx
+                    [StateProvince] => NY
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/YankeeStadium_baseball.gif
+                    [VenueID] => 68
+                    [StateProvinceID] => 35
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [108] => Array
+                (
+                    [ID] => 733892
+                    [Name] => New York Yankees vs. Boston Red Sox
+                    [Date] => 2008-08-28T13:05:00
+                    [DisplayDate] => 08/28/2008 1:05PM
+                    [Venue] => Yankee Stadium
+                    [City] => Bronx
+                    [StateProvince] => NY
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/YankeeStadium_baseball.gif
+                    [VenueID] => 68
+                    [StateProvinceID] => 35
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [109] => Array
+                (
+                    [ID] => 735317
+                    [Name] => Oakland Athletics Vs. Boston Red Sox
+                    [Date] => 2008-05-23T19:00:00
+                    [DisplayDate] => 05/23/2008 7:00PM
+                    [Venue] => McAfee Coliseum
+                    [City] => Oakland
+                    [StateProvince] => CA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/venue 011_tn.gif
+                    [VenueID] => 523
+                    [StateProvinceID] => 5
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [110] => Array
+                (
+                    [ID] => 735319
+                    [Name] => Oakland Athletics Vs. Boston Red Sox
+                    [Date] => 2008-05-24T18:05:00
+                    [DisplayDate] => 05/24/2008 6:05PM
+                    [Venue] => McAfee Coliseum
+                    [City] => Oakland
+                    [StateProvince] => CA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/venue 011_tn.gif
+                    [VenueID] => 523
+                    [StateProvinceID] => 5
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [111] => Array
+                (
+                    [ID] => 735963
+                    [Name] => Oakland Athletics vs. Boston Red Sox
+                    [Date] => 2008-05-25T13:05:00
+                    [DisplayDate] => 05/25/2008 1:05PM
+                    [Venue] => McAfee Coliseum
+                    [City] => Oakland
+                    [StateProvince] => CA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/venue 011_tn.gif
+                    [VenueID] => 523
+                    [StateProvinceID] => 5
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [112] => Array
+                (
+                    [ID] => 723919
+                    [Name] => Philadelphia Phillies Vs. Boston Red Sox
+                    [Date] => 2008-06-16T19:05:00
+                    [DisplayDate] => 06/16/2008 7:05PM
+                    [Venue] => Citizens Bank Park
+                    [City] => Philadelphia
+                    [StateProvince] => PA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/citizen.gif
+                    [VenueID] => 1240
+                    [StateProvinceID] => 39
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [113] => Array
+                (
+                    [ID] => 723920
+                    [Name] => Philadelphia Phillies Vs. Boston Red Sox
+                    [Date] => 2008-06-17T19:05:00
+                    [DisplayDate] => 06/17/2008 7:05PM
+                    [Venue] => Citizens Bank Park
+                    [City] => Philadelphia
+                    [StateProvince] => PA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/citizen.gif
+                    [VenueID] => 1240
+                    [StateProvinceID] => 39
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [114] => Array
+                (
+                    [ID] => 723921
+                    [Name] => Philadelphia Phillies Vs. Boston Red Sox
+                    [Date] => 2008-06-18T03:30:00
+                    [DisplayDate] => 06/18/2008 TBA
+                    [Venue] => Citizens Bank Park
+                    [City] => Philadelphia
+                    [StateProvince] => PA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/citizen.gif
+                    [VenueID] => 1240
+                    [StateProvinceID] => 39
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [115] => Array
+                (
+                    [ID] => 723053
+                    [Name] => Seattle Mariners Vs. Boston Red Sox
+                    [Date] => 2008-05-26T19:10:00
+                    [DisplayDate] => 05/26/2008 7:10PM
+                    [Venue] => Safeco Field
+                    [City] => Seattle
+                    [StateProvince] => WA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/safecoField_baseball.gif
+                    [VenueID] => 172
+                    [StateProvinceID] => 48
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [116] => Array
+                (
+                    [ID] => 723054
+                    [Name] => Seattle Mariners Vs. Boston Red Sox
+                    [Date] => 2008-05-27T19:10:00
+                    [DisplayDate] => 05/27/2008 7:10PM
+                    [Venue] => Safeco Field
+                    [City] => Seattle
+                    [StateProvince] => WA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/safecoField_baseball.gif
+                    [VenueID] => 172
+                    [StateProvinceID] => 48
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [117] => Array
+                (
+                    [ID] => 723055
+                    [Name] => Seattle Mariners Vs. Boston Red Sox
+                    [Date] => 2008-05-28T19:10:00
+                    [DisplayDate] => 05/28/2008 7:10PM
+                    [Venue] => Safeco Field
+                    [City] => Seattle
+                    [StateProvince] => WA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/safecoField_baseball.gif
+                    [VenueID] => 172
+                    [StateProvinceID] => 48
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [118] => Array
+                (
+                    [ID] => 723078
+                    [Name] => Seattle Mariners Vs. Boston Red Sox
+                    [Date] => 2008-07-21T19:10:00
+                    [DisplayDate] => 07/21/2008 7:10PM
+                    [Venue] => Safeco Field
+                    [City] => Seattle
+                    [StateProvince] => WA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/safecoField_baseball.gif
+                    [VenueID] => 172
+                    [StateProvinceID] => 48
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [119] => Array
+                (
+                    [ID] => 723079
+                    [Name] => Seattle Mariners Vs. Boston Red Sox
+                    [Date] => 2008-07-22T19:10:00
+                    [DisplayDate] => 07/22/2008 7:10PM
+                    [Venue] => Safeco Field
+                    [City] => Seattle
+                    [StateProvince] => WA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/safecoField_baseball.gif
+                    [VenueID] => 172
+                    [StateProvinceID] => 48
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [120] => Array
+                (
+                    [ID] => 723080
+                    [Name] => Seattle Mariners Vs. Boston Red Sox
+                    [Date] => 2008-07-23T03:30:00
+                    [DisplayDate] => 07/23/2008 TBA
+                    [Venue] => Safeco Field
+                    [City] => Seattle
+                    [StateProvince] => WA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/safecoField_baseball.gif
+                    [VenueID] => 172
+                    [StateProvinceID] => 48
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [121] => Array
+                (
+                    [ID] => 723246
+                    [Name] => Tampa Bay Devil Rays Vs. Boston Red Sox
+                    [Date] => 2008-04-25T19:10:00
+                    [DisplayDate] => 04/25/2008 7:10PM
+                    [Venue] => Tropicana Field
+                    [City] => Saint Petersburg
+                    [StateProvince] => FL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/tropicanaField_baseball.gif
+                    [VenueID] => 550
+                    [StateProvinceID] => 10
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [122] => Array
+                (
+                    [ID] => 723247
+                    [Name] => Tampa Bay Devil Rays Vs. Boston Red Sox
+                    [Date] => 2008-04-26T19:10:00
+                    [DisplayDate] => 04/26/2008 7:10PM
+                    [Venue] => Tropicana Field
+                    [City] => Saint Petersburg
+                    [StateProvince] => FL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/tropicanaField_baseball.gif
+                    [VenueID] => 550
+                    [StateProvinceID] => 10
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [123] => Array
+                (
+                    [ID] => 723248
+                    [Name] => Tampa Bay Devil Rays Vs. Boston Red Sox
+                    [Date] => 2008-04-27T13:40:00
+                    [DisplayDate] => 04/27/2008 1:40PM
+                    [Venue] => Tropicana Field
+                    [City] => Saint Petersburg
+                    [StateProvince] => FL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/tropicanaField_baseball.gif
+                    [VenueID] => 550
+                    [StateProvinceID] => 10
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [124] => Array
+                (
+                    [ID] => 723276
+                    [Name] => Tampa Bay Devil Rays Vs. Boston Red Sox
+                    [Date] => 2008-06-30T19:10:00
+                    [DisplayDate] => 06/30/2008 7:10PM
+                    [Venue] => Tropicana Field
+                    [City] => Saint Petersburg
+                    [StateProvince] => FL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/tropicanaField_baseball.gif
+                    [VenueID] => 550
+                    [StateProvinceID] => 10
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [125] => Array
+                (
+                    [ID] => 723277
+                    [Name] => Tampa Bay Devil Rays Vs. Boston Red Sox
+                    [Date] => 2008-07-01T19:10:00
+                    [DisplayDate] => 07/01/2008 7:10PM
+                    [Venue] => Tropicana Field
+                    [City] => Saint Petersburg
+                    [StateProvince] => FL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/tropicanaField_baseball.gif
+                    [VenueID] => 550
+                    [StateProvinceID] => 10
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [126] => Array
+                (
+                    [ID] => 723278
+                    [Name] => Tampa Bay Devil Rays Vs. Boston Red Sox
+                    [Date] => 2008-07-02T19:10:00
+                    [DisplayDate] => 07/02/2008 7:10PM
+                    [Venue] => Tropicana Field
+                    [City] => Saint Petersburg
+                    [StateProvince] => FL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/tropicanaField_baseball.gif
+                    [VenueID] => 550
+                    [StateProvinceID] => 10
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [127] => Array
+                (
+                    [ID] => 723306
+                    [Name] => Tampa Bay Devil Rays Vs. Boston Red Sox
+                    [Date] => 2008-09-15T19:10:00
+                    [DisplayDate] => 09/15/2008 7:10PM
+                    [Venue] => Tropicana Field
+                    [City] => Saint Petersburg
+                    [StateProvince] => FL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/tropicanaField_baseball.gif
+                    [VenueID] => 550
+                    [StateProvinceID] => 10
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [128] => Array
+                (
+                    [ID] => 723307
+                    [Name] => Tampa Bay Devil Rays Vs. Boston Red Sox
+                    [Date] => 2008-09-16T19:10:00
+                    [DisplayDate] => 09/16/2008 7:10PM
+                    [Venue] => Tropicana Field
+                    [City] => Saint Petersburg
+                    [StateProvince] => FL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/tropicanaField_baseball.gif
+                    [VenueID] => 550
+                    [StateProvinceID] => 10
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [129] => Array
+                (
+                    [ID] => 723308
+                    [Name] => Tampa Bay Devil Rays Vs. Boston Red Sox
+                    [Date] => 2008-09-17T19:10:00
+                    [DisplayDate] => 09/17/2008 7:10PM
+                    [Venue] => Tropicana Field
+                    [City] => Saint Petersburg
+                    [StateProvince] => FL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/tropicanaField_baseball.gif
+                    [VenueID] => 550
+                    [StateProvinceID] => 10
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [130] => Array
+                (
+                    [ID] => 420126
+                    [Name] => Tampa Bay Devil Rays vs. Boston Red Sox
+                    [Date] => 2007-09-21T19:10:00
+                    [DisplayDate] => 09/21/2007 7:10PM
+                    [Venue] => Tropicana Field
+                    [City] => Saint Petersburg
+                    [StateProvince] => FL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/tropicanaField_baseball.gif
+                    [VenueID] => 550
+                    [StateProvinceID] => 10
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [131] => Array
+                (
+                    [ID] => 420127
+                    [Name] => Tampa Bay Devil Rays vs. Boston Red Sox
+                    [Date] => 2007-09-22T19:10:00
+                    [DisplayDate] => 09/22/2007 7:10PM
+                    [Venue] => Tropicana Field
+                    [City] => Saint Petersburg
+                    [StateProvince] => FL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/tropicanaField_baseball.gif
+                    [VenueID] => 550
+                    [StateProvinceID] => 10
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [132] => Array
+                (
+                    [ID] => 420128
+                    [Name] => Tampa Bay Devil Rays vs. Boston Red Sox
+                    [Date] => 2007-09-23T13:40:00
+                    [DisplayDate] => 09/23/2007 1:40PM
+                    [Venue] => Tropicana Field
+                    [City] => Saint Petersburg
+                    [StateProvince] => FL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/tropicanaField_baseball.gif
+                    [VenueID] => 550
+                    [StateProvinceID] => 10
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [133] => Array
+                (
+                    [ID] => 723405
+                    [Name] => Texas Rangers Vs. Boston Red Sox
+                    [Date] => 2008-09-05T03:30:00
+                    [DisplayDate] => 09/05/2008 TBA
+                    [Venue] => Ameriquest Field In Arlington
+                    [City] => Arlington
+                    [StateProvince] => TX
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/BallParkThe_baseball.gif
+                    [VenueID] => 470
+                    [StateProvinceID] => 44
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [134] => Array
+                (
+                    [ID] => 723406
+                    [Name] => Texas Rangers Vs. Boston Red Sox
+                    [Date] => 2008-09-06T03:30:00
+                    [DisplayDate] => 09/06/2008 TBA
+                    [Venue] => Ameriquest Field In Arlington
+                    [City] => Arlington
+                    [StateProvince] => TX
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/BallParkThe_baseball.gif
+                    [VenueID] => 470
+                    [StateProvinceID] => 44
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [135] => Array
+                (
+                    [ID] => 723407
+                    [Name] => Texas Rangers Vs. Boston Red Sox
+                    [Date] => 2008-09-07T03:30:00
+                    [DisplayDate] => 09/07/2008 TBA
+                    [Venue] => Ameriquest Field In Arlington
+                    [City] => Arlington
+                    [StateProvince] => TX
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 16
+                    [MapURL] => http://www.indux.com/map/BallParkThe_baseball.gif
+                    [VenueID] => 470
+                    [StateProvinceID] => 44
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+        )
+
+)
+No events returned, exiting...

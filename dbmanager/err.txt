@@ -1,0 +1,94 @@
+ Preparing for Import.......Invoking GetEvents method..... Done Calling http://webservices2.ticketnetwork.com/GetEvents.Error for http://webservices2.ticketnetwork.com/GetEvents: 
+START_GET_ERROR
+soap:Server: Server was unable to process request. ---> SQL exception [SP=tn_ws2_get_events]. ---> SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+END_GET_ERROR
+START_DEBUG_STR
+2008-05-17 20:17:57.624117 soapclient: instantiate SOAP with endpoint at http://webservices2-test.ticketnetwork.com/R2/TNServicesStringInputs.asmx?WSDL
+2008-05-17 20:17:57.624223 soapclient: call: operation=GetEvents, namespace=http://webservices2.ticketnetwork.com, soapAction=http://webservices2.ticketnetwork.com/GetEvents, rpcParams=, style=rpc, use=encoded, endpointType=soap
+params=array(1) {
+  ["websiteConfigID"]=>
+  string(4) "4589"
+}
+headers=bool(false)
+2008-05-17 20:17:57.624320 soapclient: serializing param array for operation GetEvents
+2008-05-17 20:17:57.624366 soapclient: in serialize_val: name=ns7436:websiteConfigID, type=, name_ns=, type_ns=, use=encoded
+value=string(4) "4589"
+attributes=bool(false)
+2008-05-17 20:17:57.624454 soapclient: wrapping RPC request with encoded method element
+2008-05-17 20:17:57.624501 soapclient: In serializeEnvelope length=165 body (max 1000 characters)=<ns7436:GetEvents xmlns:ns7436="http://webservices2.ticketnetwork.com"><ns7436:websiteConfigID xsi:type="xsd:string">4589</ns7436:websiteConfigID></ns7436:GetEvents> style=rpc use=encoded encodingStyle=http://schemas.xmlsoap.org/soap/encoding/
+2008-05-17 20:17:57.624530 soapclient: headers:
+bool(false)
+2008-05-17 20:17:57.624567 soapclient: namespaces:
+array(0) {
+}
+2008-05-17 20:17:57.624634 soapclient: endpoint=http://webservices2-test.ticketnetwork.com/R2/TNServicesStringInputs.asmx?WSDL, soapAction=http://webservices2.ticketnetwork.com/GetEvents, namespace=http://webservices2.ticketnetwork.com, style=rpc, use=encoded, encodingStyle=http://schemas.xmlsoap.org/soap/encoding/
+2008-05-17 20:17:57.624667 soapclient: SOAP message length=562 contents (max 1000 bytes)=<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns7436:GetEvents xmlns:ns7436="http://webservices2.ticketnetwork.com"><ns7436:websiteConfigID xsi:type="xsd:string">4589</ns7436:websiteConfigID></ns7436:GetEvents></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2008-05-17 20:17:57.624726 soapclient: transporting via HTTP
+2008-05-17 20:17:57.625067 soapclient: sending message, length=562
+2008-05-17 20:17:57.624806 soap_transport_http: scheme = http
+2008-05-17 20:17:57.624836 soap_transport_http: host = webservices2-test.ticketnetwork.com
+2008-05-17 20:17:57.624864 soap_transport_http: path = /R2/TNServicesStringInputs.asmx
+2008-05-17 20:17:57.624890 soap_transport_http: query = WSDL
+2008-05-17 20:17:57.624926 soap_transport_http: set Host: webservices2-test.ticketnetwork.com
+2008-05-17 20:17:57.624980 soap_transport_http: set User-Agent: NuSOAP/0.7.2 (1.94)
+2008-05-17 20:17:57.625011 soap_transport_http: set Content-Type: text/xml; charset=ISO-8859-1
+2008-05-17 20:17:57.625039 soap_transport_http: set SOAPAction: "http://webservices2.ticketnetwork.com/GetEvents"
+2008-05-17 20:17:57.625108 soap_transport_http: entered send() with data of length: 562
+2008-05-17 20:17:57.625144 soap_transport_http: connect connection_timeout 500, response_timeout 500, scheme http, host webservices2-test.ticketnetwork.com, port 80
+2008-05-17 20:17:57.625174 soap_transport_http: calling fsockopen with host webservices2-test.ticketnetwork.com connection_timeout 500
+2008-05-17 20:17:57.709954 soap_transport_http: set response timeout to 500
+2008-05-17 20:17:57.710007 soap_transport_http: socket connected
+2008-05-17 20:17:57.710070 soap_transport_http: set Content-Length: 562
+2008-05-17 20:17:57.710113 soap_transport_http: HTTP request: POST /R2/TNServicesStringInputs.asmx?WSDL HTTP/1.0
+2008-05-17 20:17:57.710158 soap_transport_http: HTTP header: Host: webservices2-test.ticketnetwork.com
+2008-05-17 20:17:57.710199 soap_transport_http: HTTP header: User-Agent: NuSOAP/0.7.2 (1.94)
+2008-05-17 20:17:57.710234 soap_transport_http: HTTP header: Content-Type: text/xml; charset=ISO-8859-1
+2008-05-17 20:17:57.710263 soap_transport_http: HTTP header: SOAPAction: "http://webservices2.ticketnetwork.com/GetEvents"
+2008-05-17 20:17:57.710293 soap_transport_http: HTTP header: Content-Length: 562
+2008-05-17 20:17:57.710339 soap_transport_http: wrote data to socket, length = 820
+2008-05-17 20:17:57.777752 soap_transport_http: read line of 36 bytes: HTTP/1.1 500 Internal Server Error
+2008-05-17 20:17:57.777825 soap_transport_http: read line of 19 bytes: Connection: close
+2008-05-17 20:17:57.777878 soap_transport_http: read line of 37 bytes: Date: Sun, 18 May 2008 02:21:20 GMT
+2008-05-17 20:17:57.777928 soap_transport_http: read line of 27 bytes: Server: Microsoft-IIS/6.0
+2008-05-17 20:17:57.777987 soap_transport_http: read line of 23 bytes: X-Powered-By: ASP.NET
+2008-05-17 20:17:57.778022 soap_transport_http: read line of 29 bytes: X-AspNet-Version: 2.0.50727
+2008-05-17 20:17:57.778055 soap_transport_http: read line of 24 bytes: Cache-Control: private
+2008-05-17 20:17:57.778090 soap_transport_http: read line of 39 bytes: Content-Type: text/xml; charset=utf-8
+2008-05-17 20:17:57.778124 soap_transport_http: read line of 21 bytes: Content-Length: 520
+2008-05-17 20:17:57.778159 soap_transport_http: read line of 2 bytes: 
+2008-05-17 20:17:57.778231 soap_transport_http: found end of headers after length 257
+2008-05-17 20:17:57.778321 soap_transport_http: want to read content of length 520
+2008-05-17 20:17:57.778362 soap_transport_http: read buffer of 520 bytes
+2008-05-17 20:17:57.778397 soap_transport_http: read to EOF
+2008-05-17 20:17:57.778424 soap_transport_http: read body of length 520
+2008-05-17 20:17:57.778451 soap_transport_http: received a total of 777 bytes of data from server
+2008-05-17 20:17:57.778488 soap_transport_http: closed socket
+2008-05-17 20:17:57.778526 soap_transport_http: No Content-Encoding header
+2008-05-17 20:17:57.778555 soap_transport_http: end of send()
+2008-05-17 20:17:57.778607 soapclient: got response, length=520 type=text/xml; charset=utf-8
+2008-05-17 20:17:57.778639 soapclient: Entering parseResponse() for data of length 520 and type text/xml; charset=utf-8
+2008-05-17 20:17:57.778670 soapclient: Got response encoding: utf-8
+2008-05-17 20:17:57.778751 soapclient: Use encoding: UTF-8 when creating soap_parser
+2008-05-17 20:17:57.778902 soap_parser: Charset from HTTP Content-Type matches encoding from XML declaration
+2008-05-17 20:17:57.778933 soap_parser: Entering soap_parser(), length=520, encoding=UTF-8
+2008-05-17 20:17:57.779192 soap_parser: found root struct Fault, pos 2
+2008-05-17 20:17:57.779409 soap_parser: in buildVal() for Fault(pos 2) of type struct
+2008-05-17 20:17:57.779452 soap_parser: in buildVal, there are children
+2008-05-17 20:17:57.779490 soap_parser: in buildVal, adding Java Vector Fault
+2008-05-17 20:17:57.779565 soap_parser: parsed successfully, found root struct: 2 of name Fault
+2008-05-17 20:17:57.779622 soapclient: sent message successfully and got a(n) array
+return=array(3) {
+  ["faultcode"]=>
+  string(11) "soap:Server"
+  ["faultstring"]=>
+  string(172) "Server was unable to process request. ---> SQL exception [SP=tn_ws2_get_events]. ---> SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM."
+  ["detail"]=>
+  string(0) ""
+}
+2008-05-17 20:17:57.779678 soapclient: got fault
+2008-05-17 20:17:57.779712 soapclient: faultcode = soap:Server<br>
+2008-05-17 20:17:57.779744 soapclient: faultstring = Server was unable to process request. ---> SQL exception [SP=tn_ws2_get_events]. ---> SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.<br>
+2008-05-17 20:17:57.779774 soapclient: detail = <br>
+
+END_DEBUG_STR
+ImportVenuesFromWS.php exiting

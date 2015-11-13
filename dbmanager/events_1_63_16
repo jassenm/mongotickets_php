@@ -1,0 +1,168 @@
+ Preparing for Import.......Invoking GetEvents method..... Done Calling http://webservices2.ticketnetwork.com/GetEvents.Importing data.... Result : ArrayArray
+(
+    [Event] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 796778
+                    [Name] => Norfolk Tides vs. Pawtucket Red Sox
+                    [Date] => 2008-07-11T19:15:00
+                    [DisplayDate] => 07/11/2008 7:15PM
+                    [Venue] => Harbor Park
+                    [City] => Norfolk
+                    [StateProvince] => VA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => 
+                    [VenueID] => 4000
+                    [StateProvinceID] => 46
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [1] => Array
+                (
+                    [ID] => 782177
+                    [Name] => Indianapolis Indians vs. Syracuse Chiefs
+                    [Date] => 2008-07-28T19:00:00
+                    [DisplayDate] => 07/28/2008 7:00PM
+                    [Venue] => Victory Field
+                    [City] => Indianapolis
+                    [StateProvince] => IN
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg
+                    [VenueID] => 427
+                    [StateProvinceID] => 16
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [2] => Array
+                (
+                    [ID] => 782174
+                    [Name] => Indianapolis Indians vs. Syracuse Chiefs
+                    [Date] => 2008-07-25T19:15:00
+                    [DisplayDate] => 07/25/2008 7:15PM
+                    [Venue] => Victory Field
+                    [City] => Indianapolis
+                    [StateProvince] => IN
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg
+                    [VenueID] => 427
+                    [StateProvinceID] => 16
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [3] => Array
+                (
+                    [ID] => 782175
+                    [Name] => Indianapolis Indians vs. Syracuse Chiefs
+                    [Date] => 2008-07-26T19:00:00
+                    [DisplayDate] => 07/26/2008 7:00PM
+                    [Venue] => Victory Field
+                    [City] => Indianapolis
+                    [StateProvince] => IN
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg
+                    [VenueID] => 427
+                    [StateProvinceID] => 16
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [4] => Array
+                (
+                    [ID] => 782176
+                    [Name] => Indianapolis Indians vs. Syracuse Chiefs
+                    [Date] => 2008-07-27T14:00:00
+                    [DisplayDate] => 07/27/2008 2:00PM
+                    [Venue] => Victory Field
+                    [City] => Indianapolis
+                    [StateProvince] => IN
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg
+                    [VenueID] => 427
+                    [StateProvinceID] => 16
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [5] => Array
+                (
+                    [ID] => 720150
+                    [Name] => Chicago Cubs vs. Baltimore Orioles
+                    [Date] => 2008-06-26T03:30:00
+                    [DisplayDate] => 06/26/2008 TBA
+                    [Venue] => Wrigley Field
+                    [City] => Chicago
+                    [StateProvince] => IL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/WrigleyField_baseball.gif
+                    [VenueID] => 69
+                    [StateProvinceID] => 15
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [6] => Array
+                (
+                    [ID] => 720155
+                    [Name] => Chicago Cubs vs. Baltimore Orioles
+                    [Date] => 2008-06-25T03:30:00
+                    [DisplayDate] => 06/25/2008 TBA
+                    [Venue] => Wrigley Field
+                    [City] => Chicago
+                    [StateProvince] => IL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/WrigleyField_baseball.gif
+                    [VenueID] => 69
+                    [StateProvinceID] => 15
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [7] => Array
+                (
+                    [ID] => 720164
+                    [Name] => Chicago Cubs vs. Baltimore Orioles
+                    [Date] => 2008-06-24T03:30:00
+                    [DisplayDate] => 06/24/2008 TBA
+                    [Venue] => Wrigley Field
+                    [City] => Chicago
+                    [StateProvince] => IL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/WrigleyField_baseball.gif
+                    [VenueID] => 69
+                    [StateProvinceID] => 15
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+        )
+
+)
+No returned, exiting...

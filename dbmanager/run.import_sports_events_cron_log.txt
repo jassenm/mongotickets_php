@@ -1,0 +1,594 @@
+Fri Jun 29 20:33:53 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@3d860038
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@6da5db4b
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@58c16b18
+
+     [java] 2012/06/29 20:34:01
+
+     [java] Number of Sports productions: 6064
+
+     [java] 12128 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 10 seconds
+Fri Jun 29 20:34:04 CDT 2012
+Fri Jun 29 20:37:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2bd9e282
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@41d47b2b
+
+     [java] 2012/06/29 20:37:10
+
+     [java] Number of Sports productions: 6064
+
+     [java] 12128 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 11 seconds
+Fri Jun 29 20:37:12 CDT 2012
+Sat Jun 30 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@5ae576d4
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@424d2af2
+
+     [java] 2012/06/30 05:30:10
+
+     [java] Number of Sports productions: 6034
+
+     [java] 12068 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 10 seconds
+Sat Jun 30 05:30:12 CDT 2012
+Sun Jul  1 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@53ce669e
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@4a57ea52
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@45c1f5b2
+
+     [java] 2012/07/01 05:30:11
+
+     [java] Number of Sports productions: 6000
+
+     [java] 12000 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 12 seconds
+Sun Jul  1 05:30:14 CDT 2012
+Mon Jul  2 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@561557c0
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@548997d1
+
+     [java] 2012/07/02 05:30:16
+
+     [java] Number of Sports productions: 5991
+
+     [java] 11982 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 18 seconds
+Mon Jul  2 05:30:19 CDT 2012
+Tue Jul  3 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@644cd580
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@2a313170
+
+     [java] 2012/07/03 05:30:09
+
+     [java] Number of Sports productions: 5562
+
+     [java] 11124 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 10 seconds
+Tue Jul  3 05:30:12 CDT 2012
+Wed Jul  4 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@5ae576d4
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@424d2af2
+
+     [java] 2012/07/04 05:30:11
+
+     [java] Number of Sports productions: 5994
+
+     [java] 11988 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 11 seconds
+Wed Jul  4 05:30:13 CDT 2012
+Thu Jul  5 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@561557c0
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@548997d1
+
+     [java] 2012/07/05 05:30:10
+
+     [java] Number of Sports productions: 5942
+
+     [java] 11884 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 11 seconds
+Thu Jul  5 05:30:13 CDT 2012
+Fri Jul  6 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@45cbda0a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@45c1f5b2
+
+     [java] 2012/07/06 05:30:11
+
+     [java] Number of Sports productions: 5978
+
+     [java] 11956 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 13 seconds
+Fri Jul  6 05:30:14 CDT 2012
+Sat Jul  7 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@4a57ea52
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@40e99ce5
+
+     [java] 2012/07/07 05:30:18
+
+     [java] Number of Sports productions: 5934
+
+     [java] 11868 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 19 seconds
+Sat Jul  7 05:30:21 CDT 2012
+Sun Jul  8 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@53ce669e
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@13342a67
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@154e45b3
+
+     [java] 2012/07/08 05:30:12
+
+     [java] Number of Sports productions: 5890
+
+     [java] 11780 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 12 seconds
+Sun Jul  8 05:30:14 CDT 2012
+Mon Jul  9 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@45cbda0a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@45c1f5b2
+
+     [java] 2012/07/09 05:30:12
+
+     [java] Number of Sports productions: 5878
+
+     [java] 11756 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 12 seconds
+Mon Jul  9 05:30:14 CDT 2012
+Tue Jul 10 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@edc86eb
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@583e97df
+
+     [java] 2012/07/10 05:30:11
+
+     [java] Number of Sports productions: 5894
+
+     [java] 11788 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 12 seconds
+Tue Jul 10 05:30:14 CDT 2012
+Wed Jul 11 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@45cbda0a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@45c1f5b2
+
+     [java] 2012/07/11 05:30:13
+
+     [java] Number of Sports productions: 5845
+
+     [java] 11690 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 11 seconds
+Wed Jul 11 05:30:15 CDT 2012
+Thu Jul 12 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@7054f9f1
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@64a7c45e
+
+     [java] 2012/07/12 05:30:11
+
+     [java] Number of Sports productions: 5880
+
+     [java] 11760 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 12 seconds
+Thu Jul 12 05:30:14 CDT 2012
+Fri Jul 13 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@5ae576d4
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@424d2af2
+
+     [java] 2012/07/13 05:30:10
+
+     [java] Number of Sports productions: 5855
+
+     [java] 11710 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 10 seconds
+Fri Jul 13 05:30:12 CDT 2012
+Sat Jul 14 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@45cbda0a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@45c1f5b2
+
+     [java] 2012/07/14 05:30:13
+
+     [java] Number of Sports productions: 5880
+
+     [java] 11760 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 15 seconds
+Sat Jul 14 05:30:17 CDT 2012
+Sun Jul 15 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@561557c0
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@548997d1
+
+     [java] 2012/07/15 05:30:14
+
+     [java] Number of Sports productions: 5813
+
+     [java] 11626 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 14 seconds
+Sun Jul 15 05:30:16 CDT 2012
+Mon Jul 16 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@5ae576d4
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@424d2af2
+
+     [java] 2012/07/16 05:30:10
+
+     [java] Number of Sports productions: 5805
+
+     [java] 11610 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 11 seconds
+Mon Jul 16 05:30:13 CDT 2012
+Tue Jul 17 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@644cd580
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@716de067
+
+     [java] 2012/07/17 05:30:10
+
+     [java] Number of Sports productions: 5810
+
+     [java] 11620 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 10 seconds
+Tue Jul 17 05:30:12 CDT 2012
+Wed Jul 18 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@561557c0
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@548997d1
+
+     [java] 2012/07/18 05:30:14
+
+     [java] Number of Sports productions: 5820
+
+     [java] 11640 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 15 seconds
+Wed Jul 18 05:30:17 CDT 2012
+Thu Jul 19 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@561557c0
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@548997d1
+
+     [java] 2012/07/19 05:30:12
+
+     [java] Number of Sports productions: 5966
+
+     [java] 11932 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 12 seconds
+Thu Jul 19 05:30:15 CDT 2012
+Fri Jul 20 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@644cd580
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@716de067
+
+     [java] 2012/07/20 05:30:11
+
+     [java] Number of Sports productions: 6004
+
+     [java] 12008 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 12 seconds
+Fri Jul 20 05:30:14 CDT 2012
+Sat Jul 21 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@45cbda0a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@45c1f5b2
+
+     [java] 2012/07/21 05:30:14
+
+     [java] Number of Sports productions: 5973
+
+     [java] 11946 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 15 seconds
+Sat Jul 21 05:30:17 CDT 2012
+Sun Jul 22 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@53ce669e
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@13342a67
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@154e45b3
+
+     [java] 2012/07/22 05:30:11
+
+     [java] Number of Sports productions: 5929
+
+     [java] 11858 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 13 seconds
+Sun Jul 22 05:30:14 CDT 2012
+Mon Jul 23 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@5ae576d4
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@424d2af2
+
+     [java] 2012/07/23 05:30:09
+
+     [java] Number of Sports productions: 5897
+
+     [java] 11794 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 11 seconds
+Mon Jul 23 05:30:13 CDT 2012
+Tue Jul 24 05:30:01 CDT 2012
+Buildfile: build.xml
+
+run.import_sports_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@45cbda0a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@45c1f5b2
+
+     [java] 2012/07/24 05:30:14
+
+     [java] Number of Sports productions: 5892
+
+     [java] 11784 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 16 seconds
+Tue Jul 24 05:30:18 CDT 2012

@@ -1,0 +1,20 @@
+
+Importing Data from Ticketsnow Web Services
+Thursday December 10 2009 11:08:36 PM
+Thursday December 10 2009 11:08:36 PM __FILE__: Preparing database for Productions Import.......
+Thursday December 10 2009 11:08:36 PM __FILE__: Done.
+Thursday December 10 2009 11:08:36 PM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Thursday December 10 2009 11:08:36 PM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Thursday December 10 2009 11:09:33 PM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.<p>Message delivery failed...</p>
+Thursday December 10 2009 11:09:34 PM __FILE__: ImportProductionsFromWS: Importing Production data....
+Thursday December 10 2009 11:09:38 PM __FILE__: ImportProductionsFromWS: Done. 
+Thursday December 10 2009 11:09:38 PM __FILE__: Finished Importing Productions Done.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Thursday December 10 2009 11:09:38 PM __FILE__: Renaming Productions tables....
+Thursday December 10 2009 11:09:38 PM __FILE__: Dropped table Productions_old
+
+Thursday December 10 2009 11:09:38 PM __FILE__: Renamed Productions to Productions_old
+
+Thursday December 10 2009 11:09:38 PM __FILE__: Renamed Productions_temp to Productions
+Thursday December 10 2009 11:09:38 PM

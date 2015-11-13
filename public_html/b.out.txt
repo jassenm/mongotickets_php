@@ -1,0 +1,5304 @@
+<br>reached end of file<br>strlen = 29778<br>content len = 29778<pre>2009-11-15 11:30:03.914274 soapclientNusoap: instantiate SOAP with endpoint at http://tnwebservices.ticketnetwork.com/TNWebservice/v3.0/TNWebservice.asmx?WSDL
+2009-11-15 11:30:03.918132 soapclientNusoap: call: operation=GetTickets, namespace=http://tnwebservices.ticketnetwork.com/tnwebservice/v3.0, soapAction=http://tnwebservices.ticketnetwork.com/tnwebservice/v3.0/GetTickets, rpcParams=, style=rpc, use=encoded, endpointType=soap
+params=array(8) {
+  [&quot;websiteConfigID&quot;]=&gt;
+  int(4589)
+  [&quot;numberOfRecords&quot;]=&gt;
+  NULL
+  [&quot;eventID&quot;]=&gt;
+  int(1199051)
+  [&quot;lowPrice&quot;]=&gt;
+  NULL
+  [&quot;highPrice&quot;]=&gt;
+  NULL
+  [&quot;ticketGroupID&quot;]=&gt;
+  NULL
+  [&quot;requestedTixSplit&quot;]=&gt;
+  NULL
+  [&quot;orderByClause&quot;]=&gt;
+  string(11) &quot;ActualPrice&quot;
+}
+headers=bool(false)
+2009-11-15 11:30:03.918577 soapclientNusoap: serializing param array for operation GetTickets
+2009-11-15 11:30:03.918938 soapclientNusoap: in serialize_val: name=ns9542:websiteConfigID, type=, name_ns=, type_ns=, use=encoded
+value=int(4589)
+attributes=bool(false)
+2009-11-15 11:30:03.919371 soapclientNusoap: in serialize_val: name=ns9542:numberOfRecords, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2009-11-15 11:30:03.919753 soapclientNusoap: in serialize_val: name=ns9542:eventID, type=, name_ns=, type_ns=, use=encoded
+value=int(1199051)
+attributes=bool(false)
+2009-11-15 11:30:03.920091 soapclientNusoap: in serialize_val: name=ns9542:lowPrice, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2009-11-15 11:30:03.920425 soapclientNusoap: in serialize_val: name=ns9542:highPrice, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2009-11-15 11:30:03.920796 soapclientNusoap: in serialize_val: name=ns9542:ticketGroupID, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2009-11-15 11:30:03.921134 soapclientNusoap: in serialize_val: name=ns9542:requestedTixSplit, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2009-11-15 11:30:03.921468 soapclientNusoap: in serialize_val: name=ns9542:orderByClause, type=, name_ns=, type_ns=, use=encoded
+value=string(11) &quot;ActualPrice&quot;
+attributes=bool(false)
+2009-11-15 11:30:03.921875 soapclientNusoap: wrapping RPC request with encoded method element
+2009-11-15 11:30:03.922230 soapclientNusoap: In serializeEnvelope length=512 body (max 1000 characters)=&lt;ns9542:GetTickets xmlns:ns9542=&quot;http://tnwebservices.ticketnetwork.com/tnwebservice/v3.0&quot;&gt;&lt;ns9542:websiteConfigID xsi:type=&quot;xsd:int&quot;&gt;4589&lt;/ns9542:websiteConfigID&gt;&lt;ns9542:numberOfRecords  xsi:nil=&quot;true&quot;/&gt;&lt;ns9542:eventID xsi:type=&quot;xsd:int&quot;&gt;1199051&lt;/ns9542:eventID&gt;&lt;ns9542:lowPrice  xsi:nil=&quot;true&quot;/&gt;&lt;ns9542:highPrice  xsi:nil=&quot;true&quot;/&gt;&lt;ns9542:ticketGroupID  xsi:nil=&quot;true&quot;/&gt;&lt;ns9542:requestedTixSplit  xsi:nil=&quot;true&quot;/&gt;&lt;ns9542:orderByClause xsi:type=&quot;xsd:string&quot;&gt;ActualPrice&lt;/ns9542:orderByClause&gt;&lt;/ns9542:GetTickets&gt; style=rpc use=encoded encodingStyle=http://schemas.xmlsoap.org/soap/encoding/
+2009-11-15 11:30:03.922577 soapclientNusoap: headers:
+bool(false)
+2009-11-15 11:30:03.922893 soapclientNusoap: namespaces:
+array(0) {
+}
+2009-11-15 11:30:03.923252 soapclientNusoap: endpoint=http://tnwebservices.ticketnetwork.com/TNWebservice/v3.0/TNWebservice.asmx?WSDL, soapAction=http://tnwebservices.ticketnetwork.com/tnwebservice/v3.0/GetTickets, namespace=http://tnwebservices.ticketnetwork.com/tnwebservice/v3.0, style=rpc, use=encoded, encodingStyle=http://schemas.xmlsoap.org/soap/encoding/
+2009-11-15 11:30:03.923603 soapclientNusoap: SOAP message length=904 contents (max 1000 bytes)=&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;SOAP-ENV:Envelope SOAP-ENV:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot; xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:SOAP-ENC=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;SOAP-ENV:Body&gt;&lt;ns9542:GetTickets xmlns:ns9542=&quot;http://tnwebservices.ticketnetwork.com/tnwebservice/v3.0&quot;&gt;&lt;ns9542:websiteConfigID xsi:type=&quot;xsd:int&quot;&gt;4589&lt;/ns9542:websiteConfigID&gt;&lt;ns9542:numberOfRecords  xsi:nil=&quot;true&quot;/&gt;&lt;ns9542:eventID xsi:type=&quot;xsd:int&quot;&gt;1199051&lt;/ns9542:eventID&gt;&lt;ns9542:lowPrice  xsi:nil=&quot;true&quot;/&gt;&lt;ns9542:highPrice  xsi:nil=&quot;true&quot;/&gt;&lt;ns9542:ticketGroupID  xsi:nil=&quot;true&quot;/&gt;&lt;ns9542:requestedTixSplit  xsi:nil=&quot;true&quot;/&gt;&lt;ns9542:orderByClause xsi:type=&quot;xsd:string&quot;&gt;ActualPrice&lt;/ns9542:orderByClause&gt;&lt;/ns9542:GetTickets&gt;&lt;/SOAP-ENV:Body&gt;&lt;/SOAP-ENV:Envelope&gt;
+2009-11-15 11:30:03.923987 soapclientNusoap: transporting via HTTP
+2009-11-15 11:30:03.927135 soapclientNusoap: sending message, length=904
+2009-11-15 11:30:03.924362 soap_transport_http: scheme = http
+2009-11-15 11:30:03.924740 soap_transport_http: host = tnwebservices.ticketnetwork.com
+2009-11-15 11:30:03.925052 soap_transport_http: path = /TNWebservice/v3.0/TNWebservice.asmx
+2009-11-15 11:30:03.925363 soap_transport_http: query = WSDL
+2009-11-15 11:30:03.925771 soap_transport_http: set Host: tnwebservices.ticketnetwork.com
+2009-11-15 11:30:03.926142 soap_transport_http: set User-Agent: NuSOAP/0.7.2 (1.94)
+2009-11-15 11:30:03.926469 soap_transport_http: set Content-Type: text/xml; charset=UTF-8
+2009-11-15 11:30:03.926817 soap_transport_http: set SOAPAction: &quot;http://tnwebservices.ticketnetwork.com/tnwebservice/v3.0/GetTickets&quot;
+2009-11-15 11:30:03.927473 soap_transport_http: entered send() soapclientsoap with data of length: 904
+2009-11-15 11:30:03.927840 soap_transport_http: connect connection_timeout 0, response_timeout 30, scheme http, host tnwebservices.ticketnetwork.com, port 80
+2009-11-15 11:30:03.928155 soap_transport_http: calling fsockopen with host tnwebservices.ticketnetwork.com connection_timeout 0
+2009-11-15 11:30:03.972269 soap_transport_http: set response timeout to 30
+2009-11-15 11:30:03.972654 soap_transport_http: socket connected
+2009-11-15 11:30:03.972983 soap_transport_http: set Content-Length: 904
+2009-11-15 11:30:03.973304 soap_transport_http: HTTP request: POST /TNWebservice/v3.0/TNWebservice.asmx?WSDL HTTP/1.0
+2009-11-15 11:30:03.973642 soap_transport_http: HTTP header: Host: tnwebservices.ticketnetwork.com
+2009-11-15 11:30:03.973962 soap_transport_http: HTTP header: User-Agent: NuSOAP/0.7.2 (1.94)
+2009-11-15 11:30:03.974281 soap_transport_http: HTTP header: Content-Type: text/xml; charset=UTF-8
+2009-11-15 11:30:03.974611 soap_transport_http: HTTP header: SOAPAction: &quot;http://tnwebservices.ticketnetwork.com/tnwebservice/v3.0/GetTickets&quot;
+2009-11-15 11:30:03.974930 soap_transport_http: HTTP header: Content-Length: 904
+2009-11-15 11:30:03.975299 soap_transport_http: wrote data to socket, length = 1178
+2009-11-15 11:30:04.384516 soap_transport_http: read line of 17 bytes: HTTP/1.1 200 OK
+2009-11-15 11:30:04.384917 soap_transport_http: read line of 19 bytes: Connection: close
+2009-11-15 11:30:04.385237 soap_transport_http: read line of 37 bytes: Date: Sun, 15 Nov 2009 17:30:03 GMT
+2009-11-15 11:30:04.385955 soap_transport_http: read line of 27 bytes: Server: Microsoft-IIS/6.0
+2009-11-15 11:30:04.386273 soap_transport_http: read line of 23 bytes: X-Powered-By: ASP.NET
+2009-11-15 11:30:04.386593 soap_transport_http: read line of 29 bytes: X-AspNet-Version: 2.0.50727
+2009-11-15 11:30:04.386975 soap_transport_http: read line of 35 bytes: Cache-Control: private, max-age=0
+2009-11-15 11:30:04.387428 soap_transport_http: read line of 39 bytes: Content-Type: text/xml; charset=utf-8
+2009-11-15 11:30:04.387896 soap_transport_http: read line of 23 bytes: Content-Length: 29778
+2009-11-15 11:30:04.388216 soap_transport_http: read line of 2 bytes: 
+2009-11-15 11:30:04.388597 soap_transport_http: found end of headers after length 251
+2009-11-15 11:30:04.389030 soap_transport_http: want to read content of length 29778
+2009-11-15 11:30:04.389484 soap_transport_http: read buffer of 8192 bytes
+2009-11-15 11:30:04.629347 soap_transport_http: read buffer of 8192 bytes
+2009-11-15 11:30:04.879362 soap_transport_http: read buffer of 8192 bytes
+2009-11-15 11:30:05.129402 soap_transport_http: read buffer of 5202 bytes
+2009-11-15 11:30:05.379715 soap_transport_http: read to EOF
+2009-11-15 11:30:05.380081 soap_transport_http: read body of length 29778
+2009-11-15 11:30:05.380486 soap_transport_http: received a total of 30029 bytes of data from server
+2009-11-15 11:30:05.380933 soap_transport_http: closed socket
+2009-11-15 11:30:05.381278 soap_transport_http: No Content-Encoding header
+2009-11-15 11:30:05.381613 soap_transport_http: end of send()
+2009-11-15 11:30:05.381998 soapclientNusoap: got response, length=29778 type=text/xml; charset=utf-8
+2009-11-15 11:30:05.382317 soapclientNusoap: Entering parseResponse() for data of length 29778 and type text/xml; charset=utf-8
+2009-11-15 11:30:05.382654 soapclientNusoap: Got response encoding: utf-8
+2009-11-15 11:30:05.383051 soapclientNusoap: Use encoding: UTF-8 when creating soap_parser
+2009-11-15 11:30:05.383689 soap_parser: Charset from HTTP Content-Type matches encoding from XML declaration
+2009-11-15 11:30:05.384006 soap_parser: Entering soap_parser(), length=29778, encoding=UTF-8
+2009-11-15 11:30:05.384975 soap_parser: found root struct GetTicketsResponse, pos 2
+2009-11-15 11:30:05.386199 soap_parser: in buildVal() for ValidSplits(pos 19) of type 
+2009-11-15 11:30:05.386508 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.386843 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.387429 soap_parser: in buildVal() for TicketGroup(pos 4) of type 
+2009-11-15 11:30:05.387749 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.388064 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.389344 soap_parser: in buildVal() for ValidSplits(pos 41) of type 
+2009-11-15 11:30:05.389665 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.389990 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.390547 soap_parser: in buildVal() for TicketGroup(pos 26) of type 
+2009-11-15 11:30:05.390867 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.391184 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.392405 soap_parser: in buildVal() for ValidSplits(pos 63) of type 
+2009-11-15 11:30:05.392739 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.393060 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.393613 soap_parser: in buildVal() for TicketGroup(pos 48) of type 
+2009-11-15 11:30:05.393926 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.394245 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.395908 soap_parser: in buildVal() for ValidSplits(pos 85) of type 
+2009-11-15 11:30:05.396299 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.396630 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.397232 soap_parser: in buildVal() for TicketGroup(pos 70) of type 
+2009-11-15 11:30:05.397542 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.397896 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.399125 soap_parser: in buildVal() for ValidSplits(pos 107) of type 
+2009-11-15 11:30:05.399434 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.399793 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.400367 soap_parser: in buildVal() for TicketGroup(pos 92) of type 
+2009-11-15 11:30:05.400691 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.401011 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.402245 soap_parser: in buildVal() for ValidSplits(pos 129) of type 
+2009-11-15 11:30:05.402556 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.402892 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.403451 soap_parser: in buildVal() for TicketGroup(pos 114) of type 
+2009-11-15 11:30:05.403794 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.404113 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.405316 soap_parser: in buildVal() for ValidSplits(pos 151) of type 
+2009-11-15 11:30:05.405673 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.406000 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.406558 soap_parser: in buildVal() for TicketGroup(pos 136) of type 
+2009-11-15 11:30:05.406880 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.407199 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.408423 soap_parser: in buildVal() for ValidSplits(pos 173) of type 
+2009-11-15 11:30:05.408757 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.409071 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.409660 soap_parser: in buildVal() for TicketGroup(pos 158) of type 
+2009-11-15 11:30:05.409972 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.410290 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.411532 soap_parser: in buildVal() for ValidSplits(pos 195) of type 
+2009-11-15 11:30:05.411892 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.412204 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.412787 soap_parser: in buildVal() for TicketGroup(pos 180) of type 
+2009-11-15 11:30:05.413098 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.413431 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.414758 soap_parser: in buildVal() for ValidSplits(pos 217) of type 
+2009-11-15 11:30:05.415140 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.415465 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.416040 soap_parser: in buildVal() for TicketGroup(pos 202) of type 
+2009-11-15 11:30:05.416352 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.416704 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.417911 soap_parser: in buildVal() for ValidSplits(pos 238) of type 
+2009-11-15 11:30:05.418230 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.418556 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.419097 soap_parser: in buildVal() for TicketGroup(pos 223) of type 
+2009-11-15 11:30:05.419405 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.419756 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.420902 soap_parser: in buildVal() for ValidSplits(pos 260) of type 
+2009-11-15 11:30:05.421211 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.421536 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.422097 soap_parser: in buildVal() for TicketGroup(pos 245) of type 
+2009-11-15 11:30:05.422421 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.422751 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.424039 soap_parser: in buildVal() for ValidSplits(pos 282) of type 
+2009-11-15 11:30:05.424376 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.424712 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.425255 soap_parser: in buildVal() for TicketGroup(pos 267) of type 
+2009-11-15 11:30:05.425618 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.425946 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.427170 soap_parser: in buildVal() for ValidSplits(pos 304) of type 
+2009-11-15 11:30:05.427513 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.427859 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.428406 soap_parser: in buildVal() for TicketGroup(pos 289) of type 
+2009-11-15 11:30:05.428769 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.429102 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.430289 soap_parser: in buildVal() for ValidSplits(pos 326) of type 
+2009-11-15 11:30:05.430636 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.430948 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.431472 soap_parser: in buildVal() for TicketGroup(pos 311) of type 
+2009-11-15 11:30:05.431812 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.432129 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.433335 soap_parser: in buildVal() for ValidSplits(pos 348) of type 
+2009-11-15 11:30:05.433706 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.434028 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.434570 soap_parser: in buildVal() for TicketGroup(pos 333) of type 
+2009-11-15 11:30:05.434913 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.435246 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.436431 soap_parser: in buildVal() for ValidSplits(pos 370) of type 
+2009-11-15 11:30:05.436769 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.437089 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.437657 soap_parser: in buildVal() for TicketGroup(pos 355) of type 
+2009-11-15 11:30:05.437966 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.438285 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.439475 soap_parser: in buildVal() for ValidSplits(pos 392) of type 
+2009-11-15 11:30:05.439846 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.440170 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.440711 soap_parser: in buildVal() for TicketGroup(pos 377) of type 
+2009-11-15 11:30:05.441020 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.441337 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.442610 soap_parser: in buildVal() for ValidSplits(pos 414) of type 
+2009-11-15 11:30:05.442949 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.443301 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.443925 soap_parser: in buildVal() for TicketGroup(pos 399) of type 
+2009-11-15 11:30:05.444235 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.444552 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.445739 soap_parser: in buildVal() for ValidSplits(pos 436) of type 
+2009-11-15 11:30:05.446049 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.446361 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.446941 soap_parser: in buildVal() for TicketGroup(pos 421) of type 
+2009-11-15 11:30:05.447250 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.447568 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.448838 soap_parser: in buildVal() for ValidSplits(pos 458) of type 
+2009-11-15 11:30:05.449160 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.449472 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.450048 soap_parser: in buildVal() for TicketGroup(pos 443) of type 
+2009-11-15 11:30:05.450358 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.450688 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.451911 soap_parser: in buildVal() for ValidSplits(pos 480) of type 
+2009-11-15 11:30:05.452235 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.452559 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.453114 soap_parser: in buildVal() for TicketGroup(pos 465) of type 
+2009-11-15 11:30:05.453421 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.453770 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.454967 soap_parser: in buildVal() for ValidSplits(pos 502) of type 
+2009-11-15 11:30:05.455277 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.455631 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.456187 soap_parser: in buildVal() for TicketGroup(pos 487) of type 
+2009-11-15 11:30:05.456495 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.456825 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.458111 soap_parser: in buildVal() for ValidSplits(pos 524) of type 
+2009-11-15 11:30:05.458439 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.458795 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.459338 soap_parser: in buildVal() for TicketGroup(pos 509) of type 
+2009-11-15 11:30:05.459679 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.459998 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.461199 soap_parser: in buildVal() for ValidSplits(pos 546) of type 
+2009-11-15 11:30:05.461521 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.461877 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.462417 soap_parser: in buildVal() for TicketGroup(pos 531) of type 
+2009-11-15 11:30:05.462739 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.463057 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.464271 soap_parser: in buildVal() for ValidSplits(pos 568) of type 
+2009-11-15 11:30:05.464580 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.464915 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.465456 soap_parser: in buildVal() for TicketGroup(pos 553) of type 
+2009-11-15 11:30:05.466186 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.466515 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.467744 soap_parser: in buildVal() for ValidSplits(pos 590) of type 
+2009-11-15 11:30:05.468053 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.468365 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.468951 soap_parser: in buildVal() for TicketGroup(pos 575) of type 
+2009-11-15 11:30:05.469260 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.469622 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.470841 soap_parser: in buildVal() for ValidSplits(pos 612) of type 
+2009-11-15 11:30:05.471149 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.471461 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.472038 soap_parser: in buildVal() for TicketGroup(pos 597) of type 
+2009-11-15 11:30:05.472347 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.472676 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.473934 soap_parser: in buildVal() for ValidSplits(pos 634) of type 
+2009-11-15 11:30:05.474256 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.474581 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.475144 soap_parser: in buildVal() for TicketGroup(pos 619) of type 
+2009-11-15 11:30:05.475454 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.475806 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.477029 soap_parser: in buildVal() for ValidSplits(pos 656) of type 
+2009-11-15 11:30:05.477350 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.477699 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.478228 soap_parser: in buildVal() for TicketGroup(pos 641) of type 
+2009-11-15 11:30:05.478537 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.478877 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.480106 soap_parser: in buildVal() for ValidSplits(pos 678) of type 
+2009-11-15 11:30:05.480426 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.480761 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.481298 soap_parser: in buildVal() for TicketGroup(pos 663) of type 
+2009-11-15 11:30:05.481642 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.481959 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.483152 soap_parser: in buildVal() for ValidSplits(pos 700) of type 
+2009-11-15 11:30:05.483463 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.483820 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.484361 soap_parser: in buildVal() for TicketGroup(pos 685) of type 
+2009-11-15 11:30:05.484680 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.485012 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.486246 soap_parser: in buildVal() for ValidSplits(pos 722) of type 
+2009-11-15 11:30:05.486557 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.486879 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.487432 soap_parser: in buildVal() for TicketGroup(pos 707) of type 
+2009-11-15 11:30:05.487777 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.488121 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.489304 soap_parser: in buildVal() for ValidSplits(pos 744) of type 
+2009-11-15 11:30:05.489663 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.489983 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.490519 soap_parser: in buildVal() for TicketGroup(pos 729) of type 
+2009-11-15 11:30:05.490837 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.491156 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.492382 soap_parser: in buildVal() for ValidSplits(pos 765) of type 
+2009-11-15 11:30:05.492694 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.493018 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.493604 soap_parser: in buildVal() for TicketGroup(pos 750) of type 
+2009-11-15 11:30:05.494442 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.494773 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.495928 soap_parser: in buildVal() for ValidSplits(pos 787) of type 
+2009-11-15 11:30:05.496239 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.496550 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.497097 soap_parser: in buildVal() for TicketGroup(pos 772) of type 
+2009-11-15 11:30:05.497405 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.497874 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.499045 soap_parser: in buildVal() for ValidSplits(pos 808) of type 
+2009-11-15 11:30:05.499356 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.499692 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.500243 soap_parser: in buildVal() for TicketGroup(pos 793) of type 
+2009-11-15 11:30:05.500550 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.500879 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.502100 soap_parser: in buildVal() for ValidSplits(pos 829) of type 
+2009-11-15 11:30:05.502409 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.502733 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.503286 soap_parser: in buildVal() for TicketGroup(pos 814) of type 
+2009-11-15 11:30:05.503608 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.503935 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.505209 soap_parser: in buildVal() for ValidSplits(pos 851) of type 
+2009-11-15 11:30:05.505520 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.505845 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.506386 soap_parser: in buildVal() for TicketGroup(pos 836) of type 
+2009-11-15 11:30:05.506706 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.507036 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.508221 soap_parser: in buildVal() for ValidSplits(pos 873) of type 
+2009-11-15 11:30:05.508558 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.508895 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.509441 soap_parser: in buildVal() for TicketGroup(pos 858) of type 
+2009-11-15 11:30:05.509763 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.510081 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.511282 soap_parser: in buildVal() for ValidSplits(pos 895) of type 
+2009-11-15 11:30:05.511614 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.511937 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.512475 soap_parser: in buildVal() for TicketGroup(pos 880) of type 
+2009-11-15 11:30:05.512798 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.513115 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.514510 soap_parser: in buildVal() for ValidSplits(pos 917) of type 
+2009-11-15 11:30:05.514855 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.515179 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.515745 soap_parser: in buildVal() for TicketGroup(pos 902) of type 
+2009-11-15 11:30:05.516054 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.516370 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.517557 soap_parser: in buildVal() for ValidSplits(pos 943) of type 
+2009-11-15 11:30:05.517889 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.518216 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.518785 soap_parser: in buildVal() for TicketGroup(pos 928) of type 
+2009-11-15 11:30:05.519094 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.519411 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.520652 soap_parser: in buildVal() for ValidSplits(pos 965) of type 
+2009-11-15 11:30:05.520965 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.521286 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.521837 soap_parser: in buildVal() for TicketGroup(pos 950) of type 
+2009-11-15 11:30:05.522149 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.522477 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.523746 soap_parser: in buildVal() for ValidSplits(pos 987) of type 
+2009-11-15 11:30:05.524056 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.524368 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.524932 soap_parser: in buildVal() for TicketGroup(pos 972) of type 
+2009-11-15 11:30:05.525241 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.525574 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.526796 soap_parser: in buildVal() for ValidSplits(pos 1009) of type 
+2009-11-15 11:30:05.527106 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.527419 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.527973 soap_parser: in buildVal() for TicketGroup(pos 994) of type 
+2009-11-15 11:30:05.528283 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.528627 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.529986 soap_parser: in buildVal() for ValidSplits(pos 1031) of type 
+2009-11-15 11:30:05.530297 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.530635 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.531175 soap_parser: in buildVal() for TicketGroup(pos 1016) of type 
+2009-11-15 11:30:05.531501 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.531829 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.532986 soap_parser: in buildVal() for ValidSplits(pos 1055) of type 
+2009-11-15 11:30:05.533415 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.533738 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.534271 soap_parser: in buildVal() for TicketGroup(pos 1040) of type 
+2009-11-15 11:30:05.534581 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.534908 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.536144 soap_parser: in buildVal() for ValidSplits(pos 1076) of type 
+2009-11-15 11:30:05.536475 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.536809 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.537346 soap_parser: in buildVal() for TicketGroup(pos 1061) of type 
+2009-11-15 11:30:05.537666 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.537982 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.539188 soap_parser: in buildVal() for ValidSplits(pos 1098) of type 
+2009-11-15 11:30:05.539510 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.539846 soap_parser: in buildVal, adding Java Vector ValidSplits
+2009-11-15 11:30:05.540399 soap_parser: in buildVal() for TicketGroup(pos 1083) of type 
+2009-11-15 11:30:05.540720 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.541037 soap_parser: in buildVal, adding Java Vector TicketGroup
+2009-11-15 11:30:05.541428 soap_parser: in buildVal() for GetTicketsResult(pos 3) of type 
+2009-11-15 11:30:05.541745 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.542071 soap_parser: in buildVal, adding Java Vector GetTicketsResult
+2009-11-15 11:30:05.542761 soap_parser: in buildVal() for GetTicketsResponse(pos 2) of type struct
+2009-11-15 11:30:05.543069 soap_parser: in buildVal, there are children
+2009-11-15 11:30:05.543380 soap_parser: in buildVal, adding Java Vector GetTicketsResponse
+2009-11-15 11:30:05.543746 soap_parser: parsed successfully, found root struct: 2 of name GetTicketsResponse
+2009-11-15 11:30:05.546637 soapclientNusoap: sent message successfully and got a(n) array
+return=array(1) {
+  [&quot;GetTicketsResult&quot;]=&gt;
+  array(1) {
+    [&quot;TicketGroup&quot;]=&gt;
+    array(50) {
+      [0]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(5) &quot;50.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;681204148&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(2) &quot;..&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;68.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;N&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;68.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;68.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(4) &quot;219*&quot;
+      }
+      [1]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(5) &quot;55.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;681204149&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(2) &quot;..&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;68.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;O&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;68.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;68.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(4) &quot;219*&quot;
+      }
+      [2]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;0.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;687960475&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(3) &quot;111&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(36) &quot;RESERVED SEATING. SHIPS WEEK OF SHOW&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;70.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;O&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;70.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;70.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;219&quot;
+      }
+      [3]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(5) &quot;74.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;687869942&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;74.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;M&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;74.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;74.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;219&quot;
+      }
+      [4]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(5) &quot;74.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;687869943&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;74.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;M&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;74.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;74.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;219&quot;
+      }
+      [5]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(5) &quot;74.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;687869945&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;74.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;M&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;74.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;74.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;227&quot;
+      }
+      [6]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(5) &quot;50.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;681204150&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(2) &quot;..&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;75.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;N&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;75.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;75.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(4) &quot;225*&quot;
+      }
+      [7]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(5) &quot;91.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680160683&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(2) &quot;12&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;76.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;N&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;76.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;76.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;219&quot;
+      }
+      [8]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(5) &quot;91.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680160684&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(2) &quot;16&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;76.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;N&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;76.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;76.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;225&quot;
+      }
+      [9]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680226306&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;81.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;O&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;2&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          string(1) &quot;2&quot;
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;81.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;81.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;218&quot;
+      }
+      [10]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680226307&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;81.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;O&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;81.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;81.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;219&quot;
+      }
+      [11]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680226308&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;86.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;V&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;86.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;86.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;221&quot;
+      }
+      [12]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(5) &quot;50.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;681204147&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(2) &quot;..&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;94.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(3) &quot;A-V&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;94.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;94.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(8) &quot;218*-227&quot;
+      }
+      [13]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680013808&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;95.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(3) &quot;A-V&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;95.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;95.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(7) &quot;218-227&quot;
+      }
+      [14]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680013809&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;99.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;O&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;99.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;99.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;219&quot;
+      }
+      [15]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(5) &quot;50.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;681204151&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(2) &quot;..&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(5) &quot;99.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(2) &quot;JJ&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(5) &quot;99.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(5) &quot;99.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(4) &quot;231*&quot;
+      }
+      [16]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;108.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680160685&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(2) &quot;16&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;100.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(2) &quot;JJ&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;100.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;100.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;231&quot;
+      }
+      [17]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680226305&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;105.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(2) &quot;KK&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;105.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;105.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;215&quot;
+      }
+      [18]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;108.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;687869297&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;108.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(2) &quot;HH&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;108.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;108.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;215&quot;
+      }
+      [19]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(5) &quot;75.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;681204152&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(2) &quot;..&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;109.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;W&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;109.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;109.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;27*&quot;
+      }
+      [20]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680226304&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;111.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(2) &quot;KK&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;111.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;111.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;213&quot;
+      }
+      [21]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;113.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;687869946&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;113.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;W&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;113.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;113.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;23&quot;
+      }
+      [22]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;113.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;687869947&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;113.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;W&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;113.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;113.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;26&quot;
+      }
+      [23]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;134.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680160682&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;114.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;W&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;114.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;114.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;18&quot;
+      }
+      [24]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;134.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680160686&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;114.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;W&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;114.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;114.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;27&quot;
+      }
+      [25]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680226302&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;116.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;Y&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;116.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;116.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;18&quot;
+      }
+      [26]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680226303&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;116.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;Y&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;116.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;116.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;20&quot;
+      }
+      [27]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;118.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;687869941&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;118.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;W&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;118.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;118.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;17&quot;
+      }
+      [28]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;0.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;686238979&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(41) &quot;RESERVED UPPER LEVEL SEATS * SHIP BY 1/14&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;125.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;O&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;3&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;3&quot;
+            [1]=&gt;
+            string(1) &quot;1&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;125.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;125.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;225&quot;
+      }
+      [29]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;0.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;686238981&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(41) &quot;RESERVED UPPER LEVEL SEATS * SHIP BY 1/14&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;125.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;O&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;125.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;125.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;219&quot;
+      }
+      [30]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680227082&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;126.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;Y&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;126.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;126.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;17&quot;
+      }
+      [31]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680227081&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;138.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;Y&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;138.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;138.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;16&quot;
+      }
+      [32]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680013806&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;140.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(3) &quot;K-Y&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;140.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;140.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(5) &quot;18-27&quot;
+      }
+      [33]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680013803&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;145.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(2) &quot;KK&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;2&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          string(1) &quot;2&quot;
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;145.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;145.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;215&quot;
+      }
+      [34]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680013807&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;150.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;Y&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;150.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;150.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;20&quot;
+      }
+      [35]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680227080&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;156.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;Y&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;2&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          string(1) &quot;2&quot;
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;156.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;156.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;15&quot;
+      }
+      [36]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;180.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680160681&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(2) &quot;16&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;172.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;X&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;2&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          string(1) &quot;2&quot;
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;172.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;172.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;31&quot;
+      }
+      [37]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680013805&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(2) &quot;90&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;180.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;Y&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;180.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;180.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;17&quot;
+      }
+      [38]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;180.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;687869948&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;180.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;W&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;180.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;180.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;31&quot;
+      }
+      [39]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680013804&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;185.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(3) &quot;A-Y&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;185.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;185.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(5) &quot;14-20&quot;
+      }
+      [40]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680013810&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;225.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;Y&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;225.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;225.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;30&quot;
+      }
+      [41]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;0.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680836359&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;245.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;T&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;7&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(6) {
+            [0]=&gt;
+            string(1) &quot;7&quot;
+            [1]=&gt;
+            string(1) &quot;5&quot;
+            [2]=&gt;
+            string(1) &quot;4&quot;
+            [3]=&gt;
+            string(1) &quot;3&quot;
+            [4]=&gt;
+            string(1) &quot;2&quot;
+            [5]=&gt;
+            string(1) &quot;1&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;245.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;245.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;217&quot;
+      }
+      [42]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;256.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;687877324&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;256.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;N&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;256.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;256.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(5) &quot;FLOOR&quot;
+      }
+      [43]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;265.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;681321054&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;9&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;259.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(2) &quot;20&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;259.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;259.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(5) &quot;FLOOR&quot;
+      }
+      [44]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;300.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;681321053&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(2) &quot;16&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;294.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(2) &quot;10&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;294.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;294.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(5) &quot;FLOOR&quot;
+      }
+      [45]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(6) &quot;295.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;687874990&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;295.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;H&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;295.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;295.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(5) &quot;FLOOR&quot;
+      }
+      [46]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;0.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680836358&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;310.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;R&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(4) {
+            [0]=&gt;
+            string(1) &quot;5&quot;
+            [1]=&gt;
+            string(1) &quot;3&quot;
+            [2]=&gt;
+            string(1) &quot;2&quot;
+            [3]=&gt;
+            string(1) &quot;1&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;310.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;310.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;18&quot;
+      }
+      [47]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;1.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680013802&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(2) &quot;90&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;325.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;Y&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;2&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          string(1) &quot;2&quot;
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;325.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;325.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;13&quot;
+      }
+      [48]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(4) &quot;0.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;680836357&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;5&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(21) &quot;Very Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;325.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;T&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;325.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;325.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(2) &quot;17&quot;
+      }
+      [49]=&gt;
+      array(19) {
+        [&quot;EventID&quot;]=&gt;
+        string(7) &quot;1199051&quot;
+        [&quot;FacePrice&quot;]=&gt;
+        string(5) &quot;76.00&quot;
+        [&quot;HighSeat&quot;]=&gt;
+        string(1) &quot;*&quot;
+        [&quot;ID&quot;]=&gt;
+        string(9) &quot;687869944&quot;
+        [&quot;IsMine&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;LowSeat&quot;]=&gt;
+        string(1) &quot;1&quot;
+        [&quot;Marked&quot;]=&gt;
+        string(5) &quot;false&quot;
+        [&quot;Notes&quot;]=&gt;
+        string(0) &quot;&quot;
+        [&quot;ParentCategoryID&quot;]=&gt;
+        string(1) &quot;0&quot;
+        [&quot;Rating&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;RatingDescription&quot;]=&gt;
+        string(16) &quot;Good Fulfillment&quot;
+        [&quot;RetailPrice&quot;]=&gt;
+        string(6) &quot;776.00&quot;
+        [&quot;Row&quot;]=&gt;
+        string(1) &quot;M&quot;
+        [&quot;TicketQuantity&quot;]=&gt;
+        string(1) &quot;4&quot;
+        [&quot;ValidSplits&quot;]=&gt;
+        array(1) {
+          [&quot;int&quot;]=&gt;
+          array(2) {
+            [0]=&gt;
+            string(1) &quot;4&quot;
+            [1]=&gt;
+            string(1) &quot;2&quot;
+          }
+        }
+        [&quot;WholesalePrice&quot;]=&gt;
+        string(6) &quot;776.00&quot;
+        [&quot;TicketGroupType&quot;]=&gt;
+        string(12) &quot;Event Ticket&quot;
+        [&quot;ActualPrice&quot;]=&gt;
+        string(6) &quot;776.00&quot;
+        [&quot;Section&quot;]=&gt;
+        string(3) &quot;221&quot;
+      }
+    }
+  }
+}
+2009-11-15 11:30:05.548784 soapclientNusoap: return shifted value: 
+array(1) {
+  [&quot;TicketGroup&quot;]=&gt;
+  array(50) {
+    [0]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(5) &quot;50.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;681204148&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(2) &quot;..&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;68.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;N&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;68.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;68.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(4) &quot;219*&quot;
+    }
+    [1]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(5) &quot;55.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;681204149&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(2) &quot;..&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;68.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;O&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;68.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;68.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(4) &quot;219*&quot;
+    }
+    [2]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;0.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;687960475&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(3) &quot;111&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(36) &quot;RESERVED SEATING. SHIPS WEEK OF SHOW&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;70.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;O&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;70.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;70.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;219&quot;
+    }
+    [3]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(5) &quot;74.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;687869942&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;74.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;M&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;74.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;74.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;219&quot;
+    }
+    [4]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(5) &quot;74.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;687869943&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;74.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;M&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;74.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;74.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;219&quot;
+    }
+    [5]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(5) &quot;74.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;687869945&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;74.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;M&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;74.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;74.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;227&quot;
+    }
+    [6]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(5) &quot;50.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;681204150&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(2) &quot;..&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;75.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;N&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;75.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;75.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(4) &quot;225*&quot;
+    }
+    [7]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(5) &quot;91.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680160683&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(2) &quot;12&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;76.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;N&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;76.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;76.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;219&quot;
+    }
+    [8]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(5) &quot;91.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680160684&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(2) &quot;16&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;76.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;N&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;76.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;76.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;225&quot;
+    }
+    [9]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680226306&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;81.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;O&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;2&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        string(1) &quot;2&quot;
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;81.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;81.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;218&quot;
+    }
+    [10]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680226307&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;81.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;O&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;81.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;81.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;219&quot;
+    }
+    [11]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680226308&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;86.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;V&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;86.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;86.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;221&quot;
+    }
+    [12]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(5) &quot;50.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;681204147&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(2) &quot;..&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;94.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(3) &quot;A-V&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;94.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;94.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(8) &quot;218*-227&quot;
+    }
+    [13]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680013808&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;95.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(3) &quot;A-V&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;95.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;95.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(7) &quot;218-227&quot;
+    }
+    [14]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680013809&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;99.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;O&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;99.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;99.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;219&quot;
+    }
+    [15]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(5) &quot;50.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;681204151&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(2) &quot;..&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(5) &quot;99.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(2) &quot;JJ&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(5) &quot;99.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(5) &quot;99.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(4) &quot;231*&quot;
+    }
+    [16]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;108.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680160685&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(2) &quot;16&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;100.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(2) &quot;JJ&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;100.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;100.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;231&quot;
+    }
+    [17]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680226305&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;105.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(2) &quot;KK&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;105.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;105.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;215&quot;
+    }
+    [18]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;108.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;687869297&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;108.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(2) &quot;HH&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;108.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;108.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;215&quot;
+    }
+    [19]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(5) &quot;75.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;681204152&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(2) &quot;..&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;109.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;W&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;109.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;109.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;27*&quot;
+    }
+    [20]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680226304&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;111.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(2) &quot;KK&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;111.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;111.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;213&quot;
+    }
+    [21]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;113.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;687869946&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;113.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;W&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;113.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;113.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;23&quot;
+    }
+    [22]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;113.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;687869947&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;113.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;W&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;113.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;113.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;26&quot;
+    }
+    [23]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;134.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680160682&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;114.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;W&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;114.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;114.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;18&quot;
+    }
+    [24]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;134.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680160686&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;114.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;W&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;114.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;114.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;27&quot;
+    }
+    [25]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680226302&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;116.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;Y&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;116.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;116.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;18&quot;
+    }
+    [26]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680226303&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;116.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;Y&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;116.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;116.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;20&quot;
+    }
+    [27]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;118.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;687869941&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;118.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;W&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;118.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;118.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;17&quot;
+    }
+    [28]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;0.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;686238979&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(41) &quot;RESERVED UPPER LEVEL SEATS * SHIP BY 1/14&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;125.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;O&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;3&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;3&quot;
+          [1]=&gt;
+          string(1) &quot;1&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;125.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;125.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;225&quot;
+    }
+    [29]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;0.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;686238981&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(41) &quot;RESERVED UPPER LEVEL SEATS * SHIP BY 1/14&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;125.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;O&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;125.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;125.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;219&quot;
+    }
+    [30]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680227082&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;126.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;Y&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;126.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;126.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;17&quot;
+    }
+    [31]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680227081&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;138.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;Y&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;138.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;138.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;16&quot;
+    }
+    [32]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680013806&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;140.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(3) &quot;K-Y&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;140.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;140.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(5) &quot;18-27&quot;
+    }
+    [33]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680013803&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;145.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(2) &quot;KK&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;2&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        string(1) &quot;2&quot;
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;145.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;145.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;215&quot;
+    }
+    [34]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680013807&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;150.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;Y&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;150.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;150.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;20&quot;
+    }
+    [35]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680227080&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;156.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;Y&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;2&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        string(1) &quot;2&quot;
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;156.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;156.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;15&quot;
+    }
+    [36]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;180.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680160681&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(2) &quot;16&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;172.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;X&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;2&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        string(1) &quot;2&quot;
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;172.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;172.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;31&quot;
+    }
+    [37]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680013805&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(2) &quot;90&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;180.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;Y&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;180.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;180.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;17&quot;
+    }
+    [38]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;180.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;687869948&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;180.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;W&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;180.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;180.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;31&quot;
+    }
+    [39]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680013804&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;185.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(3) &quot;A-Y&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;185.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;185.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(5) &quot;14-20&quot;
+    }
+    [40]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680013810&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;225.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;Y&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;225.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;225.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;30&quot;
+    }
+    [41]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;0.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680836359&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;245.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;T&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;7&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(6) {
+          [0]=&gt;
+          string(1) &quot;7&quot;
+          [1]=&gt;
+          string(1) &quot;5&quot;
+          [2]=&gt;
+          string(1) &quot;4&quot;
+          [3]=&gt;
+          string(1) &quot;3&quot;
+          [4]=&gt;
+          string(1) &quot;2&quot;
+          [5]=&gt;
+          string(1) &quot;1&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;245.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;245.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;217&quot;
+    }
+    [42]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;256.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;687877324&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;256.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;N&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;256.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;256.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(5) &quot;FLOOR&quot;
+    }
+    [43]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;265.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;681321054&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;9&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;259.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(2) &quot;20&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;259.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;259.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(5) &quot;FLOOR&quot;
+    }
+    [44]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;300.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;681321053&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(2) &quot;16&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;294.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(2) &quot;10&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;294.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;294.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(5) &quot;FLOOR&quot;
+    }
+    [45]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(6) &quot;295.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;687874990&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;295.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;H&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;295.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;295.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(5) &quot;FLOOR&quot;
+    }
+    [46]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;0.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680836358&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;310.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;R&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(4) {
+          [0]=&gt;
+          string(1) &quot;5&quot;
+          [1]=&gt;
+          string(1) &quot;3&quot;
+          [2]=&gt;
+          string(1) &quot;2&quot;
+          [3]=&gt;
+          string(1) &quot;1&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;310.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;310.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;18&quot;
+    }
+    [47]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;1.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680013802&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(2) &quot;90&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(23) &quot;- BUY UP TO 8 TICKETS -&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;325.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;Y&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;2&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        string(1) &quot;2&quot;
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;325.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;325.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;13&quot;
+    }
+    [48]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(4) &quot;0.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;680836357&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;5&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(21) &quot;Very Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;325.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;T&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;325.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;325.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(2) &quot;17&quot;
+    }
+    [49]=&gt;
+    array(19) {
+      [&quot;EventID&quot;]=&gt;
+      string(7) &quot;1199051&quot;
+      [&quot;FacePrice&quot;]=&gt;
+      string(5) &quot;76.00&quot;
+      [&quot;HighSeat&quot;]=&gt;
+      string(1) &quot;*&quot;
+      [&quot;ID&quot;]=&gt;
+      string(9) &quot;687869944&quot;
+      [&quot;IsMine&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;LowSeat&quot;]=&gt;
+      string(1) &quot;1&quot;
+      [&quot;Marked&quot;]=&gt;
+      string(5) &quot;false&quot;
+      [&quot;Notes&quot;]=&gt;
+      string(0) &quot;&quot;
+      [&quot;ParentCategoryID&quot;]=&gt;
+      string(1) &quot;0&quot;
+      [&quot;Rating&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;RatingDescription&quot;]=&gt;
+      string(16) &quot;Good Fulfillment&quot;
+      [&quot;RetailPrice&quot;]=&gt;
+      string(6) &quot;776.00&quot;
+      [&quot;Row&quot;]=&gt;
+      string(1) &quot;M&quot;
+      [&quot;TicketQuantity&quot;]=&gt;
+      string(1) &quot;4&quot;
+      [&quot;ValidSplits&quot;]=&gt;
+      array(1) {
+        [&quot;int&quot;]=&gt;
+        array(2) {
+          [0]=&gt;
+          string(1) &quot;4&quot;
+          [1]=&gt;
+          string(1) &quot;2&quot;
+        }
+      }
+      [&quot;WholesalePrice&quot;]=&gt;
+      string(6) &quot;776.00&quot;
+      [&quot;TicketGroupType&quot;]=&gt;
+      string(12) &quot;Event Ticket&quot;
+      [&quot;ActualPrice&quot;]=&gt;
+      string(6) &quot;776.00&quot;
+      [&quot;Section&quot;]=&gt;
+      string(3) &quot;221&quot;
+    }
+  }
+}
+</pre>

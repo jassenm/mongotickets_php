@@ -1,0 +1,1913 @@
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Saturday June 30 2012 10:33:01 AMPHP Warning:  require_once(../lib/nusoap.php): failed to open stream: No such file or directory in /var/www/vhosts/cpcworks.com/mongotickets/dbmanager/ImportVenuesFromWS.php on line 9
+PHP Fatal error:  require_once(): Failed opening required '../lib/nusoap.php' (include_path='.:/usr/share/pear:/usr/share/php') in /var/www/vhosts/cpcworks.com/mongotickets/dbmanager/ImportVenuesFromWS.php on line 9
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Saturday June 30 2012 10:37:01 AM
+Saturday June 30 2012 10:37:01 AM __FILE__:  Preparing database for Venue Import.......
+Saturday June 30 2012 10:37:01 AM __FILE__: Done.
+Saturday June 30 2012 10:37:01 AM __FILE__: Invoking GetAllVenues method..... 
+Saturday June 30 2012 10:37:11 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Saturday June 30 2012 10:37:11 AM __FILE__: Importing data.... 
+Saturday June 30 2012 10:37:14 AM __FILE__: Done.
+Saturday June 30 2012 10:37:14 AM __FILE__: Finished Importing Venues.
+
+
+Saturday June 30 2012 10:37:14 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Sunday July 01 2012 01:00:01 AM
+Sunday July 01 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Sunday July 01 2012 01:00:02 AM __FILE__: Done.
+Sunday July 01 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Sunday July 01 2012 01:00:11 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Sunday July 01 2012 01:00:11 AM __FILE__: Importing data.... 
+Sunday July 01 2012 01:00:14 AM __FILE__: Done.
+Sunday July 01 2012 01:00:14 AM __FILE__: Finished Importing Venues.
+
+
+Sunday July 01 2012 01:00:14 AM
+
+Sunday July 01 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Sunday July 01 2012 02:00:01 AM
+Sunday July 01 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Sunday July 01 2012 02:00:01 AM __FILE__: Done.
+Sunday July 01 2012 02:00:02 AM __FILE__: Invoking GetAllEvents web method.....
+Sunday July 01 2012 02:00:08 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Sunday July 01 2012 02:00:12 AM __FILE__: Done.
+Sunday July 01 2012 02:00:12 AM __FILE__: 26257 Events returned from Web Services
+Sunday July 01 2012 02:00:12 AM __FILE__: Done.
+Sunday July 01 2012 02:00:12 AM __FILE__: ImportEventsFromWS complete
+
+Sunday July 01 2012 02:00:12 AM __FILE__: Assigning Events To Categories.......
+Sunday July 01 2012 02:00:12 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Sunday July 01 2012 02:00:12 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Sunday July 01 2012 02:00:13 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Sunday July 01 2012 02:00:13 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Sunday July 01 2012 02:00:15 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Sunday July 01 2012 02:00:15 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Sunday July 01 2012 02:00:15 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Sunday July 01 2012 02:00:16 AM
+
+Creating Url Lookup table
+Sunday July 01 2012 03:00:01 AM
+Sunday July 01 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Sunday July 01 2012 03:00:02 AM __FILE__: Done.
+
+Sunday July 01 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26255 events returned!!
+
+Sunday July 01 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Sunday July 01 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Sunday July 01 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Sunday July 01 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8522 venues returned!!
+
+Sunday July 01 2012 03:00:08 AM __FILE__: Renaming Venues tables....
+Sunday July 01 2012 03:00:08 AM __FILE__: Renamed Venues_temp to VenuesSunday July 01 2012 03:00:08 AM
+
+Importing Data from Ticketsnow Web Services
+Sunday July 01 2012 04:00:01 AM
+Sunday July 01 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Sunday July 01 2012 04:00:01 AM __FILE__: Done.
+Sunday July 01 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Sunday July 01 2012 04:00:01 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Sunday July 01 2012 04:00:24 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Sunday July 01 2012 04:00:28 AM __FILE__: ImportProductionsFromWS: Done. 
+Sunday July 01 2012 04:00:28 AM __FILE__: Finished Importing 30834 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Sunday July 01 2012 04:00:29 AM __FILE__: Renaming Productions tables....
+Sunday July 01 2012 04:00:29 AM __FILE__: Dropped table Productions_old
+
+Sunday July 01 2012 04:00:29 AM __FILE__: Renamed Productions to Productions_old
+
+Sunday July 01 2012 04:00:29 AM __FILE__: Renamed Productions_temp to Productions
+Sunday July 01 2012 04:00:29 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Sunday July 01 2012 09:22:01 AMPHP Notice:  Use of undefined constant DBMANAGER_HOME - assumed 'DBMANAGER_HOME' in /var/www/vhosts/cpcworks.com/mongotickets/dbmanager/RefreshCategoryAndVenueData.php on line 11
+PHP Warning:  chdir(): No such file or directory (errno 2) in /var/www/vhosts/cpcworks.com/mongotickets/dbmanager/RefreshCategoryAndVenueData.php on line 11
+PHP Warning:  require_once(../lib/nusoap.php): failed to open stream: No such file or directory in /var/www/vhosts/cpcworks.com/mongotickets/dbmanager/ImportVenuesFromWS.php on line 9
+PHP Fatal error:  require_once(): Failed opening required '../lib/nusoap.php' (include_path='.:/usr/share/pear:/usr/share/php') in /var/www/vhosts/cpcworks.com/mongotickets/dbmanager/ImportVenuesFromWS.php on line 9
+PHP Warning:  require_once(../include/ticketsnow_db_refresh.inc.php): failed to open stream: No such file or directory in /var/www/vhosts/cpcworks.com/mongotickets/dbmanager/RefreshCategoryAndVenueData.php on line 7
+PHP Fatal error:  require_once(): Failed opening required '../include/ticketsnow_db_refresh.inc.php' (include_path='.:/usr/share/pear:/usr/share/php') in /var/www/vhosts/cpcworks.com/mongotickets/dbmanager/RefreshCategoryAndVenueData.php on line 7
+PHP Fatal error:  Call to undefined function dirnam() in /var/www/vhosts/cpcworks.com/mongotickets/dbmanager/RefreshCategoryAndVenueData.php on line 8
+PHP Warning:  require_once(/var/www/vhosts/cpcworks.com/mongotickets/dbmanager../include/ticketsnow_db_refresh.inc.php): failed to open stream: No such file or directory in /var/www/vhosts/cpcworks.com/mongotickets/dbmanager/RefreshCategoryAndVenueData.php on line 9
+PHP Fatal error:  require_once(): Failed opening required '/var/www/vhosts/cpcworks.com/mongotickets/dbmanager../include/ticketsnow_db_refresh.inc.php' (include_path='.:/usr/share/pear:/usr/share/php') in /var/www/vhosts/cpcworks.com/mongotickets/dbmanager/RefreshCategoryAndVenueData.php on line 9
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Sunday July 01 2012 09:35:01 AM
+Sunday July 01 2012 09:35:01 AM __FILE__:  Preparing database for Venue Import.......
+Sunday July 01 2012 09:35:01 AM __FILE__: Done.
+Sunday July 01 2012 09:35:01 AM __FILE__: Invoking GetAllVenues method..... 
+Sunday July 01 2012 09:35:11 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Sunday July 01 2012 09:35:11 AM __FILE__: Importing data.... 
+Sunday July 01 2012 09:35:13 AM __FILE__: Done.
+Sunday July 01 2012 09:35:13 AM __FILE__: Finished Importing Venues.
+
+
+Sunday July 01 2012 09:35:13 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Monday July 02 2012 01:00:01 AM
+Monday July 02 2012 01:00:01 AM __FILE__:  Preparing database for Venue Import.......
+Monday July 02 2012 01:00:01 AM __FILE__: Done.
+Monday July 02 2012 01:00:01 AM __FILE__: Invoking GetAllVenues method..... 
+Monday July 02 2012 01:00:11 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Monday July 02 2012 01:00:11 AM __FILE__: Importing data.... 
+Monday July 02 2012 01:00:13 AM __FILE__: Done.
+Monday July 02 2012 01:00:13 AM __FILE__: Finished Importing Venues.
+
+
+Monday July 02 2012 01:00:13 AM
+
+Monday July 02 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Monday July 02 2012 02:00:01 AM
+Monday July 02 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Monday July 02 2012 02:00:01 AM __FILE__: Done.
+Monday July 02 2012 02:00:01 AM __FILE__: Invoking GetAllEvents web method.....
+Monday July 02 2012 02:00:05 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Monday July 02 2012 02:00:10 AM __FILE__: Done.
+Monday July 02 2012 02:00:10 AM __FILE__: 26257 Events returned from Web Services
+Monday July 02 2012 02:00:10 AM __FILE__: Done.
+Monday July 02 2012 02:00:10 AM __FILE__: ImportEventsFromWS complete
+
+Monday July 02 2012 02:00:10 AM __FILE__: Assigning Events To Categories.......
+Monday July 02 2012 02:00:10 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Monday July 02 2012 02:00:10 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Monday July 02 2012 02:00:11 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Monday July 02 2012 02:00:11 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Monday July 02 2012 02:00:13 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Monday July 02 2012 02:00:13 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Monday July 02 2012 02:00:13 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Monday July 02 2012 02:00:14 AM
+
+Creating Url Lookup table
+Monday July 02 2012 03:00:02 AM
+Monday July 02 2012 03:00:02 AM __FILE__: Creating URL Lookup table....... 
+Monday July 02 2012 03:00:02 AM __FILE__: Done.
+
+Monday July 02 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26255 events returned!!
+
+Monday July 02 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Monday July 02 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Monday July 02 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Monday July 02 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8522 venues returned!!
+
+Monday July 02 2012 03:00:07 AM __FILE__: Renaming Venues tables....
+Monday July 02 2012 03:00:07 AM __FILE__: Renamed Venues_temp to VenuesMonday July 02 2012 03:00:07 AM
+
+Importing Data from Ticketsnow Web Services
+Monday July 02 2012 04:00:01 AM
+Monday July 02 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Monday July 02 2012 04:00:01 AM __FILE__: Done.
+Monday July 02 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Monday July 02 2012 04:00:02 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Monday July 02 2012 04:00:26 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Monday July 02 2012 04:00:30 AM __FILE__: ImportProductionsFromWS: Done. 
+Monday July 02 2012 04:00:30 AM __FILE__: Finished Importing 30592 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Monday July 02 2012 04:00:30 AM __FILE__: Renaming Productions tables....
+Monday July 02 2012 04:00:30 AM __FILE__: Dropped table Productions_old
+
+Monday July 02 2012 04:00:30 AM __FILE__: Renamed Productions to Productions_old
+
+Monday July 02 2012 04:00:30 AM __FILE__: Renamed Productions_temp to Productions
+Monday July 02 2012 04:00:30 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Tuesday July 03 2012 01:00:02 AM
+Tuesday July 03 2012 01:00:03 AM __FILE__:  Preparing database for Venue Import.......
+Tuesday July 03 2012 01:00:03 AM __FILE__: Done.
+Tuesday July 03 2012 01:00:03 AM __FILE__: Invoking GetAllVenues method..... 
+Tuesday July 03 2012 01:00:13 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Tuesday July 03 2012 01:00:13 AM __FILE__: Importing data.... 
+Tuesday July 03 2012 01:00:16 AM __FILE__: Done.
+Tuesday July 03 2012 01:00:16 AM __FILE__: Finished Importing Venues.
+
+
+Tuesday July 03 2012 01:00:16 AM
+
+Tuesday July 03 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Tuesday July 03 2012 02:00:01 AM
+Tuesday July 03 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Tuesday July 03 2012 02:00:01 AM __FILE__: Done.
+Tuesday July 03 2012 02:00:01 AM __FILE__: Invoking GetAllEvents web method.....
+Tuesday July 03 2012 02:00:05 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Tuesday July 03 2012 02:00:10 AM __FILE__: Done.
+Tuesday July 03 2012 02:00:10 AM __FILE__: 26264 Events returned from Web Services
+Tuesday July 03 2012 02:00:10 AM __FILE__: Done.
+Tuesday July 03 2012 02:00:10 AM __FILE__: ImportEventsFromWS complete
+
+Tuesday July 03 2012 02:00:10 AM __FILE__: Assigning Events To Categories.......
+Tuesday July 03 2012 02:00:10 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Tuesday July 03 2012 02:00:10 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Tuesday July 03 2012 02:00:11 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Tuesday July 03 2012 02:00:11 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Tuesday July 03 2012 02:00:13 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Tuesday July 03 2012 02:00:13 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Tuesday July 03 2012 02:00:13 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Tuesday July 03 2012 02:00:14 AM
+
+Creating Url Lookup table
+Tuesday July 03 2012 03:00:02 AM
+Tuesday July 03 2012 03:00:02 AM __FILE__: Creating URL Lookup table....... 
+Tuesday July 03 2012 03:00:06 AM __FILE__: Done.
+
+Tuesday July 03 2012 03:00:06 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26262 events returned!!
+
+Tuesday July 03 2012 03:00:06 AM __FILE__: RenameEventTable Events tables....
+Tuesday July 03 2012 03:00:06 AM __FILE__: Dropped table Events_old
+Tuesday July 03 2012 03:00:06 AM __FILE__: Renamed Events to Events_old
+Tuesday July 03 2012 03:00:06 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8528 venues returned!!
+
+Tuesday July 03 2012 03:00:11 AM __FILE__: Renaming Venues tables....
+Tuesday July 03 2012 03:00:11 AM __FILE__: Renamed Venues_temp to VenuesTuesday July 03 2012 03:00:11 AM
+
+Importing Data from Ticketsnow Web Services
+Tuesday July 03 2012 04:00:01 AM
+Tuesday July 03 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Tuesday July 03 2012 04:00:01 AM __FILE__: Done.
+Tuesday July 03 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Tuesday July 03 2012 04:00:01 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Tuesday July 03 2012 04:00:23 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Tuesday July 03 2012 04:00:27 AM __FILE__: ImportProductionsFromWS: Done. 
+Tuesday July 03 2012 04:00:27 AM __FILE__: Finished Importing 30819 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Tuesday July 03 2012 04:00:27 AM __FILE__: Renaming Productions tables....
+Tuesday July 03 2012 04:00:27 AM __FILE__: Dropped table Productions_old
+
+Tuesday July 03 2012 04:00:27 AM __FILE__: Renamed Productions to Productions_old
+
+Tuesday July 03 2012 04:00:27 AM __FILE__: Renamed Productions_temp to Productions
+Tuesday July 03 2012 04:00:27 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Wednesday July 04 2012 01:00:07 AM
+Wednesday July 04 2012 01:00:07 AM __FILE__:  Preparing database for Venue Import.......
+Wednesday July 04 2012 01:00:07 AM __FILE__: Done.
+Wednesday July 04 2012 01:00:07 AM __FILE__: Invoking GetAllVenues method..... 
+Wednesday July 04 2012 01:00:18 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Wednesday July 04 2012 01:00:18 AM __FILE__: Importing data.... 
+Wednesday July 04 2012 01:00:21 AM __FILE__: Done.
+Wednesday July 04 2012 01:00:21 AM __FILE__: Finished Importing Venues.
+
+
+Wednesday July 04 2012 01:00:21 AM
+
+Wednesday July 04 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Wednesday July 04 2012 02:00:01 AM
+Wednesday July 04 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Wednesday July 04 2012 02:00:01 AM __FILE__: Done.
+Wednesday July 04 2012 02:00:02 AM __FILE__: Invoking GetAllEvents web method.....
+Wednesday July 04 2012 02:00:06 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Wednesday July 04 2012 02:00:11 AM __FILE__: Done.
+Wednesday July 04 2012 02:00:11 AM __FILE__: 26267 Events returned from Web Services
+Wednesday July 04 2012 02:00:11 AM __FILE__: Done.
+Wednesday July 04 2012 02:00:11 AM __FILE__: ImportEventsFromWS complete
+
+Wednesday July 04 2012 02:00:11 AM __FILE__: Assigning Events To Categories.......
+Wednesday July 04 2012 02:00:11 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Wednesday July 04 2012 02:00:11 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Wednesday July 04 2012 02:00:12 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Wednesday July 04 2012 02:00:12 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Wednesday July 04 2012 02:00:18 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Wednesday July 04 2012 02:00:18 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Wednesday July 04 2012 02:00:21 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Wednesday July 04 2012 02:00:22 AM
+
+Creating Url Lookup table
+Wednesday July 04 2012 03:00:02 AM
+Wednesday July 04 2012 03:00:02 AM __FILE__: Creating URL Lookup table....... 
+Wednesday July 04 2012 03:00:02 AM __FILE__: Done.
+
+Wednesday July 04 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26265 events returned!!
+
+Wednesday July 04 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Wednesday July 04 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Wednesday July 04 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Wednesday July 04 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8532 venues returned!!
+
+Wednesday July 04 2012 03:00:07 AM __FILE__: Renaming Venues tables....
+Wednesday July 04 2012 03:00:07 AM __FILE__: Renamed Venues_temp to VenuesWednesday July 04 2012 03:00:07 AM
+
+Importing Data from Ticketsnow Web Services
+Wednesday July 04 2012 04:00:01 AM
+Wednesday July 04 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Wednesday July 04 2012 04:00:01 AM __FILE__: Done.
+Wednesday July 04 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Wednesday July 04 2012 04:00:01 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Wednesday July 04 2012 04:00:22 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Wednesday July 04 2012 04:00:29 AM __FILE__: ImportProductionsFromWS: Done. 
+Wednesday July 04 2012 04:00:29 AM __FILE__: Finished Importing 30529 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Wednesday July 04 2012 04:00:29 AM __FILE__: Renaming Productions tables....
+Wednesday July 04 2012 04:00:29 AM __FILE__: Dropped table Productions_old
+
+Wednesday July 04 2012 04:00:29 AM __FILE__: Renamed Productions to Productions_old
+
+Wednesday July 04 2012 04:00:29 AM __FILE__: Renamed Productions_temp to Productions
+Wednesday July 04 2012 04:00:29 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Thursday July 05 2012 01:00:02 AM
+Thursday July 05 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Thursday July 05 2012 01:00:02 AM __FILE__: Done.
+Thursday July 05 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Thursday July 05 2012 01:00:13 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Thursday July 05 2012 01:00:13 AM __FILE__: Importing data.... 
+Thursday July 05 2012 01:00:16 AM __FILE__: Done.
+Thursday July 05 2012 01:00:16 AM __FILE__: Finished Importing Venues.
+
+
+Thursday July 05 2012 01:00:16 AM
+
+Thursday July 05 2012 02:00:02 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Thursday July 05 2012 02:00:02 AM
+Thursday July 05 2012 02:00:02 AM __FILE__: Preparing database for Event import....... 
+Thursday July 05 2012 02:00:06 AM __FILE__: Done.
+Thursday July 05 2012 02:00:09 AM __FILE__: Invoking GetAllEvents web method.....
+Thursday July 05 2012 02:00:14 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Thursday July 05 2012 02:00:25 AM __FILE__: Done.
+Thursday July 05 2012 02:00:25 AM __FILE__: 26267 Events returned from Web Services
+Thursday July 05 2012 02:00:25 AM __FILE__: Done.
+Thursday July 05 2012 02:00:25 AM __FILE__: ImportEventsFromWS complete
+
+Thursday July 05 2012 02:00:25 AM __FILE__: Assigning Events To Categories.......
+Thursday July 05 2012 02:00:25 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Thursday July 05 2012 02:00:25 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Thursday July 05 2012 02:00:26 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Thursday July 05 2012 02:00:26 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Thursday July 05 2012 02:00:31 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Thursday July 05 2012 02:00:31 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Thursday July 05 2012 02:00:31 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Thursday July 05 2012 02:00:32 AM
+
+Creating Url Lookup table
+Thursday July 05 2012 03:00:01 AM
+Thursday July 05 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Thursday July 05 2012 03:00:04 AM __FILE__: Done.
+
+Thursday July 05 2012 03:00:04 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26265 events returned!!
+
+Thursday July 05 2012 03:00:04 AM __FILE__: RenameEventTable Events tables....
+Thursday July 05 2012 03:00:04 AM __FILE__: Dropped table Events_old
+Thursday July 05 2012 03:00:04 AM __FILE__: Renamed Events to Events_old
+Thursday July 05 2012 03:00:04 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8532 venues returned!!
+
+Thursday July 05 2012 03:00:11 AM __FILE__: Renaming Venues tables....
+Thursday July 05 2012 03:00:12 AM __FILE__: Renamed Venues_temp to VenuesThursday July 05 2012 03:00:12 AM
+
+Importing Data from Ticketsnow Web Services
+Thursday July 05 2012 04:00:01 AM
+Thursday July 05 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Thursday July 05 2012 04:00:01 AM __FILE__: Done.
+Thursday July 05 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Thursday July 05 2012 04:00:01 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Thursday July 05 2012 04:00:27 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Thursday July 05 2012 04:00:31 AM __FILE__: ImportProductionsFromWS: Done. 
+Thursday July 05 2012 04:00:31 AM __FILE__: Finished Importing 30517 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Thursday July 05 2012 04:00:31 AM __FILE__: Renaming Productions tables....
+Thursday July 05 2012 04:00:31 AM __FILE__: Dropped table Productions_old
+
+Thursday July 05 2012 04:00:31 AM __FILE__: Renamed Productions to Productions_old
+
+Thursday July 05 2012 04:00:31 AM __FILE__: Renamed Productions_temp to Productions
+Thursday July 05 2012 04:00:31 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Friday July 06 2012 01:00:03 AM
+Friday July 06 2012 01:00:04 AM __FILE__:  Preparing database for Venue Import.......
+Friday July 06 2012 01:00:04 AM __FILE__: Done.
+Friday July 06 2012 01:00:04 AM __FILE__: Invoking GetAllVenues method..... 
+Friday July 06 2012 01:00:13 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Friday July 06 2012 01:00:13 AM __FILE__: Importing data.... 
+Friday July 06 2012 01:00:15 AM __FILE__: Done.
+Friday July 06 2012 01:00:15 AM __FILE__: Finished Importing Venues.
+
+
+Friday July 06 2012 01:00:15 AM
+
+Friday July 06 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Friday July 06 2012 02:00:01 AM
+Friday July 06 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Friday July 06 2012 02:00:01 AM __FILE__: Done.
+Friday July 06 2012 02:00:01 AM __FILE__: Invoking GetAllEvents web method.....
+Friday July 06 2012 02:00:09 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Friday July 06 2012 02:00:13 AM __FILE__: Done.
+Friday July 06 2012 02:00:13 AM __FILE__: 26267 Events returned from Web Services
+Friday July 06 2012 02:00:13 AM __FILE__: Done.
+Friday July 06 2012 02:00:13 AM __FILE__: ImportEventsFromWS complete
+
+Friday July 06 2012 02:00:13 AM __FILE__: Assigning Events To Categories.......
+Friday July 06 2012 02:00:13 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Friday July 06 2012 02:00:13 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Friday July 06 2012 02:00:14 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Friday July 06 2012 02:00:14 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Friday July 06 2012 02:00:16 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Friday July 06 2012 02:00:16 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Friday July 06 2012 02:00:16 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Friday July 06 2012 02:00:18 AM
+
+Creating Url Lookup table
+Friday July 06 2012 03:00:01 AM
+Friday July 06 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Friday July 06 2012 03:00:01 AM __FILE__: Done.
+
+Friday July 06 2012 03:00:01 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26265 events returned!!
+
+Friday July 06 2012 03:00:01 AM __FILE__: RenameEventTable Events tables....
+Friday July 06 2012 03:00:01 AM __FILE__: Dropped table Events_old
+Friday July 06 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Friday July 06 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8532 venues returned!!
+
+Friday July 06 2012 03:00:07 AM __FILE__: Renaming Venues tables....
+Friday July 06 2012 03:00:07 AM __FILE__: Renamed Venues_temp to VenuesFriday July 06 2012 03:00:07 AM
+
+Importing Data from Ticketsnow Web Services
+Friday July 06 2012 04:00:01 AM
+Friday July 06 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Friday July 06 2012 04:00:01 AM __FILE__: Done.
+Friday July 06 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Friday July 06 2012 04:00:02 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Friday July 06 2012 04:00:22 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Friday July 06 2012 04:00:26 AM __FILE__: ImportProductionsFromWS: Done. 
+Friday July 06 2012 04:00:26 AM __FILE__: Finished Importing 30434 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Friday July 06 2012 04:00:27 AM __FILE__: Renaming Productions tables....
+Friday July 06 2012 04:00:27 AM __FILE__: Dropped table Productions_old
+
+Friday July 06 2012 04:00:27 AM __FILE__: Renamed Productions to Productions_old
+
+Friday July 06 2012 04:00:27 AM __FILE__: Renamed Productions_temp to Productions
+Friday July 06 2012 04:00:27 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Saturday July 07 2012 01:00:02 AM
+Saturday July 07 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Saturday July 07 2012 01:00:02 AM __FILE__: Done.
+Saturday July 07 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Saturday July 07 2012 01:00:13 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Saturday July 07 2012 01:00:13 AM __FILE__: Importing data.... 
+Saturday July 07 2012 01:00:16 AM __FILE__: Done.
+Saturday July 07 2012 01:00:16 AM __FILE__: Finished Importing Venues.
+
+
+Saturday July 07 2012 01:00:16 AM
+
+Saturday July 07 2012 02:00:04 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Saturday July 07 2012 02:00:04 AM
+Saturday July 07 2012 02:00:05 AM __FILE__: Preparing database for Event import....... 
+Saturday July 07 2012 02:00:05 AM __FILE__: Done.
+Saturday July 07 2012 02:00:05 AM __FILE__: Invoking GetAllEvents web method.....
+Saturday July 07 2012 02:00:11 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Saturday July 07 2012 02:00:15 AM __FILE__: Done.
+Saturday July 07 2012 02:00:15 AM __FILE__: 26267 Events returned from Web Services
+Saturday July 07 2012 02:00:15 AM __FILE__: Done.
+Saturday July 07 2012 02:00:15 AM __FILE__: ImportEventsFromWS complete
+
+Saturday July 07 2012 02:00:15 AM __FILE__: Assigning Events To Categories.......
+Saturday July 07 2012 02:00:15 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Saturday July 07 2012 02:00:15 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Saturday July 07 2012 02:00:16 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Saturday July 07 2012 02:00:16 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Saturday July 07 2012 02:00:18 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Saturday July 07 2012 02:00:18 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Saturday July 07 2012 02:00:18 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Saturday July 07 2012 02:00:20 AM
+
+Creating Url Lookup table
+Saturday July 07 2012 03:00:02 AM
+Saturday July 07 2012 03:00:02 AM __FILE__: Creating URL Lookup table....... 
+Saturday July 07 2012 03:00:03 AM __FILE__: Done.
+
+Saturday July 07 2012 03:00:03 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26265 events returned!!
+
+Saturday July 07 2012 03:00:03 AM __FILE__: RenameEventTable Events tables....
+Saturday July 07 2012 03:00:03 AM __FILE__: Dropped table Events_old
+Saturday July 07 2012 03:00:03 AM __FILE__: Renamed Events to Events_old
+Saturday July 07 2012 03:00:03 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8532 venues returned!!
+
+Saturday July 07 2012 03:00:09 AM __FILE__: Renaming Venues tables....
+Saturday July 07 2012 03:00:09 AM __FILE__: Renamed Venues_temp to VenuesSaturday July 07 2012 03:00:09 AM
+
+Importing Data from Ticketsnow Web Services
+Saturday July 07 2012 04:00:04 AM
+Saturday July 07 2012 04:00:04 AM __FILE__: Preparing database for Productions Import.......
+Saturday July 07 2012 04:00:04 AM __FILE__: Done.
+Saturday July 07 2012 04:00:04 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Saturday July 07 2012 04:00:04 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Saturday July 07 2012 04:00:24 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Saturday July 07 2012 04:00:28 AM __FILE__: ImportProductionsFromWS: Done. 
+Saturday July 07 2012 04:00:28 AM __FILE__: Finished Importing 30524 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Saturday July 07 2012 04:00:28 AM __FILE__: Renaming Productions tables....
+Saturday July 07 2012 04:00:28 AM __FILE__: Dropped table Productions_old
+
+Saturday July 07 2012 04:00:28 AM __FILE__: Renamed Productions to Productions_old
+
+Saturday July 07 2012 04:00:28 AM __FILE__: Renamed Productions_temp to Productions
+Saturday July 07 2012 04:00:28 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Sunday July 08 2012 01:00:02 AM
+Sunday July 08 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Sunday July 08 2012 01:00:02 AM __FILE__: Done.
+Sunday July 08 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Sunday July 08 2012 01:00:13 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Sunday July 08 2012 01:00:13 AM __FILE__: Importing data.... 
+Sunday July 08 2012 01:00:15 AM __FILE__: Done.
+Sunday July 08 2012 01:00:15 AM __FILE__: Finished Importing Venues.
+
+
+Sunday July 08 2012 01:00:15 AM
+
+Sunday July 08 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Sunday July 08 2012 02:00:01 AM
+Sunday July 08 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Sunday July 08 2012 02:00:01 AM __FILE__: Done.
+Sunday July 08 2012 02:00:01 AM __FILE__: Invoking GetAllEvents web method.....
+Sunday July 08 2012 02:00:07 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Sunday July 08 2012 02:00:12 AM __FILE__: Done.
+Sunday July 08 2012 02:00:12 AM __FILE__: 26267 Events returned from Web Services
+Sunday July 08 2012 02:00:12 AM __FILE__: Done.
+Sunday July 08 2012 02:00:12 AM __FILE__: ImportEventsFromWS complete
+
+Sunday July 08 2012 02:00:12 AM __FILE__: Assigning Events To Categories.......
+Sunday July 08 2012 02:00:12 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Sunday July 08 2012 02:00:12 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Sunday July 08 2012 02:00:13 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Sunday July 08 2012 02:00:13 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Sunday July 08 2012 02:00:15 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Sunday July 08 2012 02:00:15 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Sunday July 08 2012 02:00:15 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Sunday July 08 2012 02:00:16 AM
+
+Creating Url Lookup table
+Sunday July 08 2012 03:00:01 AM
+Sunday July 08 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Sunday July 08 2012 03:00:02 AM __FILE__: Done.
+
+Sunday July 08 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26265 events returned!!
+
+Sunday July 08 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Sunday July 08 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Sunday July 08 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Sunday July 08 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8532 venues returned!!
+
+Sunday July 08 2012 03:00:08 AM __FILE__: Renaming Venues tables....
+Sunday July 08 2012 03:00:08 AM __FILE__: Renamed Venues_temp to VenuesSunday July 08 2012 03:00:08 AM
+
+Importing Data from Ticketsnow Web Services
+Sunday July 08 2012 04:00:02 AM
+Sunday July 08 2012 04:00:02 AM __FILE__: Preparing database for Productions Import.......
+Sunday July 08 2012 04:00:02 AM __FILE__: Done.
+Sunday July 08 2012 04:00:02 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Sunday July 08 2012 04:00:02 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Sunday July 08 2012 04:00:27 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Sunday July 08 2012 04:00:32 AM __FILE__: ImportProductionsFromWS: Done. 
+Sunday July 08 2012 04:00:32 AM __FILE__: Finished Importing 30208 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Sunday July 08 2012 04:00:33 AM __FILE__: Renaming Productions tables....
+Sunday July 08 2012 04:00:34 AM __FILE__: Dropped table Productions_old
+
+Sunday July 08 2012 04:00:34 AM __FILE__: Renamed Productions to Productions_old
+
+Sunday July 08 2012 04:00:34 AM __FILE__: Renamed Productions_temp to Productions
+Sunday July 08 2012 04:00:34 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Monday July 09 2012 01:00:03 AM
+Monday July 09 2012 01:00:03 AM __FILE__:  Preparing database for Venue Import.......
+Monday July 09 2012 01:00:03 AM __FILE__: Done.
+Monday July 09 2012 01:00:03 AM __FILE__: Invoking GetAllVenues method..... 
+Monday July 09 2012 01:00:14 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Monday July 09 2012 01:00:14 AM __FILE__: Importing data.... 
+Monday July 09 2012 01:00:18 AM __FILE__: Done.
+Monday July 09 2012 01:00:18 AM __FILE__: Finished Importing Venues.
+
+
+Monday July 09 2012 01:00:18 AM
+
+Monday July 09 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Monday July 09 2012 02:00:01 AM
+Monday July 09 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Monday July 09 2012 02:00:01 AM __FILE__: Done.
+Monday July 09 2012 02:00:02 AM __FILE__: Invoking GetAllEvents web method.....
+Monday July 09 2012 02:00:08 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Monday July 09 2012 02:00:12 AM __FILE__: Done.
+Monday July 09 2012 02:00:12 AM __FILE__: 26267 Events returned from Web Services
+Monday July 09 2012 02:00:12 AM __FILE__: Done.
+Monday July 09 2012 02:00:12 AM __FILE__: ImportEventsFromWS complete
+
+Monday July 09 2012 02:00:12 AM __FILE__: Assigning Events To Categories.......
+Monday July 09 2012 02:00:12 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Monday July 09 2012 02:00:12 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Monday July 09 2012 02:00:13 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Monday July 09 2012 02:00:13 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Monday July 09 2012 02:00:14 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Monday July 09 2012 02:00:14 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Monday July 09 2012 02:00:15 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Monday July 09 2012 02:00:16 AM
+
+Creating Url Lookup table
+Monday July 09 2012 03:00:01 AM
+Monday July 09 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Monday July 09 2012 03:00:01 AM __FILE__: Done.
+
+Monday July 09 2012 03:00:01 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26265 events returned!!
+
+Monday July 09 2012 03:00:01 AM __FILE__: RenameEventTable Events tables....
+Monday July 09 2012 03:00:01 AM __FILE__: Dropped table Events_old
+Monday July 09 2012 03:00:01 AM __FILE__: Renamed Events to Events_old
+Monday July 09 2012 03:00:01 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8532 venues returned!!
+
+Monday July 09 2012 03:00:07 AM __FILE__: Renaming Venues tables....
+Monday July 09 2012 03:00:07 AM __FILE__: Renamed Venues_temp to VenuesMonday July 09 2012 03:00:07 AM
+
+Importing Data from Ticketsnow Web Services
+Monday July 09 2012 04:00:02 AM
+Monday July 09 2012 04:00:02 AM __FILE__: Preparing database for Productions Import.......
+Monday July 09 2012 04:00:03 AM __FILE__: Done.
+Monday July 09 2012 04:00:03 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Monday July 09 2012 04:00:03 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Monday July 09 2012 04:00:25 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Monday July 09 2012 04:00:30 AM __FILE__: ImportProductionsFromWS: Done. 
+Monday July 09 2012 04:00:30 AM __FILE__: Finished Importing 30003 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Monday July 09 2012 04:00:30 AM __FILE__: Renaming Productions tables....
+Monday July 09 2012 04:00:30 AM __FILE__: Dropped table Productions_old
+
+Monday July 09 2012 04:00:30 AM __FILE__: Renamed Productions to Productions_old
+
+Monday July 09 2012 04:00:30 AM __FILE__: Renamed Productions_temp to Productions
+Monday July 09 2012 04:00:30 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Tuesday July 10 2012 01:00:02 AM
+Tuesday July 10 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Tuesday July 10 2012 01:00:02 AM __FILE__: Done.
+Tuesday July 10 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Tuesday July 10 2012 01:00:13 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Tuesday July 10 2012 01:00:13 AM __FILE__: Importing data.... 
+Tuesday July 10 2012 01:00:15 AM __FILE__: Done.
+Tuesday July 10 2012 01:00:15 AM __FILE__: Finished Importing Venues.
+
+
+Tuesday July 10 2012 01:00:15 AM
+
+Tuesday July 10 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Tuesday July 10 2012 02:00:01 AM
+Tuesday July 10 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Tuesday July 10 2012 02:00:02 AM __FILE__: Done.
+Tuesday July 10 2012 02:00:03 AM __FILE__: Invoking GetAllEvents web method.....
+Tuesday July 10 2012 02:00:09 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Tuesday July 10 2012 02:00:13 AM __FILE__: Done.
+Tuesday July 10 2012 02:00:13 AM __FILE__: 26278 Events returned from Web Services
+Tuesday July 10 2012 02:00:13 AM __FILE__: Done.
+Tuesday July 10 2012 02:00:13 AM __FILE__: ImportEventsFromWS complete
+
+Tuesday July 10 2012 02:00:13 AM __FILE__: Assigning Events To Categories.......
+Tuesday July 10 2012 02:00:13 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Tuesday July 10 2012 02:00:13 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Tuesday July 10 2012 02:00:14 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Tuesday July 10 2012 02:00:14 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Tuesday July 10 2012 02:00:16 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Tuesday July 10 2012 02:00:16 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Tuesday July 10 2012 02:00:16 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Tuesday July 10 2012 02:00:17 AM
+
+Creating Url Lookup table
+Tuesday July 10 2012 03:00:02 AM
+Tuesday July 10 2012 03:00:02 AM __FILE__: Creating URL Lookup table....... 
+Tuesday July 10 2012 03:00:02 AM __FILE__: Done.
+
+Tuesday July 10 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26276 events returned!!
+
+Tuesday July 10 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Tuesday July 10 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Tuesday July 10 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Tuesday July 10 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8533 venues returned!!
+
+Tuesday July 10 2012 03:00:08 AM __FILE__: Renaming Venues tables....
+Tuesday July 10 2012 03:00:08 AM __FILE__: Renamed Venues_temp to VenuesTuesday July 10 2012 03:00:08 AM
+
+Importing Data from Ticketsnow Web Services
+Tuesday July 10 2012 04:00:01 AM
+Tuesday July 10 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Tuesday July 10 2012 04:00:01 AM __FILE__: Done.
+Tuesday July 10 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Tuesday July 10 2012 04:00:01 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Tuesday July 10 2012 04:00:23 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Tuesday July 10 2012 04:00:27 AM __FILE__: ImportProductionsFromWS: Done. 
+Tuesday July 10 2012 04:00:27 AM __FILE__: Finished Importing 30442 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Tuesday July 10 2012 04:00:27 AM __FILE__: Renaming Productions tables....
+Tuesday July 10 2012 04:00:27 AM __FILE__: Dropped table Productions_old
+
+Tuesday July 10 2012 04:00:27 AM __FILE__: Renamed Productions to Productions_old
+
+Tuesday July 10 2012 04:00:27 AM __FILE__: Renamed Productions_temp to Productions
+Tuesday July 10 2012 04:00:27 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Wednesday July 11 2012 01:00:02 AM
+Wednesday July 11 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Wednesday July 11 2012 01:00:02 AM __FILE__: Done.
+Wednesday July 11 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Wednesday July 11 2012 01:00:13 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Wednesday July 11 2012 01:00:13 AM __FILE__: Importing data.... 
+Wednesday July 11 2012 01:00:15 AM __FILE__: Done.
+Wednesday July 11 2012 01:00:15 AM __FILE__: Finished Importing Venues.
+
+
+Wednesday July 11 2012 01:00:15 AM
+
+Wednesday July 11 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Wednesday July 11 2012 02:00:01 AM
+Wednesday July 11 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Wednesday July 11 2012 02:00:01 AM __FILE__: Done.
+Wednesday July 11 2012 02:00:01 AM __FILE__: Invoking GetAllEvents web method.....
+Wednesday July 11 2012 02:00:09 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Wednesday July 11 2012 02:00:13 AM __FILE__: Done.
+Wednesday July 11 2012 02:00:13 AM __FILE__: 26285 Events returned from Web Services
+Wednesday July 11 2012 02:00:13 AM __FILE__: Done.
+Wednesday July 11 2012 02:00:13 AM __FILE__: ImportEventsFromWS complete
+
+Wednesday July 11 2012 02:00:13 AM __FILE__: Assigning Events To Categories.......
+Wednesday July 11 2012 02:00:13 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Wednesday July 11 2012 02:00:13 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Wednesday July 11 2012 02:00:14 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Wednesday July 11 2012 02:00:14 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Wednesday July 11 2012 02:00:15 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Wednesday July 11 2012 02:00:15 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Wednesday July 11 2012 02:00:15 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Wednesday July 11 2012 02:00:16 AM
+
+Creating Url Lookup table
+Wednesday July 11 2012 03:00:02 AM
+Wednesday July 11 2012 03:00:02 AM __FILE__: Creating URL Lookup table....... 
+Wednesday July 11 2012 03:00:02 AM __FILE__: Done.
+
+Wednesday July 11 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26283 events returned!!
+
+Wednesday July 11 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Wednesday July 11 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Wednesday July 11 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Wednesday July 11 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8536 venues returned!!
+
+Wednesday July 11 2012 03:00:07 AM __FILE__: Renaming Venues tables....
+Wednesday July 11 2012 03:00:08 AM __FILE__: Renamed Venues_temp to VenuesWednesday July 11 2012 03:00:08 AM
+
+Importing Data from Ticketsnow Web Services
+Wednesday July 11 2012 04:00:01 AM
+Wednesday July 11 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Wednesday July 11 2012 04:00:01 AM __FILE__: Done.
+Wednesday July 11 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Wednesday July 11 2012 04:00:02 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Wednesday July 11 2012 04:00:27 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Wednesday July 11 2012 04:00:32 AM __FILE__: ImportProductionsFromWS: Done. 
+Wednesday July 11 2012 04:00:32 AM __FILE__: Finished Importing 30460 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Wednesday July 11 2012 04:00:32 AM __FILE__: Renaming Productions tables....
+Wednesday July 11 2012 04:00:32 AM __FILE__: Dropped table Productions_old
+
+Wednesday July 11 2012 04:00:32 AM __FILE__: Renamed Productions to Productions_old
+
+Wednesday July 11 2012 04:00:32 AM __FILE__: Renamed Productions_temp to Productions
+Wednesday July 11 2012 04:00:32 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Thursday July 12 2012 01:00:01 AM
+Thursday July 12 2012 01:00:01 AM __FILE__:  Preparing database for Venue Import.......
+Thursday July 12 2012 01:00:01 AM __FILE__: Done.
+Thursday July 12 2012 01:00:01 AM __FILE__: Invoking GetAllVenues method..... 
+Thursday July 12 2012 01:00:11 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Thursday July 12 2012 01:00:11 AM __FILE__: Importing data.... 
+Thursday July 12 2012 01:00:13 AM __FILE__: Done.
+Thursday July 12 2012 01:00:13 AM __FILE__: Finished Importing Venues.
+
+
+Thursday July 12 2012 01:00:13 AM
+
+Thursday July 12 2012 02:00:02 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Thursday July 12 2012 02:00:02 AM
+Thursday July 12 2012 02:00:02 AM __FILE__: Preparing database for Event import....... 
+Thursday July 12 2012 02:00:02 AM __FILE__: Done.
+Thursday July 12 2012 02:00:02 AM __FILE__: Invoking GetAllEvents web method.....
+Thursday July 12 2012 02:00:07 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Thursday July 12 2012 02:00:11 AM __FILE__: Done.
+Thursday July 12 2012 02:00:11 AM __FILE__: 26287 Events returned from Web Services
+Thursday July 12 2012 02:00:11 AM __FILE__: Done.
+Thursday July 12 2012 02:00:11 AM __FILE__: ImportEventsFromWS complete
+
+Thursday July 12 2012 02:00:11 AM __FILE__: Assigning Events To Categories.......
+Thursday July 12 2012 02:00:11 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Thursday July 12 2012 02:00:11 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Thursday July 12 2012 02:00:12 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Thursday July 12 2012 02:00:12 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Thursday July 12 2012 02:00:14 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Thursday July 12 2012 02:00:14 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Thursday July 12 2012 02:00:14 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Thursday July 12 2012 02:00:15 AM
+
+Creating Url Lookup table
+Thursday July 12 2012 03:00:01 AM
+Thursday July 12 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Thursday July 12 2012 03:00:02 AM __FILE__: Done.
+
+Thursday July 12 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26285 events returned!!
+
+Thursday July 12 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Thursday July 12 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Thursday July 12 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Thursday July 12 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8537 venues returned!!
+
+Thursday July 12 2012 03:00:09 AM __FILE__: Renaming Venues tables....
+Thursday July 12 2012 03:00:09 AM __FILE__: Renamed Venues_temp to VenuesThursday July 12 2012 03:00:09 AM
+
+Importing Data from Ticketsnow Web Services
+Thursday July 12 2012 04:00:01 AM
+Thursday July 12 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Thursday July 12 2012 04:00:01 AM __FILE__: Done.
+Thursday July 12 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Thursday July 12 2012 04:00:01 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Thursday July 12 2012 04:00:25 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Thursday July 12 2012 04:00:29 AM __FILE__: ImportProductionsFromWS: Done. 
+Thursday July 12 2012 04:00:29 AM __FILE__: Finished Importing 30465 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Thursday July 12 2012 04:00:30 AM __FILE__: Renaming Productions tables....
+Thursday July 12 2012 04:00:30 AM __FILE__: Dropped table Productions_old
+
+Thursday July 12 2012 04:00:30 AM __FILE__: Renamed Productions to Productions_old
+
+Thursday July 12 2012 04:00:30 AM __FILE__: Renamed Productions_temp to Productions
+Thursday July 12 2012 04:00:30 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Friday July 13 2012 01:00:02 AM
+Friday July 13 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Friday July 13 2012 01:00:02 AM __FILE__: Done.
+Friday July 13 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Friday July 13 2012 01:00:12 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Friday July 13 2012 01:00:12 AM __FILE__: Importing data.... 
+Friday July 13 2012 01:00:14 AM __FILE__: Done.
+Friday July 13 2012 01:00:14 AM __FILE__: Finished Importing Venues.
+
+
+Friday July 13 2012 01:00:14 AM
+
+Friday July 13 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Friday July 13 2012 02:00:01 AM
+Friday July 13 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Friday July 13 2012 02:00:01 AM __FILE__: Done.
+Friday July 13 2012 02:00:02 AM __FILE__: Invoking GetAllEvents web method.....
+Friday July 13 2012 02:00:07 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Friday July 13 2012 02:00:11 AM __FILE__: Done.
+Friday July 13 2012 02:00:11 AM __FILE__: 26290 Events returned from Web Services
+Friday July 13 2012 02:00:11 AM __FILE__: Done.
+Friday July 13 2012 02:00:11 AM __FILE__: ImportEventsFromWS complete
+
+Friday July 13 2012 02:00:11 AM __FILE__: Assigning Events To Categories.......
+Friday July 13 2012 02:00:11 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Friday July 13 2012 02:00:11 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Friday July 13 2012 02:00:12 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Friday July 13 2012 02:00:12 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Friday July 13 2012 02:00:14 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Friday July 13 2012 02:00:14 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Friday July 13 2012 02:00:14 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Friday July 13 2012 02:00:15 AM
+
+Creating Url Lookup table
+Friday July 13 2012 03:00:01 AM
+Friday July 13 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Friday July 13 2012 03:00:01 AM __FILE__: Done.
+
+Friday July 13 2012 03:00:01 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26288 events returned!!
+
+Friday July 13 2012 03:00:01 AM __FILE__: RenameEventTable Events tables....
+Friday July 13 2012 03:00:01 AM __FILE__: Dropped table Events_old
+Friday July 13 2012 03:00:01 AM __FILE__: Renamed Events to Events_old
+Friday July 13 2012 03:00:01 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8539 venues returned!!
+
+Friday July 13 2012 03:00:07 AM __FILE__: Renaming Venues tables....
+Friday July 13 2012 03:00:07 AM __FILE__: Renamed Venues_temp to VenuesFriday July 13 2012 03:00:07 AM
+
+Importing Data from Ticketsnow Web Services
+Friday July 13 2012 04:00:02 AM
+Friday July 13 2012 04:00:02 AM __FILE__: Preparing database for Productions Import.......
+Friday July 13 2012 04:00:02 AM __FILE__: Done.
+Friday July 13 2012 04:00:02 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Friday July 13 2012 04:00:02 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Friday July 13 2012 04:00:20 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Friday July 13 2012 04:00:24 AM __FILE__: ImportProductionsFromWS: Done. 
+Friday July 13 2012 04:00:24 AM __FILE__: Finished Importing 30436 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Friday July 13 2012 04:00:26 AM __FILE__: Renaming Productions tables....
+Friday July 13 2012 04:00:31 AM __FILE__: Dropped table Productions_old
+
+Friday July 13 2012 04:00:31 AM __FILE__: Renamed Productions to Productions_old
+
+Friday July 13 2012 04:00:31 AM __FILE__: Renamed Productions_temp to Productions
+Friday July 13 2012 04:00:31 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Saturday July 14 2012 01:00:02 AM
+Saturday July 14 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Saturday July 14 2012 01:00:02 AM __FILE__: Done.
+Saturday July 14 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Saturday July 14 2012 01:00:12 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Saturday July 14 2012 01:00:12 AM __FILE__: Importing data.... 
+Saturday July 14 2012 01:00:14 AM __FILE__: Done.
+Saturday July 14 2012 01:00:14 AM __FILE__: Finished Importing Venues.
+
+
+Saturday July 14 2012 01:00:14 AM
+
+Saturday July 14 2012 02:00:03 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Saturday July 14 2012 02:00:03 AM
+Saturday July 14 2012 02:00:03 AM __FILE__: Preparing database for Event import....... 
+Saturday July 14 2012 02:00:03 AM __FILE__: Done.
+Saturday July 14 2012 02:00:04 AM __FILE__: Invoking GetAllEvents web method.....
+Saturday July 14 2012 02:00:11 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Saturday July 14 2012 02:00:15 AM __FILE__: Done.
+Saturday July 14 2012 02:00:15 AM __FILE__: 26296 Events returned from Web Services
+Saturday July 14 2012 02:00:15 AM __FILE__: Done.
+Saturday July 14 2012 02:00:15 AM __FILE__: ImportEventsFromWS complete
+
+Saturday July 14 2012 02:00:15 AM __FILE__: Assigning Events To Categories.......
+Saturday July 14 2012 02:00:15 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Saturday July 14 2012 02:00:15 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Saturday July 14 2012 02:00:16 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Saturday July 14 2012 02:00:16 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Saturday July 14 2012 02:00:17 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Saturday July 14 2012 02:00:17 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Saturday July 14 2012 02:00:17 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Saturday July 14 2012 02:00:19 AM
+
+Creating Url Lookup table
+Saturday July 14 2012 03:00:03 AM
+Saturday July 14 2012 03:00:03 AM __FILE__: Creating URL Lookup table....... 
+Saturday July 14 2012 03:00:04 AM __FILE__: Done.
+
+Saturday July 14 2012 03:00:04 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26294 events returned!!
+
+Saturday July 14 2012 03:00:04 AM __FILE__: RenameEventTable Events tables....
+Saturday July 14 2012 03:00:04 AM __FILE__: Dropped table Events_old
+Saturday July 14 2012 03:00:04 AM __FILE__: Renamed Events to Events_old
+Saturday July 14 2012 03:00:05 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8542 venues returned!!
+
+Saturday July 14 2012 03:00:10 AM __FILE__: Renaming Venues tables....
+Saturday July 14 2012 03:00:10 AM __FILE__: Renamed Venues_temp to VenuesSaturday July 14 2012 03:00:10 AM
+
+Importing Data from Ticketsnow Web Services
+Saturday July 14 2012 04:00:02 AM
+Saturday July 14 2012 04:00:03 AM __FILE__: Preparing database for Productions Import.......
+Saturday July 14 2012 04:00:03 AM __FILE__: Done.
+Saturday July 14 2012 04:00:03 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Saturday July 14 2012 04:00:03 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Saturday July 14 2012 04:00:28 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Saturday July 14 2012 04:00:33 AM __FILE__: ImportProductionsFromWS: Done. 
+Saturday July 14 2012 04:00:33 AM __FILE__: Finished Importing 30248 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Saturday July 14 2012 04:00:33 AM __FILE__: Renaming Productions tables....
+Saturday July 14 2012 04:00:33 AM __FILE__: Dropped table Productions_old
+
+Saturday July 14 2012 04:00:33 AM __FILE__: Renamed Productions to Productions_old
+
+Saturday July 14 2012 04:00:33 AM __FILE__: Renamed Productions_temp to Productions
+Saturday July 14 2012 04:00:33 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Sunday July 15 2012 01:00:02 AM
+Sunday July 15 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Sunday July 15 2012 01:00:02 AM __FILE__: Done.
+Sunday July 15 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Sunday July 15 2012 01:00:13 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Sunday July 15 2012 01:00:13 AM __FILE__: Importing data.... 
+Sunday July 15 2012 01:00:15 AM __FILE__: Done.
+Sunday July 15 2012 01:00:15 AM __FILE__: Finished Importing Venues.
+
+
+Sunday July 15 2012 01:00:15 AM
+
+Sunday July 15 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Sunday July 15 2012 02:00:01 AM
+Sunday July 15 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Sunday July 15 2012 02:00:02 AM __FILE__: Done.
+Sunday July 15 2012 02:00:02 AM __FILE__: Invoking GetAllEvents web method.....
+Sunday July 15 2012 02:00:07 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Sunday July 15 2012 02:00:11 AM __FILE__: Done.
+Sunday July 15 2012 02:00:11 AM __FILE__: 26296 Events returned from Web Services
+Sunday July 15 2012 02:00:11 AM __FILE__: Done.
+Sunday July 15 2012 02:00:11 AM __FILE__: ImportEventsFromWS complete
+
+Sunday July 15 2012 02:00:11 AM __FILE__: Assigning Events To Categories.......
+Sunday July 15 2012 02:00:11 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Sunday July 15 2012 02:00:11 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Sunday July 15 2012 02:00:13 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Sunday July 15 2012 02:00:13 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Sunday July 15 2012 02:00:15 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Sunday July 15 2012 02:00:15 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Sunday July 15 2012 02:00:15 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Sunday July 15 2012 02:00:16 AM
+
+Creating Url Lookup table
+Sunday July 15 2012 03:00:01 AM
+Sunday July 15 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Sunday July 15 2012 03:00:02 AM __FILE__: Done.
+
+Sunday July 15 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26294 events returned!!
+
+Sunday July 15 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Sunday July 15 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Sunday July 15 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Sunday July 15 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8542 venues returned!!
+
+Sunday July 15 2012 03:00:08 AM __FILE__: Renaming Venues tables....
+Sunday July 15 2012 03:00:08 AM __FILE__: Renamed Venues_temp to VenuesSunday July 15 2012 03:00:08 AM
+
+Importing Data from Ticketsnow Web Services
+Sunday July 15 2012 04:00:01 AM
+Sunday July 15 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Sunday July 15 2012 04:00:01 AM __FILE__: Done.
+Sunday July 15 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Sunday July 15 2012 04:00:02 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Sunday July 15 2012 04:00:23 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Sunday July 15 2012 04:00:27 AM __FILE__: ImportProductionsFromWS: Done. 
+Sunday July 15 2012 04:00:27 AM __FILE__: Finished Importing 29906 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Sunday July 15 2012 04:00:27 AM __FILE__: Renaming Productions tables....
+Sunday July 15 2012 04:00:27 AM __FILE__: Dropped table Productions_old
+
+Sunday July 15 2012 04:00:27 AM __FILE__: Renamed Productions to Productions_old
+
+Sunday July 15 2012 04:00:27 AM __FILE__: Renamed Productions_temp to Productions
+Sunday July 15 2012 04:00:27 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Monday July 16 2012 01:00:02 AM
+Monday July 16 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Monday July 16 2012 01:00:02 AM __FILE__: Done.
+Monday July 16 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Monday July 16 2012 01:00:13 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Monday July 16 2012 01:00:13 AM __FILE__: Importing data.... 
+Monday July 16 2012 01:00:15 AM __FILE__: Done.
+Monday July 16 2012 01:00:15 AM __FILE__: Finished Importing Venues.
+
+
+Monday July 16 2012 01:00:15 AM
+
+Monday July 16 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Monday July 16 2012 02:00:01 AM
+Monday July 16 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Monday July 16 2012 02:00:01 AM __FILE__: Done.
+Monday July 16 2012 02:00:01 AM __FILE__: Invoking GetAllEvents web method.....
+Monday July 16 2012 02:00:07 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Monday July 16 2012 02:00:11 AM __FILE__: Done.
+Monday July 16 2012 02:00:11 AM __FILE__: 26296 Events returned from Web Services
+Monday July 16 2012 02:00:11 AM __FILE__: Done.
+Monday July 16 2012 02:00:11 AM __FILE__: ImportEventsFromWS complete
+
+Monday July 16 2012 02:00:11 AM __FILE__: Assigning Events To Categories.......
+Monday July 16 2012 02:00:11 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Monday July 16 2012 02:00:11 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Monday July 16 2012 02:00:12 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Monday July 16 2012 02:00:12 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Monday July 16 2012 02:00:14 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Monday July 16 2012 02:00:14 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Monday July 16 2012 02:00:14 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Monday July 16 2012 02:00:15 AM
+
+Creating Url Lookup table
+Monday July 16 2012 03:00:02 AM
+Monday July 16 2012 03:00:02 AM __FILE__: Creating URL Lookup table....... 
+Monday July 16 2012 03:00:02 AM __FILE__: Done.
+
+Monday July 16 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26294 events returned!!
+
+Monday July 16 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Monday July 16 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Monday July 16 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Monday July 16 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8542 venues returned!!
+
+Monday July 16 2012 03:00:08 AM __FILE__: Renaming Venues tables....
+Monday July 16 2012 03:00:08 AM __FILE__: Renamed Venues_temp to VenuesMonday July 16 2012 03:00:08 AM
+
+Importing Data from Ticketsnow Web Services
+Monday July 16 2012 04:00:01 AM
+Monday July 16 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Monday July 16 2012 04:00:01 AM __FILE__: Done.
+Monday July 16 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Monday July 16 2012 04:00:01 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Monday July 16 2012 04:00:20 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Monday July 16 2012 04:00:25 AM __FILE__: ImportProductionsFromWS: Done. 
+Monday July 16 2012 04:00:25 AM __FILE__: Finished Importing 29701 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Monday July 16 2012 04:00:25 AM __FILE__: Renaming Productions tables....
+Monday July 16 2012 04:00:25 AM __FILE__: Dropped table Productions_old
+
+Monday July 16 2012 04:00:25 AM __FILE__: Renamed Productions to Productions_old
+
+Monday July 16 2012 04:00:25 AM __FILE__: Renamed Productions_temp to Productions
+Monday July 16 2012 04:00:25 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Tuesday July 17 2012 01:00:02 AM
+Tuesday July 17 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Tuesday July 17 2012 01:00:02 AM __FILE__: Done.
+Tuesday July 17 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Tuesday July 17 2012 01:00:13 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Tuesday July 17 2012 01:00:13 AM __FILE__: Importing data.... 
+Tuesday July 17 2012 01:00:16 AM __FILE__: Done.
+Tuesday July 17 2012 01:00:16 AM __FILE__: Finished Importing Venues.
+
+
+Tuesday July 17 2012 01:00:16 AM
+
+Tuesday July 17 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Tuesday July 17 2012 02:00:01 AM
+Tuesday July 17 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Tuesday July 17 2012 02:00:01 AM __FILE__: Done.
+Tuesday July 17 2012 02:00:02 AM __FILE__: Invoking GetAllEvents web method.....
+Tuesday July 17 2012 02:00:07 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Tuesday July 17 2012 02:00:11 AM __FILE__: Done.
+Tuesday July 17 2012 02:00:11 AM __FILE__: 26300 Events returned from Web Services
+Tuesday July 17 2012 02:00:11 AM __FILE__: Done.
+Tuesday July 17 2012 02:00:11 AM __FILE__: ImportEventsFromWS complete
+
+Tuesday July 17 2012 02:00:11 AM __FILE__: Assigning Events To Categories.......
+Tuesday July 17 2012 02:00:11 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Tuesday July 17 2012 02:00:11 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Tuesday July 17 2012 02:00:12 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Tuesday July 17 2012 02:00:13 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Tuesday July 17 2012 02:00:15 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Tuesday July 17 2012 02:00:15 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Tuesday July 17 2012 02:00:15 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Tuesday July 17 2012 02:00:16 AM
+
+Creating Url Lookup table
+Tuesday July 17 2012 03:00:01 AM
+Tuesday July 17 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Tuesday July 17 2012 03:00:02 AM __FILE__: Done.
+
+Tuesday July 17 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26298 events returned!!
+
+Tuesday July 17 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Tuesday July 17 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Tuesday July 17 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Tuesday July 17 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8543 venues returned!!
+
+Tuesday July 17 2012 03:00:07 AM __FILE__: Renaming Venues tables....
+Tuesday July 17 2012 03:00:07 AM __FILE__: Renamed Venues_temp to VenuesTuesday July 17 2012 03:00:07 AM
+
+Importing Data from Ticketsnow Web Services
+Tuesday July 17 2012 04:00:01 AM
+Tuesday July 17 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Tuesday July 17 2012 04:00:01 AM __FILE__: Done.
+Tuesday July 17 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Tuesday July 17 2012 04:00:01 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Tuesday July 17 2012 04:00:22 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Tuesday July 17 2012 04:00:26 AM __FILE__: ImportProductionsFromWS: Done. 
+Tuesday July 17 2012 04:00:26 AM __FILE__: Finished Importing 30439 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Tuesday July 17 2012 04:00:26 AM __FILE__: Renaming Productions tables....
+Tuesday July 17 2012 04:00:26 AM __FILE__: Dropped table Productions_old
+
+Tuesday July 17 2012 04:00:26 AM __FILE__: Renamed Productions to Productions_old
+
+Tuesday July 17 2012 04:00:26 AM __FILE__: Renamed Productions_temp to Productions
+Tuesday July 17 2012 04:00:26 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Wednesday July 18 2012 01:00:03 AM
+Wednesday July 18 2012 01:00:04 AM __FILE__:  Preparing database for Venue Import.......
+Wednesday July 18 2012 01:00:04 AM __FILE__: Done.
+Wednesday July 18 2012 01:00:04 AM __FILE__: Invoking GetAllVenues method..... 
+Wednesday July 18 2012 01:00:13 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Wednesday July 18 2012 01:00:13 AM __FILE__: Importing data.... 
+Wednesday July 18 2012 01:00:16 AM __FILE__: Done.
+Wednesday July 18 2012 01:00:16 AM __FILE__: Finished Importing Venues.
+
+
+Wednesday July 18 2012 01:00:16 AM
+
+Wednesday July 18 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Wednesday July 18 2012 02:00:01 AM
+Wednesday July 18 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Wednesday July 18 2012 02:00:01 AM __FILE__: Done.
+Wednesday July 18 2012 02:00:01 AM __FILE__: Invoking GetAllEvents web method.....
+Wednesday July 18 2012 02:00:08 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Wednesday July 18 2012 02:00:12 AM __FILE__: Done.
+Wednesday July 18 2012 02:00:12 AM __FILE__: 26311 Events returned from Web Services
+Wednesday July 18 2012 02:00:12 AM __FILE__: Done.
+Wednesday July 18 2012 02:00:12 AM __FILE__: ImportEventsFromWS complete
+
+Wednesday July 18 2012 02:00:12 AM __FILE__: Assigning Events To Categories.......
+Wednesday July 18 2012 02:00:12 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Wednesday July 18 2012 02:00:12 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Wednesday July 18 2012 02:00:14 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Wednesday July 18 2012 02:00:14 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Wednesday July 18 2012 02:00:16 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Wednesday July 18 2012 02:00:16 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Wednesday July 18 2012 02:00:16 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Wednesday July 18 2012 02:00:17 AM
+
+Creating Url Lookup table
+Wednesday July 18 2012 03:00:02 AM
+Wednesday July 18 2012 03:00:02 AM __FILE__: Creating URL Lookup table....... 
+Wednesday July 18 2012 03:00:03 AM __FILE__: Done.
+
+Wednesday July 18 2012 03:00:03 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26309 events returned!!
+
+Wednesday July 18 2012 03:00:03 AM __FILE__: RenameEventTable Events tables....
+Wednesday July 18 2012 03:00:03 AM __FILE__: Dropped table Events_old
+Wednesday July 18 2012 03:00:03 AM __FILE__: Renamed Events to Events_old
+Wednesday July 18 2012 03:00:03 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8545 venues returned!!
+
+Wednesday July 18 2012 03:00:08 AM __FILE__: Renaming Venues tables....
+Wednesday July 18 2012 03:00:08 AM __FILE__: Renamed Venues_temp to VenuesWednesday July 18 2012 03:00:08 AM
+
+Importing Data from Ticketsnow Web Services
+Wednesday July 18 2012 04:00:01 AM
+Wednesday July 18 2012 04:00:02 AM __FILE__: Preparing database for Productions Import.......
+Wednesday July 18 2012 04:00:02 AM __FILE__: Done.
+Wednesday July 18 2012 04:00:02 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Wednesday July 18 2012 04:00:03 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Wednesday July 18 2012 04:00:23 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Wednesday July 18 2012 04:00:28 AM __FILE__: ImportProductionsFromWS: Done. 
+Wednesday July 18 2012 04:00:28 AM __FILE__: Finished Importing 30661 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Wednesday July 18 2012 04:00:28 AM __FILE__: Renaming Productions tables....
+Wednesday July 18 2012 04:00:28 AM __FILE__: Dropped table Productions_old
+
+Wednesday July 18 2012 04:00:28 AM __FILE__: Renamed Productions to Productions_old
+
+Wednesday July 18 2012 04:00:28 AM __FILE__: Renamed Productions_temp to Productions
+Wednesday July 18 2012 04:00:28 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Thursday July 19 2012 01:00:03 AM
+Thursday July 19 2012 01:00:03 AM __FILE__:  Preparing database for Venue Import.......
+Thursday July 19 2012 01:00:03 AM __FILE__: Done.
+Thursday July 19 2012 01:00:03 AM __FILE__: Invoking GetAllVenues method..... 
+Thursday July 19 2012 01:00:12 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Thursday July 19 2012 01:00:12 AM __FILE__: Importing data.... 
+Thursday July 19 2012 01:00:14 AM __FILE__: Done.
+Thursday July 19 2012 01:00:14 AM __FILE__: Finished Importing Venues.
+
+
+Thursday July 19 2012 01:00:14 AM
+
+Thursday July 19 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Thursday July 19 2012 02:00:01 AM
+Thursday July 19 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Thursday July 19 2012 02:00:01 AM __FILE__: Done.
+Thursday July 19 2012 02:00:01 AM __FILE__: Invoking GetAllEvents web method.....
+Thursday July 19 2012 02:00:07 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Thursday July 19 2012 02:00:11 AM __FILE__: Done.
+Thursday July 19 2012 02:00:11 AM __FILE__: 26314 Events returned from Web Services
+Thursday July 19 2012 02:00:11 AM __FILE__: Done.
+Thursday July 19 2012 02:00:11 AM __FILE__: ImportEventsFromWS complete
+
+Thursday July 19 2012 02:00:11 AM __FILE__: Assigning Events To Categories.......
+Thursday July 19 2012 02:00:11 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Thursday July 19 2012 02:00:11 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Thursday July 19 2012 02:00:12 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Thursday July 19 2012 02:00:12 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Thursday July 19 2012 02:00:13 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Thursday July 19 2012 02:00:13 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Thursday July 19 2012 02:00:14 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Thursday July 19 2012 02:00:17 AM
+
+Creating Url Lookup table
+Thursday July 19 2012 03:00:01 AM
+Thursday July 19 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Thursday July 19 2012 03:00:02 AM __FILE__: Done.
+
+Thursday July 19 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26312 events returned!!
+
+Thursday July 19 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Thursday July 19 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Thursday July 19 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Thursday July 19 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8545 venues returned!!
+
+Thursday July 19 2012 03:00:07 AM __FILE__: Renaming Venues tables....
+Thursday July 19 2012 03:00:07 AM __FILE__: Renamed Venues_temp to VenuesThursday July 19 2012 03:00:07 AM
+
+Importing Data from Ticketsnow Web Services
+Thursday July 19 2012 04:00:01 AM
+Thursday July 19 2012 04:00:01 AM __FILE__: Preparing database for Productions Import.......
+Thursday July 19 2012 04:00:01 AM __FILE__: Done.
+Thursday July 19 2012 04:00:01 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Thursday July 19 2012 04:00:01 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Thursday July 19 2012 04:00:24 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Thursday July 19 2012 04:00:29 AM __FILE__: ImportProductionsFromWS: Done. 
+Thursday July 19 2012 04:00:29 AM __FILE__: Finished Importing 30878 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Thursday July 19 2012 04:00:30 AM __FILE__: Renaming Productions tables....
+Thursday July 19 2012 04:00:30 AM __FILE__: Dropped table Productions_old
+
+Thursday July 19 2012 04:00:30 AM __FILE__: Renamed Productions to Productions_old
+
+Thursday July 19 2012 04:00:30 AM __FILE__: Renamed Productions_temp to Productions
+Thursday July 19 2012 04:00:30 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Friday July 20 2012 01:00:01 AM
+Friday July 20 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Friday July 20 2012 01:00:02 AM __FILE__: Done.
+Friday July 20 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Friday July 20 2012 01:00:12 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Friday July 20 2012 01:00:12 AM __FILE__: Importing data.... 
+Friday July 20 2012 01:00:14 AM __FILE__: Done.
+Friday July 20 2012 01:00:14 AM __FILE__: Finished Importing Venues.
+
+
+Friday July 20 2012 01:00:14 AM
+
+Friday July 20 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Friday July 20 2012 02:00:02 AM
+Friday July 20 2012 02:00:02 AM __FILE__: Preparing database for Event import....... 
+Friday July 20 2012 02:00:02 AM __FILE__: Done.
+Friday July 20 2012 02:00:05 AM __FILE__: Invoking GetAllEvents web method.....
+Friday July 20 2012 02:00:11 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Friday July 20 2012 02:00:14 AM __FILE__: Done.
+Friday July 20 2012 02:00:14 AM __FILE__: 26316 Events returned from Web Services
+Friday July 20 2012 02:00:14 AM __FILE__: Done.
+Friday July 20 2012 02:00:14 AM __FILE__: ImportEventsFromWS complete
+
+Friday July 20 2012 02:00:14 AM __FILE__: Assigning Events To Categories.......
+Friday July 20 2012 02:00:14 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Friday July 20 2012 02:00:14 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Friday July 20 2012 02:00:15 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Friday July 20 2012 02:00:15 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Friday July 20 2012 02:00:17 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Friday July 20 2012 02:00:17 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Friday July 20 2012 02:00:17 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Friday July 20 2012 02:00:19 AM
+
+Creating Url Lookup table
+Friday July 20 2012 03:00:02 AM
+Friday July 20 2012 03:00:02 AM __FILE__: Creating URL Lookup table....... 
+Friday July 20 2012 03:00:02 AM __FILE__: Done.
+
+Friday July 20 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26314 events returned!!
+
+Friday July 20 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Friday July 20 2012 03:00:03 AM __FILE__: Dropped table Events_old
+Friday July 20 2012 03:00:03 AM __FILE__: Renamed Events to Events_old
+Friday July 20 2012 03:00:03 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8546 venues returned!!
+
+Friday July 20 2012 03:00:08 AM __FILE__: Renaming Venues tables....
+Friday July 20 2012 03:00:08 AM __FILE__: Renamed Venues_temp to VenuesFriday July 20 2012 03:00:08 AM
+
+Importing Data from Ticketsnow Web Services
+Friday July 20 2012 04:00:01 AM
+Friday July 20 2012 04:00:02 AM __FILE__: Preparing database for Productions Import.......
+Friday July 20 2012 04:00:02 AM __FILE__: Done.
+Friday July 20 2012 04:00:02 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Friday July 20 2012 04:00:02 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Friday July 20 2012 04:00:25 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Friday July 20 2012 04:00:29 AM __FILE__: ImportProductionsFromWS: Done. 
+Friday July 20 2012 04:00:29 AM __FILE__: Finished Importing 30773 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Friday July 20 2012 04:00:29 AM __FILE__: Renaming Productions tables....
+Friday July 20 2012 04:00:30 AM __FILE__: Dropped table Productions_old
+
+Friday July 20 2012 04:00:30 AM __FILE__: Renamed Productions to Productions_old
+
+Friday July 20 2012 04:00:30 AM __FILE__: Renamed Productions_temp to Productions
+Friday July 20 2012 04:00:30 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Saturday July 21 2012 01:00:02 AM
+Saturday July 21 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Saturday July 21 2012 01:00:02 AM __FILE__: Done.
+Saturday July 21 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Saturday July 21 2012 01:00:12 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Saturday July 21 2012 01:00:12 AM __FILE__: Importing data.... 
+Saturday July 21 2012 01:00:14 AM __FILE__: Done.
+Saturday July 21 2012 01:00:14 AM __FILE__: Finished Importing Venues.
+
+
+Saturday July 21 2012 01:00:14 AM
+
+Saturday July 21 2012 02:00:02 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Saturday July 21 2012 02:00:02 AM
+Saturday July 21 2012 02:00:02 AM __FILE__: Preparing database for Event import....... 
+Saturday July 21 2012 02:00:02 AM __FILE__: Done.
+Saturday July 21 2012 02:00:02 AM __FILE__: Invoking GetAllEvents web method.....
+Saturday July 21 2012 02:00:10 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Saturday July 21 2012 02:00:15 AM __FILE__: Done.
+Saturday July 21 2012 02:00:15 AM __FILE__: 26319 Events returned from Web Services
+Saturday July 21 2012 02:00:15 AM __FILE__: Done.
+Saturday July 21 2012 02:00:15 AM __FILE__: ImportEventsFromWS complete
+
+Saturday July 21 2012 02:00:15 AM __FILE__: Assigning Events To Categories.......
+Saturday July 21 2012 02:00:15 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Saturday July 21 2012 02:00:15 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Saturday July 21 2012 02:00:16 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Saturday July 21 2012 02:00:16 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Saturday July 21 2012 02:00:17 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Saturday July 21 2012 02:00:17 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Saturday July 21 2012 02:00:17 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Saturday July 21 2012 02:00:19 AM
+
+Creating Url Lookup table
+Saturday July 21 2012 03:00:01 AM
+Saturday July 21 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Saturday July 21 2012 03:00:02 AM __FILE__: Done.
+
+Saturday July 21 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26317 events returned!!
+
+Saturday July 21 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Saturday July 21 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Saturday July 21 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Saturday July 21 2012 03:00:03 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8548 venues returned!!
+
+Saturday July 21 2012 03:00:08 AM __FILE__: Renaming Venues tables....
+Saturday July 21 2012 03:00:08 AM __FILE__: Renamed Venues_temp to VenuesSaturday July 21 2012 03:00:08 AM
+
+Importing Data from Ticketsnow Web Services
+Saturday July 21 2012 04:00:02 AM
+Saturday July 21 2012 04:00:02 AM __FILE__: Preparing database for Productions Import.......
+Saturday July 21 2012 04:00:02 AM __FILE__: Done.
+Saturday July 21 2012 04:00:02 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Saturday July 21 2012 04:00:03 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Saturday July 21 2012 04:00:23 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Saturday July 21 2012 04:00:28 AM __FILE__: ImportProductionsFromWS: Done. 
+Saturday July 21 2012 04:00:28 AM __FILE__: Finished Importing 30445 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Saturday July 21 2012 04:00:28 AM __FILE__: Renaming Productions tables....
+Saturday July 21 2012 04:00:28 AM __FILE__: Dropped table Productions_old
+
+Saturday July 21 2012 04:00:28 AM __FILE__: Renamed Productions to Productions_old
+
+Saturday July 21 2012 04:00:28 AM __FILE__: Renamed Productions_temp to Productions
+Saturday July 21 2012 04:00:28 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Sunday July 22 2012 01:00:02 AM
+Sunday July 22 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Sunday July 22 2012 01:00:02 AM __FILE__: Done.
+Sunday July 22 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Sunday July 22 2012 01:00:13 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Sunday July 22 2012 01:00:13 AM __FILE__: Importing data.... 
+Sunday July 22 2012 01:00:15 AM __FILE__: Done.
+Sunday July 22 2012 01:00:15 AM __FILE__: Finished Importing Venues.
+
+
+Sunday July 22 2012 01:00:15 AM
+
+Sunday July 22 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Sunday July 22 2012 02:00:01 AM
+Sunday July 22 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Sunday July 22 2012 02:00:01 AM __FILE__: Done.
+Sunday July 22 2012 02:00:01 AM __FILE__: Invoking GetAllEvents web method.....
+Sunday July 22 2012 02:00:08 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Sunday July 22 2012 02:00:12 AM __FILE__: Done.
+Sunday July 22 2012 02:00:12 AM __FILE__: 26319 Events returned from Web Services
+Sunday July 22 2012 02:00:12 AM __FILE__: Done.
+Sunday July 22 2012 02:00:12 AM __FILE__: ImportEventsFromWS complete
+
+Sunday July 22 2012 02:00:12 AM __FILE__: Assigning Events To Categories.......
+Sunday July 22 2012 02:00:12 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Sunday July 22 2012 02:00:12 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Sunday July 22 2012 02:00:13 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Sunday July 22 2012 02:00:13 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Sunday July 22 2012 02:00:15 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Sunday July 22 2012 02:00:15 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Sunday July 22 2012 02:00:15 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Sunday July 22 2012 02:00:16 AM
+
+Creating Url Lookup table
+Sunday July 22 2012 03:00:02 AM
+Sunday July 22 2012 03:00:02 AM __FILE__: Creating URL Lookup table....... 
+Sunday July 22 2012 03:00:02 AM __FILE__: Done.
+
+Sunday July 22 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26317 events returned!!
+
+Sunday July 22 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Sunday July 22 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Sunday July 22 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Sunday July 22 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8548 venues returned!!
+
+Sunday July 22 2012 03:00:08 AM __FILE__: Renaming Venues tables....
+Sunday July 22 2012 03:00:08 AM __FILE__: Renamed Venues_temp to VenuesSunday July 22 2012 03:00:08 AM
+
+Importing Data from Ticketsnow Web Services
+Sunday July 22 2012 04:00:02 AM
+Sunday July 22 2012 04:00:02 AM __FILE__: Preparing database for Productions Import.......
+Sunday July 22 2012 04:00:02 AM __FILE__: Done.
+Sunday July 22 2012 04:00:02 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Sunday July 22 2012 04:00:02 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Sunday July 22 2012 04:00:25 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Sunday July 22 2012 04:00:28 AM __FILE__: ImportProductionsFromWS: Done. 
+Sunday July 22 2012 04:00:28 AM __FILE__: Finished Importing 30068 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Sunday July 22 2012 04:00:28 AM __FILE__: Renaming Productions tables....
+Sunday July 22 2012 04:00:29 AM __FILE__: Dropped table Productions_old
+
+Sunday July 22 2012 04:00:29 AM __FILE__: Renamed Productions to Productions_old
+
+Sunday July 22 2012 04:00:29 AM __FILE__: Renamed Productions_temp to Productions
+Sunday July 22 2012 04:00:29 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Monday July 23 2012 01:00:01 AM
+Monday July 23 2012 01:00:01 AM __FILE__:  Preparing database for Venue Import.......
+Monday July 23 2012 01:00:01 AM __FILE__: Done.
+Monday July 23 2012 01:00:01 AM __FILE__: Invoking GetAllVenues method..... 
+Monday July 23 2012 01:00:11 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Monday July 23 2012 01:00:11 AM __FILE__: Importing data.... 
+Monday July 23 2012 01:00:14 AM __FILE__: Done.
+Monday July 23 2012 01:00:14 AM __FILE__: Finished Importing Venues.
+
+
+Monday July 23 2012 01:00:14 AM
+
+Monday July 23 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Monday July 23 2012 02:00:01 AM
+Monday July 23 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Monday July 23 2012 02:00:01 AM __FILE__: Done.
+Monday July 23 2012 02:00:02 AM __FILE__: Invoking GetAllEvents web method.....
+Monday July 23 2012 02:00:07 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Monday July 23 2012 02:00:11 AM __FILE__: Done.
+Monday July 23 2012 02:00:11 AM __FILE__: 26319 Events returned from Web Services
+Monday July 23 2012 02:00:11 AM __FILE__: Done.
+Monday July 23 2012 02:00:11 AM __FILE__: ImportEventsFromWS complete
+
+Monday July 23 2012 02:00:11 AM __FILE__: Assigning Events To Categories.......
+Monday July 23 2012 02:00:11 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Monday July 23 2012 02:00:11 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Monday July 23 2012 02:00:12 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Monday July 23 2012 02:00:12 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Monday July 23 2012 02:00:14 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Monday July 23 2012 02:00:14 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Monday July 23 2012 02:00:14 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Monday July 23 2012 02:00:16 AM
+
+Creating Url Lookup table
+Monday July 23 2012 03:00:01 AM
+Monday July 23 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Monday July 23 2012 03:00:02 AM __FILE__: Done.
+
+Monday July 23 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26317 events returned!!
+
+Monday July 23 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Monday July 23 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Monday July 23 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Monday July 23 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8548 venues returned!!
+
+Monday July 23 2012 03:00:07 AM __FILE__: Renaming Venues tables....
+Monday July 23 2012 03:00:07 AM __FILE__: Renamed Venues_temp to VenuesMonday July 23 2012 03:00:07 AM
+
+Importing Data from Ticketsnow Web Services
+Monday July 23 2012 04:00:01 AM
+Monday July 23 2012 04:00:02 AM __FILE__: Preparing database for Productions Import.......
+Monday July 23 2012 04:00:02 AM __FILE__: Done.
+Monday July 23 2012 04:00:02 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Monday July 23 2012 04:00:02 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Monday July 23 2012 04:00:22 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Monday July 23 2012 04:00:27 AM __FILE__: ImportProductionsFromWS: Done. 
+Monday July 23 2012 04:00:27 AM __FILE__: Finished Importing 29840 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Monday July 23 2012 04:00:27 AM __FILE__: Renaming Productions tables....
+Monday July 23 2012 04:00:27 AM __FILE__: Dropped table Productions_old
+
+Monday July 23 2012 04:00:27 AM __FILE__: Renamed Productions to Productions_old
+
+Monday July 23 2012 04:00:27 AM __FILE__: Renamed Productions_temp to Productions
+Monday July 23 2012 04:00:27 AM
+
+Importing Category and Venue Data from Ticketsnow Web Services
+Tuesday July 24 2012 01:00:02 AM
+Tuesday July 24 2012 01:00:02 AM __FILE__:  Preparing database for Venue Import.......
+Tuesday July 24 2012 01:00:02 AM __FILE__: Done.
+Tuesday July 24 2012 01:00:02 AM __FILE__: Invoking GetAllVenues method..... 
+Tuesday July 24 2012 01:00:12 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllVenues.
+Tuesday July 24 2012 01:00:12 AM __FILE__: Importing data.... 
+Tuesday July 24 2012 01:00:14 AM __FILE__: Done.
+Tuesday July 24 2012 01:00:14 AM __FILE__: Finished Importing Venues.
+
+
+Tuesday July 24 2012 01:00:14 AM
+
+Tuesday July 24 2012 02:00:01 AM RefreshEventData.php: Importing Event Data from Ticketsnow Web Services
+Tuesday July 24 2012 02:00:01 AM
+Tuesday July 24 2012 02:00:01 AM __FILE__: Preparing database for Event import....... 
+Tuesday July 24 2012 02:00:01 AM __FILE__: Done.
+Tuesday July 24 2012 02:00:01 AM __FILE__: Invoking GetAllEvents web method.....
+Tuesday July 24 2012 02:00:07 AM __FILE__: Done Calling http://www.eventinventory.com/webservices/GetAllEvents.
+Tuesday July 24 2012 02:00:11 AM __FILE__: Done.
+Tuesday July 24 2012 02:00:11 AM __FILE__: 26323 Events returned from Web Services
+Tuesday July 24 2012 02:00:11 AM __FILE__: Done.
+Tuesday July 24 2012 02:00:11 AM __FILE__: ImportEventsFromWS complete
+
+Tuesday July 24 2012 02:00:11 AM __FILE__: Assigning Events To Categories.......
+Tuesday July 24 2012 02:00:11 AM __FILE__: Processing SportsEventCategoryAssignments.csv .......
+Tuesday July 24 2012 02:00:11 AM __FILE__: Processing ConcertEventCategoryAssignments.csv .......
+Tuesday July 24 2012 02:00:12 AM __FILE__: Processing TheaterEventCategoryAssignments.csv .......
+Tuesday July 24 2012 02:00:12 AM __FILE__: AssignEventsToCategories: Done. 
+
+SetEventRankings: Done.
+
+Tuesday July 24 2012 02:00:14 AM __FILE__: Reassigning Events who categories has been removed or moved.......
+Tuesday July 24 2012 02:00:14 AM __FILE__: Processing Re_moved_Categories_Redir.csv .......
+Tuesday July 24 2012 02:00:15 AM __FILE__: removed_categories_redir.php: Done. 
+
+CreateEventTableIndices: Creating Events indices.......Done.
+
+RefreshEventData.php - Done.
+Tuesday July 24 2012 02:00:16 AM
+
+Creating Url Lookup table
+Tuesday July 24 2012 03:00:01 AM
+Tuesday July 24 2012 03:00:01 AM __FILE__: Creating URL Lookup table....... 
+Tuesday July 24 2012 03:00:02 AM __FILE__: Done.
+
+Tuesday July 24 2012 03:00:02 AM __FILE__: Creation of UrlLookup table is complete!!
+
+RenameEventTable: Sanity check on Events_temp passed, 26321 events returned!!
+
+Tuesday July 24 2012 03:00:02 AM __FILE__: RenameEventTable Events tables....
+Tuesday July 24 2012 03:00:02 AM __FILE__: Dropped table Events_old
+Tuesday July 24 2012 03:00:02 AM __FILE__: Renamed Events to Events_old
+Tuesday July 24 2012 03:00:02 AM __FILE__: Renamed Events_temp to Events<p>Message successfully sent!</p><p>Message successfully sent!</p>
+RenameVenueTables: Sanity check on Venues_temp passed, 8553 venues returned!!
+
+Tuesday July 24 2012 03:00:08 AM __FILE__: Renaming Venues tables....
+Tuesday July 24 2012 03:00:08 AM __FILE__: Renamed Venues_temp to VenuesTuesday July 24 2012 03:00:08 AM
+
+Importing Data from Ticketsnow Web Services
+Tuesday July 24 2012 04:00:02 AM
+Tuesday July 24 2012 04:00:02 AM __FILE__: Preparing database for Productions Import.......
+Tuesday July 24 2012 04:00:02 AM __FILE__: Done.
+Tuesday July 24 2012 04:00:02 AM __FILE__: Getting Productions from http://services.eventinventory.com/webservices/ticketsearch.asmx?WSDL
+Tuesday July 24 2012 04:00:02 AM __FILE__: ImportProductionsFromWS: Invoking GetAllProductions web method..... 
+Tuesday July 24 2012 04:00:23 AM __FILE__: ImportProductionsFromWS: Done Calling http://www.eventinventory.com/webservices/GetAllProductions.
+Tuesday July 24 2012 04:00:28 AM __FILE__: ImportProductionsFromWS: Done. 
+Tuesday July 24 2012 04:00:28 AM __FILE__: Finished Importing 30013 Productions.
+
+CreateProductionTableIndices: Creating Productions indices.......Done.
+Tuesday July 24 2012 04:00:28 AM __FILE__: Renaming Productions tables....
+Tuesday July 24 2012 04:00:28 AM __FILE__: Dropped table Productions_old
+
+Tuesday July 24 2012 04:00:28 AM __FILE__: Renamed Productions to Productions_old
+
+Tuesday July 24 2012 04:00:28 AM __FILE__: Renamed Productions_temp to Productions
+Tuesday July 24 2012 04:00:28 AM

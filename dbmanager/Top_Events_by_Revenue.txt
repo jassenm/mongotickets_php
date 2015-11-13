@@ -1,0 +1,635 @@
+Event	Category
+The Police	Concert
+Wicked	Theater
+Jersey Boys	Theater
+Chicago Cubs	Sports
+Jimmy Buffett	Concert
+Keith Urban	Concert
+Houston Rodeo	Concert
+UAW-Daimler Chrysler 400	Sports
+Justin Timberlake	Concert
+Boston Red Sox	Sports
+New York Yankees	Sports
+Kenny Chesney	Concert
+Food City 500	Sports
+Roger Waters	Concert
+Bob Seger	Concert
+Christina Aguilera	Concert
+Dallas Mavericks	Sports
+Eric Clapton	Concert
+Josh Groban	Concert
+WWE - World Wrestling Entertainment	Sports
+Mary Poppins	Theater
+Rod Stewart	Concert
+AMA Supercross	Sports
+Celine Dion	Concert
+Sharpie 500	Sports
+John Legend	Concert
+New York Rangers	Sports
+Gwen Stefani	Concert
+Norah Jones	Concert
+New York Knicks	Sports
+Los Angeles Lakers	Sports
+Chicago Bulls	Sports
+Fall Out Boy	Concert
+George Strait	Concert
+The Lion King	Theater
+Miami Heat	Sports
+Mana	Concert
+Big Ten Mens Basketball Tournament	Sports
+Philadelphia Phillies	Sports
+The Killers	Concert
+Chicago White Sox	Sports
+Rascal Flatts	Concert
+Elton John	Concert
+Monty Python Spamalot	Theater
+Allstate 400 at the Brickyard	Sports
+St. Louis Cardinals	Sports
+Red Hot Chili Peppers	Concert
+Super Bowl	Sports
+Phoenix Suns	Sports
+Masters	Sports
+Toronto Maple Leafs	Sports
+Jamie Foxx	Theater
+Buffalo Sabres	Sports
+John Mayer	Concert
+Billy Joel	Concert
+Samsung/Radioshack 500	Sports
+Nickelback	Concert
+New York Mets	Sports
+Phantom Of The Opera	Theater
+Tool	Concert
+My Chemical Romance	Concert
+Ricky Martin	Concert
+Atlanta Braves	Sports
+The Who	Concert
+Blue Man Group	Theater
+New Jersey Nets	Sports
+Utah Jazz	Sports
+Washington Wizards	Sports
+Aarons 499	Sports
+Detroit Pistons	Sports
+Daughtry	Concert
+Detroit Red Wings	Sports
+The Color Purple	Theater
+Allman Brothers	Concert
+Nelly Furtado	Concert
+Tampa Bay Lightning	Sports
+San Antonio Spurs	Sports
+Ron White	Theater
+A Chorus Line	Theater
+San Francisco Giants	Sports
+Pittsburgh Penguins	Sports
+Ottawa Senators	Sports
+Big East Mens Basketball Tournament	Sports
+Taylor Hicks	Concert
+Coachella Music Festival	Concert
+Detroit Tigers	Sports
+Celtic Woman	Concert
+Larry the Cable Guy	Theater
+NCAA Mens Final Four	Sports
+Ringling Bros B&B Circus	Theater
+Auto Club 500	Sports
+James Taylor	Concert
+Houston Astros	Sports
+Boston Bruins	Sports
+Evanescence	Concert
+Cleveland Cavaliers	Sports
+ZZ Top	Concert
+Mamma Mia	Theater
+Katt Williams	Theater
+Denver Nuggets	Sports
+Lynyrd Skynyrd	Concert
+Sony Ericsson Open	Sports
+Willie Nelson	Concert
+Milwaukee Brewers	Sports
+Harry Connick Jr	Concert
+The Wiggles	Theater
+Houston Rockets	Sports
+Orlando Magic	Sports
+Baltimore Orioles	Sports
+San Jose Sharks	Sports
+Nashville Predators	Sports
+Ultimate Fighting Championship	Sports
+New Jersey Devils	Sports
+Arizona Diamondbacks	Sports
+Washington Nationals	Sports
+Edmonton Oilers	Sports
+Diana Ross	Concert
+Oscar De La Hoya	Sports
+Cirque Du Soleil: Love	Theater
+Anaheim Ducks	Sports
+Boston Celtics	Sports
+Arcade Fire	Concert
+George Lopez	Theater
+Montreal Canadiens	Sports
+US Open Golf	Sports
+San Diego Padres	Sports
+Eugene Onegin	Concert
+Kentucky Derby	Sports
+USG Sheetrock 400	Sports
+Hairspray	Theater
+ACC Mens Basketball Tournament	Sports
+The Pogues	Concert
+Los Angeles Angels of Anaheim	Sports
+Andre Rieu	Concert
+Toby Keith	Concert
+Joel Osteen	Theater
+Philadelphia 76ers	Sports
+David Copperfield	Theater
+Rent	Theater
+Legally Blonde	Theater
+Jerry Seinfeld	Theater
+Big 12 Mens Basketball Tournament	Sports
+Golden State Warriors	Sports
+Los Angeles Kings	Sports
+Disney On Ice: Disneyland Adventure	Theater
+NCAA Mens Basketball Tournament	Sports
+Crown Royal 400	Sports
+Minnesota Twins	Sports
+Snow Patrol	Concert
+Cirque: O	Theater
+Dispatch	Concert
+Atlanta Hawks	Sports
+Meat Loaf	Concert
+Toronto Raptors	Sports
+The Coast of Utopia	Theater
+Tarzan	Theater
+Florida Panthers	Sports
+Les Miserables	Theater
+Davis Cup Tennis	Sports
+Los Angeles Dodgers	Sports
+Martina McBride	Concert
+Philadelphia Flyers	Sports
+Whos Afraid of Virginia Woolf	Theater
+Widespread Panic	Concert
+The Shins	Concert
+Goo Goo Dolls	Concert
+Go Diego Go Live! the Great Jaguar Rescue	Theater
+Vancouver Canucks	Sports
+Phoenix Coyotes	Sports
+Bob Weir	Concert
+Coca-Cola 600	Sports
+Minnesota Timberwolves	Sports
+Loreena McKennitt	Concert
+Sam's Town 300	Sports
+New York Islanders	Sports
+Monster Jam	Sports
+Los Angeles Clippers	Sports
+The Drowsy Chaperone	Theater
+SEC Mens Basketball Tournament	Sports
+Sharpie Mini 300	Sports
+Taste of Chaos	Concert
+Ohio State Buckeyes Mens Basketball	Sports
+Toyota Save Mart 350	Sports
+Pepsi 400	Sports
+Sacramento Kings	Sports
+Minnesota Wild	Sports
+Dallas Stars	Sports
+Cirque Du Soleil: Corteo	Theater
+Subway Fresh Fit 500	Sports
+Cleveland Indians	Sports
+Disney On Ice: Princess Wishes	Theater
+Texas Rangers	Sports
+Pittsburgh Pirates	Sports
+Goody's Cool Orange 500	Sports
+Brad Paisley	Concert
+Lewis Black	Theater
+The Fray	Concert
+Dierks Bentley	Concert
+Seattle Mariners	Sports
+Indy 500	Sports
+Kansas City Royals	Sports
+Chayanne	Concert
+Kokua Festival	Concert
+Sugarland	Concert
+Seattle SuperSonics	Sports
+Chicago Blackhawks	Sports
+Duke Blue Devils Mens Basketball	Sports
+Danny Gans	Theater
+Iggy and the Stooges	Concert
+Sony HD 500	Sports
+Beauty And The Beast	Theater
+Cedric the Entertainer	Theater
+Chicago - The Musical	Theater
+Charlotte Bobcats	Sports
+Autism Speaks 400	Sports
+NCAA Mens West Regionals	Sports
+Spring Awakening	Theater
+Tampa Bay Devil Rays	Sports
+Frankie Valli	Concert
+Kobalt Tools 500	Sports
+Dropkick Murphys	Concert
+Dave Matthews Band	Concert
+Oakland Athletics	Sports
+National Finals Rodeo	Sports
+Earth Wind & Fire	Concert
+Atlanta Thrashers	Sports
+PAC 10 Mens Basketball Tournament	Sports
+Indiana Pacers	Sports
+Cincinnati Reds	Sports
+Kentucky Oaks	Sports
+King Tut Exhibit	Theater
+Guster	Concert
+Florida Gators Mens Basketball	Sports
+NCAA Womens Final Four	Sports
+Incubus	Concert
+Disney On Ice: Monsters Inc.	Theater
+Heaven and Hell	Concert
+North Carolina Tar Heels Mens Basketball	Sports
+Lucinda Williams	Concert
+My Brother Marvin	Theater
+Mexico National Soccer	Sports
+Michigan Wolverines Mens Basketball	Sports
+Calgary Flames	Sports
+The Apple Tree	Theater
+Citizens Bank 400	Sports
+Gipsy Kings	Concert
+Colorado Rockies	Sports
+BB King	Concert
+Calibash	Concert
+New Orleans Hornets	Sports
+King Lear	Theater
+Texas Longhorns Football	Sports
+Dodge Avenger 500	Sports
+Joan Sebastian	Concert
+Riverdance	Theater
+Cats	Theater
+The Pirate Queen	Theater
+High School Musical	Theater
+Colorado Avalanche	Sports
+Ray Romano	Theater
+Aretha Franklin	Concert
+Bloc Party	Concert
+Playboy Jazz Festival	Concert
+Pacific Life Open	Sports
+Sesame Street Live	Theater
+The Levon Helm Band	Concert
+SEC Women Basketball Tournament	Sports
+Tom Jones	Concert
+Carlos Mencia	Theater
+Jack's Mannequin	Concert
+Bill Gaither	Concert
+Curtains	Theater
+Billy Connolly	Theater
+Dickies 500	Sports
+St. Johns Red Storm Mens Basketball	Sports
+Maryland Terrapins Mens Basketball	Sports
+Washington Capitals	Sports
+Michigan State Spartans Mens Basketball	Sports
+Checker Auto Parts 500	Sports
+Ford 400	Sports
+Bright Eyes	Concert
+Portland Trail Blazers	Sports
+Rock Star: Supernova	Concert
+All Shook Up	Theater
+Grey Gardens	Theater
+Harlem Globetrotters	Sports
+Laurie Berkner	Concert
+Kathy Griffin	Theater
+Banquet 400	Sports
+Edward Scissorhands	Theater
+Robin Thicke	Concert
+Third Eye Blind	Concert
+Indiana Hoosiers Mens Basketball	Sports
+Florida Marlins	Sports
+Julio Iglesias	Concert
+Taking Back Sunday	Concert
+Lenox Industrial Tools 300	Sports
+A Moon for the Misbegotten	Theater
+Bonnie Raitt	Concert
+Champions On Ice	Sports
+AFI	Concert
+Tony Bennett	Concert
+John Williams	Concert
+Scissor Sisters	Concert
+Texas Longhorns Mens Basketball	Sports
+Jay Leno	Theater
+NCAA Wrestling Championships	Sports
+Inherit the Wind	Theater
+Kentucky Wildcats Mens Basketball	Sports
+Damien Rice	Concert
+Flogging Molly	Concert
+G3 Tour	Concert
+Hinder	Concert
+Louisville Cardinals Mens Basketball	Sports
+Toronto Blue Jays	Sports
+The Mars Volta	Concert
+Disney On Ice: 100 Years of Magic	Theater
+Pittsburgh Panthers Mens Basketball	Sports
+Marquette Golden Eagles Mens Basketball	Sports
+Mercy Me	Concert
+Food City 250	Sports
+Kroger 200	Sports
+Arizona State Sun Devils Mens Basketball	Sports
+Steely Dan	Concert
+UAW - Ford 500	Sports
+Arizona State Sun Devils Football	Sports
+The Roots	Concert
+The Producers	Theater
+Aaron Lewis	Concert
+Patti LaBelle	Concert
+Doodlebops	Theater
+Premio Lo Nuestro	Concert
+Moody Blues	Concert
+Lisa Lampanelli	Theater
+Muse	Concert
+Sara Evans	Concert
+The Year of Magical Thinking	Theater
+John Edward	Theater
+Evander Holyfield	Sports
+Georgetown Hoyas Mens Basketball	Sports
+Patty Griffin	Concert
+Villanova Wildcats Mens Basketball	Sports
+Daytona 500	Sports
+World Championship Boxing	Sports
+Aaron's 312	Sports
+Stevie Nicks	Concert
+Juno Awards	Concert
+NASCAR Nextel All-Star Challenge	Sports
+Jim Gaffigan	Theater
+Bonnaroo Music Festival	Concert
+George Carlin	Theater
+Gretchen Wilson	Concert
+Reba McEntire	Concert
+Grease	Theater
+Black Label Society	Concert
+Tony Rice	Concert
+Legends	Theater
+Jerry Lee Lewis	Concert
+Pennsylvania 500	Sports
+Hall & Oates	Concert
+Alejandro Sanz	Concert
+NCAA Lacrosse Championships	Sports
+Brand New	Concert
+Chevy Rock & Roll 400	Sports
+Gladys Knight	Concert
+Victor Manuelle	Concert
+Tennessee Vols Mens Basketball	Sports
+Professional Bull Riders World Finals	Sports
+Alison Krauss	Concert
+Rickie Lee Jones	Concert
+Stater Brothers 300	Sports
+Georgia Tech Yellow Jackets Mens Basketball	Sports
+Deuce - The Play	Theater
+Van Morrison	Concert
+Newsboys	Concert
+Pocono 500	Sports
+Bank of America 500	Sports
+UCLA Bruins Mens Basketball	Sports
+Stomp	Theater
+Daytime Emmy Awards	Concert
+Lamb of God	Concert
+Artie Lange	Theater
+3M Performance 400	Sports
+O'Reilly 300	Sports
+Brad Garrett	Theater
+Hank Williams Jr	Concert
+World Golf Championships	Sports
+NCAA Mens East Regionals	Sports
+World Famous Lipizzaner Stallions	Theater
+US Open Tennis	Sports
+Beach Blanket Babylon	Theater
+Iowa Hawkeyes Mens Basketball	Sports
+Duke Blue Devils Womens Basketball	Sports
+Vince Gill	Concert
+Saratoga Horse Racing	Sports
+Charlie Daniels Band	Concert
+Pat Benatar	Concert
+Chicago	Concert
+UConn Huskies Mens Basketball	Sports
+Miami Dolphins	Sports
+Arnold Classic	Sports
+Brian Regan	Theater
+Notre Dame Fighting Irish Football	Sports
+Brooks and Dunn	Concert
+Emmylou Harris	Concert
+Trace Adkins	Concert
+Marco Antonio Barrera	Sports
+Columbus Blue Jackets	Sports
+FEI World Cup	Sports
+Indigo Girls	Concert
+USG Durock 300	Sports
+Gordon Lightfoot	Concert
+Annie	Theater
+Cirque Du Soleil: Delirium	Theater
+Milwaukee Bucks	Sports
+Songwriters Night	Concert
+RBD	Concert
+The Vertical Hour	Theater
+Belmont Stakes	Sports
+Dover 400	Sports
+Erin Go Brawl	Sports
+USC Trojans Mens Basketball	Sports
+Jonny Lang	Concert
+Men Money & Gold Diggers	Theater
+St. Louis Blues	Sports
+Jeff Foxworthy	Theater
+MacHel Montano HD	Concert
+Lyle Lovett	Concert
+Jay Black	Concert
+String Cheese Incident	Concert
+Stars On Ice	Theater
+Howie Mandel	Theater
+North Carolina Tar Heels Football	Sports
+Rutgers Scarlet Knights Mens Basketball	Sports
+Philadelphia Wings	Sports
+Kenny Rogers	Concert
+North Carolina State Wolfpack Mens Basketball	Sports
+Gomez	Concert
+Syracuse Orangemen Mens Basketball	Sports
+Sevendust	Concert
+Lindsey Buckingham	Concert
+Lord Of The Dance	Theater
+The Toadies	Concert
+Freak Nut Rat Patrol	Concert
+This American Life	Concert
+Minnesota State Hockey Tournament	Sports
+Lily Allen	Concert
+Dolly Parton	Concert
+Teena Marie	Concert
+The 25th Annual Putnam County Spelling Bee	Theater
+Austin Rodeo	Sports
+Avenue Q	Theater
+Carolina Hurricanes	Sports
+Latino Jam	Concert
+Keb' Mo'	Concert
+Kansas State Wildcats Mens Basketball	Sports
+Boney James	Concert
+Talk Radio	Theater
+Pat Metheny	Concert
+Virginia Cavaliers Mens Basketball	Sports
+The Chieftains	Concert
+Amy Winehouse	Concert
+Take Action Tour	Concert
+Maya Angelou	Theater
+Wolfmother	Concert
+Mountain West Mens Tournament	Sports
+David Sedaris	Theater
+Saw Doctors	Concert
+Dan Zanes	Concert
+Iggy Pop	Concert
+Pride Fighting	Sports
+Gym Class Heroes	Concert
+John Prine	Concert
+Philadelphia Soul	Sports
+The Decemberists	Concert
+Pete Yorn	Concert
+IL Divo	Concert
+Madeleine Peyroux	Concert
+Bill Cosby	Theater
+Jesus Christ Superstar	Theater
+Tennis Channel Open	Sports
+Chicago Bears Fan Convention	Sports
+Chris Isaak	Concert
+Lonestar	Concert
+Monique	Theater
+9/11 Music Festival	Concert
+Rain - The Beatles Experience	Concert
+REO Speedwagon	Concert
+Auto Club 300	Sports
+The Honda Classic	Sports
+Neil Sedaka	Concert
+Latin Kings of Comedy	Theater
+Jann Arden	Concert
+Bone Thugs N Harmony	Concert
+Northwestern Wildcats Mens Basketball	Sports
+Paolo Nutini	Concert
+Penn State Nittany Lions Football	Sports
+Mat Kearney	Concert
+Dir En Grey	Concert
+Pageant Of Masters	Theater
+USC Trojans Football	Sports
+Michael Feinstein	Concert
+Doobie Brothers	Concert
+Company	Theater
+Zombies	Concert
+Wayne Brady	Theater
+Leipzig Gewandhaus Orchestra	Concert
+Dick Foxs Golden Boys	Concert
+Ira Glass	Theater
+A Prairie Home Companion With Garrison Keillor	Theater
+Art of War-Undisputed Arena Fighting Championship	Sports
+Of Montreal	Concert
+Kenny Loggins	Concert
+George Benson	Concert
+Cartel	Concert
+Wayne Newton	Concert
+Issues: We All Got Em	Theater
+Chi-Town Blues Festival	Concert
+Il Trittico	Theater
+Richard Lewis	Theater
+International Fight League	Sports
+Kroger 250	Sports
+Chita Rivera: The Dancer's Life	Theater
+NCAA Mens Midwest Regionals	Sports
+Natalie Cole	Concert
+Boston College Eagles Mens Basketball	Sports
+Toronto Rock	Sports
+Augustana	Concert
+Kansas Jayhawks Mens Basketball	Sports
+Big East Womens Basketball Tournament	Sports
+EDS Byron Nelson Championship	Sports
+Randy Travis	Concert
+Paul Anka	Concert
+Nascar Craftsman Truck Series	Sports
+Temptations	Concert
+Cake	Concert
+Professional Bull Riders	Sports
+Altar Boyz	Theater
+Utah Blaze	Sports
+Five for Fighting	Concert
+Gary Allan	Concert
+Sound Tribe Sector 9	Concert
+Il Barbiere di Siviglia	Theater
+Vicki Lawrence	Theater
+Cold War Kids	Concert
+Ultra Music Festival	Concert
+Brian McKnight	Concert
+I Can't Stop Loving You	Theater
+Subway 500	Sports
+Russell Peters	Theater
+Patrizio Buanne	Concert
+Michigan State Spartans Football	Sports
+Kenny Wayne Shepherd	Concert
+Johnny Winter	Concert
+Milwaukee Admirals	Sports
+US Men's National Soccer	Sports
+My Morning Jacket	Concert
+Chicago Fire	Sports
+Tennessee Vols Womens Basketball	Sports
+Vanderbilt Commodores Mens Basketball	Sports
+Doo Wop Hall of Fame	Concert
+Slayer	Concert
+Colorado Crush	Sports
+Chris Tomlin	Concert
+Wynton Marsalis	Concert
+Washington Huskies Mens Basketball	Sports
+Peak Antifreeze Indy 300	Sports
+TV On the Radio	Concert
+Funai 250	Sports
+Foreigner	Concert
+Mike Epps	Theater
+Immortal	Concert
+Arkansas Razorbacks Mens Basketball	Sports
+Love In the Nick of Tyme	Theater
+Aerosmith	Concert
+LCD Soundsystem	Concert
+Shell Houston Open	Sports
+Ricky Skaggs	Concert
+WCHA Final Five Tournament	Sports
+George Clinton	Concert
+The Bravery	Concert
+O'Reilly Auto Parts 250	Sports
+Clemson Tigers Mens Basketball	Sports
+Zach Galifianakis	Theater
+Michael Franti & Spearhead	Concert
+Los Lobos	Concert
+The OJays	Concert
+New York Philharmonic	Concert
+Tejano Music Awards	Concert
+Silverchair	Concert
+Jet	Concert
+Missouri Valley Basketball Tournament	Sports
+On Golden Pond	Theater
+Tenacious D	Concert
+West Virginia Mountaineers Mens Basketball	Sports
+Ben Kweller	Concert
+Rodrigo y Gabriela	Concert
+Talladega 250	Sports
+Countrywide Classic	Sports
+Casting Crowns	Concert
+Yellow Transportation 300	Sports
+Beatlemania	Concert
+Disturbed	Concert
+Static-X	Concert
+Pepper	Concert
+Maryland Terrapins Football	Sports
+Switchfoot	Concert
+BCS National Championship	Sports
+Chicago Rush	Sports
+30 Seconds To Mars	Concert
+Nebraska Cornhuskers Mens Basketball	Sports
+Frames	Concert
+Tuck & Patti	Concert
+Dayton Flyers Mens Basketball	Sports
+Red Jumpsuit Apparatus	Concert
+Texas A&M Aggies Mens Basketball	Sports
+Manchester Monarchs	Sports
+Tribute To the Reggae Legends	Concert
+MAAC Mens Basketball Tournament	Sports
+Georgia Force	Sports
+Memphis Grizzlies	Sports
+Jack Blades	Concert
+Saliva	Concert
+Ohio State Buckeyes Hockey	Sports
+The Academy Is	Concert
+Kottonmouth Kings	Concert
+Car Of Tomorrow Pole Day	Sports
+LSU Tigers Mens Basketball	Sports
+Miami Hurricanes Mens Basketball	Sports
+The Rat Pack	Theater
+Philadelphia Eagles	Sports
+Radio City Christmas Spectacular	Theater
+Dawn Upshaw	Theater
+Denver Broncos	Sports

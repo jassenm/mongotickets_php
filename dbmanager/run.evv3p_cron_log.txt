@@ -1,0 +1,594 @@
+Fri Jun 29 20:42:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@4e46b90a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@9706da8
+
+     [java] 2012/06/29 20:42:20
+
+     [java] Number of productions: 14966
+
+     [java] 29932 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 30 seconds
+Fri Jun 29 20:42:31 CDT 2012
+Sat Jun 30 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@ace16ad
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@4baa2c23
+
+     [java] 2012/06/30 05:15:28
+
+     [java] Number of productions: 14897
+
+     [java] 29794 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 38 seconds
+Sat Jun 30 05:15:42 CDT 2012
+Sat Jun 30 09:58:33 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@3d860038
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@6032bd65
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@686963d0
+
+     [java] 2012/06/30 09:58:54
+
+     [java] Number of productions: 14914
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29846 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 30 seconds
+Sat Jun 30 09:59:04 CDT 2012
+Sun Jul  1 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@f284fd4
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@342f356f
+
+     [java] 2012/07/01 05:15:21
+
+     [java] Number of productions: 14763
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29545 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 39 seconds
+Sun Jul  1 05:15:43 CDT 2012
+Mon Jul  2 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@5ba8773c
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@30b3f9b8
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@62c8769b
+
+     [java] 2012/07/02 05:15:32
+
+     [java] Number of productions: 14697
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29447 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 42 seconds
+Mon Jul  2 05:15:46 CDT 2012
+Tue Jul  3 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@655d616e
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@7f11bfbc
+
+     [java] 2012/07/03 05:15:23
+
+     [java] Number of productions: 13657
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 27448 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 28 seconds
+Tue Jul  3 05:15:32 CDT 2012
+Wed Jul  4 05:15:02 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@21e1962d
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@72f864fe
+
+     [java] 2012/07/04 05:15:25
+
+     [java] Number of productions: 14648
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29403 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 33 seconds
+Wed Jul  4 05:15:36 CDT 2012
+Thu Jul  5 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@79884a40
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@6e8f94
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@5e6458a6
+
+     [java] 2012/07/05 05:15:21
+
+     [java] Number of productions: 14657
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29412 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 29 seconds
+Thu Jul  5 05:15:33 CDT 2012
+Fri Jul  6 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@4e2016b0
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@12457d21
+
+     [java] 2012/07/06 05:15:19
+
+     [java] Number of productions: 14790
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29821 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 25 seconds
+Fri Jul  6 05:15:28 CDT 2012
+Sat Jul  7 05:15:02 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@6e5a3923
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@78fa39d7
+
+     [java] 2012/07/07 05:15:20
+
+     [java] Number of productions: 14672
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29500 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 28 seconds
+Sat Jul  7 05:15:32 CDT 2012
+Sun Jul  8 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@655d616e
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@73eb904d
+
+     [java] 2012/07/08 05:15:21
+
+     [java] Number of productions: 14586
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29232 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 29 seconds
+Sun Jul  8 05:15:32 CDT 2012
+Mon Jul  9 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@5ba8773c
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@30b3f9b8
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@56e2ecc7
+
+     [java] 2012/07/09 05:15:23
+
+     [java] Number of productions: 14496
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29001 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 32 seconds
+Mon Jul  9 05:15:35 CDT 2012
+Tue Jul 10 05:15:02 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@53ce669e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@f284fd4
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@342f356f
+
+     [java] 2012/07/10 05:15:21
+
+     [java] Number of productions: 14503
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29157 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 35 seconds
+Tue Jul 10 05:15:39 CDT 2012
+Wed Jul 11 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@643f96ee
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@75d252d
+
+     [java] 2012/07/11 05:15:27
+
+     [java] Number of productions: 14582
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29468 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 34 seconds
+Wed Jul 11 05:15:37 CDT 2012
+Thu Jul 12 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@ace16ad
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@7433b121
+
+     [java] 2012/07/12 05:15:23
+
+     [java] Number of productions: 14795
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29916 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 33 seconds
+Thu Jul 12 05:15:36 CDT 2012
+Fri Jul 13 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@ace16ad
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@7433b121
+
+     [java] 2012/07/13 05:15:19
+
+     [java] Number of productions: 14845
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29894 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 26 seconds
+Fri Jul 13 05:15:29 CDT 2012
+Sat Jul 14 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@5815338
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@769aba32
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@e4c6320
+
+     [java] 2012/07/14 05:15:23
+
+     [java] Number of productions: 14680
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29541 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 45 seconds
+Sat Jul 14 05:15:50 CDT 2012
+Sun Jul 15 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@6d7e845a
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@1d2c5431
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@6c5b675e
+
+     [java] 2012/07/15 05:15:24
+
+     [java] Number of productions: 14627
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29339 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 42 seconds
+Sun Jul 15 05:15:45 CDT 2012
+Mon Jul 16 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@427eb6e2
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@5a943dc4
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@df82ab4
+
+     [java] 2012/07/16 05:15:32
+
+     [java] Number of productions: 14746
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29708 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 51 seconds
+Mon Jul 16 05:15:54 CDT 2012
+Tue Jul 17 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@609903f4
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@3bfa681c
+
+     [java] 2012/07/17 05:15:25
+
+     [java] Number of productions: 14849
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29945 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 42 seconds
+Tue Jul 17 05:15:45 CDT 2012
+Wed Jul 18 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@5815338
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@1d2c5431
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@e4c6320
+
+     [java] 2012/07/18 05:15:28
+
+     [java] Number of productions: 15050
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 30428 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 50 seconds
+Wed Jul 18 05:15:54 CDT 2012
+Thu Jul 19 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@4e2016b0
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@101a0ae6
+
+     [java] 2012/07/19 05:15:21
+
+     [java] Number of productions: 14963
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 30183 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 40 seconds
+Thu Jul 19 05:15:43 CDT 2012
+Fri Jul 20 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@55a7b0bf
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@3d04fc23
+
+     [java] 2012/07/20 05:15:25
+
+     [java] Number of productions: 15191
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 30583 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 43 seconds
+Fri Jul 20 05:15:46 CDT 2012
+Sat Jul 21 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@53ce669e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@614a75bb
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@29cda59b
+
+     [java] 2012/07/21 05:15:27
+
+     [java] Number of productions: 15134
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 30396 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 44 seconds
+Sat Jul 21 05:15:50 CDT 2012
+Sun Jul 22 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@52c00025
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@3bfa681c
+
+     [java] 2012/07/22 05:15:30
+
+     [java] Number of productions: 15057
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 30200 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 1 minute 1 second
+Sun Jul 22 05:16:06 CDT 2012
+Mon Jul 23 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@13b33a0e
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@21e1962d
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@5e2c17f7
+
+     [java] 2012/07/23 05:15:20
+
+     [java] Number of productions: 14973
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 29957 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 39 seconds
+Mon Jul 23 05:15:42 CDT 2012
+Tue Jul 24 05:15:01 CDT 2012
+Buildfile: build.xml
+
+run.evv3p:
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@5ba8773c
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@74c6eff5
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@56e2ecc7
+
+     [java] 2012/07/24 05:15:25
+
+     [java] Number of productions: 15004
+
+     [java]  /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/ImportEventsFromTND.java TNDProductions 30154 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 43 seconds
+Tue Jul 24 05:15:47 CDT 2012

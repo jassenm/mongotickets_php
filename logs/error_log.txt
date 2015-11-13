@@ -1,0 +1,400 @@
+[24-Jul-2012 10:18:47] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:18:47] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:47] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:47] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:47] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:48] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:18:49] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:49] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:49] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:50] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:50] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:50] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:50] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:51] PHP Notice:  Undefined variable: eventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets_for_venue.tnd.php on line 51
+[24-Jul-2012 10:18:51] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:51] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:51] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:51] PHP Warning:  mysql_close(): 18 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:18:53] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:53] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:18:53] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:19:06] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:19:06] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:06] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:06] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:07] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:25] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:19:25] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:25] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:25] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:25] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:33] simple_url_dispatch.php: UrlLookup returned wrong number of results /florida-marlins-tickets/?event_id=1181590 returning 301 name_in_url=florida-marlins sanitized event name = florida-marlins
+[24-Jul-2012 10:19:43] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:19:44] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:44] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:44] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:44] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:45] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:45] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:45] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:45] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:52] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:52] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:56] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:56] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:19:56] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:20:02] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:20:04] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:04] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:04] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:04] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:18] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:20:18] PHP Notice:  Undefined variable: secondaryEventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets.tnd.php on line 133
+[24-Jul-2012 10:20:18] tickets.tnd.php: EventID=590, inEventID = 590 num_rows = 0 and prodid = 929600 , secondaryEventID =, city_check_result = 1 lookup returned 0 results: attempting to find appropriate redirect, uri= /los-angeles-dodgers-tickets/?event_id=929600 
+[24-Jul-2012 10:20:18] tickets.tnd.php: redirecting production id=929600 eventid=590 from uri= /los-angeles-dodgers-tickets/?event_id=929600 to http://mongotickets.com/los-angeles-dodgers-tickets/, returning 301
+[24-Jul-2012 10:20:21] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:20:22] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:22] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:22] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:23] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:40] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:20:40] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:20:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:20:59] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:21:01] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:01] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:01] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:01] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:03] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:21:03] tickets.new_urls.php: EventID=2620 and prodid = 1101032 lookup returned 0 results: attempting to find appropriate redirect, uri= /heart-tickets/?event_id=1101032 
+[24-Jul-2012 10:21:03] tickets.new_urls.php: redirecting production id=1101032 eventid=2620 from uri= /heart-tickets/?event_id=1101032 to http://mongotickets.com/heart-tickets/, returning 301
+[24-Jul-2012 10:21:18] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:21:20] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:20] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:20] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:20] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:37] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:21:38] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:38] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:38] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:38] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:45] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:45] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:45] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:45] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:48] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:48] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:48] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:48] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:21:48] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:48] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:48] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:48] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:56] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:21:57] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:57] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:57] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:21:57] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:15] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:22:16] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:16] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:16] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:16] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:17] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:22:17] PHP Notice:  Undefined variable: secondaryEventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets.tnd.php on line 133
+[24-Jul-2012 10:22:17] tickets.tnd.php: EventID=17650, inEventID = 17650 num_rows = 0 and prodid = 1303449 , secondaryEventID =, city_check_result = 1 lookup returned 0 results: attempting to find appropriate redirect, uri= /down-tickets/?event_id=1303449 
+[24-Jul-2012 10:22:17] tickets.tnd.php: redirecting production id=1303449 eventid=17650 from uri= /down-tickets/?event_id=1303449 to http://mongotickets.com/down-tickets/, returning 301
+[24-Jul-2012 10:22:19] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:19] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:19] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:22:25] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:22:26] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:26] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:26] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:26] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:30] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:22:30] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:30] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:30] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:30] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:30] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:30] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:30] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:30] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:34] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:22:35] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:35] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:35] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:35] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:35] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:35] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:35] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:35] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:37] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:22:38] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:38] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:38] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:38] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:38] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:22:39] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:39] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:39] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:39] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:39] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:39] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:39] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:39] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:53] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:22:54] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:54] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:54] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:22:54] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:12] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:23:13] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:13] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:13] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:13] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:18] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:18] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:18] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:18] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:23:31] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:23:31] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:31] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:31] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:31] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:50] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:23:50] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:50] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:50] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:23:50] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:04] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:24:04] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:04] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:04] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:05] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:09] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:24:09] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:09] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:09] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:09] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:19] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:19] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:19] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:19] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:20] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:24:21] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:21] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:21] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:25] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:25] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:25] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:25] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:26] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:26] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:26] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:26] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:27] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:24:28] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:28] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:28] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:45] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:45] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:45] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:45] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:24:46] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:24:47] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:24:47] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:49] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:24:49] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:24:49] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:49] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:49] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:49] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:49] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:24:53] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:53] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:53] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:24:53] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:25:05] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:25:24] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:25:25] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:25:25] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:34] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:34] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:34] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:36] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:36] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:36] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:36] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:25:37] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:37] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:37] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:38] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:38] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:38] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:38] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:25:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:41] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:25:41] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:25:53] PHP Notice:  Undefined variable: eventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets_for_venue.tnd.php on line 51
+[24-Jul-2012 10:25:53] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:25:53] PHP Warning:  mysql_close(): 18 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:26:21] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:26:21] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:26:21] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:26:40] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:26:42] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:26:42] PHP Notice:  Constant SITE_DOMAIN already defined in /var/www/vhosts/cpcworks.com/mongotickets/include/host_info.inc.php on line 5
+[24-Jul-2012 10:26:42] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:26:59] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:26:59] PHP Notice:  Undefined variable: secondaryEventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets.tnd.php on line 133
+[24-Jul-2012 10:26:59] tickets.tnd.php: EventID=902, inEventID = 902 num_rows = 0 and prodid = 1732858 , secondaryEventID =, city_check_result = 1 lookup returned 0 results: attempting to find appropriate redirect, uri= /san-francisco-giants-tickets/?event_id=1732858 
+[24-Jul-2012 10:26:59] tickets.tnd.php: redirecting production id=1732858 eventid=902 from uri= /san-francisco-giants-tickets/?event_id=1732858 to http://mongotickets.com/san-francisco-giants-tickets/, returning 301
+[24-Jul-2012 10:27:00] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:27:00] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:27:02] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:27:02] tickets.new_urls.php: EventID=736 and prodid = 1205370 lookup returned 0 results: attempting to find appropriate redirect, uri= /roger-waters-tickets/?event_id=1205370 
+[24-Jul-2012 10:27:02] tickets.new_urls.php: redirecting production id=1205370 eventid=736 from uri= /roger-waters-tickets/?event_id=1205370 to http://mongotickets.com/roger-waters-tickets/, returning 301
+[24-Jul-2012 10:27:04] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:27:04] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:27:05] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:27:10] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:27:18] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:27:18] PHP Notice:  Undefined variable: secondaryEventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets.tnd.php on line 133
+[24-Jul-2012 10:27:18] tickets.tnd.php: EventID=902, inEventID = 902 num_rows = 0 and prodid = 1732859 , secondaryEventID =, city_check_result = 1 lookup returned 0 results: attempting to find appropriate redirect, uri= /san-francisco-giants-tickets/?event_id=1732859 
+[24-Jul-2012 10:27:18] tickets.tnd.php: redirecting production id=1732859 eventid=902 from uri= /san-francisco-giants-tickets/?event_id=1732859 to http://mongotickets.com/san-francisco-giants-tickets/, returning 301
+[24-Jul-2012 10:27:20] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:27:20] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:27:22] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:27:22] PHP Warning:  mysql_close(): 16 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:27:37] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:27:37] PHP Notice:  Undefined variable: secondaryEventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets.tnd.php on line 133
+[24-Jul-2012 10:27:37] tickets.tnd.php: EventID=902, inEventID = 902 num_rows = 0 and prodid = 1733263 , secondaryEventID =, city_check_result = 1 lookup returned 0 results: attempting to find appropriate redirect, uri= /san-francisco-giants-tickets/?event_id=1733263 
+[24-Jul-2012 10:27:37] tickets.tnd.php: redirecting production id=1733263 eventid=902 from uri= /san-francisco-giants-tickets/?event_id=1733263 to http://mongotickets.com/san-francisco-giants-tickets/, returning 301
+[24-Jul-2012 10:27:44] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:27:44] tickets.new_urls.php: EventID=92 and prodid = 1281496 lookup returned 0 results: attempting to find appropriate redirect, uri= /blue-man-group-tickets-boston/?event_id=1281496 
+[24-Jul-2012 10:27:44] tickets.new_urls.php: redirecting production id=1281496 eventid=92 from uri= /blue-man-group-tickets-boston/?event_id=1281496 to http://mongotickets.com/blue-man-group-tickets/, returning 301
+[24-Jul-2012 10:27:55] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:27:55] PHP Notice:  Undefined variable: secondaryEventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets.tnd.php on line 133
+[24-Jul-2012 10:27:55] tickets.tnd.php: EventID=902, inEventID = 902 num_rows = 0 and prodid = 1732860 , secondaryEventID =, city_check_result = 1 lookup returned 0 results: attempting to find appropriate redirect, uri= /san-francisco-giants-tickets/?event_id=1732860 
+[24-Jul-2012 10:27:55] tickets.tnd.php: redirecting production id=1732860 eventid=902 from uri= /san-francisco-giants-tickets/?event_id=1732860 to http://mongotickets.com/san-francisco-giants-tickets/, returning 301
+[24-Jul-2012 10:28:10] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:28:11] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:28:14] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:28:14] PHP Notice:  Undefined variable: secondaryEventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets.tnd.php on line 133
+[24-Jul-2012 10:28:14] tickets.tnd.php: EventID=902, inEventID = 902 num_rows = 0 and prodid = 1733265 , secondaryEventID =, city_check_result = 1 lookup returned 0 results: attempting to find appropriate redirect, uri= /san-francisco-giants-tickets/?event_id=1733265 
+[24-Jul-2012 10:28:14] tickets.tnd.php: redirecting production id=1733265 eventid=902 from uri= /san-francisco-giants-tickets/?event_id=1733265 to http://mongotickets.com/san-francisco-giants-tickets/, returning 301
+[24-Jul-2012 10:28:33] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:28:34] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:28:35] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:28:35] PHP Notice:  Undefined variable: secondaryEventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets.tnd.php on line 133
+[24-Jul-2012 10:28:35] tickets.tnd.php: EventID=902, inEventID = 902 num_rows = 0 and prodid = 1733264 , secondaryEventID =, city_check_result = 1 lookup returned 0 results: attempting to find appropriate redirect, uri= /san-francisco-giants-tickets/?event_id=1733264 
+[24-Jul-2012 10:28:35] tickets.tnd.php: redirecting production id=1733264 eventid=902 from uri= /san-francisco-giants-tickets/?event_id=1733264 to http://mongotickets.com/san-francisco-giants-tickets/, returning 301
+[24-Jul-2012 10:28:52] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:28:53] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:29:11] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:29:12] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:29:30] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:29:31] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:29:49] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:29:50] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:29:53] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:29:53] tickets.new_urls.php: EventID=4167 and prodid = 1549265 lookup returned 0 results: attempting to find appropriate redirect, uri= /wicked-tickets-san-diego/?event_id=1549265 
+[24-Jul-2012 10:29:53] tickets.new_urls.php: redirecting production id=1549265 eventid=4167 from uri= /wicked-tickets-san-diego/?event_id=1549265 to http://mongotickets.com/wicked-tickets/, returning 301
+[24-Jul-2012 10:29:53] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:29:53] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:29:54] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:29:54] PHP Notice:  Undefined variable: venues in /var/www/vhosts/cpcworks.com/mongotickets/public_html/DbUtils.new_urls.php on line 470
+[24-Jul-2012 10:29:54] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:29:56] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:29:57] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:29:57] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:29:58] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:30:00] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:30:00] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:30:00] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:30:01] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:30:01] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:30:02] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:30:03] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:30:08] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:30:09] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:30:10] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:30:20] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:30:20] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:30:27] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:30:28] PHP Notice:  Undefined variable: root_url in /var/www/vhosts/cpcworks.com/mongotickets/include/new_urls/breadcrumbs.inc.php on line 36
+[24-Jul-2012 10:30:29] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:30:39] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:30:47] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:30:50] simple_url_dispatch.php: UrlLookup returned wrong number of results /florida-marlins-tickets/?event_id=1181562 returning 301 name_in_url=florida-marlins sanitized event name = florida-marlins
+[24-Jul-2012 10:30:53] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:30:59] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:31:05] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:31:24] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:31:43] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:31:51] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:32:02] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:32:21] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:32:40] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:32:59] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:33:18] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:33:37] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:33:40] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:33:56] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:34:15] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:34:32] simple_url_dispatch.php: UrlLookup returned wrong number of results /florida-marlins-tickets/?event_id=1181591 returning 301 name_in_url=florida-marlins sanitized event name = florida-marlins
+[24-Jul-2012 10:34:34] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /var/www/vhosts/cpcworks.com/mongotickets/lib/nusoap.php on line 7386
+[24-Jul-2012 10:35:31] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:35:48] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:35:49] PHP Notice:  Undefined variable: eventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets_for_venue.tnd.php on line 51
+[24-Jul-2012 10:35:50] PHP Warning:  mysql_close(): 18 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:35:57] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:36:08] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:36:15] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:36:27] PHP Notice:  Undefined variable: secondaryEventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets.tnd.php on line 133
+[24-Jul-2012 10:36:27] tickets.tnd.php: EventID=902, inEventID = 902 num_rows = 0 and prodid = 1734406 , secondaryEventID =, city_check_result = 1 lookup returned 0 results: attempting to find appropriate redirect, uri= /san-francisco-giants-tickets/?event_id=1734406 
+[24-Jul-2012 10:36:27] tickets.tnd.php: redirecting production id=1734406 eventid=902 from uri= /san-francisco-giants-tickets/?event_id=1734406 to http://mongotickets.com/san-francisco-giants-tickets/, returning 301
+[24-Jul-2012 10:36:54] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:37:08] PHP Notice:  Undefined variable: venues in /var/www/vhosts/cpcworks.com/mongotickets/public_html/DbUtils.new_urls.php on line 470
+[24-Jul-2012 10:37:08] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:37:12] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:37:14] PHP Warning:  mysql_close(): 16 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:37:20] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:38:17] PHP Notice:  Undefined variable: eventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets_for_venue.tnd.php on line 51
+[24-Jul-2012 10:38:17] PHP Warning:  mysql_close(): 18 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:38:21] PHP Notice:  Undefined variable: secondaryEventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets.tnd.php on line 133
+[24-Jul-2012 10:38:21] tickets.tnd.php: EventID=1069, inEventID = 1069 num_rows = 0 and prodid = 1773865 , secondaryEventID =, city_check_result = 1 lookup returned 0 results: attempting to find appropriate redirect, uri= /tim-mcgraw-tickets/?event_id=1773865 
+[24-Jul-2012 10:38:21] tickets.tnd.php: redirecting production id=1773865 eventid=1069 from uri= /tim-mcgraw-tickets/?event_id=1773865 to http://mongotickets.com/tim-mcgraw-tickets/, returning 301
+[24-Jul-2012 10:41:21] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:41:50] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:41:53] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:44:18] tickets.new_urls.php: EventID=4167 and prodid = 1600877 lookup returned 0 results: attempting to find appropriate redirect, uri= /wicked-tickets-fort-myers/?event_id=1600877 
+[24-Jul-2012 10:44:18] tickets.new_urls.php: redirecting production id=1600877 eventid=4167 from uri= /wicked-tickets-fort-myers/?event_id=1600877 to http://mongotickets.com/wicked-tickets/, returning 301
+[24-Jul-2012 10:46:31] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:46:55] PHP Notice:  Undefined variable: secondaryEventID in /var/www/vhosts/cpcworks.com/mongotickets/public_html/tickets.tnd.php on line 133
+[24-Jul-2012 10:46:55] tickets.tnd.php: EventID=4055, inEventID = 4055 num_rows = 0 and prodid = 1815809 , secondaryEventID =, city_check_result = 1 lookup returned 0 results: attempting to find appropriate redirect, uri= /miranda-lambert-tickets/?event_id=1815809 
+[24-Jul-2012 10:46:55] tickets.tnd.php: redirecting production id=1815809 eventid=4055 from uri= /miranda-lambert-tickets/?event_id=1815809 to http://mongotickets.com/miranda-lambert-tickets/, returning 301
+[24-Jul-2012 10:48:47] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:49:52] tickets.new_urls.php: EventID=2357 and prodid = 1258168 lookup returned 0 results: attempting to find appropriate redirect, uri= /crosby-stills-and-nash-tickets/?event_id=1258168 
+[24-Jul-2012 10:49:52] tickets.new_urls.php: redirecting production id=1258168 eventid=2357 from uri= /crosby-stills-and-nash-tickets/?event_id=1258168 to http://mongotickets.com/crosby-stills-and-nash-tickets/, returning 301
+[24-Jul-2012 10:49:55] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:50:18] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:51:01] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338
+[24-Jul-2012 10:51:46] tickets.new_urls.php: EventID=2054 and prodid = 1245295 lookup returned 0 results: attempting to find appropriate redirect, uri= /american-ballet-theatre-tickets-new-york/?event_id=1245295 
+[24-Jul-2012 10:51:46] tickets.new_urls.php: redirecting production id=1245295 eventid=2054 from uri= /american-ballet-theatre-tickets-new-york/?event_id=1245295 to http://mongotickets.com/american-ballet-theatre-tickets/, returning 301
+[24-Jul-2012 10:52:31] PHP Warning:  mysql_close(): 17 is not a valid MySQL-Link resource in /var/www/vhosts/cpcworks.com/mongotickets/public_html/simple_url_dispatch.php on line 338

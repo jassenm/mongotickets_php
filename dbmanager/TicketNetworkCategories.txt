@@ -1,0 +1,1018 @@
+ Preparing for Import.......Invoking GetCategories method..... Done Calling http://webservices2.ticketnetwork.com/GetCategories.Importing data.... Array
+(
+    [Category] => Array
+        (
+            [0] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 87
+                    [ChildCategoryDescription] => 50s/60s ERA
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [1] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 22
+                    [ChildCategoryDescription] => ALTERNATIVE
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [2] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 55
+                    [ChildCategoryDescription] => CHILDREN/FAMILY
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [3] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 49
+                    [ChildCategoryDescription] => CLASSICAL
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [4] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 24
+                    [ChildCategoryDescription] => COMEDY
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [5] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 23
+                    [ChildCategoryDescription] => COUNTRY/FOLK
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [6] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 100
+                    [ChildCategoryDescription] => FESTIVAL / TOUR
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [7] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 61
+                    [ChildCategoryDescription] => HARD ROCK/METAL
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [8] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 86
+                    [ChildCategoryDescription] => HOLIDAY
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [9] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 21
+                    [ChildCategoryDescription] => JAZZ/BLUES
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [10] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 34
+                    [ChildCategoryDescription] => LAS VEGAS SHOWS
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [11] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 73
+                    [ChildCategoryDescription] => LATIN
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [12] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 48
+                    [ChildCategoryDescription] => NEW AGE
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [13] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 37
+                    [ChildCategoryDescription] => OTHER
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [14] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 62
+                    [ChildCategoryDescription] => POP/ROCK
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [15] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 45
+                    [ChildCategoryDescription] => R&B/SOUL
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [16] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 36
+                    [ChildCategoryDescription] => RAP/HIP HOP
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [17] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 83
+                    [ChildCategoryDescription] => REGGAE
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [18] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 43
+                    [ChildCategoryDescription] => RELIGIOUS
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [19] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 98
+                    [ChildCategoryDescription] => TECHNO / ELECTRONIC
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [20] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 57
+                    [ChildCategoryDescription] => WORLD
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [21] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 57
+                    [ChildCategoryDescription] => WORLD
+                    [GrandchildCategoryID] => 47
+                    [GrandchildCategoryDescription] => Celtic
+                )
+
+            [22] => Array
+                (
+                    [ParentCategoryID] => 2
+                    [ParentCategoryDescription] => CONCERTS
+                    [ChildCategoryID] => 57
+                    [ChildCategoryDescription] => WORLD
+                    [GrandchildCategoryID] => 48
+                    [GrandchildCategoryDescription] => General
+                )
+
+            [23] => Array
+                (
+                    [ParentCategoryID] => 4
+                    [ParentCategoryDescription] => OTHER
+                    [ChildCategoryID] => 96
+                    [ChildCategoryDescription] => ADULT
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [24] => Array
+                (
+                    [ParentCategoryID] => 4
+                    [ParentCategoryDescription] => OTHER
+                    [ChildCategoryID] => 59
+                    [ChildCategoryDescription] => CIRCUS
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [25] => Array
+                (
+                    [ParentCategoryID] => 4
+                    [ParentCategoryDescription] => OTHER
+                    [ChildCategoryID] => 58
+                    [ChildCategoryDescription] => FAIRS/FESTIVALS
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [26] => Array
+                (
+                    [ParentCategoryID] => 4
+                    [ParentCategoryDescription] => OTHER
+                    [ChildCategoryID] => 93
+                    [ChildCategoryDescription] => FILM
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [27] => Array
+                (
+                    [ParentCategoryID] => 4
+                    [ParentCategoryDescription] => OTHER
+                    [ChildCategoryID] => 99
+                    [ChildCategoryDescription] => LAS VEGAS SHOWS
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [28] => Array
+                (
+                    [ParentCategoryID] => 4
+                    [ParentCategoryDescription] => OTHER
+                    [ChildCategoryID] => 99
+                    [ChildCategoryDescription] => LAS VEGAS SHOWS
+                    [GrandchildCategoryID] => 92
+                    [GrandchildCategoryDescription] => Nightclub Passes
+                )
+
+            [29] => Array
+                (
+                    [ParentCategoryID] => 4
+                    [ParentCategoryDescription] => OTHER
+                    [ChildCategoryID] => 92
+                    [ChildCategoryDescription] => LECTURE
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [30] => Array
+                (
+                    [ParentCategoryID] => 4
+                    [ParentCategoryDescription] => OTHER
+                    [ChildCategoryID] => 72
+                    [ChildCategoryDescription] => MAGIC SHOWS
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [31] => Array
+                (
+                    [ParentCategoryID] => 4
+                    [ParentCategoryDescription] => OTHER
+                    [ChildCategoryID] => 94
+                    [ChildCategoryDescription] => MUSEUM / EXHIBIT
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [32] => Array
+                (
+                    [ParentCategoryID] => 4
+                    [ParentCategoryDescription] => OTHER
+                    [ChildCategoryID] => 33
+                    [ChildCategoryDescription] => OTHER
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [33] => Array
+                (
+                    [ParentCategoryID] => 4
+                    [ParentCategoryDescription] => OTHER
+                    [ChildCategoryID] => 81
+                    [ChildCategoryDescription] => RELIGIOUS
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [34] => Array
+                (
+                    [ParentCategoryID] => 4
+                    [ParentCategoryDescription] => OTHER
+                    [ChildCategoryID] => 95
+                    [ChildCategoryDescription] => TAPED PROGRAM (TV / RADIO)
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [35] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 63
+                    [ChildCategoryDescription] => BASEBALL
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [36] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 63
+                    [ChildCategoryDescription] => BASEBALL
+                    [GrandchildCategoryID] => 17
+                    [GrandchildCategoryDescription] => College (Div I-A)
+                )
+
+            [37] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 63
+                    [ChildCategoryDescription] => BASEBALL
+                    [GrandchildCategoryID] => 27
+                    [GrandchildCategoryDescription] => Minors (AAA)
+                )
+
+            [38] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 63
+                    [ChildCategoryDescription] => BASEBALL
+                    [GrandchildCategoryID] => 84
+                    [GrandchildCategoryDescription] => Pacific Coast League (PCL)
+                )
+
+            [39] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 63
+                    [ChildCategoryDescription] => BASEBALL
+                    [GrandchildCategoryID] => 16
+                    [GrandchildCategoryDescription] => Professional (MLB)
+                )
+
+            [40] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 66
+                    [ChildCategoryDescription] => BASKETBALL
+                    [GrandchildCategoryID] => 17
+                    [GrandchildCategoryDescription] => College (Div I-A)
+                )
+
+            [41] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 66
+                    [ChildCategoryDescription] => BASKETBALL
+                    [GrandchildCategoryID] => 29
+                    [GrandchildCategoryDescription] => Other
+                )
+
+            [42] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 66
+                    [ChildCategoryDescription] => BASKETBALL
+                    [GrandchildCategoryID] => 30
+                    [GrandchildCategoryDescription] => Professional (NBA)
+                )
+
+            [43] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 50
+                    [ChildCategoryDescription] => BOXING
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [44] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 90
+                    [ChildCategoryDescription] => CRICKET
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [45] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 65
+                    [ChildCategoryDescription] => FOOTBALL
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [46] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 65
+                    [ChildCategoryDescription] => FOOTBALL
+                    [GrandchildCategoryID] => 42
+                    [GrandchildCategoryDescription] => AFL
+                )
+
+            [47] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 65
+                    [ChildCategoryDescription] => FOOTBALL
+                    [GrandchildCategoryID] => 36
+                    [GrandchildCategoryDescription] => CFL
+                )
+
+            [48] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 65
+                    [ChildCategoryDescription] => FOOTBALL
+                    [GrandchildCategoryID] => 17
+                    [GrandchildCategoryDescription] => College (Div I-A)
+                )
+
+            [49] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 65
+                    [ChildCategoryDescription] => FOOTBALL
+                    [GrandchildCategoryID] => 32
+                    [GrandchildCategoryDescription] => NFL
+                )
+
+            [50] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 65
+                    [ChildCategoryDescription] => FOOTBALL
+                    [GrandchildCategoryID] => 29
+                    [GrandchildCategoryDescription] => Other
+                )
+
+            [51] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 67
+                    [ChildCategoryDescription] => GOLF
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [52] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 67
+                    [ChildCategoryDescription] => GOLF
+                    [GrandchildCategoryID] => 18
+                    [GrandchildCategoryDescription] => Professional (PGA)
+                )
+
+            [53] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 84
+                    [ChildCategoryDescription] => GYMNASTICS
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [54] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 84
+                    [ChildCategoryDescription] => GYMNASTICS
+                    [GrandchildCategoryID] => 17
+                    [GrandchildCategoryDescription] => College (Div I-A)
+                )
+
+            [55] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 68
+                    [ChildCategoryDescription] => HOCKEY
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [56] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 68
+                    [ChildCategoryDescription] => HOCKEY
+                    [GrandchildCategoryID] => 42
+                    [GrandchildCategoryDescription] => AFL
+                )
+
+            [57] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 68
+                    [ChildCategoryDescription] => HOCKEY
+                    [GrandchildCategoryID] => 40
+                    [GrandchildCategoryDescription] => AHL
+                )
+
+            [58] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 68
+                    [ChildCategoryDescription] => HOCKEY
+                    [GrandchildCategoryID] => 91
+                    [GrandchildCategoryDescription] => CHL - Canadian
+                )
+
+            [59] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 68
+                    [ChildCategoryDescription] => HOCKEY
+                    [GrandchildCategoryID] => 89
+                    [GrandchildCategoryDescription] => CHL - Central
+                )
+
+            [60] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 68
+                    [ChildCategoryDescription] => HOCKEY
+                    [GrandchildCategoryID] => 17
+                    [GrandchildCategoryDescription] => College (Div I-A)
+                )
+
+            [61] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 68
+                    [ChildCategoryDescription] => HOCKEY
+                    [GrandchildCategoryID] => 41
+                    [GrandchildCategoryDescription] => ECHL
+                )
+
+            [62] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 68
+                    [ChildCategoryDescription] => HOCKEY
+                    [GrandchildCategoryID] => 39
+                    [GrandchildCategoryDescription] => IHL
+                )
+
+            [63] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 68
+                    [ChildCategoryDescription] => HOCKEY
+                    [GrandchildCategoryID] => 19
+                    [GrandchildCategoryDescription] => Professional (NHL)
+                )
+
+            [64] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 76
+                    [ChildCategoryDescription] => LACROSSE
+                    [GrandchildCategoryID] => 17
+                    [GrandchildCategoryDescription] => College (Div I-A)
+                )
+
+            [65] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 76
+                    [ChildCategoryDescription] => LACROSSE
+                    [GrandchildCategoryID] => 38
+                    [GrandchildCategoryDescription] => NLL
+                )
+
+            [66] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 41
+                    [ChildCategoryDescription] => OTHER
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [67] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 69
+                    [ChildCategoryDescription] => RACING
+                    [GrandchildCategoryID] => 20
+                    [GrandchildCategoryDescription] => Auto
+                )
+
+            [68] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 69
+                    [ChildCategoryDescription] => RACING
+                    [GrandchildCategoryID] => 35
+                    [GrandchildCategoryDescription] => Horse
+                )
+
+            [69] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 69
+                    [ChildCategoryDescription] => RACING
+                    [GrandchildCategoryID] => 21
+                    [GrandchildCategoryDescription] => Motorcycle
+                )
+
+            [70] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 69
+                    [ChildCategoryDescription] => RACING
+                    [GrandchildCategoryID] => 46
+                    [GrandchildCategoryDescription] => Truck
+                )
+
+            [71] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 53
+                    [ChildCategoryDescription] => RODEO
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [72] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 77
+                    [ChildCategoryDescription] => RUGBY
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [73] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 52
+                    [ChildCategoryDescription] => SKATING
+                    [GrandchildCategoryID] => 33
+                    [GrandchildCategoryDescription] => Ice (figure)
+                )
+
+            [74] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 52
+                    [ChildCategoryDescription] => SKATING
+                    [GrandchildCategoryID] => 34
+                    [GrandchildCategoryDescription] => Ice (show)
+                )
+
+            [75] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 71
+                    [ChildCategoryDescription] => SOCCER
+                    [GrandchildCategoryID] => 17
+                    [GrandchildCategoryDescription] => College (Div I-A)
+                )
+
+            [76] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 71
+                    [ChildCategoryDescription] => SOCCER
+                    [GrandchildCategoryID] => 49
+                    [GrandchildCategoryDescription] => English Premier League (Barclay)
+                )
+
+            [77] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 71
+                    [ChildCategoryDescription] => SOCCER
+                    [GrandchildCategoryID] => 50
+                    [GrandchildCategoryDescription] => German Bundesliga
+                )
+
+            [78] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 71
+                    [ChildCategoryDescription] => SOCCER
+                    [GrandchildCategoryID] => 64
+                    [GrandchildCategoryDescription] => Italian Serie A
+                )
+
+            [79] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 71
+                    [ChildCategoryDescription] => SOCCER
+                    [GrandchildCategoryID] => 29
+                    [GrandchildCategoryDescription] => Other
+                )
+
+            [80] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 71
+                    [ChildCategoryDescription] => SOCCER
+                    [GrandchildCategoryID] => 22
+                    [GrandchildCategoryDescription] => Professional (MLS)
+                )
+
+            [81] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 71
+                    [ChildCategoryDescription] => SOCCER
+                    [GrandchildCategoryID] => 74
+                    [GrandchildCategoryDescription] => Scottish Premier League
+                )
+
+            [82] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 71
+                    [ChildCategoryDescription] => SOCCER
+                    [GrandchildCategoryID] => 78
+                    [GrandchildCategoryDescription] => Spanish Primera Division
+                )
+
+            [83] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 71
+                    [ChildCategoryDescription] => SOCCER
+                    [GrandchildCategoryID] => 28
+                    [GrandchildCategoryDescription] => World Cup
+                )
+
+            [84] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 27
+                    [ChildCategoryDescription] => TENNIS
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [85] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 27
+                    [ChildCategoryDescription] => TENNIS
+                    [GrandchildCategoryID] => 17
+                    [GrandchildCategoryDescription] => College (Div I-A)
+                )
+
+            [86] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 27
+                    [ChildCategoryDescription] => TENNIS
+                    [GrandchildCategoryID] => 24
+                    [GrandchildCategoryDescription] => Professional (USPTA)
+                )
+
+            [87] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 47
+                    [ChildCategoryDescription] => VOLLEYBALL
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [88] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 47
+                    [ChildCategoryDescription] => VOLLEYBALL
+                    [GrandchildCategoryID] => 17
+                    [GrandchildCategoryDescription] => College (Div I-A)
+                )
+
+            [89] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 39
+                    [ChildCategoryDescription] => WRESTLING
+                    [GrandchildCategoryID] => 17
+                    [GrandchildCategoryDescription] => College (Div I-A)
+                )
+
+            [90] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 39
+                    [ChildCategoryDescription] => WRESTLING
+                    [GrandchildCategoryID] => 29
+                    [GrandchildCategoryDescription] => Other
+                )
+
+            [91] => Array
+                (
+                    [ParentCategoryID] => 1
+                    [ParentCategoryDescription] => SPORTS
+                    [ChildCategoryID] => 39
+                    [ChildCategoryDescription] => WRESTLING
+                    [GrandchildCategoryID] => 26
+                    [GrandchildCategoryDescription] => WWE
+                )
+
+            [92] => Array
+                (
+                    [ParentCategoryID] => 3
+                    [ParentCategoryDescription] => THEATRE
+                    [ChildCategoryID] => 60
+                    [ChildCategoryDescription] => BALLET
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [93] => Array
+                (
+                    [ParentCategoryID] => 3
+                    [ParentCategoryDescription] => THEATRE
+                    [ChildCategoryID] => 70
+                    [ChildCategoryDescription] => BROADWAY
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [94] => Array
+                (
+                    [ParentCategoryID] => 3
+                    [ParentCategoryDescription] => THEATRE
+                    [ChildCategoryID] => 97
+                    [ChildCategoryDescription] => CHILDREN / FAMILY
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [95] => Array
+                (
+                    [ParentCategoryID] => 3
+                    [ParentCategoryDescription] => THEATRE
+                    [ChildCategoryID] => 82
+                    [ChildCategoryDescription] => DANCE
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [96] => Array
+                (
+                    [ParentCategoryID] => 3
+                    [ParentCategoryDescription] => THEATRE
+                    [ChildCategoryID] => 35
+                    [ChildCategoryDescription] => LAS VEGAS
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [97] => Array
+                (
+                    [ParentCategoryID] => 3
+                    [ParentCategoryDescription] => THEATRE
+                    [ChildCategoryID] => 38
+                    [ChildCategoryDescription] => MUSICAL/PLAY
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [98] => Array
+                (
+                    [ParentCategoryID] => 3
+                    [ParentCategoryDescription] => THEATRE
+                    [ChildCategoryID] => 32
+                    [ChildCategoryDescription] => OFF-BROADWAY
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [99] => Array
+                (
+                    [ParentCategoryID] => 3
+                    [ParentCategoryDescription] => THEATRE
+                    [ChildCategoryID] => 75
+                    [ChildCategoryDescription] => OPERA
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+            [100] => Array
+                (
+                    [ParentCategoryID] => 3
+                    [ParentCategoryDescription] => THEATRE
+                    [ChildCategoryID] => 74
+                    [ChildCategoryDescription] => OTHER
+                    [GrandchildCategoryID] => 25
+                    [GrandchildCategoryDescription] => -
+                )
+
+        )
+
+)
+No returned, exiting...

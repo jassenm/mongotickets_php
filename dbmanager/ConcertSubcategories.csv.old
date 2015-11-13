@@ -1,0 +1,958 @@
+Event,EventID,Category,Sub Category
+Amy Grant,27,Concert,Adult Contemporary
+Barry Manilow,65,Concert,Adult Contemporary
+Bette Midler,77,Concert,Adult Contemporary
+Bonnie Raitt,102,Concert,Adult Contemporary
+Bruce Hornsby,1226,Concert,Adult Contemporary
+Burt Bacharach,132,Concert,Adult Contemporary
+Celine Dion,149,Concert,Adult Contemporary
+Christopher Cross,170,Concert,Adult Contemporary
+Clay Aiken,5120,Concert,Adult Contemporary
+Dennis Deyoung,233,Concert,Adult Contemporary
+Donny Osmond,1674,Concert,Adult Contemporary
+Engelbert Humperdinck,274,Concert,Adult Contemporary
+Frank Sinatra Jr.,2070,Concert,Adult Contemporary
+Harry Connick Jr,354,Concert,Adult Contemporary
+James Taylor,383,Concert,Adult Contemporary
+Josh Groban,4205,Concert,Adult Contemporary
+Joss Stone,5256,Concert,Adult Contemporary
+k.d. lang,1002,Concert,Adult Contemporary
+Kenny G,432,Concert,Adult Contemporary
+Linda Ronstadt,465,Concert,Adult Contemporary
+Marc Cohn,2896,Concert,Adult Contemporary
+Mercy Me,6848,Concert,Adult Contemporary
+Michael Bolton,536,Concert,Adult Contemporary
+Michael Buble,4735,Concert,Adult Contemporary
+Michael Feinstein,1077,Concert,Adult Contemporary
+Michael McDonald,2630,Concert,Adult Contemporary
+Norah Jones,2851,Concert,Adult Contemporary
+Patti LuPone,5426,Concert,Adult Contemporary
+Patty Griffin,649,Concert,Adult Contemporary
+Paul Anka,1320,Concert,Adult Contemporary
+Paula Cole,653,Concert,Adult Contemporary
+Petula Clark,5378,Concert,Adult Contemporary
+Polyphonic Spree,4608,Concert,Adult Contemporary
+Randy Newman,1016,Concert,Adult Contemporary
+Richard Marx,719,Concert,Adult Contemporary
+Roch Voisine,1231,Concert,Adult Contemporary
+Seal,4822,Concert,Adult Contemporary
+Shawn Colvin,782,Concert,Adult Contemporary
+Sheryl Crow,784,Concert,Adult Contemporary
+Steve Lawrence,3481,Concert,Adult Contemporary
+Steve Winwood,817,Concert,Adult Contemporary
+Steven Curtis Chapman,1238,Concert,Adult Contemporary
+Super Diamond,4321,Concert,Adult Contemporary
+Vanessa Williams,5867,Concert,Adult Contemporary
+Billy Ocean,8801,Concert,Adult Contemporary
+Five for Fighting,2586,Concert,Adult Contemporary
+Porcupine Tree,7093,Concert,Alternative Rock
+311,3,Concert,Alternative Rock
+Aaron Lewis,5198,Concert,Alternative Rock
+All American Rejects,4004,Concert,Alternative Rock
+Arcade Fire,6410,Concert,Alternative Rock
+Arctic Monkeys,8113,Concert,Alternative Rock
+Ari Hest,10439,Concert,Alternative Rock
+B-52s,55,Concert,Alternative Rock
+Barenaked Ladies,63,Concert,Alternative Rock
+Ben Harper,74,Concert,Alternative Rock
+Berlin,1758,Concert,Alternative Rock
+Bjork,2087,Concert,Alternative Rock
+Black Angels,9519,Concert,Alternative Rock
+Black Crowes,88,Concert,Alternative Rock
+Black Rebel Motorcycle Club,4568,Concert,Alternative Rock
+Bloc Party,7197,Concert,Alternative Rock
+Blue October,4561,Concert,Alternative Rock
+Blues Traveler,96,Concert,Alternative Rock
+Bo Bice,7734,Concert,Alternative Rock
+Bob Schneider,2901,Concert,Alternative Rock
+BoDeans,100,Concert,Alternative Rock
+Bowling For Soup,4676,Concert,Alternative Rock
+Brand New,4464,Concert,Alternative Rock
+Bright Eyes,3437,Concert,Alternative Rock
+Bryan Adams,122,Concert,Alternative Rock
+Built To Spill,7099,Concert,Alternative Rock
+Cake,2090,Concert,Alternative Rock
+Candlebox,9331,Concert,Alternative Rock
+Chris Cornell,166,Concert,Alternative Rock
+Chris Isaak,168,Concert,Alternative Rock
+Chris Thile,10711,Concert,Alternative Rock
+Citizen Cope,6639,Concert,Alternative Rock
+Counting Crows,199,Concert,Alternative Rock
+Cowboy Mouth,2737,Concert,Alternative Rock
+Crossfade,6896,Concert,Alternative Rock
+Damien Rice,4680,Concert,Alternative Rock
+Dandy Warhols,4666,Concert,Alternative Rock
+Daughtry,12332,Concert,Alternative Rock
+Dave Matthews Band,218,Concert,Alternative Rock
+Dimmu Borgir,4908,Concert,Alternative Rock
+Dramarama,5070,Concert,Alternative Rock
+Edwin McCain,1812,Concert,Alternative Rock
+Elvis Costello,273,Concert,Alternative Rock
+Fall Out Boy,5429,Concert,Alternative Rock
+Fountains of Wayne,4280,Concert,Alternative Rock
+G Love & Special Sauce,307,Concert,Alternative Rock
+Gin Blossoms,322,Concert,Alternative Rock
+Goo Goo Dolls,330,Concert,Alternative Rock
+Guster,345,Concert,Alternative Rock
+Hawthorne Heights,6861,Concert,Alternative Rock
+Hello Goodbye,6749,Concert,Alternative Rock
+Hootie & The Blowfish,356,Concert,Alternative Rock
+Incubus,2034,Concert,Alternative Rock
+Indigenous,1709,Concert,Alternative Rock
+Interpol,4022,Concert,Alternative Rock
+INXS,375,Concert,Alternative Rock
+Jackopierce,3806,Concert,Alternative Rock
+Jars of Clay,997,Concert,Alternative Rock
+Jesse Malin,10655,Concert,Alternative Rock
+John Butler Trio,7473,Concert,Alternative Rock
+Kaiser Chiefs,6754,Concert,Alternative Rock
+Keane,5679,Concert,Alternative Rock
+Kid Rock,439,Concert,Alternative Rock
+Kings of Leon,4648,Concert,Alternative Rock
+Les Claypool,2877,Concert,Alternative Rock
+Linkin Park,1492,Concert,Alternative Rock
+Live,470,Concert,Alternative Rock
+Maroon 5,4552,Concert,Alternative Rock
+Morrissey,563,Concert,Alternative Rock
+Motion City Soundtrack,4284,Concert,Alternative Rock
+Muse,5410,Concert,Alternative Rock
+My Chemical Romance,6404,Concert,Alternative Rock
+New Edition,2813,Concert,Alternative Rock
+Nickelback,2363,Concert,Alternative Rock
+Pat Benatar,644,Concert,Alternative Rock
+Pat McGee Band,1729,Concert,Alternative Rock
+Peter Himmelman,1902,Concert,Alternative Rock
+Phantom Planet,3961,Concert,Alternative Rock
+Pretty Girls Make Graves,8500,Concert,Alternative Rock
+Psychedelic Furs,1683,Concert,Alternative Rock
+Queens of the Stone Age,2797,Concert,Alternative Rock
+Red Hot Chili Peppers,712,Concert,Alternative Rock
+Reel Big Fish,713,Concert,Alternative Rock
+Rickie Lee Jones,1088,Concert,Alternative Rock
+Roger Hodgson,5738,Concert,Alternative Rock
+Rufus Wainwright,2490,Concert,Alternative Rock
+She Wants Revenge,7899,Concert,Alternative Rock
+Shiny Toy Guns,11784,Concert,Alternative Rock
+Slightly Stoopid,8019,Concert,Alternative Rock
+Smashmouth,794,Concert,Alternative Rock
+Snow Patrol,6833,Concert,Alternative Rock
+Sonic Youth,2926,Concert,Alternative Rock
+Sparta,10240,Concert,Alternative Rock
+Staind,1872,Concert,Alternative Rock
+Subdudes,8097,Concert,Alternative Rock
+Switchfoot,4632,Concert,Alternative Rock
+Tears For Fears,5776,Concert,Alternative Rock
+Teddy Geiger,8476,Concert,Alternative Rock
+Tegan and Sara,6418,Concert,Alternative Rock
+Tenacious D,2125,Concert,Alternative Rock
+The 69 Eyes,8090,Concert,Alternative Rock
+The Bravery,7083,Concert,Alternative Rock
+The Clarks,3471,Concert,Alternative Rock
+The Damnwells,10138,Concert,Alternative Rock
+The Decemberists,6747,Concert,Alternative Rock
+The Faint,4164,Concert,Alternative Rock
+The Fray,8053,Concert,Alternative Rock
+The Killers,5630,Concert,Alternative Rock
+The National,8685,Concert,Alternative Rock
+The New Cars,7936,Concert,Alternative Rock
+The Smithereens,3830,Concert,Alternative Rock
+The Wailers,4654,Concert,Alternative Rock
+The White Stripes,2669,Concert,Alternative Rock
+Third Eye Blind,858,Concert,Alternative Rock
+Tiger Army,3518,Concert,Alternative Rock
+Tragically Hip,886,Concert,Alternative Rock
+Unwritten Law,6830,Concert,Alternative Rock
+Violent Femmes,918,Concert,Alternative Rock
+Ween,2634,Concert,Alternative Rock
+Weird Al Yankovic,930,Concert,Alternative Rock
+Yellowcard,4593,Concert,Alternative Rock
+Badfish,7760,Concert,Alternative Rock
+Hot Buttered Rum,10435,Concert,Alternative Rock
+OAR,3514,Concert,Alternative Rock
+Red Wanting Blue,8030,Concert,Alternative Rock
+The Go-Gos,994,Concert,Alternative Rock
+Umphreys McGee,1858,Concert,Alternative Rock
+Christian Music Awards,8728,Concert,Awards and TV Shows
+CMA Celebrity Close Up,5217,Concert,Awards and TV Shows
+CMA Music Festival,1989,Concert,Awards and TV Shows
+Daytime Emmy Awards,1836,Concert,Awards and TV Shows
+Rod Stewart,733,Concert,Awards and TV Shows
+Acoustic Alchemy,1878,Concert,Blues and Jazz
+Al Jarreau,12,Concert,Blues and Jazz
+Arc Angels,6666,Concert,Blues and Jazz
+BB King,67,Concert,Blues and Jazz
+Big Bad Voodoo Daddy,82,Concert,Blues and Jazz
+Big Head Todd & the Monsters,83,Concert,Blues and Jazz
+"Blood, Sweat, & Tears",962,Concert,Blues and Jazz
+Bob Weir,5719,Concert,Blues and Jazz
+Boney James,1661,Concert,Blues and Jazz
+Branford Marsalis,1449,Concert,Blues and Jazz
+Brian Setzer Orchestra,963,Concert,Blues and Jazz
+Buckwheat Zydeco,4182,Concert,Blues and Jazz
+Buddy Guy,125,Concert,Blues and Jazz
+Chick Corea,3465,Concert,Blues and Jazz
+Chris Botti,2778,Concert,Blues and Jazz
+Dave Brubeck,1807,Concert,Blues and Jazz
+Dave Holland Big Band,6518,Concert,Blues and Jazz
+Dave Koz,1052,Concert,Blues and Jazz
+David Sanborn,1691,Concert,Blues and Jazz
+Derek Trucks Band,5606,Concert,Blues and Jazz
+Dion,4293,Concert,Blues and Jazz
+Dr. John,3917,Concert,Blues and Jazz
+Etta James,1829,Concert,Blues and Jazz
+George Benson,312,Concert,Blues and Jazz
+Holly Cole,5440,Concert,Blues and Jazz
+Jamie Cullum,7709,Concert,Blues and Jazz
+Jane Monheit,4202,Concert,Blues and Jazz
+Jim Brickman,1283,Concert,Blues and Jazz
+Joe Bonamassa,7340,Concert,Blues and Jazz
+Johnny Winter,5627,Concert,Blues and Jazz
+Jonny Lang,421,Concert,Blues and Jazz
+Joshua Redman,1560,Concert,Blues and Jazz
+Keb' Mo',1067,Concert,Blues and Jazz
+Keith Jarrett,5794,Concert,Blues and Jazz
+Larry Carlton,9141,Concert,Blues and Jazz
+Madeleine Peyroux,6800,Concert,Blues and Jazz
+Manhattan Transfer,1073,Concert,Blues and Jazz
+Martin Sexton,3483,Concert,Blues and Jazz
+moe,1573,Concert,Blues and Jazz
+Oteil and the Peacemakers,8083,Concert,Blues and Jazz
+Railroad Earth,8020,Concert,Blues and Jazz
+Ratdog,709,Concert,Blues and Jazz
+Richie Havens,6494,Concert,Blues and Jazz
+Rippingtons,2800,Concert,Blues and Jazz
+Robert Cray Band,1849,Concert,Blues and Jazz
+Robert Randolph & The Family Band,4756,Concert,Blues and Jazz
+Roberta Flack,730,Concert,Blues and Jazz
+Sonny Rollins,6893,Concert,Blues and Jazz
+Sound Tribe Sector 9,1497,Concert,Blues and Jazz
+Southside Johnny,9028,Concert,Blues and Jazz
+Southside Johnny & the Asbury Jukes,4297,Concert,Blues and Jazz
+Steely Dan,814,Concert,Blues and Jazz
+Steve Tyrell,4880,Concert,Blues and Jazz
+String Cheese Incident,825,Concert,Blues and Jazz
+Susan Tedeschi,833,Concert,Blues and Jazz
+The Black Keys,6952,Concert,Blues and Jazz
+The Rippingtons,1089,Concert,Blues and Jazz
+Tim Reynolds,1666,Concert,Blues and Jazz
+Tony Bennett,873,Concert,Blues and Jazz
+Tower of Power,972,Concert,Blues and Jazz
+Warren Hill,8249,Concert,Blues and Jazz
+Wayne Shorter,928,Concert,Blues and Jazz
+Widespread Panic,936,Concert,Blues and Jazz
+Wynton Marsalis,947,Concert,Blues and Jazz
+Yonder Mountain String Band,6490,Concert,Blues and Jazz
+Arturo Sandoval,3443,Concert,Blues and Jazz
+Greyboy Allstars,5088,Concert,Blues and Jazz
+Lee Ritenour,2042,Concert,Blues and Jazz
+Ottmar Liebert,1647,Concert,Blues and Jazz
+Pink Martini,5029,Concert,Blues and Jazz
+Preservation Hall Jazz Band,3463,Concert,Blues and Jazz
+Rusted Root,2155,Concert,Blues and Jazz
+Savoy Brown,8197,Concert,Blues and Jazz
+Doobie Brothers,251,Concert,Classic Rock
+1964 the Tribute,3589,Concert,Classic Rock
+38 Special,4471,Concert,Classic Rock
+A Tribute To Led Zeppelin,8342,Concert,Classic Rock
+Aerosmith,10,Concert,Classic Rock
+Alan Parsons Project,5496,Concert,Classic Rock
+Allman Brothers,24,Concert,Classic Rock
+America,26,Concert,Classic Rock
+Asia,1880,Concert,Classic Rock
+Beach Boys,68,Concert,Classic Rock
+Bo Diddley,97,Concert,Classic Rock
+Brian Wilson,113,Concert,Classic Rock
+Chicago,2002,Concert,Classic Rock
+Chuck Berry,2048,Concert,Classic Rock
+Creedence Clearwater Revisited,1049,Concert,Classic Rock
+Dark Star Orchestra,1690,Concert,Classic Rock
+Dave Mason,2900,Concert,Classic Rock
+David Crosby,3905,Concert,Classic Rock
+Deep Purple,227,Concert,Classic Rock
+Dick Dale,4846,Concert,Classic Rock
+Don Henley,249,Concert,Classic Rock
+Doo Wop Hall of Fame,7323,Concert,Classic Rock
+Doo Wop Reunion,250,Concert,Classic Rock
+Eddie Money,262,Concert,Classic Rock
+Elton John,272,Concert,Classic Rock
+Elvis Spectacular,4315,Concert,Classic Rock
+Eric Burdon,3738,Concert,Classic Rock
+Foghat,2674,Concert,Classic Rock
+Foreigner,298,Concert,Classic Rock
+Genesis,11592,Concert,Classic Rock
+George Thorogood,317,Concert,Classic Rock
+Glenn Frey,5653,Concert,Classic Rock
+Gordon Lightfoot,333,Concert,Classic Rock
+Gregg Allman,341,Concert,Classic Rock
+Guess Who,344,Concert,Classic Rock
+Heart,2620,Concert,Classic Rock
+Hot Tuna,2165,Concert,Classic Rock
+Jethro Tull,395,Concert,Classic Rock
+Jimmy Buffett,397,Concert,Classic Rock
+John Fogerty,412,Concert,Classic Rock
+John Hiatt,1064,Concert,Classic Rock
+John Kay & Steppenwolf,7077,Concert,Classic Rock
+John Pinette,4511,Concert,Classic Rock
+Kansas,1800,Concert,Classic Rock
+Lez Zeppelin,8169,Concert,Classic Rock
+Little Feat,1068,Concert,Classic Rock
+Loverboy,1588,Concert,Classic Rock
+Lynyrd Skynyrd,497,Concert,Classic Rock
+Marianne Faithfull,3459,Concert,Classic Rock
+Marshall Tucker Band,512,Concert,Classic Rock
+Meat Loaf,524,Concert,Classic Rock
+Moody Blues,562,Concert,Classic Rock
+Music of Led Zeppelin,5639,Concert,Classic Rock
+Peter Frampton,660,Concert,Classic Rock
+Rain,8093,Concert,Classic Rock
+REO Speedwagon,717,Concert,Classic Rock
+Richard Thompson,5758,Concert,Classic Rock
+Roger Waters,736,Concert,Classic Rock
+Rolling Stones,738,Concert,Classic Rock
+Rush,745,Concert,Classic Rock
+Steppenwolf,1676,Concert,Classic Rock
+Steve Miller Band,816,Concert,Classic Rock
+Stevie Nicks,819,Concert,Classic Rock
+Stone Pony Band,8317,Concert,Classic Rock
+Styx,826,Concert,Classic Rock
+Ted Nugent,844,Concert,Classic Rock
+Tequila Sunrise,8318,Concert,Classic Rock
+The Fab Faux,5068,Concert,Classic Rock
+The Fab Four,1866,Concert,Classic Rock
+The Outlaws,7283,Concert,Classic Rock
+The Police,4279,Concert,Classic Rock
+The Tubes,1601,Concert,Classic Rock
+The Who,965,Concert,Classic Rock
+Three Dog Night,859,Concert,Classic Rock
+Zappa Plays Zappa,9069,Concert,Classic Rock
+ZZ Top,954,Concert,Classic Rock
+Atomic Punks,4970,Concert,Classic Rock
+Little Richard,2049,Concert,Classic Rock
+Richie Furay,5379,Concert,Classic Rock
+Lang Lang,3530,Concert,Classical and Orchestra
+Andre Rieu,2635,Concert,Classical and Orchestra
+Atlanta Symphony Orchestra,4819,Concert,Classical and Orchestra
+Boston Pops,106,Concert,Classical and Orchestra
+Boston Symphony Orchestra,2624,Concert,Classical and Orchestra
+Cincinnati Pops Orchestra,5233,Concert,Classical and Orchestra
+Cincinnati Symphony Orchestra,1918,Concert,Classical and Orchestra
+Count Basie Orchestra,2204,Concert,Classical and Orchestra
+Hollywood Bowl: July 4th Fireworks Spectacular,4308,Concert,Classical and Orchestra
+Houston Symphony,3457,Concert,Classical and Orchestra
+Los Angeles Philharmonic,4781,Concert,Classical and Orchestra
+Luciano Pavarotti,493,Concert,Classical and Orchestra
+Mormon Tabernacle Choir,4207,Concert,Classical and Orchestra
+National Symphony Orchestra,1978,Concert,Classical and Orchestra
+New York Philharmonic,5570,Concert,Classical and Orchestra
+Philadelphia Symphony Orchestra,2581,Concert,Classical and Orchestra
+Placido Domingo,2397,Concert,Classical and Orchestra
+Riders on the Storm,7933,Concert,Classical and Orchestra
+Tchaikovsky Spectacular,7198,Concert,Classical and Orchestra
+Ten Tenors,4814,Concert,Classical and Orchestra
+Twelve Girls Band,5697,Concert,Classical and Orchestra
+Vancouver International Jazz Festival,9546,Concert,Classical and Orchestra
+Zoobilation,5507,Concert,Classical and Orchestra
+Alan Jackson,15,Concert,Country and Folk
+Alison Krauss,20,Concert,Country and Folk
+Amos Lee,7697,Concert,Country and Folk
+Ani DiFranco,34,Concert,Country and Folk
+Arlo Guthrie,43,Concert,Country and Folk
+Art Garfunkel,966,Concert,Country and Folk
+Bela Fleck & The Flecktones,72,Concert,Country and Folk
+Big & Rich,5834,Concert,Country and Folk
+Bill Gaither,3016,Concert,Country and Folk
+Billy Currington,8015,Concert,Country and Folk
+Blackmore's Night,4732,Concert,Country and Folk
+Blaine Larsen,6812,Concert,Country and Folk
+Blake Shelton,5852,Concert,Country and Folk
+Blue Rodeo,1999,Concert,Country and Folk
+Bob Dylan,98,Concert,Country and Folk
+Boz Scaggs,109,Concert,Country and Folk
+Brad Paisley,1469,Concert,Country and Folk
+Brandi Carlile,8144,Concert,Country and Folk
+Brooks and Dunn,120,Concert,Country and Folk
+Carrie Underwood,7809,Concert,Country and Folk
+Cat Power,8070,Concert,Country and Folk
+Cesaria Evora,1825,Concert,Country and Folk
+Charlie Daniels Band,151,Concert,Country and Folk
+Clay Walker,179,Concert,Country and Folk
+Clint Black,184,Concert,Country and Folk
+Cowboy Junkies,200,Concert,Country and Folk
+Dar Williams,1536,Concert,Country and Folk
+Diana Krall,244,Concert,Country and Folk
+Eddie from Ohio,2782,Concert,Country and Folk
+Emerson Drive,5130,Concert,Country and Folk
+Emmylou Harris,1192,Concert,Country and Folk
+Gary Allan,4236,Concert,Country and Folk
+Gretchen Wilson,5459,Concert,Country and Folk
+Hackensaw Boys,8764,Concert,Country and Folk
+Hal Ketchum,347,Concert,Country and Folk
+Hank Williams Jr,1503,Concert,Country and Folk
+Indigo Girls,371,Concert,Country and Folk
+Jack Ingram,3027,Concert,Country and Folk
+Jason Aldean,7893,Concert,Country and Folk
+Jerry Jeff Walker,1227,Concert,Country and Folk
+Jo Dee Messina,406,Concert,Country and Folk
+John Michael Montgomery,416,Concert,Country and Folk
+John Prine,1000,Concert,Country and Folk
+Josh Gracin,7049,Concert,Country and Folk
+Judy Collins,1835,Concert,Country and Folk
+Kathy Mattea,3585,Concert,Country and Folk
+Keith Anderson,7894,Concert,Country and Folk
+Keith Urban,2822,Concert,Country and Folk
+Kenny Chesney,1440,Concert,Country and Folk
+Kenny Rogers,434,Concert,Country and Folk
+LeAnn Rimes,459,Concert,Country and Folk
+Leo Kottke,2578,Concert,Country and Folk
+Lindsey Buckingham,10659,Concert,Country and Folk
+Lonestar,1723,Concert,Country and Folk
+Loretta Lynn,477,Concert,Country and Folk
+Loudon Wainwright III,8171,Concert,Country and Folk
+Lucinda Williams,1916,Concert,Country and Folk
+Lyle Lovett,496,Concert,Country and Folk
+Martina McBride,514,Concert,Country and Folk
+Mickey Gilley,2931,Concert,Country and Folk
+Montgomery Gentry,1510,Concert,Country and Folk
+Nanci Griffith,2075,Concert,Country and Folk
+Natalie MacMaster,5150,Concert,Country and Folk
+Nickel Creek,3007,Concert,Country and Folk
+Oak Ridge Boys,624,Concert,Country and Folk
+Old Crow Medicine Show,8946,Concert,Country and Folk
+Peter Paul And Mary,664,Concert,Country and Folk
+Phil Vassar,2445,Concert,Country and Folk
+Randy Travis,708,Concert,Country and Folk
+Rascal Flatts,2407,Concert,Country and Folk
+Reba McEntire,711,Concert,Country and Folk
+Robert Earl Keen,2384,Concert,Country and Folk
+Ronnie Milsap,1737,Concert,Country and Folk
+Sara Evans,6475,Concert,Country and Folk
+Saw Doctors,767,Concert,Country and Folk
+Shedaisy,3464,Concert,Country and Folk
+Stephen Stills,8892,Concert,Country and Folk
+Sugarland,7234,Concert,Country and Folk
+The Spinners,5431,Concert,Country and Folk
+Tim McGraw,864,Concert,Country and Folk
+Toby Keith,1509,Concert,Country and Folk
+Trace Adkins,3883,Concert,Country and Folk
+Travis Tritt,887,Concert,Country and Folk
+Trisha Yearwood,1029,Concert,Country and Folk
+Venice,4008,Concert,Country and Folk
+Vince Gill,917,Concert,Country and Folk
+Wilco,2232,Concert,Country and Folk
+Willie Nelson,937,Concert,Country and Folk
+Wynonna Judd,946,Concert,Country and Folk
+Yallapalooza,1967,Concert,Country and Folk
+Bill Gaither & Homecoming Friends,5080,Concert,Country and Folk
+Cross Canadian Ragweed,3954,Concert,Country and Folk
+David Allan Coe,6530,Concert,Country and Folk
+David Bromberg,6527,Concert,Country and Folk
+Diamond Rio,243,Concert,Country and Folk
+George Jones,315,Concert,Country and Folk
+Kelly Willis,7710,Concert,Country and Folk
+Mary Chapin Carpenter,1703,Concert,Country and Folk
+Merle Haggard,528,Concert,Country and Folk
+Michael Franks,2546,Concert,Country and Folk
+Mindy Smith,10014,Concert,Country and Folk
+Poco,4110,Concert,Country and Folk
+Ricky Skaggs,3588,Concert,Country and Folk
+The Wreckers,6809,Concert,Country and Folk
+BB King Blues Festival,5368,Concert,Festival and Special Shows
+Marty Stuart's Late Night Jam,4030,Concert,Festival and Special Shows
+70s Soul Jam,1757,Concert,Festival and Special Shows
+99X Big Day Out,3456,Concert,Festival and Special Shows
+Austin City Limits Festival,4605,Concert,Festival and Special Shows
+Bonnaroo Music Festival,2729,Concert,Festival and Special Shows
+Burning Man,6973,Concert,Festival and Special Shows
+Capital Jazz Fest,5290,Concert,Festival and Special Shows
+Country Jam,7266,Concert,Festival and Special Shows
+Country Thunder,3032,Concert,Festival and Special Shows
+Crossroads Guitar Festival,5306,Concert,Festival and Special Shows
+Disco Ball,3641,Concert,Festival and Special Shows
+Eartha Kitt,8326,Concert,Festival and Special Shows
+Edgefest,1680,Concert,Festival and Special Shows
+Endfest,7027,Concert,Festival and Special Shows
+Fish Fest,2907,Concert,Festival and Special Shows
+Flashback Festival,2946,Concert,Festival and Special Shows
+Freestyle Summer Explosion,5607,Concert,Festival and Special Shows
+Hampton Jazz Festival,2821,Concert,Festival and Special Shows
+Hippie Fest,10023,Concert,Festival and Special Shows
+Holiday Doo-Wop Celebration,9662,Concert,Festival and Special Shows
+Holiday Sing-Along,7534,Concert,Festival and Special Shows
+Hot 107 Birthday Bash,2874,Concert,Festival and Special Shows
+Hot 92 Jamz Hot Summer Nights,7316,Concert,Festival and Special Shows
+Hot 97 Summer Jam,4220,Concert,Festival and Special Shows
+Hot Country Jam,4200,Concert,Festival and Special Shows
+Hot Jam,2659,Concert,Festival and Special Shows
+JAMN 94.5 Summer Jam,4250,Concert,Festival and Special Shows
+Jazz at the Bowl,7163,Concert,Festival and Special Shows
+Jazz Attack,6892,Concert,Festival and Special Shows
+JVC Jazz Festival,1120,Concert,Festival and Special Shows
+K104 Presents Summer Jam,5513,Concert,Festival and Special Shows
+K-BIG 104 Disco Fever,4313,Concert,Festival and Special Shows
+KCRW's World Festival,7166,Concert,Festival and Special Shows
+Kool Koncert,2794,Concert,Festival and Special Shows
+KS 107.5 Summer Jam,4237,Concert,Festival and Special Shows
+Legends in Concert,3801,Concert,Festival and Special Shows
+Live 105 BFD,1908,Concert,Festival and Special Shows
+Live Earth,12869,Concert,Festival and Special Shows
+Lollapalooza,473,Concert,Festival and Special Shows
+Macy's Cincinnati Music Jazz Festival,7461,Concert,Festival and Special Shows
+Nashville Star Live Tour,5451,Concert,Festival and Special Shows
+New Orleans Jazz Festival,1888,Concert,Festival and Special Shows
+Ozzfest,641,Concert,Festival and Special Shows
+Playboy Jazz Festival,1915,Concert,Festival and Special Shows
+Q101 Block Party,7078,Concert,Festival and Special Shows
+Red White and Boom,1964,Concert,Festival and Special Shows
+Reggae On the Rocks,4234,Concert,Festival and Special Shows
+Reventon Super Estrella,2952,Concert,Festival and Special Shows
+Rock the Bells,6130,Concert,Festival and Special Shows
+Rockfest,731,Concert,Festival and Special Shows
+Sasquatch! Festival,6839,Concert,Festival and Special Shows
+Smooth Jazz Christmas,1096,Concert,Festival and Special Shows
+Smooth Jazz Fest,8726,Concert,Festival and Special Shows
+Sounds of the Underground,7026,Concert,Festival and Special Shows
+Stadium of Fire,7353,Concert,Festival and Special Shows
+Summer Doo Wop,2676,Concert,Festival and Special Shows
+Summer Soul Fest,10426,Concert,Festival and Special Shows
+Summer Storm,7170,Concert,Festival and Special Shows
+Sunday in the Country,2668,Concert,Festival and Special Shows
+Telluride Bluegrass Festival,5050,Concert,Festival and Special Shows
+The Revolve Tour,10735,Concert,Festival and Special Shows
+Tiger Jam,1759,Concert,Festival and Special Shows
+Tribute to the Beatles,1783,Concert,Festival and Special Shows
+Ultimate Doo Wop Show,5310,Concert,Festival and Special Shows
+Uprising Festival,10582,Concert,Festival and Special Shows
+Vans Warped Tour,2742,Concert,Festival and Special Shows
+Video Games Live,7178,Concert,Festival and Special Shows
+Virgin Festival,10302,Concert,Festival and Special Shows
+Volunteer Jam,1712,Concert,Festival and Special Shows
+Wave Fest,4478,Concert,Festival and Special Shows
+WJJZ Smooth Jazz Fest,4230,Concert,Festival and Special Shows
+X-103 Mayday,1711,Concert,Festival and Special Shows
+Y108 Hot Country Jam,2927,Concert,Festival and Special Shows
+B 96 Summer Bash,1694,Concert,Festival and Special Shows
+Family Values Tour,284,Concert,Festival and Special Shows
+Joey Ramones Birthday Bash,1889,Concert,Festival and Special Shows
+KC Rock & Metal Fest,9178,Concert,Festival and Special Shows
+Kiss 108 Concert,7010,Concert,Festival and Special Shows
+KROQ Weenie Roast,450,Concert,Festival and Special Shows
+Zootopia,1862,Concert,Festival and Special Shows
+American Head Charge,9067,Concert,Hard Rock
+Appetite for Destruction,8731,Concert,Hard Rock
+Blue Oyster Cult,93,Concert,Hard Rock
+Bon Jovi,101,Concert,Hard Rock
+Boy Sets Fire,8932,Concert,Hard Rock
+Breaking Benjamin,6440,Concert,Hard Rock
+Bret Michaels,4537,Concert,Hard Rock
+Bullet for My Valentine,9077,Concert,Hard Rock
+Chevelle,3636,Concert,Hard Rock
+Clutch,5087,Concert,Hard Rock
+Dark Funeral,10561,Concert,Hard Rock
+Def Leppard,230,Concert,Hard Rock
+Deftones,1189,Concert,Hard Rock
+Dickey Betts,2987,Concert,Hard Rock
+Disco Biscuits,2685,Concert,Hard Rock
+Dispatch,1593,Concert,Hard Rock
+Dream Theater,1106,Concert,Hard Rock
+Drowning Pool,6227,Concert,Hard Rock
+Flyleaf,8940,Concert,Hard Rock
+Godsmack,1488,Concert,Hard Rock
+Great White,5763,Concert,Hard Rock
+Hatebreed,3764,Concert,Hard Rock
+Hinder,8156,Concert,Hard Rock
+Jackyl,8722,Concert,Hard Rock
+Joan Jett,403,Concert,Hard Rock
+Kamelot,8943,Concert,Hard Rock
+Lamb of God,5986,Concert,Hard Rock
+Marilyn Manson,507,Concert,Hard Rock
+Mastodon,6845,Concert,Hard Rock
+Michael Schenker Group,9368,Concert,Hard Rock
+Overkill,4687,Concert,Hard Rock
+Poison,688,Concert,Hard Rock
+Powerhouse,1085,Concert,Hard Rock
+Powerman 5000,691,Concert,Hard Rock
+Queensryche,702,Concert,Hard Rock
+Randy Bachman,7350,Concert,Hard Rock
+Rise Against,6559,Concert,Hard Rock
+Saliva,4000,Concert,Hard Rock
+Sammy Hagar,753,Concert,Hard Rock
+Sevendust,2522,Concert,Hard Rock
+Skid Row,3134,Concert,Hard Rock
+Slayer,791,Concert,Hard Rock
+Sonata Arctica,8084,Concert,Hard Rock
+Static-X,2138,Concert,Hard Rock
+Steve Vai,6449,Concert,Hard Rock
+Tesla,1527,Concert,Hard Rock
+Three Days Grace,4845,Concert,Hard Rock
+Tool,875,Concert,Hard Rock
+Velvet Revolver,5411,Concert,Hard Rock
+Vince Neil,1899,Concert,Hard Rock
+W.A.S.P.,7285,Concert,Hard Rock
+Wolfmother,9070,Concert,Hard Rock
+Heaven and Hell,12448,Concert,Hard Rock
+Biz Markie,2527,Concert,Hip Hop and Rap
+Bone Thugs N Harmony,3829,Concert,Hip Hop and Rap
+Bow Wow,1677,Concert,Hip Hop and Rap
+Daddy Yankee,7428,Concert,Hip Hop and Rap
+DMX,4302,Concert,Hip Hop and Rap
+Gym Class Heroes,10339,Concert,Hip Hop and Rap
+Insane Clown Posse,373,Concert,Hip Hop and Rap
+Kanye West,5284,Concert,Hip Hop and Rap
+Kottonmouth Kings,4494,Concert,Hip Hop and Rap
+Ludacris,3543,Concert,Hip Hop and Rap
+Queen Latifah,7115,Concert,Hip Hop and Rap
+The Roots,3435,Concert,Hip Hop and Rap
+Too Short,874,Concert,Hip Hop and Rap
+Colorado Symphony Orchestra,12439,Concert,Other Concert
+!!!,12870,Concert,Other Concert
+"10,000 Lakes Festival",12853,Concert,Other Concert
+91x X Fest,12846,Concert,Other Concert
+A Oscuras Me Da Risa,12907,Concert,Other Concert
+A. R. Rahman,12871,Concert,Other Concert
+ABBA,12823,Concert,Other Concert
+Akon,12163,Concert,Other Concert
+Albert Hammond Jr,12454,Concert,Other Concert
+Alex Reymundo,12908,Concert,Other Concert
+Alexa Ray Joel,10986,Concert,Other Concert
+Almost Queen,9821,Concert,Other Concert
+Amy Hanaiali'i,12826,Concert,Other Concert
+Animal Magnetism,12066,Concert,Other Concert
+Annual Schucks NHRA NW Nationals,12782,Concert,Other Concert
+Art of War II,13010,Concert,Other Concert
+Asha Bhosle,12975,Concert,Other Concert
+Battle for Myspace,12859,Concert,Other Concert
+Beatles Celebration,12738,Concert,Other Concert
+Before We Forget,13023,Concert,Other Concert
+Benny Carter,12784,Concert,Other Concert
+Boni's Salutes the Wonderful World of Disney,12981,Concert,Other Concert
+Boogie Wonder Band,12834,Concert,Other Concert
+Brenda Lee,11355,Concert,Other Concert
+Brett Dennen,11801,Concert,Other Concert
+Canned Heat,12974,Concert,Other Concert
+Carol Channing,12676,Concert,Other Concert
+Chanticleer,10701,Concert,Other Concert
+Corbin Bleu,12912,Concert,Other Concert
+Crowded House,12792,Concert,Other Concert
+Cutting Crew,12951,Concert,Other Concert
+Daft Punk,12775,Concert,Other Concert
+David Crowder Band,9918,Concert,Other Concert
+DCI: Drum Corps International,12840,Concert,Other Concert
+De Mayimbe a Mayimbe,12824,Concert,Other Concert
+Debbie Reynolds,2873,Concert,Other Concert
+Dennis Edwards,12831,Concert,Other Concert
+Dionisiou Brothers,12772,Concert,Other Concert
+DJ Tiesto,9766,Concert,Other Concert
+Dolores O'Riordan,12861,Concert,Other Concert
+Edguy,12952,Concert,Other Concert
+El-P,12578,Concert,Other Concert
+Emergenza,9959,Concert,Other Concert
+Eric Johnson,12075,Concert,Other Concert
+Euge Groove,11107,Concert,Other Concert
+Felix Hell,11319,Concert,Other Concert
+Fergie,12945,Concert,Other Concert
+Final Fantasy,9736,Concert,Other Concert
+Finntroll,12605,Concert,Other Concert
+Frankie Randall,12750,Concert,Other Concert
+Freddy Cole Quartet,11324,Concert,Other Concert
+George Winston,1452,Concert,Other Concert
+Gerry & the Pacemakers,13025,Concert,Other Concert
+Goddess,12879,Concert,Other Concert
+Helene Grimaud,10700,Concert,Other Concert
+Heroes del Silencio,12820,Concert,Other Concert
+Holiday Organ Spectacular,10832,Concert,Other Concert
+Hot Chip,10267,Concert,Other Concert
+Ian Hunter,12880,Concert,Other Concert
+IFCO Annual Fun Fest,12776,Concert,Other Concert
+Immortal,11477,Concert,Other Concert
+Iris Dement,11921,Concert,Other Concert
+Issac Delgado,12957,Concert,Other Concert
+JACKfest,12906,Concert,Other Concert
+Jack's Big Show,13015,Concert,Other Concert
+James Morrison,12847,Concert,Other Concert
+Jami Ross,9472,Concert,Other Concert
+Jason and the Scorchers,12777,Concert,Other Concert
+Jeremy Camp,5726,Concert,Other Concert
+Jo Jo,12955,Concert,Other Concert
+Joe Firstman,10248,Concert,Other Concert
+John Hammond Jr,9486,Concert,Other Concert
+John McLaughlin,12954,Concert,Other Concert
+John Williams,7554,Concert,Other Concert
+Johnny Vatos,7655,Concert,Other Concert
+Jonas,12658,Concert,Other Concert
+Jonatha Brooke,12086,Concert,Other Concert
+Jrock Revolution Festival,12968,Concert,Other Concert
+Juanita Bynum,11029,Concert,Other Concert
+Juju Bees,12881,Concert,Other Concert
+Jumping Jack Bash,12934,Concert,Other Concert
+Kate Voegele,10251,Concert,Other Concert
+Kevin Eubanks,12849,Concert,Other Concert
+Kid Koala,11113,Concert,Other Concert
+Kingdom,13027,Concert,Other Concert
+Kingspade,12778,Concert,Other Concert
+Kiss Old School Fiesta,12848,Concert,Other Concert
+KMTT The Mountian,9739,Concert,Other Concert
+Kohar in the Americas,12891,Concert,Other Concert
+Kristin Hersh,12734,Concert,Other Concert
+Ktu's Beatstock,12996,Concert,Other Concert
+Kumbia All Starz,12892,Concert,Other Concert
+L.A. Jazz Festival,12795,Concert,Other Concert
+Ladytron,4033,Concert,Other Concert
+Laurie Berkner,6378,Concert,Other Concert
+LCD Soundsystem,12492,Concert,Other Concert
+Lee Boys,8081,Concert,Other Concert
+Legends of Motown,9747,Concert,Other Concert
+Linda Eder,1445,Concert,Other Concert
+Liquid Soul,9670,Concert,Other Concert
+Lisa Gerrard,6655,Concert,Other Concert
+Liza Minnelli,471,Concert,Other Concert
+Lordi,12822,Concert,Other Concert
+Los Abandoned,12984,Concert,Other Concert
+Los Amigos Invisibles,9790,Concert,Other Concert
+Lukas Rossi,13012,Concert,Other Concert
+Lyfe Jennings,11047,Concert,Other Concert
+Manu Chao,10091,Concert,Other Concert
+Martha Reeves,13011,Concert,Other Concert
+Mary Wilson,12733,Concert,Other Concert
+Maxi Priest,12973,Concert,Other Concert
+McCoy Tyner Septet,10524,Concert,Other Concert
+Mem Shannon,12959,Concert,Other Concert
+Michael Lington,12851,Concert,Other Concert
+Mickey and Judy Show,11354,Concert,Other Concert
+Mika,12904,Concert,Other Concert
+Molly Johnson,12986,Concert,Other Concert
+Mostly Mozart,9452,Concert,Other Concert
+Mountain Stage,12420,Concert,Other Concert
+Mum,13026,Concert,Other Concert
+Musikfest,12914,Concert,Other Concert
+Musiq Soulchild,12529,Concert,Other Concert
+Nancy Wilson,1543,Concert,Other Concert
+Necrophagist,11652,Concert,Other Concert
+Neville Staple,12898,Concert,Other Concert
+Newport Folk Festival,12899,Concert,Other Concert
+Nightcrawlas,12965,Concert,Other Concert
+Nightwatchman,12923,Concert,Other Concert
+Nightwish,12735,Concert,Other Concert
+Old School Explosion,12167,Concert,Other Concert
+Page McConnell,12936,Concert,Other Concert
+Pato Banton,9478,Concert,Other Concert
+Patrick Bruel,12754,Concert,Other Concert
+Paul Van Dyk,8448,Concert,Other Concert
+Paula Deen,10732,Concert,Other Concert
+Pet Shop Boys,659,Concert,Other Concert
+Phil Dirt and the Dozers,12988,Concert,Other Concert
+Randy Owen,12979,Concert,Other Concert
+Ravi Coltrane,12987,Concert,Other Concert
+Richard Cheese,12976,Concert,Other Concert
+Robin Thicke,12586,Concert,Other Concert
+Rocky Grass,12771,Concert,Other Concert
+Rodrigo y Gabriela,11851,Concert,Other Concert
+Roots Down Below,12651,Concert,Other Concert
+Sage Francis,12961,Concert,Other Concert
+Schism,11361,Concert,Other Concert
+Sean Lennon,11291,Concert,Other Concert
+Skinny Puppy,5408,Concert,Other Concert
+Solid Gold Dance Party,12821,Concert,Other Concert
+Spirit of Armenia!,13007,Concert,Other Concert
+Squeeze,12883,Concert,Other Concert
+St Petersburg Philharmonic,13006,Concert,Other Concert
+Star 94 Starfest,12816,Concert,Other Concert
+Stellar Spark,7787,Concert,Other Concert
+Stephen Marley,12685,Concert,Other Concert
+Steve Poltz,10978,Concert,Other Concert
+Strawberry Fields,11466,Concert,Other Concert
+Straylight Run,11011,Concert,Other Concert
+Symphony X,12969,Concert,Other Concert
+Tanglewood on Parade,12727,Concert,Other Concert
+Taste of Country Jamboree,12714,Concert,Other Concert
+The Audition,12807,Concert,Other Concert
+The Avett Brothers,9335,Concert,Other Concert
+The Casualties,10797,Concert,Other Concert
+The Jesus and Mary Chain,12928,Concert,Other Concert
+The M+MS,12932,Concert,Other Concert
+The Sax Pack,11985,Concert,Other Concert
+The Soft Parade,12654,Concert,Other Concert
+The Working Title,10786,Concert,Other Concert
+The Yardbirds,12963,Concert,Other Concert
+Tiesto,9138,Concert,Other Concert
+Tokyo Police Club,11560,Concert,Other Concert
+Trent Tomlinson,11582,Concert,Other Concert
+Tyrone Wells,11977,Concert,Other Concert
+Unchained,12653,Concert,Other Concert
+Underworld,3579,Concert,Other Concert
+Unity Christian Music Festival,12977,Concert,Other Concert
+US Air Guitar Championships,13009,Concert,Other Concert
+VNV Nation,6507,Concert,Other Concert
+Walter Trout,9491,Concert,Other Concert
+Wild Child,11330,Concert,Other Concert
+WXRX Wing Ding,12970,Concert,Other Concert
+Xanadu,12918,Concert,Other Concert
+Xavier Rudd,9495,Concert,Other Concert
+3 Minute Hero,12999,Concert,Other Concert
+ABBA the Music,3018,Concert,Other Concert
+Alice Peacock,13000,Concert,Other Concert
+ALO: Animal Liberation Orchestra,12857,Concert,Other Concert
+Ben Gibbard,12724,Concert,Other Concert
+Country Fair,12617,Concert,Other Concert
+Dan Zanes,8146,Concert,Other Concert
+Ghostland Observatory,10796,Concert,Other Concert
+Grupo Fantasma,9586,Concert,Other Concert
+Jani Lane,12019,Concert,Other Concert
+Latino Vibe-Ration,12894,Concert,Other Concert
+Mavis Staples,12958,Concert,Other Concert
+Ours,13022,Concert,Other Concert
+Paramore,10077,Concert,Other Concert
+Paul Oakenfold,1385,Concert,Other Concert
+Ralph's World,3482,Concert,Other Concert
+Tapes 'n Tapes,9389,Concert,Other Concert
+The Search,13008,Concert,Other Concert
+Willy Porter Band,13003,Concert,Other Concert
+Wormy Dog Spring Jam,12997,Concert,Other Concert
+Air Supply,1696,Concert,Pop
+Aly & AJ,9297,Concert,Pop
+American Idols Live,3409,Concert,Pop
+Avalon,2055,Concert,Pop
+Avril Lavigne,3062,Concert,Pop
+Bjorn Again,2616,Concert,Pop
+Bobby Vinton,2871,Concert,Pop
+Christina Aguilera,971,Concert,Pop
+Cyndi Lauper,2705,Concert,Pop
+David Cassidy,1678,Concert,Pop
+Davy Jones,5737,Concert,Pop
+Dionne Warwick,1564,Concert,Pop
+Elliott Yamin,10523,Concert,Pop
+Erasure,2009,Concert,Pop
+Feist,8002,Concert,Pop
+Frankie Avalon,2733,Concert,Pop
+Frankie Valli,2251,Concert,Pop
+Gwen Stefani,7327,Concert,Pop
+Hall & Oates,348,Concert,Pop
+Herman's Hermits,2739,Concert,Pop
+Hilary Duff,4865,Concert,Pop
+Huey Lewis & The News,363,Concert,Pop
+Jay Black,388,Concert,Pop
+Jesse McCartney,6712,Concert,Pop
+Jewel,396,Concert,Pop
+John Mayer,8073,Concert,Pop
+John Waite,5340,Concert,Pop
+Johnny Maestro,4048,Concert,Pop
+Jon Secada,2277,Concert,Pop
+Justin Timberlake,4039,Concert,Pop
+KC And The Sunshine Band,430,Concert,Pop
+Kelly Clarkson,4482,Concert,Pop
+Kenny Loggins,433,Concert,Pop
+Lily Allen,10617,Concert,Pop
+Little Anthony,8699,Concert,Pop
+Little River Band,1071,Concert,Pop
+Lou Gramm,5090,Concert,Pop
+Luisa Fernanda,10427,Concert,Pop
+Neil Sedaka,1010,Concert,Pop
+Nelly Furtado,1589,Concert,Pop
+Nick Lachey,10180,Concert,Pop
+Rick Springfield,722,Concert,Pop
+Ricky Martin,723,Concert,Pop
+Taylor Hicks,11879,Concert,Pop
+The Cheetah Girls,7836,Concert,Pop
+The Veronicas,8593,Concert,Pop
+Tom Jones,868,Concert,Pop
+Tommy James,1613,Concert,Pop
+Toto,880,Concert,Pop
+UB40,5675,Concert,Pop
+Village People,916,Concert,Pop
+Rock on the Range,12802,Concert,Pop
+Sloan,4918,Concert,Pop
+Aquabats,6921,Concert,Punk Rock
+Authority Zero,4847,Concert,Punk Rock
+Billy Talent,4991,Concert,Punk Rock
+Lucky Boys Confusion,4370,Concert,Punk Rock
+MxPx,1702,Concert,Punk Rock
+Reverend Horton Heat,4851,Concert,Punk Rock
+Al Green,1700,Concert,R & B
+Anita Baker,3751,Concert,R & B
+Aretha Franklin,39,Concert,R & B
+Aventura,8088,Concert,R & B
+Average White Band,968,Concert,R & B
+Beyonce,4987,Concert,R & B
+Blind Boys of Alabama,4042,Concert,R & B
+Boyz II Men,108,Concert,R & B
+Brian McKnight,112,Concert,R & B
+Chaka Khan,2928,Concert,R & B
+Charlie Wilson,8622,Concert,R & B
+Donna Summer,1529,Concert,R & B
+Earth Wind & Fire,259,Concert,R & B
+Erykah Badu,278,Concert,R & B
+Frankie Beverly,1897,Concert,R & B
+George Clinton,314,Concert,R & B
+Gladys Knight,324,Concert,R & B
+Grand Funk Railroad,5232,Concert,R & B
+Herbie Hancock,1830,Concert,R & B
+Here Come the Mummies,9322,Concert,R & B
+India.Arie,2740,Concert,R & B
+Isaac Hayes,995,Concert,R & B
+Jerry Butler,3466,Concert,R & B
+Jill Scott,1554,Concert,R & B
+John Legend,6291,Concert,R & B
+Johnny Mathis,419,Concert,R & B
+Kem,5034,Concert,R & B
+Kindred the Family Soul,8613,Concert,R & B
+Lauryn Hill,458,Concert,R & B
+Lionel Richie,2003,Concert,R & B
+Macy Gray,1356,Concert,R & B
+Mary J. Blige,1005,Concert,R & B
+Maze,1069,Concert,R & B
+Musiq,3548,Concert,R & B
+Natalie Cole,574,Concert,R & B
+Neville Brothers,591,Concert,R & B
+NE-YO,8831,Concert,R & B
+Omarion,6407,Concert,R & B
+Patti LaBelle,647,Concert,R & B
+Pointer Sisters,1818,Concert,R & B
+Pretty Ricky,7759,Concert,R & B
+Smokey Robinson,1024,Concert,R & B
+Teena Marie,845,Concert,R & B
+Temptations,847,Concert,R & B
+The Commodores,1979,Concert,R & B
+The OJays,1438,Concert,R & B
+Tyrese,4150,Concert,R & B
+Aaron Neville,975,Concert,R & B
+Oleta Adams,8267,Concert,R & B
+Prince,1321,Concert,R & B
+Alejandro Fernandez,18,Concert,World Concerts
+Alejandro Sanz,1591,Concert,World Concerts
+Ana Gabriel,28,Concert,World Concerts
+Antidoto,10414,Concert,World Concerts
+Bebel Gilberto,1534,Concert,World Concerts
+Benise,4636,Concert,World Concerts
+Cecilio & Kapono,4312,Concert,World Concerts
+Celtic Woman,6976,Concert,World Concerts
+Chayanne,2804,Concert,World Concerts
+Daniel O'Donnell,4158,Concert,World Concerts
+El Spring Bling Blineo,8969,Concert,World Concerts
+Fandango,2580,Concert,World Concerts
+Gilberto Santa Rosa,3416,Concert,World Concerts
+Gipsy Kings,323,Concert,World Concerts
+Gregory Isaacs,343,Concert,World Concerts
+Isabel Pantoja,5339,Concert,World Concerts
+Jaguares,1149,Concert,World Concerts
+Jenni Rivera,8903,Concert,World Concerts
+Joan Armatrading,4191,Concert,World Concerts
+Joan Sebastian,2662,Concert,World Concerts
+Los Lobos,485,Concert,World Concerts
+Los Lonely Boys,4825,Concert,World Concerts
+Los Tigres del Norte,2443,Concert,World Concerts
+Los Tucanes de Tijuana,486,Concert,World Concerts
+Luis Miguel,494,Concert,World Concerts
+Mana,3461,Concert,World Concerts
+Mandrill,7505,Concert,World Concerts
+Marco Antonio Solis,1074,Concert,World Concerts
+Michael Franti & Spearhead,8235,Concert,World Concerts
+Nana Mouskouri,4828,Concert,World Concerts
+Ozomatli,2741,Concert,World Concerts
+Paulina Rubio,3611,Concert,World Concerts
+Pepe Aguilar,1751,Concert,World Concerts
+Reggae Sunsplash,9906,Concert,World Concerts
+Steel Pulse,813,Concert,World Concerts
+Vicente Fernandez,1097,Concert,World Concerts
+Wisin y Yandel,6866,Concert,World Concerts
+Ziggy Marley,953,Concert,World Concerts
+Gaelic Storm,5195,Concert,World Concerts
+Oscar D'Leon,8849,Concert,World Concerts

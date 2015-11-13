@@ -1,0 +1,975 @@
+/*
+**
+** Copyright (c) 2007, Jassen Moran. All rights reserved.
+** Quad tickets Confidential Proprietary.
+**
+*/
+
+
+body {
+position: relative;
+height: 100%;
+color: #000;
+cursor: default;
+padding: 5px 0px;
+/* font-size: 13px; */
+font-family: Verdana, Arial, sans-serif;
+text-align: center;
+background-color:#ddd;
+}
+
+body, table, tr, td, div, ul, li, p, h1, h2, h3, form, a, ul, li, img {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: 11px/20px Verdana, Arial, Tahoma, sans-serif;
+}
+
+
+a {
+        color: #000;
+        text-decoration: none;
+        text-align: left;
+
+}
+
+
+
+#container {
+background-image:url(/Images/bg.jpg);
+background-color:#E6E6E6;
+margin: 0 auto;
+padding: 0;
+width: 926px;
+height: 100%;
+text-align:left;
+position: relative;
+
+}
+
+.hidden_homelink {
+	float: left;
+	width: 165px;
+	height: 55px;
+	display: block;
+}
+
+#masthead {
+background-image:url(/Images/mongo_header.jpg);
+background-repeat: no-repeat;
+background-position: top left;
+width: 926px;
+height: 110px;
+font-size: 12px;
+}
+
+#masthead_order {
+background-color:#FFF;
+background: #FFFFFF url(http://www.mongotickets.com/Images/mongo_header_order_form.jpg);
+background-repeat: no-repeat;
+background-position: top center;
+width: 952px;
+height: 110px;
+font-size: 12px;
+}
+
+
+#navlinks {
+/*
+width: 100%;
+*/
+display: block;
+margin: 0 0 0 14em;
+/* padding: 0em 14em; */
+background-color:#003366;
+font-size: 12px;
+border: black;
+
+}
+
+
+#main {
+background-image:url(/Images/bg.jpg);
+background-position: 0;
+background-repeat: no-repeat-x;
+
+margin: 0;
+padding: 0;
+position: relative;
+overflow: auto;
+}
+
+#policyanchor {
+position: absolute;
+top: 57px;
+left: 10px;
+text-align:center;
+} 
+
+#policyanchor a {
+font-size: 10px;
+font-weight: normal;
+text-align: left;
+}
+
+#hlinks {
+right: 9px;
+top: 2px;
+font-size: 8px;
+text-align:left;
+position: absolute;
+}
+
+#searchbox {
+font-size: 10px;
+/*
+position: absolute;
+
+padding: 34px 0 0 570px;
+*/
+height: 20px;
+width: 180px;
+float: right;
+padding: 34px 20px 0px 0px;
+}
+
+}
+
+#hlinks a {
+font-size: 10px;
+}
+
+#bannercategories {
+/*
+text-transform: uppercase;
+*/
+font-family: arial black;
+
+position: absolute;
+top: 84px;
+left: 182px;
+}
+
+#bannercategories ul {
+/*
+	padding: 86px 0 0 187px;
+*/
+}
+#bannercategories ul li{
+	display: inline;
+	padding: 0px 10px 0px 0px;
+	margin: 0px 6px 0px 0px;
+border-right: groove 2px #e2d1a4;
+
+}
+#bannercategories a {
+	text-align: center;
+	padding: 0px 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+#bannercategories a:link, #bannercategories a:visited {
+color: white;
+}
+#bannercategories a:link:hover, #bannercategories a:visited:hover {
+color: yellow;
+background: black;
+border-color: #227;
+text-decoration: none;
+}
+a:hover { color: #0000FF; text-decoration: underline}
+
+#rightbar {
+float: right;
+width: 140px;
+margin: 0px 0px;
+padding: 0px 0px;
+background-color: #ffffff;
+}
+
+#rightbar img {
+padding: 5px 0px 0px 10px;
+}
+
+
+#leftbar {
+float: left;
+width: 170px;
+margin: 0px 0px;
+padding: 0px 0px;
+}
+
+#leftbar h2{
+display: block;
+background-color: #336699;
+color: white;
+text-transform: uppercase;
+font-family: arial black;
+font-size: 11px;
+height: 21px;
+margin: 0px 0px;
+padding: 5px 0 3px 11px;
+text-align: left;
+/*
+line-height: 20px;
+height: 20px;
+*/
+}
+
+
+#leftbar .heading{
+display: block;
+background-color: #336699;
+color: white;
+text-transform: uppercase;
+font-family: arial black;
+font-size: 11px;
+height: 21px;
+margin: 0px 0px;
+padding: 5px 0 3px 11px;
+text-align: left;
+}
+
+#leftbar ul {
+margin-left: 3px;
+list-style-type: none;
+text-align: left;
+padding: 2px 0px 2px 0px;
+}
+
+#leftbar ul li {
+margin: 0;
+padding: 2px 1px 2px 0px;
+border-bottom: 1px solid white;
+
+}
+
+#leftbar ul li a {
+font-size: 11px;
+text-align: left;
+}
+
+
+
+#content {
+width : 616px; 
+float: left;
+/*
+border:solid 1px #e2d1a4;
+*/
+background: #FFF;
+margin: 0px 0px;
+padding: 0px 0px;
+}
+
+
+.info_text p {
+padding: 2px 2px 2px 12px;
+}
+
+
+#content h1, #content h2 {
+        padding: 1em 0 0em 12px;
+}
+
+#content h1 {
+	color: #000;
+	font-size: 16px;
+	text-align: left;
+}
+#content h1 a {
+	text-decoration: none;
+	text-align: left;
+}
+
+#content h2 {
+	color: #000;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: left;
+
+}
+
+
+
+
+
+#content h3 {
+	color: #5A5A5A;
+	font-size: 16px;
+}
+
+#content table {
+/*	width: 586px; */
+}
+
+
+#content ul {
+	list-style-type: none;
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+
+#intro_text {
+	font-size: 11px;
+	padding: 1em;
+}
+
+#hot_category_table {
+	display: block;
+	clear: none;
+	float: left;
+	width: 97%;
+	margin:0; 
+	padding:6px; 
+}
+
+.hot_category_table_column {
+	display: block;
+	clear: none;
+	float: left;
+	width: 30%;
+	margin:0; 
+	padding:0px; 
+	border: 0px;
+}
+
+
+.hot_category_heading {
+	margin: 10px;
+background-color: #336699;
+
+}
+
+
+.hot_category_events {
+	margin: 0px 6px;
+	padding: 0px;
+/*
+	border-left: 1px solid #336699;
+	border-right: 1px solid #336699;
+*/
+}
+
+div#content .hot_category_table_column .hot_category_events h1 {
+	font-size: 14px;
+        margin: 0px;
+	background-color: #fff;
+	padding: 5px 5px 5px 10px;
+	text-transform: uppercase;
+}
+
+.hot_category_events h1 a {
+	font-size: 14px;
+/*
+	color: #ff9900;
+*/
+	color: #000;
+}
+
+.hot_category_events h1 a:hover {
+        color: blue;
+text-decoration: underline;
+}
+
+
+.hot_category_events ul {
+	list-style-type:none;
+	margin:4px 0px 0px 0px;
+	padding-left: 0px;
+}
+
+.hot_category_events ul li {
+	padding: 0px;
+	margin:0; 
+	border-bottom: 0px;
+line-height:14px;
+	font-size: 12px;
+}
+.hot_category_events ul li a {
+text-decoration: none;
+color: #0000CC;
+/*
+	font-size: 12px;
+*/
+}
+
+.hot_category_events ul li a:hover {
+text-decoration: underline;
+}
+
+
+#related_events_table {
+        display: block;
+        clear: none;
+        float: left;
+        width: 97%;
+
+        margin:0;
+        padding:0; 
+        border-bottom:solid 1px #e2d1a4;
+        border-collapse:collapse;
+}
+
+.related_events_column {
+        display: block;
+        clear: none;
+        float: left;
+        width: 31%;
+
+	margin:0; 
+	padding:0; 
+	border: 0px;
+}
+
+.related_events_column_heading {
+	text-align: left; 
+	padding: 1em 0 1em 12px;
+text-transform: uppercase;
+font-family: arial;
+
+	font-size: 12px;
+}
+
+.related_events_column_list {
+	margin:4px;
+}
+
+.related_events_column_list h1 {
+        text-align: left;
+        padding: 1em 0 1em 12px;
+text-transform: uppercase;
+font-family: arial;
+
+        font-size: 12px;
+
+}
+
+.related_events_column_list ul {
+	list-style-type:none;
+	margin:0;
+	padding-left: 0px;
+}
+
+.related_events_column_list ul li{
+	margin:0;
+	padding-left: 0px;
+	font-size: 12px;
+}
+
+.related_events_column_list ul li a{
+	font-size: 12px;
+color: #0000CC;
+}
+
+#breadcrumb_trail {
+	margin: 0px 0px;
+	padding: 8px 0px 8px 10px;
+	background: #4972bf;
+line-height: 20px;
+}
+#breadcrumb_trail a {
+	font-size: 11px;
+	text-decoration: underline;
+	padding: 0 4px 0 4px;
+	color: white;
+}
+#breadcrumb_trail a:hover {
+	color: yellow;
+}
+
+#venues  {
+	padding: 2px 2px 2px 12px;
+}
+
+
+
+#venue_list {
+	padding: 0px;
+}
+
+#venue_list td {
+	padding: 0 5px 0 5px;
+}
+
+
+#venue_list td a {
+	font-size: 11px;
+}
+
+
+table.venues a {
+	font-size: 11px;
+}
+
+table.category_event_list {
+	width: 100%;
+	border-collapse:collapse;
+	font-size: 11px;
+	padding: 2px; 
+}
+
+
+table.category_event_list td {
+width: 100%;
+	padding: 2px 0px 2px 12px;
+
+}
+
+table.category_event_list a {
+	font-size: 11px;
+color: #0000CC;
+text-decoration: underline;
+}
+
+table.category_event_list a:hover {
+text-decoration: none;
+}
+
+.category_subcategory_list  {
+	margin: 1em 0 0 0;
+}
+
+.category_subcategory_list ul {
+	font-size: 11px;
+	margin: 0;
+	padding: 1em 0px 1em 12px;
+}
+.category_subcategory_list a {
+	font-size: 11px;
+	margin: 0;
+}
+
+#event_text {
+	font-size: 11px;
+	padding: 4px 4px 1em 12px;
+}
+#event_history_text {
+	font-size: 11px;
+	padding: 4px 4px 1em 12px;
+}
+
+.event_image {
+	float:left; 
+	margin: 10px 10px 6px 6px; 
+	border-style:solid; 
+	border-width:1px; 
+	border-color:#d0d0d0;
+}
+
+
+table.search_results {
+	width: 100%;
+        border-collapse:collapse;
+        font-size: 11px;
+	padding: 2px;
+}
+table.search_results td {
+	width: 100%;
+	padding: 2px 0px 2px 12px;
+}
+
+table.search_results a {
+        font-size: 11px;
+}
+
+
+.leaguetable table {
+	margin: 1em 0 1em 12px;
+}
+
+.leaguetable h2 {
+        text-align: left;
+	font-size: 18px;
+}
+
+.leaguetable tr {
+	text-align: left;
+}
+
+.leaguetable td {
+        width: 293px;
+	text-align: left;
+	vertical-align: top;
+	font-size: 16px;
+}
+
+.confheadnfl {
+	background:#196120;
+	color: #fff;
+	padding: 2px 2px 2px 4px;
+}
+
+.confheadnba {
+	background:#a76703;
+	color: #fff;
+	padding: 2px 2px 2px 4px;
+}
+
+.confheadnhl {
+	background:#007697;
+	color: #fff;
+	padding: 2px 2px 2px 4px;
+}
+
+.confheadmlb {
+	background:#025c9a;
+	color: #fff;
+	padding: 2px 2px 2px 4px;
+}
+
+
+.leaguetable ul {
+	list-style-type: none;
+	text-align: left;
+	margin: 1em 0 1em 12px;
+}
+
+.leaguetable li {
+	text-align: left;
+	font-size: 14px;
+}
+
+.leaguetable a {
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+
+.odd {
+  background-color: #fff;
+}
+.even {
+  background-color: #ddd;
+}
+
+
+.tableHeading {
+  background-color: #4972bf;
+  color: white;
+
+}
+
+.tableHeading a {
+  background-color: #4972bf;
+  color: white;
+
+}
+
+.tableHeading a:link:hover, .tableHeading a:visited:hover {
+color: yellow;
+text-decoration: underline;
+}
+
+
+#ordering_clause {
+	clear: left;
+	margin: 2em 2em 20px 12px;
+}
+
+.footerLinks {
+	clear: both;
+	background-color: black;
+	height: 50px;
+	background-color: #336699;
+}
+
+.footerLinks * {
+        font-size: 12px;
+	text-align: center;
+	color: white;
+}
+
+.footerLinks a:hover {
+        color: yellow;
+}
+
+
+.policy {
+margin-left: 180px;
+border:solid 1px #e2d1a4;
+background: #FFF; 
+/* width: 586 px; */
+padding: 6px;
+margin-bottom: 64px;
+position: relative;
+}
+
+.policy * {
+        font-size: 12px;
+}
+
+.policy h1, .policy a {
+        color: #5A5A5A;
+        font-size: 24px;
+        text-decoration: none;
+        text-align: center;
+}
+
+.policy h2, .policy a {
+        color: #5A5A5A;
+        font-size: 18px;
+        text-decoration: none;
+        text-align: left;
+
+}
+
+
+
+.policy table {
+/*      width: 586px; */
+}
+
+.policy td {
+        width: 586px;
+}
+
+.policy ul {
+        margin-left: 10px;
+        padding-bottom: 10px;
+}
+
+
+.sitemapSection
+{
+    float: left;
+    width: 190px;
+    padding: 5px;
+    margin: 1em 0 1em .5em;
+}
+
+.sitemapHeading
+{
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.indent_1 a, .indent_2 a, .indent_3 a {
+	font-size: 14px;
+}
+.indent_4 a, .indent_5 a, .indent_6 a {
+	font-size: 12px;
+}
+.indent_5 a, .indent_6 a {
+	font-size: 11px;
+}
+
+.indent_6 a {
+	font-size: 10px;
+}
+
+.indent_1
+{
+    padding-left: 0px;
+}
+
+.indent_2
+{
+    padding-left: 10px;
+}
+
+.indent_3
+{
+    padding-left: 20px;
+}
+
+.indent_4
+{
+    padding-left: 30px;
+}
+
+.indent_5
+{
+    padding-left: 40px;
+}
+
+.indent_6
+{
+    padding-left: 50px;
+}
+
+.production_table {
+	font-size: 11px;
+	padding: 0 12px;
+}
+
+.production_table td {
+	font-size: 10px;
+	padding: 2px 4px;
+}
+
+.production_table form {
+	clear: left;
+}
+
+.view_tickets_anchor {
+	color: red;
+}
+
+
+.sortable {
+	padding: 0px;
+border: 1px solid #D5D5D5;
+}
+
+.sortable tbody tr {
+	padding: 0px;
+}
+
+.sortable_tickets {
+	padding: 0 12px;
+}
+
+#sortable_tickets td, th {
+ padding: 5px 0px 0px 5px;
+}
+
+
+#sortable_tickets th a {
+font-size: 11px;
+color: #336699;
+font-weight: bold;
+text-decoration: underline;
+
+}
+
+.sortheader {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.ticket_listing_heading {
+margin: 2em 1em 1em 12px;
+/*
+font: 14px;
+padding: 1em 1em 1em 1em;
+
+	border: 1px solid #4972bf;
+*/
+}
+
+#content .ticket_listing_heading h1 {
+margin: 0px;
+padding: 0px;
+color: #000;
+}
+
+.tickets {
+	clear: both;
+	padding: 0px 2px 2px 12px;
+}
+
+.tickets select {
+font-size:10px;
+}
+
+
+.tickets table {
+	border: 1px solid #D5D5D5;
+}
+
+.tickets td {
+padding: 1px 0px 1px 4px;
+}
+
+
+#ticket_order {
+/*
+border: 1px solid #003366;
+*/
+background: #FFF;
+padding: 6px;
+/*
+padding: 0;
+*/
+margin: 0 0 20px 0;
+}
+
+#no_tickets p {
+        padding: 1em 0 1em 12px;
+	clear: left;
+}
+
+.tiny {
+font-size: 9px;
+}
+
+.eventVenueInfo {
+
+
+width: 599px;
+float: left;
+clear: both;
+margin: 8px 0px 12px 6px;
+border: 1px solid #4972bf;
+padding: 0px 0px 0px 0px;
+
+
+}
+
+#content .eventVenueInfo h1 {
+margin: 0px 0px 0px 0px;
+line-height: 20px;
+background-color: #4972bf;
+padding: 8px 8px;
+
+color: white;
+}
+
+.eventInfo {
+float: left;
+clear: none;
+width: 440px;
+margin: 0px 0px 0px 0px;
+padding: 8px 8px;
+
+}
+
+.venueMap {
+float: left;
+clear: none;
+width: 120px;
+
+margin: 0px 0px 0px 0px;
+
+}
+
+.contact_form {
+margin: 0px 0px 0px 16px;
+}
+
+.form_row {padding: 3px 0px; margin-left:30px;width:420px;}
+.form_row_title { text-align:right; width:80px; float:left; vertical-align:top; }
+.form_row_input {text-align:left; width:335px; padding:0px; float:right; }
+.form_row_input p { padding: 5px 0px; margin:0px;}
+
+
+.spacer {clear:both; margin:0px;padding: 3px;}
+
+img.left {
+	float: left;
+	margin: 5px 20px 0 12px;
+}
+
+#content ul.disc {
+list-style-type: disc;
+margin: 24px 6px 0px 14px;
+padding: 0px 0px 0px 14px;
+}
+
+.black_divider {
+	margin: 0 0 0 0;
+	background-repeat: repeat-x;
+	background-position: top left;
+	background-image:url(/Images/black_smooth_bg.gif);
+	height: 33px;
+	clear: both;
+}
+

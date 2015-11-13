@@ -1,0 +1,47 @@
+-- MySQL dump 10.9
+--
+-- Host: localhost    Database: mongo_tickets2
+-- ------------------------------------------------------
+-- Server version	5.0.45-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `EventRankings`
+--
+
+DROP TABLE IF EXISTS `EventRankings`;
+CREATE TABLE `EventRankings` (
+  `EventID` int(11) NOT NULL,
+  `SanitizedEventName` char(100) default NULL,
+  `EventRank` smallint(6) NOT NULL,
+  PRIMARY KEY  (`EventID`),
+  FULLTEXT KEY `events_4` (`SanitizedEventName`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `EventRankings`
+--
+
+
+/*!40000 ALTER TABLE `EventRankings` DISABLE KEYS */;
+LOCK TABLES `EventRankings` WRITE;
+INSERT INTO `EventRankings` VALUES (1696,'air-supply',35),(15,'alan-jackson',26),(1880,'asia',13),(65,'barry-manilow',15),(98,'bob-dylan',24),(101,'bon-jovi',13),(1469,'brad-paisley',23),(120,'brooks-and-dunn',27),(121,'bruce-springsteen',5),(149,'celine-dion',12),(2002,'chicago',14),(8577,'chris-brown',11),(218,'dave-matthews-band',11),(251,'doobie-brothers',15),(10523,'elliott-yamin',31),(991,'foo-fighters',6),(309,'garth-brooks',40),(11592,'genesis',19),(316,'george-strait',5),(525,'gigantour',8),(7327,'gwen-stefani',28),(4865,'hilary-duff',32),(3990,'houston-rodeo',3),(4263,'jennifer-lopez',9),(395,'jethro-tull',16),(397,'jimmy-buffett',7),(8073,'john-mayer',34),(9000,'jonas-brothers',2),(4039,'justin-timberlake',33),(2822,'keith-urban',10),(1492,'linkin-park',14),(4552,'maroon-5',10),(520,'matchbox-twenty',7),(4735,'michael-buble',15),(10475,'miley-cyrus-as-hannah-montana',50),(2363,'nickelback',20),(641,'ozzfest',12),(2407,'rascal-flatts',21),(717,'reo-speedwagon',17),(723,'ricky-martin',30),(803,'spice-girls',9),(816,'steve-miller-band',18),(1278,'stevie-wonder',6),(7234,'sugarland',22),(4279,'the-police',8),(1458,'trans-siberian-orchestra',40),(907,'van-halen',10),(4483,'arenabowl',35),(8099,'bcs-national-championship',35),(2678,'los-angeles-galaxy',55),(2186,'monster-jam',14),(696,'nfl-pro-bowl',35),(609,'nhl-all-star-game',35),(1124,'super-bowl',35),(5115,'super-bowl-bud-bowl-party',35),(2549,'super-bowl-hotel-rooms',35),(2512,'super-bowl-maxim-party',35),(3942,'super-bowl-nfl-experience',40),(3842,'super-bowl-package',35),(3959,'super-bowl-playboy-party',35),(1905,'ultimate-fighting-championship',51),(944,'world-cup-soccer',16),(945,'wwe-world-wrestling-entertainment',10),(117,'british-open',14),(538,'3m-performance-400',45),(114,'allstate-400-at-the-brickyard',42),(2340,'centurion-boats-at-the-glen',44),(1105,'chevy-rock-and-roll-400',48),(225,'daytona-500',11),(7206,'dodge-dealers-400',41),(1562,'pennsylvania-500',43),(137,'sharp-aquos-500',47),(1658,'sharpie-500',46),(4075,'sylvania-300',49),(901,'us-open-tennis',12),(107,'boston-red-sox',2),(607,'new-york-yankees',3),(164,'chicago-white-sox',11),(183,'cleveland-indians',50),(241,'detroit-tigers',5),(29,'los-angeles-angels-of-anaheim',6),(50,'atlanta-braves',7),(605,'new-york-mets',26),(672,'philadelphia-phillies',5),(358,'houston-astros',24),(41,'arizona-diamondbacks',6),(193,'colorado-rockies',10),(481,'los-angeles-dodgers',25),(759,'san-francisco-giants',8),(128,'buffalo-bills',37),(532,'miami-dolphins',35),(592,'new-england-patriots',40),(601,'new-york-jets',39),(60,'baltimore-ravens',35),(686,'pittsburgh-steelers',30),(370,'indianapolis-colts',40),(381,'jacksonville-jaguars',34),(848,'tennessee-titans',36),(234,'denver-broncos',29),(755,'san-diego-chargers',35),(214,'dallas-cowboys',35),(599,'new-york-giants',35),(669,'philadelphia-eagles',35),(925,'washington-redskins',32),(339,'green-bay-packers',40),(144,'carolina-panthers',33),(758,'san-francisco-49ers',31),(5656,'ama-supercross',11),(2548,'super-bowl-nfl-tailgate-party',35),(105,'boston-celtics',11),(215,'dallas-mavericks',11),(606,'new-york-rangers',11),(104,'boston-bruins',20),(129,'buffalo-sabres',12),(559,'montreal-canadiens',22),(639,'ottawa-senators',11),(160,'chicago-blackhawks',11),(240,'detroit-red-wings',12),(677,'phoenix-coyotes',20),(59,'baltimore-orioles',9),(198,'cotton-bowl',35),(740,'rose-bowl',35),(85,'bill-cosby',40),(4748,'bill-engvall',43),(2057,'bill-maher',42),(92,'blue-man-group',15),(5637,'brian-regan',39),(1863,'carlos-mencia',38),(169,'chris-rock',8),(7214,'cirque-du-soleil-corteo',11),(12722,'cirque-du-soleil-wintuk',12),(1570,'d-l-hughley',44),(11491,'dancing-with-the-stars',34),(5731,'disney-on-ice-finding-nemo',25),(10181,'disney-on-ice-princess-wishes',26),(12773,'disneys-high-school-musical-the-ice-tour',4),(7209,'doodlebops',27),(2209,'george-lopez',34),(336,'grease',18),(2904,'hairspray',19),(6388,'hi-5',32),(11620,'high-school-musical',31),(1251,'how-the-grinch-stole-christmas',14),(394,'jerry-seinfeld',35),(6282,'jersey-boys',1),(8165,'jim-gaffigan',41),(5744,'joel-osteen',6),(3944,'kathy-griffin',15),(11591,'legally-blonde',22),(461,'les-miserables',21),(2615,'lewis-black',37),(1072,'mamma-mia',17),(6206,'mary-poppins',13),(5680,'monty-python-spamalot',23),(10899,'my-little-pony-live',30),(620,'nutcracker',40),(1752,'paul-rodriguez',45),(665,'phantom-of-the-opera',8),(12939,'playhouse-disney-live-on-tour',28),(705,'radio-city-christmas-spectacular',35),(726,'ringling-bros-b-and-b-circus',11),(5062,'ron-white',36),(778,'sesame-street-live',29),(11204,'spring-awakening',20),(5786,'the-color-purple',13),(466,'the-lion-king',5),(12470,'the-little-mermaid',9),(10770,'the-phantom',10),(2513,'the-wiggles',24),(13004,'walking-with-dinosaurs',14),(4167,'wicked',2),(13375,'young-frankenstein',3),(6495,'',2000),(293,'',2000),(807,'',4),(877,'',2000),(560,'',2000),(162,'',1),(1920,'',2000),(685,'',2000),(554,'',2000),(757,'',2000),(771,'',2000),(853,'',2000),(6439,'',2000),(428,'',2000),(625,'',2000),(173,'',2000),(21,'',2000),(549,'',2000);
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `EventRankings` ENABLE KEYS */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+

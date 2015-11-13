@@ -1,0 +1,70 @@
+Sun Jul  1 09:12:46 CDT 2012
+Buildfile: build.xml
+
+run.DeleteOldProductions:
+
+     [java] 2012/07/01 09:12:47 /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/DeleteOldProductions Deleting TNDProduction entries older than 7 DAYS
+
+
+     [java] 2012/07/01 09:12:48 /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/DeleteOldProductions Deleted 23 TNDProduction entries older than 7 DAYS
+
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Sun Jul  1 09:12:48 CDT 2012
+Mon Jul  2 06:30:01 CDT 2012
+Buildfile: build.xml
+
+run.DeleteOldProductions:
+
+     [java] 2012/07/02 06:30:02 /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/DeleteOldProductions Deleting TNDProduction entries older than 7 DAYS
+
+
+     [java] 2012/07/02 06:30:02 /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/DeleteOldProductions Deleted 0 TNDProduction entries older than 7 DAYS
+
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Mon Jul  2 06:30:02 CDT 2012
+Mon Jul  9 06:30:01 CDT 2012
+Buildfile: build.xml
+
+run.DeleteOldProductions:
+
+     [java] 2012/07/09 06:30:03 /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/DeleteOldProductions Deleting TNDProduction entries older than 7 DAYS
+
+
+     [java] 2012/07/09 06:30:03 /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/DeleteOldProductions Deleted 632 TNDProduction entries older than 7 DAYS
+
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Mon Jul  9 06:30:03 CDT 2012
+Mon Jul 16 06:30:01 CDT 2012
+Buildfile: build.xml
+
+run.DeleteOldProductions:
+
+     [java] 2012/07/16 06:30:03 /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/DeleteOldProductions Deleting TNDProduction entries older than 7 DAYS
+
+
+     [java] 2012/07/16 06:30:03 /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/DeleteOldProductions Deleted 2018 TNDProduction entries older than 7 DAYS
+
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Mon Jul 16 06:30:04 CDT 2012
+Mon Jul 23 06:30:01 CDT 2012
+Buildfile: build.xml
+
+run.DeleteOldProductions:
+
+     [java] 2012/07/23 06:30:02 /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/DeleteOldProductions Deleting TNDProduction entries older than 7 DAYS
+
+
+     [java] 2012/07/23 06:30:03 /usr/axis2-1.5.6/src/org/apache/axis2/tn/v3p/DeleteOldProductions Deleted 2290 TNDProduction entries older than 7 DAYS
+
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Mon Jul 23 06:30:03 CDT 2012

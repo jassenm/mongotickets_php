@@ -1,0 +1,9 @@
+<?php
+
+define('SMARTY_DIR', '/home/quadtick/lib/php/Smarty/');
+define('NUSOAP_PATH', '/home/quadtick/lib/');
+$include_path = get_include_path();
+$include_path .= (PATH_SEPARATOR.SMARTY_DIR) . (PATH_SEPARATOR.NUSOAP_PATH);
+set_include_path($include_path);
+
+?>

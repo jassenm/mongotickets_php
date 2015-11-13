@@ -1,0 +1,594 @@
+Fri Jun 29 20:26:24 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@3d860038
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@655d616e
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@7f11bfbc
+
+     [java] 2012/06/29 20:26:57
+
+     [java] Number of Theater productions: 27064
+
+     [java] 54128 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 42 seconds
+Fri Jun 29 20:27:07 CDT 2012
+Fri Jun 29 20:31:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@3dc286e2
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@1137d4a4
+
+     [java] 2012/06/29 20:31:39
+
+     [java] Number of Theater productions: 27064
+
+     [java] 54128 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 45 seconds
+Fri Jun 29 20:31:47 CDT 2012
+Sat Jun 30 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@4baa2c23
+
+     [java] 2012/06/30 05:45:38
+
+     [java] Number of Theater productions: 26984
+
+     [java] 53968 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 44 seconds
+Sat Jun 30 05:45:45 CDT 2012
+Sun Jul  1 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@4baa2c23
+
+     [java] 2012/07/01 05:45:33
+
+     [java] Number of Theater productions: 26845
+
+     [java] 53690 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 42 seconds
+Sun Jul  1 05:45:44 CDT 2012
+Mon Jul  2 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@4baa2c23
+
+     [java] 2012/07/02 05:45:51
+
+     [java] Number of Theater productions: 26776
+
+     [java] 53552 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 58 seconds
+Mon Jul  2 05:46:00 CDT 2012
+Tue Jul  3 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@4baa2c23
+
+     [java] 2012/07/03 05:45:31
+
+     [java] Number of Theater productions: 26006
+
+     [java] 52012 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 38 seconds
+Tue Jul  3 05:45:40 CDT 2012
+Wed Jul  4 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@4baa2c23
+
+     [java] 2012/07/04 05:45:32
+
+     [java] Number of Theater productions: 26918
+
+     [java] 53836 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 39 seconds
+Wed Jul  4 05:45:41 CDT 2012
+Thu Jul  5 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@4baa2c23
+
+     [java] 2012/07/05 05:45:33
+
+     [java] Number of Theater productions: 26835
+
+     [java] 53670 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 40 seconds
+Thu Jul  5 05:45:41 CDT 2012
+Fri Jul  6 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@4baa2c23
+
+     [java] 2012/07/06 05:45:30
+
+     [java] Number of Theater productions: 27035
+
+     [java] 54070 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 36 seconds
+Fri Jul  6 05:45:38 CDT 2012
+Sat Jul  7 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@6032bd65
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@6db22920
+
+     [java] 2012/07/07 05:45:27
+
+     [java] Number of Theater productions: 26859
+
+     [java] 53718 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 34 seconds
+Sat Jul  7 05:45:35 CDT 2012
+Sun Jul  8 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@6032bd65
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@6db22920
+
+     [java] 2012/07/08 05:45:29
+
+     [java] Number of Theater productions: 26639
+
+     [java] 53278 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 36 seconds
+Sun Jul  8 05:45:37 CDT 2012
+Mon Jul  9 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@4baa2c23
+
+     [java] 2012/07/09 05:45:35
+
+     [java] Number of Theater productions: 26537
+
+     [java] 53074 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 42 seconds
+Mon Jul  9 05:45:44 CDT 2012
+Tue Jul 10 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@1fbbdd48
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@5f18223d
+
+     [java] 2012/07/10 05:45:34
+
+     [java] Number of Theater productions: 26831
+
+     [java] 53662 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 40 seconds
+Tue Jul 10 05:45:42 CDT 2012
+Wed Jul 11 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@4baa2c23
+
+     [java] 2012/07/11 05:45:35
+
+     [java] Number of Theater productions: 27216
+
+     [java] 54432 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 40 seconds
+Wed Jul 11 05:45:42 CDT 2012
+Thu Jul 12 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@4baa2c23
+
+     [java] 2012/07/12 05:45:45
+
+     [java] Number of Theater productions: 27213
+
+     [java] 54426 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 51 seconds
+Thu Jul 12 05:45:52 CDT 2012
+Fri Jul 13 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@1137d4a4
+
+     [java] 2012/07/13 05:45:26
+
+     [java] Number of Theater productions: 27957
+
+     [java] 55914 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 34 seconds
+Fri Jul 13 05:45:37 CDT 2012
+Sat Jul 14 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@5f18223d
+
+     [java] 2012/07/14 05:45:28
+
+     [java] Number of Theater productions: 28529
+
+     [java] 57058 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 35 seconds
+Sat Jul 14 05:45:37 CDT 2012
+Sun Jul 15 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@1fbbdd48
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@73eb904d
+
+     [java] 2012/07/15 05:45:33
+
+     [java] Number of Theater productions: 28436
+
+     [java] 56872 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 40 seconds
+Sun Jul 15 05:45:42 CDT 2012
+Mon Jul 16 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@5f18223d
+
+     [java] 2012/07/16 05:45:28
+
+     [java] Number of Theater productions: 28701
+
+     [java] 57402 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 35 seconds
+Mon Jul 16 05:45:37 CDT 2012
+Tue Jul 17 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@1137d4a4
+
+     [java] 2012/07/17 05:45:32
+
+     [java] Number of Theater productions: 28926
+
+     [java] 57852 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 40 seconds
+Tue Jul 17 05:45:41 CDT 2012
+Wed Jul 18 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@ace16ad
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@1137d4a4
+
+     [java] 2012/07/18 05:45:27
+
+     [java] Number of Theater productions: 28874
+
+     [java] 57748 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 35 seconds
+Wed Jul 18 05:45:36 CDT 2012
+Thu Jul 19 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@1137d4a4
+
+     [java] 2012/07/19 05:45:40
+
+     [java] Number of Theater productions: 28997
+
+     [java] 57994 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 47 seconds
+Thu Jul 19 05:45:48 CDT 2012
+Fri Jul 20 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@ace16ad
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@6db22920
+
+     [java] 2012/07/20 05:45:38
+
+     [java] Number of Theater productions: 28950
+
+     [java] 57900 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 45 seconds
+Fri Jul 20 05:45:47 CDT 2012
+Sat Jul 21 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@53ce669e
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@3dc286e2
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@29700391
+
+     [java] 2012/07/21 05:45:33
+
+     [java] Number of Theater productions: 28821
+
+     [java] 57642 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 42 seconds
+Sat Jul 21 05:45:44 CDT 2012
+Sun Jul 22 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@6032bd65
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@686963d0
+
+     [java] 2012/07/22 05:45:52
+
+     [java] Number of Theater productions: 28550
+
+     [java] 57100 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 57 seconds
+Sun Jul 22 05:46:00 CDT 2012
+Mon Jul 23 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@2330633a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@5f18223d
+
+     [java] 2012/07/23 05:45:34
+
+     [java] Number of Theater productions: 28431
+
+     [java] 56862 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 41 seconds
+Mon Jul 23 05:45:43 CDT 2012
+Tue Jul 24 05:45:01 CDT 2012
+Buildfile: build.xml
+
+run.import_theater_events:
+
+     [java]  Sending GetEvents Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetEvents@540984b
+
+     [java] Received GetEventsResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEvent@6032bd65
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$Event;@686963d0
+
+     [java] 2012/07/24 05:45:32
+
+     [java] Number of Theater productions: 28601
+
+     [java] 57202 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 39 seconds
+Tue Jul 24 05:45:41 CDT 2012

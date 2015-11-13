@@ -1,0 +1,66 @@
+Options +FollowSymLinks
+RewriteEngine on
+#	RewriteBase //
+RewriteCond %{REQUEST_METHOD} ^TRACE
+RewriteRule .* [F]
+
+ErrorDocument 403 /custom403.new_urls.php
+ErrorDocument 404 /custom404.new_urls.php
+
+
+#RewriteCond %{HTTP_USER_AGENT} ^.*(Googlebot|Googlebot|Mediapartners|Adsbot|Feedfetcher|Yahoo)-?(Google|Image)? [NC]
+# or RewriteCond %{HTTP_USER_AGENT} ^.*google.* [NC]
+#RewriteRule .* /503.php
+
+#RewriteRule ^https://174.120.238.25:8443/sitepreview/http/mongotickets.com/.(*)$ /main.new_urls.php [L]
+
+RewriteCond %{THE_REQUEST} ^GET\ .*/index\.(php|html?)\ HTTP
+RewriteRule ^(.*)index\.(php|html?)$ $1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.mongotickets.com%{REQUEST_URI} [R=301,L]
+
+ RewriteRule ^events/-Tickets-E.html$ / [L,R=301]
+ RewriteRule ^sports/mlb/$ / [L,R=301]
+ RewriteRule ^sports/$ / [L,R=301]
+ RewriteRule ^theater/$ / [L,R=301]
+ RewriteRule ^concert/$ / [L,R=301]
+ RewriteRule ^venues/il/allstate-arena.html$ / [L,R=301]
+ RewriteRule ^Sports-Tickets.html$ /top_level_categories.redir.php?id=3&name=Sports [L]
+ RewriteRule ^Sports/$ /top_level_categories.redir.php?id=3&name=Sports [L]
+ RewriteRule ^Concerts-Tickets.html$ /top_level_categories.redir.php?id=2&name=Concerts [L]
+ RewriteRule ^Concert-Tickets.html$ /top_level_categories.redir.php?id=2&name=Concerts [L]
+ RewriteRule ^Concert/$ /top_level_categories.redir.php?id=2&name=Concerts [L]
+ RewriteRule ^Theater-Tickets.html$ /top_level_categories.redir.php?id=4&name=Theater [L]
+ RewriteRule ^Theater/$ /top_level_categories.redir.php?id=4&name=Theater [L]
+ RewriteRule ^category/([^/]{1,100})-Tickets-C([0-9]{1,12})\.html$ /category.redir.php?name=$1&id=$2 [L]
+ RewriteRule ^events/([^/]{1,100})-Tickets-E([0-9]{1,12})\.html$ /productions.redir.php?id=$2 [QSA,L]
+ RewriteRule ^productions/([^/]{1,100})-Tickets-E([0-9]{1,12})\.html$ /tickets_for_venue.redir.php?name=$1&id=$2&%{QUERY_STRING} [L]
+ RewriteRule ^productions/([^/]{1,100})-Tickets-P([0-9]{1,12})\.html$ /tickets.redir.php?id=$2&%{QUERY_STRING} [L]
+ RewriteRule ^venues/([^/]{1,100})-Tickets-V([0-9]{1,12})\.html$ /venues.php?vname=$1&vid=$2 [L]
+# NEW URLS 
+ RewriteRule ^sports-tickets/$ /top_level_categories.new_urls.php?id=3&name=Sports [L]
+ RewriteRule ^concert-tickets/$ /top_level_categories.new_urls.php?id=2&name=Concert [L]
+ RewriteRule ^theater-tickets/$ /top_level_categories.new_urls.php?id=4&name=Theater [L]
+ RewriteRule ^policy\.html$ /policy.new_urls.php [L]
+ RewriteRule ^privacy_policy\.html$ /privacy_policy.new_urls.php [L]
+ RewriteRule ^search\.html$ /search.new_urls.php [L]
+ RewriteRule ^sitemap\.html$ /sitemap.new_urls.php [L]
+ RewriteRule ^about_us\.html$ /about_us.new_urls.php [L]
+ RewriteRule ^contact_us\.html$ /contact_mongo.php [L]
+ RewriteRule ^ticket_order\.html$ /ticket_order.new_urls.php [L]
+ RewriteRule ^index\.html$ /main.new_urls.php [L]
+ RewriteRule ^$ /main.new_urls.php [L]
+ RewriteRule ^(.*)-tickets /simple_url_dispatch.php [L]
+#RewriteRule ^/sports$ http://www.mongotickets.com/sports/ [L,R=301]
+#RewriteRule ^/sports/$ /new_urls/top_level_categories.php?id=3&name=Sports [L]
+#RewriteRule ^/concert$ http://www.mongotickets.com/concert/ [L,R=301]
+#RewriteRule ^/concert/$ /new_urls/top_level_categories.php?id=2&name=Concerts [L]
+#RewriteRule ^/theater$ http://www.mongotickets.com/theater/ [L,R=301]
+#RewriteRule ^/theater/$ /new_urls/top_level_categories.php?id=4&name=Theater [L]
+#RewriteBase /
+#RewriteCond %{REQUEST_FILENAME} -f
+#RewriteRule ^(.+)$ $1 [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /new_urls/productions_new.php [L]

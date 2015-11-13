@@ -1,0 +1,222 @@
+/*
+**
+** Copyright (c) 2007, Jassen Moran. All rights reserved.
+** Quad tickets Confidential Proprietary.
+**
+*/
+
+
+
+body {
+position: relative;
+height: 100%;
+color: #000;
+cursor: default;
+padding: 5px 0px;
+font-family: Verdana, Arial, sans-serif;
+text-align: center;
+background-color:#fff;
+}
+
+body, table, tr, td, div, ul, li, p, h1, h2, h3, form, a, ul, li, img {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: 11px/20px Verdana, Arial, Tahoma, sans-serif;
+}
+
+
+a {
+        color: #000;
+        text-decoration: none;
+        text-align: left;
+
+}
+
+
+
+#container {
+background-image:url(/Images/bg.jpg);
+background-color:#FFFFFF;
+margin: 0 auto;
+padding: 0;
+width: 926px;
+height: 100%;
+text-align:left;
+position: relative;
+
+}
+
+.hidden_homelink {
+    float: left;
+    width: 165px;
+    height: 55px;
+    display: block;
+}
+
+
+#masthead_order {
+background-color:#000;
+background: #FFFFFF url(http://www.mongotickets.com/Images/mongo_header_order_form.jpg);
+background-repeat: no-repeat;
+background-position: top center;
+width: 958px;
+height: 110px;
+font-size: 12px;
+text-align: center;
+position: relative;
+margin: 0 auto;
+
+}
+
+
+
+
+#main {
+background-image:url(/Images/bg.jpg);
+background-position: 0;
+background-repeat: no-repeat-x;
+background-color: #FFFFFF;
+
+margin: 0;
+padding: 0;
+position: relative;
+overflow: auto;
+}
+
+#policyanchor {
+float: left;
+clear: left;
+top: 57px;
+left: 10px;
+margin: 0px 0px 0px 10px;
+text-align:center;
+}
+
+#policyanchor a {
+font-size: 10px;
+font-weight: normal;
+text-align: left;
+}
+
+#hlinks {
+font-size: 8px;
+text-align:left;
+float: right;
+padding: 0px 9px 0px 0px;
+}
+
+#searchbox {
+font-size: 10px;
+height: 15px;
+float: right;
+clear: right;
+padding: 10px 20px 0px 0px;
+margin: 0 0 0 0;
+}
+
+
+#searchbox form span input {
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+}
+
+#hlinks a {
+font-size: 10px;
+}
+
+#bannercategories {
+font-family: arial black;
+float: left;
+clear: left;
+padding: 9px 0px 0px 174px;
+}
+
+
+#bannercategories ul li{
+    display: inline;
+    padding: 0px 10px 0px 0px;
+    margin: 0px 6px 0px 0px;
+border-right: groove 2px #e2d1a4;
+
+}
+#bannercategories a {
+    text-align: center;
+    padding: 0px 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+#bannercategories a:link, #bannercategories a:visited {
+color: white;
+}
+#bannercategories a:link:hover, #bannercategories a:visited:hover {
+color: yellow;
+background: black;
+border-color: #227;
+text-decoration: none;
+}
+a:hover { color: #0000FF; text-decoration: underline}
+
+
+
+
+#ordering_clause {
+    clear: left;
+    margin: 2em 2em 20px 12px;
+}
+
+.footerLinks {
+width: 958px;
+    clear: both;
+    background-color: black;
+    height: 50px;
+    background-color: #336699;
+}
+
+.footerLinks * {
+        font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.footerLinks a:hover {
+        color: yellow;
+}
+
+
+#ticket_order {
+background: #FFF;
+padding: 0 0 0 0;
+text-align: center;
+position: relative;
+margin: 0 auto 20px auto;
+}
+
+#ticket_order div {
+background: #FFF;
+padding: 0 0 0 0;
+text-align: center;
+position: relative;
+margin: 0 auto 20px auto;
+}
+
+
+.tiny {
+font-size: 9px;
+}
+
+
+.spacer {clear:both; margin:0px;padding: 3px;}
+
+.black_divider {
+    margin: 0 0 0 0;
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-image:url(/Images/black_smooth_bg.gif);
+    height: 33px;
+    clear: both;
+}
+

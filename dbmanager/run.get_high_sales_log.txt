@@ -1,0 +1,960 @@
+Fri Jun 29 17:32:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@28db23f1
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@24ebf068
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@120540c
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+Fri Jun 29 17:32:07 CDT 2012
+Fri Jun 29 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@28db23f1
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@24ebf068
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@716de067
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+Fri Jun 29 17:34:06 CDT 2012
+Sat Jun 30 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@4a57ea52
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@4dc1c92b
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@5e6458a6
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 22 seconds
+Sat Jun 30 17:34:28 CDT 2012
+Sun Jul  1 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@4dbb9a58
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@7df44ec7
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@315b0333
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 17 seconds
+Sun Jul  1 17:34:18 CDT 2012
+Mon Jul  2 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@74b957ea
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@77bf7b23
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@64df83e5
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 19 seconds
+Mon Jul  2 17:34:22 CDT 2012
+Tue Jul  3 17:34:02 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@7054f9f1
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@36c3e82b
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@38ffd135
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 19 seconds
+Tue Jul  3 17:34:24 CDT 2012
+Wed Jul  4 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@74b957ea
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@77bf7b23
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@38ffd135
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 17 seconds
+Wed Jul  4 17:34:20 CDT 2012
+Thu Jul  5 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@5ae576d4
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@4dc1c92b
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@580754fc
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 16 seconds
+Thu Jul  5 17:34:19 CDT 2012
+Fri Jul  6 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@4a57ea52
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@44ea5461
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@5e6458a6
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 18 seconds
+Fri Jul  6 17:34:21 CDT 2012
+Sat Jul  7 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@45cbda0a
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@4c2b349d
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@495c998a
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 21 seconds
+Sat Jul  7 17:34:25 CDT 2012
+Sun Jul  8 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@4c221e9e
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@6e4bb3c
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@4c2b349d
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 18 seconds
+Sun Jul  8 17:34:22 CDT 2012
+Mon Jul  9 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@69264eab
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@26789869
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@4c2b349d
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 18 seconds
+Mon Jul  9 17:34:21 CDT 2012
+Tue Jul 10 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@5ae576d4
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@4c2b349d
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@23000bcf
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 19 seconds
+Tue Jul 10 17:34:22 CDT 2012
+Wed Jul 11 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@3d47358f
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@3465b738
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@375e293a
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 16 seconds
+Wed Jul 11 17:34:18 CDT 2012
+Thu Jul 12 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@69264eab
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@26789869
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@4c2b349d
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 21 seconds
+Thu Jul 12 17:34:25 CDT 2012
+Fri Jul 13 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@74b957ea
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@53dafbaf
+     [java] org.apache.axis2.AxisFault: com.ctc.wstx.exc.WstxIOException: Read timed out
+     [java] 	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:180)
+     [java] 	at org.apache.tools.ant.taskdefs.Java.run(Java.java:710)
+     [java] 	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:178)
+     [java] 	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:84)
+     [java] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+     [java] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+     [java] 	at org.apache.tools.ant.Target.execute(Target.java:341)
+     [java] 	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+     [java] 	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+     [java] 	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+     [java] 	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+     [java] 	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+     [java] 	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+     [java] 	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+     [java] 	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+     [java] 	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+     [java] Caused by: org.apache.axis2.AxisFault: com.ctc.wstx.exc.WstxIOException: Read timed out
+     [java] 	at org.apache.axis2.AxisFault.makeFault(AxisFault.java:430)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub.fromOM(TNWebServiceStub.java:47163)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub.getHighSalesPerformers(TNWebServiceStub.java:3042)
+     [java] 	at org.apache.axis2.tn.v3p.ImportHighSales.main(ImportHighSales.java:88)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:616)
+     [java] 	at org.apache.tools.ant.taskdefs.ExecuteJava.run(ExecuteJava.java:202)
+     [java] 	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:134)
+     [java] 	... 15 more
+     [java] Caused by: org.apache.axiom.om.impl.exception.OMStreamingException: com.ctc.wstx.exc.WstxIOException: Read timed out
+     [java] 	at org.apache.axiom.om.impl.SwitchingWrapper.getElementText(SwitchingWrapper.java:957)
+     [java] 	at javax.xml.stream.util.StreamReaderDelegate.getElementText(StreamReaderDelegate.java:100)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub$Category$Factory.parse(TNWebServiceStub.java:6914)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub$Performer$Factory.parse(TNWebServiceStub.java:44468)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub$PerformerPercent$Factory.parse(TNWebServiceStub.java:45047)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfPerformerPercent$Factory.parse(TNWebServiceStub.java:17676)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformersResponse$Factory.parse(TNWebServiceStub.java:18742)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub.fromOM(TNWebServiceStub.java:47087)
+     [java] 	... 23 more
+     [java] Caused by: com.ctc.wstx.exc.WstxIOException: Read timed out
+     [java] 	at com.ctc.wstx.sr.StreamScanner.throwFromIOE(StreamScanner.java:708)
+     [java] 	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1086)
+     [java] 	at com.ctc.wstx.sr.BasicStreamReader.getElementText(BasicStreamReader.java:669)
+     [java] 	at org.apache.axiom.util.stax.wrapper.XMLStreamReaderWrapper.getElementText(XMLStreamReaderWrapper.java:100)
+     [java] 	at org.apache.axiom.util.stax.wrapper.XMLStreamReaderWrapper.getElementText(XMLStreamReaderWrapper.java:100)
+     [java] 	at org.apache.axiom.om.impl.SwitchingWrapper.getElementText(SwitchingWrapper.java:953)
+     [java] 	... 30 more
+     [java] Caused by: java.net.SocketTimeoutException: Read timed out
+     [java] 	at java.net.SocketInputStream.socketRead0(Native Method)
+     [java] 	at java.net.SocketInputStream.read(SocketInputStream.java:146)
+     [java] 	at java.io.BufferedInputStream.read1(BufferedInputStream.java:273)
+     [java] 	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+     [java] 	at org.apache.commons.httpclient.ContentLengthInputStream.read(ContentLengthInputStream.java:170)
+     [java] 	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+     [java] 	at org.apache.commons.httpclient.AutoCloseInputStream.read(AutoCloseInputStream.java:108)
+     [java] 	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+     [java] 	at org.apache.axiom.om.util.DetachableInputStream.read(DetachableInputStream.java:147)
+     [java] 	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+     [java] 	at java.io.PushbackInputStream.read(PushbackInputStream.java:186)
+     [java] 	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+     [java] 	at com.ctc.wstx.io.UTF8Reader.loadMore(UTF8Reader.java:365)
+     [java] 	at com.ctc.wstx.io.UTF8Reader.read(UTF8Reader.java:110)
+     [java] 	at com.ctc.wstx.io.MergedReader.read(MergedReader.java:101)
+     [java] 	at com.ctc.wstx.io.ReaderSource.readInto(ReaderSource.java:84)
+     [java] 	at com.ctc.wstx.io.BranchingReaderSource.readInto(BranchingReaderSource.java:57)
+     [java] 	at com.ctc.wstx.sr.StreamScanner.loadMoreFromCurrent(StreamScanner.java:1046)
+     [java] 	at com.ctc.wstx.sr.StreamScanner.loadMoreFromCurrent(StreamScanner.java:1053)
+     [java] 	at com.ctc.wstx.sr.StreamScanner.getNextCharFromCurrent(StreamScanner.java:811)
+     [java] 	at com.ctc.wstx.sr.BasicStreamReader.readEndElem(BasicStreamReader.java:3206)
+     [java] 	at com.ctc.wstx.sr.BasicStreamReader.nextFromTree(BasicStreamReader.java:2832)
+     [java] 	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1019)
+     [java] 	... 34 more
+     [java] --- Nested Exception ---
+     [java] org.apache.axis2.AxisFault: com.ctc.wstx.exc.WstxIOException: Read timed out
+     [java] 	at org.apache.axis2.AxisFault.makeFault(AxisFault.java:430)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub.fromOM(TNWebServiceStub.java:47163)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub.getHighSalesPerformers(TNWebServiceStub.java:3042)
+     [java] 	at org.apache.axis2.tn.v3p.ImportHighSales.main(ImportHighSales.java:88)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     [java] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+     [java] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     [java] 	at java.lang.reflect.Method.invoke(Method.java:616)
+     [java] 	at org.apache.tools.ant.taskdefs.ExecuteJava.run(ExecuteJava.java:202)
+     [java] 	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:134)
+     [java] 	at org.apache.tools.ant.taskdefs.Java.run(Java.java:710)
+     [java] 	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:178)
+     [java] 	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:84)
+     [java] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+     [java] 	at org.apache.tools.ant.Task.perform(Task.java:364)
+     [java] 	at org.apache.tools.ant.Target.execute(Target.java:341)
+     [java] 	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+     [java] 	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+     [java] 	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+     [java] 	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+     [java] 	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+     [java] 	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+     [java] 	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+     [java] 	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+     [java] 	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+     [java] Caused by: org.apache.axiom.om.impl.exception.OMStreamingException: com.ctc.wstx.exc.WstxIOException: Read timed out
+     [java] 	at org.apache.axiom.om.impl.SwitchingWrapper.getElementText(SwitchingWrapper.java:957)
+     [java] 	at javax.xml.stream.util.StreamReaderDelegate.getElementText(StreamReaderDelegate.java:100)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub$Category$Factory.parse(TNWebServiceStub.java:6914)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub$Performer$Factory.parse(TNWebServiceStub.java:44468)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub$PerformerPercent$Factory.parse(TNWebServiceStub.java:45047)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfPerformerPercent$Factory.parse(TNWebServiceStub.java:17676)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformersResponse$Factory.parse(TNWebServiceStub.java:18742)
+     [java] 	at org.apache.axis2.tn.v3p.TNWebServiceStub.fromOM(TNWebServiceStub.java:47087)
+     [java] 	... 23 more
+     [java] Caused by: com.ctc.wstx.exc.WstxIOException: Read timed out
+     [java] 	at com.ctc.wstx.sr.StreamScanner.throwFromIOE(StreamScanner.java:708)
+     [java] 	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1086)
+     [java] 	at com.ctc.wstx.sr.BasicStreamReader.getElementText(BasicStreamReader.java:669)
+     [java] 	at org.apache.axiom.util.stax.wrapper.XMLStreamReaderWrapper.getElementText(XMLStreamReaderWrapper.java:100)
+     [java] 	at org.apache.axiom.util.stax.wrapper.XMLStreamReaderWrapper.getElementText(XMLStreamReaderWrapper.java:100)
+     [java] 	at org.apache.axiom.om.impl.SwitchingWrapper.getElementText(SwitchingWrapper.java:953)
+     [java] 	... 30 more
+     [java] Caused by: java.net.SocketTimeoutException: Read timed out
+     [java] 	at java.net.SocketInputStream.socketRead0(Native Method)
+     [java] 	at java.net.SocketInputStream.read(SocketInputStream.java:146)
+     [java] 	at java.io.BufferedInputStream.read1(BufferedInputStream.java:273)
+     [java] 	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+     [java] 	at org.apache.commons.httpclient.ContentLengthInputStream.read(ContentLengthInputStream.java:170)
+     [java] 	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+     [java] 	at org.apache.commons.httpclient.AutoCloseInputStream.read(AutoCloseInputStream.java:108)
+     [java] 	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+     [java] 	at org.apache.axiom.om.util.DetachableInputStream.read(DetachableInputStream.java:147)
+     [java] 	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+     [java] 	at java.io.PushbackInputStream.read(PushbackInputStream.java:186)
+     [java] 	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+     [java] 	at com.ctc.wstx.io.UTF8Reader.loadMore(UTF8Reader.java:365)
+     [java] 	at com.ctc.wstx.io.UTF8Reader.read(UTF8Reader.java:110)
+     [java] 	at com.ctc.wstx.io.MergedReader.read(MergedReader.java:101)
+     [java] 	at com.ctc.wstx.io.ReaderSource.readInto(ReaderSource.java:84)
+     [java] 	at com.ctc.wstx.io.BranchingReaderSource.readInto(BranchingReaderSource.java:57)
+     [java] 	at com.ctc.wstx.sr.StreamScanner.loadMoreFromCurrent(StreamScanner.java:1046)
+     [java] 	at com.ctc.wstx.sr.StreamScanner.loadMoreFromCurrent(StreamScanner.java:1053)
+     [java] 	at com.ctc.wstx.sr.StreamScanner.getNextCharFromCurrent(StreamScanner.java:811)
+     [java] 	at com.ctc.wstx.sr.BasicStreamReader.readEndElem(BasicStreamReader.java:3206)
+     [java] 	at com.ctc.wstx.sr.BasicStreamReader.nextFromTree(BasicStreamReader.java:2832)
+     [java] 	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1019)
+     [java] 	... 34 more
+
+BUILD SUCCESSFUL
+Total time: 1 minute 26 seconds
+Fri Jul 13 17:35:29 CDT 2012
+Sat Jul 14 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@5ae576d4
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@77bf7b23
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@23000bcf
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 19 seconds
+Sat Jul 14 17:34:23 CDT 2012
+Sun Jul 15 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@2bd9e282
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@3c2d7440
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@580754fc
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 18 seconds
+Sun Jul 15 17:34:22 CDT 2012
+Mon Jul 16 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@5ae576d4
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@77bf7b23
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@23000bcf
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 21 seconds
+Mon Jul 16 17:34:24 CDT 2012
+Tue Jul 17 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@5ae576d4
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@77bf7b23
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@23000bcf
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 18 seconds
+Tue Jul 17 17:34:21 CDT 2012
+Wed Jul 18 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@69264eab
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@62c8769b
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@4c2b349d
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 19 seconds
+Wed Jul 18 17:34:22 CDT 2012
+Thu Jul 19 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@7054f9f1
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@53dafbaf
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@38ffd135
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 20 seconds
+Thu Jul 19 17:34:23 CDT 2012
+Fri Jul 20 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@13342a67
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@7f2e7c6a
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@23000bcf
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 19 seconds
+Fri Jul 20 17:34:22 CDT 2012
+Sat Jul 21 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@6273305c
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@44ea5461
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@6c63a721
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 21 seconds
+Sat Jul 21 17:34:25 CDT 2012
+Sun Jul 22 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@5dc1ac46
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@36c3e82b
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@38ffd135
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 18 seconds
+Sun Jul 22 17:34:22 CDT 2012
+Mon Jul 23 17:34:01 CDT 2012
+Buildfile: build.xml
+
+run.get_high_sales:
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@5ae576d4
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@77bf7b23
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java]  Sending GetHighSalesPerformers Request.
+     [java] org.apache.axis2.tn.v3p.TNWebServiceStub$GetHighSalesPerformers@23000bcf
+
+     [java] Received GetHighSalesPerformersResponse 
+
+     [java] Number of performers: 450
+
+     [java] 0 rows were updated
+
+
+BUILD SUCCESSFUL
+Total time: 19 seconds
+Mon Jul 23 17:34:23 CDT 2012

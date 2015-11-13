@@ -1,0 +1,5 @@
+
+ select EventName,EventID,Events.CategoryID,CategoryName INTO OUTFILE 'tmp.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' from Events left join AdjacencyListCategories on (Events.CategoryID=AdjacencyListCategories.CategoryID) where Events.CategoryID>1299 AND Events.CategoryID <1400;
+
+
+don't forget to add topline heading to csv file

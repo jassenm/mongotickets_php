@@ -1,0 +1,47 @@
+-- MySQL dump 10.9
+--
+-- Host: localhost    Database: mongo_tickets
+-- ------------------------------------------------------
+-- Server version	5.0.45-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `EventText`
+--
+
+DROP TABLE IF EXISTS `EventText`;
+CREATE TABLE `EventText` (
+  `EventID` int(11) NOT NULL default '0',
+  `EventIntroText` text,
+  `EventText` text,
+  `EventImagePathname` char(100) default NULL,
+  PRIMARY KEY  (`EventID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `EventText`
+--
+
+
+/*!40000 ALTER TABLE `EventText` DISABLE KEYS */;
+LOCK TABLES `EventText` WRITE;
+INSERT INTO `EventText` VALUES (162,'The Chicago Cubs clinched the NL Central crown and are hungry to get into the 2007 world series. They head into the NLDS with Derrek Lee, Aramis Ramirez, and Alfonso Soriano leading the pack. This may be the year that the Chicago Cubs take home the coveted MLB World Series Championship. Get your Chicago Cubs Playoffs tickets today.','<p>The New England Patriots were brought into the NFL in 1959 when the team was created as the last franchise in the newly formed American Football League.  The team made it to their first AFL championship game in 1963, where they lost to the San Diego Chargers.  1963 would mark the only time that decade the Patriots could make it to a championship, but they made up for their dismal showing by the mid-1970s, when the team consistently putting out winning seasons for the next few years.  Although the New England Patriots did not win the Super Bowl until 2002, they often brought home the AFL championships, but were defeated in early games during post-season play.  In 2002, the team was viewed as the underdog in the Super Bowl game against St. Louis Rams, but managed to pull out a stunning win that would finally prove to fans that the New England Patriots were one of the NFLs strongest teams at the start of the new millennium.</p><p>After losing to the Indianapolis Colts in the AFC championship last season, the New England Patriots are looking to prove themselves once again in the 2007 season.  Fans attending New England Patriots games at Gillette Field will be there to watch as the team tries to make it to another championship, and possibly even the Super Bowl.</p><p>Since their back-to-back Super Bowl wins in 2004 and 2005, the Patriots have been fighting to stay on top of the NFL standings.  Quarterback Tom Brady proved his worth in both Super Bowls, with last-minute plays that won the games, bring the Patriots from underdog team to top of the pack.  And now, fans turn out in droves at New England Patriots games to watch Brady and the rest of the Patriots face off against other NFL teams.</p>',NULL),(107,'The Boston Red Sox clinched the AL East crown for the first time in 12 years. Daisuke Matsuzaka, Mike Lowell, and David Ortiz are sure to give the team a run for the MLB World Series Championship. Buy your Boston Red Sox Playoffs tickets today.','<p>The New England Patriots were brought into the NFL in 1959 when the team was created as the last franchise in the newly formed American Football League.  The team made it to their first AFL championship game in 1963, where they lost to the San Diego Chargers.  1963 would mark the only time that decade the Patriots could make it to a championship, but they made up for their dismal showing by the mid-1970s, when the team consistently putting out winning seasons for the next few years.  Although the New England Patriots did not win the Super Bowl until 2002, they often brought home the AFL championships, but were defeated in early games during post-season play.  In 2002, the team was viewed as the underdog in the Super Bowl game against St. Louis Rams, but managed to pull out a stunning win that would finally prove to fans that the New England Patriots were one of the NFLs strongest teams at the start of the new millennium.</p><p>After losing to the Indianapolis Colts in the AFC championship last season, the New England Patriots are looking to prove themselves once again in the 2007 season.  Fans attending New England Patriots games at Gillette Field will be there to watch as the team tries to make it to another championship, and possibly even the Super Bowl.</p><p>Since their back-to-back Super Bowl wins in 2004 and 2005, the Patriots have been fighting to stay on top of the NFL standings.  Quarterback Tom Brady proved his worth in both Super Bowls, with last-minute plays that won the games, bring the Patriots from underdog team to top of the pack.  And now, fans turn out in droves at New England Patriots games to watch Brady and the rest of the Patriots face off against other NFL teams.</p>',NULL),(592,'New England Patriots Head Coach Bill Belichick is hoping the Patriots will have another winning record for the 2007 season.  Thanks to key players, including quarterback Tom Brady, wide receiver Randy Moss, line backer Tedy Bruschi, and running back Laurence Maroney, the Patriots have strong chance of pulling in another championship title in 2007.  Fans will be turning out in droves to watch New England Patriots games, both at their home field in Foxboro and at other NFL stadiums across the country.  New England Patriots tickets are sure to sell out fast as their fans dream of watching their favorite team become Super Bowl champions once again.','<p>The New England Patriots were brought into the NFL in 1959 when the team was created as the last franchise in the newly formed American Football League.  The team made it to their first AFL championship game in 1963, where they lost to the San Diego Chargers.  1963 would mark the only time that decade the Patriots could make it to a championship, but they made up for their dismal showing by the mid-1970s, when the team consistently putting out winning seasons for the next few years.  Although the New England Patriots did not win the Super Bowl until 2002, they often brought home the AFL championships, but were defeated in early games during post-season play.  In 2002, the team was viewed as the underdog in the Super Bowl game against St. Louis Rams, but managed to pull out a stunning win that would finally prove to fans that the New England Patriots were one of the NFLs strongest teams at the start of the new millennium.</p><p>After losing to the Indianapolis Colts in the AFC championship last season, the New England Patriots are looking to prove themselves once again in the 2007 season.  Fans attending New England Patriots games at Gillette Field will be there to watch as the team tries to make it to another championship, and possibly even the Super Bowl.</p><p>Since their back-to-back Super Bowl wins in 2004 and 2005, the Patriots have been fighting to stay on top of the NFL standings.  Quarterback Tom Brady proved his worth in both Super Bowls, with last-minute plays that won the games, bring the Patriots from underdog team to top of the pack.  And now, fans turn out in droves at New England Patriots games to watch Brady and the rest of the Patriots face off against other NFL teams.</p>','Images/football_patriots.jpg'),(10475,'','','Images/hannah_montana.jpg');
+UNLOCK TABLES;
+/*!40000 ALTER TABLE `EventText` ENABLE KEYS */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+

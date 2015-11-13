@@ -1,0 +1,17 @@
+<?php
+
+$string = $argv[1];
+
+$str = SpecialCharToDashes($string);
+
+echo "\nstring is \"$str\"\n";
+
+function SpecialCharToDashes($string)
+{
+    $s = preg_replace ('/[^a-zA-Z0-9]/', '-', $string);
+
+	return $s;
+}
+
+
+?>

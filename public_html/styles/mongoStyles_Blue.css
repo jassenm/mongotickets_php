@@ -1,0 +1,185 @@
+﻿html
+{
+   width:100%; 
+   text-align:center;
+   background-image: url(/images/html_bg.gif);
+   margin: 0;
+   padding: 0;
+   
+}
+
+body 
+{
+    margin:0;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0 1px 0px 1px;
+   
+    width:930px;
+    font-family: Lucida Sans, Arial;
+    font-size: 12px;
+    background-color:White;
+}
+/**** UNIVERSAL STYLES ****/
+h1
+{
+    font-size:16px;
+}
+h2
+{
+    font-size:14px;
+}
+h3
+{
+    font-size:14px;
+    font-weight:normal;
+}
+a
+{ 
+    color: #303895;
+    text-decoration:none;
+}
+img
+{
+    border:none;
+}
+
+ul
+{
+    padding:0;
+    margin:0;
+}
+ul li
+{
+    list-style:none;
+    padding: 2px 0;
+    margin:0;
+}
+ul li a
+{
+    font-size:10px;
+}
+
+/****** LAYOUT STYLES *****/
+
+/*** HEADER/TOP NAVIGATION ***/
+#topNav1
+{
+    clear:both;
+    color:#fff;
+    padding: 3px 0 5px 0;
+    background-image: url(../images/topNav1_bg_B.gif);
+    background-repeat: repeat-x;
+    
+}
+#topNav1 a, #topNav2 a
+{
+    color:#fff;
+}
+.topNav1Right
+{
+    float:left;
+    padding-left:150px;
+   
+}
+.topNav1Righ img
+{
+    
+}
+.topNav1Left
+{
+    float:left;
+    padding-top:5px;
+    padding-left: 20px;
+}
+
+#topNav2
+{
+    clear:both;
+    text-align:right;
+    padding:7px 20px 7px 20px;
+    font-size: 10px;
+    background-color:#7391bc;
+}
+
+/*** CENTER CONTENT AREA ***/
+#content
+{
+  text-align:left;
+}
+
+#contentLeft
+{
+    float:left;
+}
+
+.clTop
+{
+    background-color:#e8e8e8;
+    width: 150px;
+    padding: 10px;
+}
+
+.clTop h4
+{
+    font-family: Times New Roman;
+    color:#5f5151;
+    padding-top:0;
+    margin-top:0px;
+    text-transform:uppercase;
+}
+
+.clBottom
+{
+   width:170px;
+  
+}
+
+#contentCenter
+{
+    width:595px;
+    float:left;
+  
+    padding:10px 10px 30px 20px;
+}
+
+#contentRight
+{
+    width:135px;
+    float:left;
+    padding-bottom:30px;
+    padding-top: 50px;
+}
+
+/*** FOOTERS ***/
+#footer
+{
+   padding-left: 46px;
+   padding-right: 46px;
+}
+#footer1
+{
+   
+    clear:both;
+    width:822px;
+    border-top: solid 1px #1a4a98;
+}
+
+#footer2
+{
+    text-align:center;
+    font-size: 10px;
+    color:#fff;
+    background-image: url(../images/footer2_bg_B.gif);
+    background-repeat: repeat-x;
+    line-height: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+
+#footer2 a
+{
+    color:#fff;
+    
+}

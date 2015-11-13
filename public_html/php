@@ -1,0 +1,5 @@
+blue_swap.html:    <div class="topNav1Right">Ticket Search: <form action="/search.html" method="get" style="display: inline;"><input type="radio" name="search_preference" value="by_event"/>event <input type="radio" name="search_preference" value="by_venue"/>venue <input type="text" name="keywords" value="" /></div>&nbsp;&nbsp;<input type="image" src="/images/findbtn.gif" name="" value="" /></form>
+productions_new.php:# /search.html
+Sports-Tickets345.php:		<form action="/search.html" method="get" style="display: inline;">
+test.html:		<form action="/search.html" method="get" style="display: inline;">
+zafadfpw.html:		<form action="/search.html" method="get" style="display: inline;">

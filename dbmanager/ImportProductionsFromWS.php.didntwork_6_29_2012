@@ -1,0 +1,180 @@
+<?php
+#
+# Copyright (c) 2007, Jassen Moran. All rights reserved.
+# Quad tickets Confidential Proprietary.
+#
+
+
+// include the SOAP classes
+require_once('../lib/nusoap.php');
+require_once('../include/new_urls/ticket_db.php');
+require_once('../include/EventInventoryWebServices.inc.php');
+require_once('err.php');
+require_once('../include/mail.php');
+
+ini_set("memory_limit","300M");
+
+print_message("Preparing database for Productions Import.......");
+
+
+$dbh=mysql_connect ($host_name, $db_username, $db_password)
+			or die ('I cannot connect to the database because: ' . mysql_error());
+mysql_select_db ($db_name);
+
+$bsql = "DROP TABLE IF EXISTS Productions_temp";
+$query_result = mysql_query($bsql) or die ('DROP TABLE IF EXISTS Productions_temp failed: ' . mysql_error());
+
+
+$bsql = "CREATE TABLE Productions_temp (
+		ProductionID INT NOT NULL,
+		EventDate DATETIME,
+		EventID INT,
+		OpponentEventID INT,
+		VenueID INT,
+		ShortNote CHAR(100),
+		MinCost CHAR(16),
+		MaxCost CHAR(16),
+		PRIMARY KEY (ProductionID)
+	) ENGINE MyISAM";
+
+$query_result = mysql_query($bsql) or die ('CREATE TABLE Productions_temp failed: ' . mysql_error());
+
+
+print_message("Done.");
+
+// create client object
+print_message("Getting Productions from $serverpath");
+
+//set soap Action
+$method= 'GetAllProductions';
+$soapAction= $namespace . $method;
+
+
+$num_productions_returned = 0;
+$soapclient = new nusoap_client($serverpath);
+$soapclient -> timeout = 1500;
+$soapclient -> response_timeout = 1500;
+	
+$param = array( 'SecurityToken' => "$securitytoken");
+print_message("ImportProductionsFromWS: Invoking $method web method..... ");
+$result = $soapclient->call($method,$param,$namespace,$soapAction);
+
+print_message("ImportProductionsFromWS: Done Calling $soapAction.");
+
+if ($soapclient->getError())
+{
+    print_message("ImportProductionsFromWS: Error: \nSTART_GET_ERROR\n" . $soapclient->getError() . "\nEND_GET_ERROR\nSTART_DEBUG_STR\n" . $soapclient->debug_str . "\nEND_DEBUG_STR\n");
+    unset($soapclient);
+    send_an_email('admin@email.com','GetAllProductions failed 1st try!','GetAllProductions failed 1st try!');
+    print_message("ImportProductionsFromWS: Error: retrying with 3,000 second timeout\n");
+    $soapclient = new soapclient($serverpath);
+    $soapclient -> timeout = 3000; # 50 minutes
+    $soapclient -> response_timeout = 3000; # 50 minutes
+}
+
+if ($soapclient->getError())
+{
+    print_message("ImportProductionsFromWS: Error: retries exhausted\nSTART_GET_ERROR\n" . $soapclient->getError() . "\nEND_GET_ERROR\nSTART_DEBUG_STR\n" . $soapclient->debug_str . "\nEND_DEBUG_STR\n");
+    send_an_email('admin@email.com','GetAllProductions failed 2nd try!','GetAllProductions failed 2nd try!');
+    die('exiting');
+
+}
+else{
+        send_an_email('admin@email.com','GetAllProductions succeeded!!!!','GetAllProductions succeeded!!!!');
+
+	print_message("ImportProductionsFromWS: Importing Production data....");
+// if a fault occurred, output error info
+if (isset($fault)) {
+	$err_string = "ImportProductionsFromWS: fault $fault";
+	print_message($err_string);
+}
+else if ($result) {
+
+	if (isset($result['faultstring']))
+	{
+		print_message("ImportProductionsFromWS: Error:" . $result['faultstring']);
+	}
+	else {
+		$root=$result['ROOT'];
+                if(isset($root['MESSAGE'])) {
+                     print_message($root['MESSAGE']);
+                }
+		else {
+		$data = $root['DATA'];
+		if($data != '') {
+	 		$row = $data['row'];             
+		if($row[0] != '') {
+			$num_productions_returned++;
+			for($i=0;$i<count($row);$i++)
+			{
+				$num_productions_returned++;
+				$pid = $row[$i]['!ProductionID'];
+				$edate = tnow_date_to_mysqldate($row[$i]['!EventDate']);
+				$eid = $row[$i]['!EventID'];
+				$oeid = $row[$i]['!OpponentEventID'];
+				$vid = $row[$i]['!VenueID'];
+				$snote = mysql_escape_string($row[$i]['!ShortNote']);
+				$mincost = $row[$i]['!MinCost'];
+				$maxcost = $row[$i]['!MaxCost'];
+
+				$bsql = "INSERT INTO Productions_temp " .
+				"(ProductionID, EventDate, EventID, OpponentEventID, VenueID, ShortNote, MinCost, MaxCost) " . 
+				"VALUES ('$pid', '$edate', '$eid', '$oeid', '$vid', '$snote', '$mincost', '$maxcost')";
+   				$insert_result = mysql_query($bsql) or print_message('ImportProductionsFromWS: ' . mysql_error());
+
+			} # end for
+}
+else  {
+				$num_productions_returned++;
+                                $pid = $row['!ProductionID'];
+                                $edate = tnow_date_to_mysqldate($row['!EventDate']);
+                                $eid = $row['!EventID'];
+				$oeid = $row['!OpponentEventID'];
+                                $vid = $row['!VenueID'];
+                                $snote = mysql_escape_string($row['!ShortNote']);
+				$mincost = $row['!MinCost'];
+				$maxcost = $row['!MaxCost'];
+
+                                $bsql = "INSERT INTO Productions_temp " .
+				"(ProductionID, EventDate, EventID, OpponentEventID, VenueID, ShortNote, MinCost, MaxCost) " . 
+				"VALUES ('$pid', '$edate', '$eid', '$oeid', '$vid', '$snote', '$mincost', '$maxcost')";
+   				$insert_result = mysql_query($bsql) or print_message('ImportProductionsFromWS: ' . mysql_error());
+}
+
+		} # end if no data
+		else
+		{
+			print_message("ImportProductionsFromWS: no DATA");
+		}
+}
+			
+	}
+}
+else {
+	print_message("No result");
+}
+}
+unset($soapclient);
+
+
+
+print_message("ImportProductionsFromWS: Done. ");
+
+mysql_close($dbh);
+
+if($num_productions_returned < 1) {
+        print_message("ImportProductionsFromWS: No productions returned, exiting...");
+}
+
+
+print_message("Finished Importing Productions Done.\n");
+
+
+function tnow_date_to_mysqldate($date) {
+	$date = str_replace( 'T', ' ', $date );
+	return $date;
+}
+
+
+
+?>

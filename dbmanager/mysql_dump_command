@@ -1,0 +1,2 @@
+mysqldump -u root -p mongo_tickets2 EventRankings > EventRankings.backup.Feb_29_2008
+

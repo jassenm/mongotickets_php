@@ -1,0 +1,577 @@
+Sat Jun 30 06:00:02 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java]  Sending GetEventPerformers Request.
+
+
+     [java] Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@77546dbc
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@44ed904
+
+     [java] 2012/06/30 06:00:27 Number of Event Performers: 65408
+
+BUILD SUCCESSFUL
+Total time: 36 seconds
+Sat Jun 30 06:00:39 CDT 2012
+Sat Jun 30 10:04:56 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@23e0512a
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@7433b121
+
+     [java] 2012/06/30 10:05:14 Number of Event Performers: 65397
+
+     [java] 2012/06/30 10:05:28 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 31 seconds
+Sat Jun 30 10:05:28 CDT 2012
+Sat Jun 30 10:09:12 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@6da5db4b
+     [java] SQLException: Can not issue SELECT via executeUpdate().
+     [java] SQLState: 01S03
+     [java] VendorError: 0
+
+BUILD SUCCESSFUL
+Total time: 18 seconds
+Sat Jun 30 10:09:30 CDT 2012
+Sat Jun 30 10:20:37 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@23e0512a
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 65397
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@6db22920
+
+     [java] 2012/06/30 10:20:58 Number of Event Performers: 65407
+
+     [java] 2012/06/30 10:21:11 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 33 seconds
+Sat Jun 30 10:21:11 CDT 2012
+Sun Jul  1 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@77546dbc
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 65407
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@40e99ce5
+
+     [java] 2012/07/01 06:00:19 Number of Event Performers: 64989
+
+     [java] 2012/07/01 06:00:33 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 31 seconds
+Sun Jul  1 06:00:33 CDT 2012
+Mon Jul  2 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@6f7918f0
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 64989
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@45c1f5b2
+
+     [java] 2012/07/02 06:00:28 Number of Event Performers: 64839
+
+     [java] 2012/07/02 06:00:40 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 34 seconds
+Mon Jul  2 06:00:40 CDT 2012
+Tue Jul  3 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@77546dbc
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 64839
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@75d252d
+
+     [java] 2012/07/03 06:00:20 Number of Event Performers: 61819
+
+     [java] 2012/07/03 06:00:31 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 30 seconds
+Tue Jul  3 06:00:31 CDT 2012
+Wed Jul  4 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@7229c204
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 61819
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@44c6f734
+
+     [java] 2012/07/04 06:00:16 Number of Event Performers: 64687
+
+     [java] 2012/07/04 06:00:28 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 26 seconds
+Wed Jul  4 06:00:28 CDT 2012
+Thu Jul  5 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@5c95da38
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 64687
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@315b0333
+
+     [java] 2012/07/05 06:00:19 Number of Event Performers: 64475
+
+     [java] 2012/07/05 06:00:31 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 26 seconds
+Thu Jul  5 06:00:31 CDT 2012
+Fri Jul  6 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@128ae45a
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 64475
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@7564debb
+
+     [java] 2012/07/06 06:00:15 Number of Event Performers: 64917
+
+     [java] 2012/07/06 06:00:28 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 26 seconds
+Fri Jul  6 06:00:28 CDT 2012
+Sat Jul  7 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@5c95da38
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 64917
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@44c6f734
+
+     [java] 2012/07/07 06:00:16 Number of Event Performers: 64455
+
+     [java] 2012/07/07 06:00:27 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 26 seconds
+Sat Jul  7 06:00:27 CDT 2012
+Sun Jul  8 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@6f7918f0
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 64455
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@45c1f5b2
+
+     [java] 2012/07/08 06:00:24 Number of Event Performers: 63933
+
+     [java] 2012/07/08 06:00:34 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 32 seconds
+Sun Jul  8 06:00:34 CDT 2012
+Mon Jul  9 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@60cbf9bd
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 63933
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@154e45b3
+
+     [java] 2012/07/09 06:00:25 Number of Event Performers: 63640
+
+     [java] 2012/07/09 06:00:36 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 33 seconds
+Mon Jul  9 06:00:36 CDT 2012
+Tue Jul 10 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@6f7918f0
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 63640
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@342f356f
+
+     [java] 2012/07/10 06:00:18 Number of Event Performers: 64342
+
+     [java] 2012/07/10 06:00:29 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 27 seconds
+Tue Jul 10 06:00:29 CDT 2012
+Wed Jul 11 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@6f7918f0
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 64342
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@45c1f5b2
+
+     [java] 2012/07/11 06:00:19 Number of Event Performers: 64752
+
+     [java] 2012/07/11 06:00:31 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 29 seconds
+Wed Jul 11 06:00:31 CDT 2012
+Thu Jul 12 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@581de498
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 64752
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@583e97df
+
+     [java] 2012/07/12 06:00:24 Number of Event Performers: 65077
+
+     [java] 2012/07/12 06:00:35 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 25 seconds
+Thu Jul 12 06:00:35 CDT 2012
+Fri Jul 13 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@7054f9f1
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 65077
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@41d47b2b
+
+     [java] 2012/07/13 06:00:16 Number of Event Performers: 65728
+
+     [java] 2012/07/13 06:00:28 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 27 seconds
+Fri Jul 13 06:00:28 CDT 2012
+Sat Jul 14 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@7229c204
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 65728
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@583e97df
+
+     [java] 2012/07/14 06:00:16 Number of Event Performers: 66084
+
+     [java] 2012/07/14 06:00:27 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 26 seconds
+Sat Jul 14 06:00:27 CDT 2012
+Sun Jul 15 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@77546dbc
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 66084
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@548997d1
+
+     [java] 2012/07/15 06:00:16 Number of Event Performers: 65658
+
+     [java] 2012/07/15 06:00:29 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 27 seconds
+Sun Jul 15 06:00:29 CDT 2012
+Mon Jul 16 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@47f08ed8
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 65658
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@154e45b3
+
+     [java] 2012/07/16 06:00:36 Number of Event Performers: 66009
+
+     [java] 2012/07/16 06:00:47 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 37 seconds
+Mon Jul 16 06:00:47 CDT 2012
+Tue Jul 17 06:00:02 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@5c95da38
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 66009
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@120540c
+
+     [java] 2012/07/17 06:00:15 Number of Event Performers: 66545
+
+     [java] 2012/07/17 06:00:27 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 25 seconds
+Tue Jul 17 06:00:28 CDT 2012
+Wed Jul 18 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@77546dbc
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 66545
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@6d581e80
+
+     [java] 2012/07/18 06:00:16 Number of Event Performers: 66703
+
+     [java] 2012/07/18 06:00:31 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 28 seconds
+Wed Jul 18 06:00:31 CDT 2012
+Thu Jul 19 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@1380cf2a
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 66703
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@583e97df
+
+     [java] 2012/07/19 06:00:16 Number of Event Performers: 67037
+
+     [java] 2012/07/19 06:00:28 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 27 seconds
+Thu Jul 19 06:00:28 CDT 2012
+Fri Jul 20 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@7229c204
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 67037
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@120540c
+
+     [java] 2012/07/20 06:00:17 Number of Event Performers: 67179
+
+     [java] 2012/07/20 06:00:28 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 26 seconds
+Fri Jul 20 06:00:28 CDT 2012
+Sat Jul 21 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@77546dbc
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 67179
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@6d581e80
+
+     [java] 2012/07/21 06:00:20 Number of Event Performers: 66804
+
+     [java] 2012/07/21 06:00:33 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 30 seconds
+Sat Jul 21 06:00:33 CDT 2012
+Sun Jul 22 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@47f08ed8
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 66804
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@40e99ce5
+
+     [java] 2012/07/22 06:00:37 Number of Event Performers: 66244
+
+     [java] 2012/07/22 06:00:47 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 46 seconds
+Sun Jul 22 06:00:47 CDT 2012
+Mon Jul 23 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@5c95da38
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 66244
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@424d2af2
+
+     [java] 2012/07/23 06:00:18 Number of Event Performers: 65893
+
+     [java] 2012/07/23 06:00:31 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 28 seconds
+Mon Jul 23 06:00:31 CDT 2012
+Tue Jul 24 06:00:01 CDT 2012
+Buildfile: build.xml
+
+run.epv3p:
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Sending GetEventPerformers Request.
+
+
+     [java] tn/v3p/ImportEventPerformersFromTND.java Received GetEventPerformersResponse org.apache.axis2.tn.v3p.TNWebServiceStub$ArrayOfEventPerformer@77546dbc
+
+     [java]  Number of existing Event Performers in TNDEventPerformers_temp: 65893
+
+     [java]  [Lorg.apache.axis2.tn.v3p.TNWebServiceStub$EventPerformer;@293b9fae
+
+     [java] 2012/07/24 06:00:23 Number of Event Performers: 66176
+
+     [java] 2012/07/24 06:00:34 tn/v3p/ImportEventPerformersFromTND.java Updated TNDEventPerformers
+
+BUILD SUCCESSFUL
+Total time: 29 seconds
+Tue Jul 24 06:00:34 CDT 2012

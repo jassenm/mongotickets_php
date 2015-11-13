@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /*?sortBy
+Disallow: /*?home_only
+Disallow: /events/High-School-Musical-Tickets-E.html
+Disallow: /events/Get-Motivated-Business-Seminar-Tickets-E.html
+Disallow: /events/Les-Liaisons-Dangereuses-Tickets-E.html
+Disallow: /events/Playhouse-Disney-Live-On-Tour-Tickets-E.html
+Disallow: /events/So-You-Think-You-Can-Dance-Live-Tickets-E.html
+Disallow: /privacy_policy.html
+Disallow: /productions.tnd.php

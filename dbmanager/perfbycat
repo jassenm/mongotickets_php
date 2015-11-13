@@ -1,0 +1,776 @@
+ Preparing for Import.......Invoking GetPerformerByCategory method..... Done Calling http://webservices2.ticketnetwork.com/GetPerformerByCategory.Importing data.... Array
+(
+    [Performer] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 20086
+                    [Description] => 2007 All-star Fanfest
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [ID] => 18131
+                    [Description] => American League Championship Series
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [ID] => 58
+                    [Description] => Arizona Diamondbacks 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [ID] => 68
+                    [Description] => Atlanta Braves 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [ID] => 92
+                    [Description] => Baltimore Orioles 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [ID] => 12420
+                    [Description] => Baltimore Orioles FanFest
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [ID] => 154
+                    [Description] => Boston Red Sox 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [ID] => 210
+                    [Description] => Chicago Cubs 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [ID] => 212
+                    [Description] => Chicago White Sox 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [ID] => 222
+                    [Description] => Cincinnati Reds 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [10] => Array
+                (
+                    [ID] => 231
+                    [Description] => Cleveland Indians 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [11] => Array
+                (
+                    [ID] => 244
+                    [Description] => Colorado Rockies 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [12] => Array
+                (
+                    [ID] => 308
+                    [Description] => Detroit Tigers 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [13] => Array
+                (
+                    [ID] => 378
+                    [Description] => Florida Marlins 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [14] => Array
+                (
+                    [ID] => 17605
+                    [Description] => Futures And Legends
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [15] => Array
+                (
+                    [ID] => 27467
+                    [Description] => Hanshin Tigers
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [16] => Array
+                (
+                    [ID] => 437
+                    [Description] => Houston Astros 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [17] => Array
+                (
+                    [ID] => 526
+                    [Description] => Kansas City Royals 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [18] => Array
+                (
+                    [ID] => 45
+                    [Description] => Los Angeles Angels of Anaheim
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [19] => Array
+                (
+                    [ID] => 590
+                    [Description] => Los Angeles Dodgers 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [20] => Array
+                (
+                    [ID] => 672
+                    [Description] => Milwaukee Brewers 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [21] => Array
+                (
+                    [ID] => 677
+                    [Description] => Minnesota Twins 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [22] => Array
+                (
+                    [ID] => 14370
+                    [Description] => MLB All Star FanFest
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [23] => Array
+                (
+                    [ID] => 10926
+                    [Description] => MLB All Star Game
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [24] => Array
+                (
+                    [ID] => 14371
+                    [Description] => MLB All Star Hospitality
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [25] => Array
+                (
+                    [ID] => 14372
+                    [Description] => MLB All Star Party
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [26] => Array
+                (
+                    [ID] => 14373
+                    [Description] => MLB All Star Sunday
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [27] => Array
+                (
+                    [ID] => 27400
+                    [Description] => MLB All Star Workout
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [28] => Array
+                (
+                    [ID] => 28227
+                    [Description] => MLB Hall of Fame Game
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [29] => Array
+                (
+                    [ID] => 14374
+                    [Description] => MLB Home Run Derby
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [30] => Array
+                (
+                    [ID] => 733
+                    [Description] => New York Mets 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [31] => Array
+                (
+                    [ID] => 735
+                    [Description] => New York Yankees 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [32] => Array
+                (
+                    [ID] => 756
+                    [Description] => Oakland Athletics 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [33] => Array
+                (
+                    [ID] => 818
+                    [Description] => Philadelphia Phillies 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [34] => Array
+                (
+                    [ID] => 827
+                    [Description] => Pittsburgh Pirates 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [35] => Array
+                (
+                    [ID] => 900
+                    [Description] => San Diego Padres 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [36] => Array
+                (
+                    [ID] => 902
+                    [Description] => San Francisco Giants  
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [37] => Array
+                (
+                    [ID] => 916
+                    [Description] => Seattle Mariners 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [38] => Array
+                (
+                    [ID] => 961
+                    [Description] => St. Louis Cardinals
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [39] => Array
+                (
+                    [ID] => 993
+                    [Description] => Tampa Bay Devil Rays 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [40] => Array
+                (
+                    [ID] => 1008
+                    [Description] => Texas Rangers 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [41] => Array
+                (
+                    [ID] => 1077
+                    [Description] => Toronto Blue Jays 
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [42] => Array
+                (
+                    [ID] => 17151
+                    [Description] => University of Miami
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [43] => Array
+                (
+                    [ID] => 2732
+                    [Description] => Washington Nationals
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [44] => Array
+                (
+                    [ID] => 7448
+                    [Description] => World Baseball Classic
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [45] => Array
+                (
+                    [ID] => 7447
+                    [Description] => World Series
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [46] => Array
+                (
+                    [ID] => 15961
+                    [Description] => World Series Hotels
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+            [47] => Array
+                (
+                    [ID] => 28226
+                    [Description] => Wrigley Rooftops
+                    [Category] => Array
+                        (
+                            [ParentCategoryID] => 1
+                            [ParentCategoryDescription] => SPORTS
+                            [ChildCategoryID] => 63
+                            [ChildCategoryDescription] => BASEBALL
+                            [GrandchildCategoryID] => 16
+                            [GrandchildCategoryDescription] => Professional (MLB)
+                        )
+
+                )
+
+        )
+
+)
+Done.

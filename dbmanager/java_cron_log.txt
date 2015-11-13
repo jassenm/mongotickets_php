@@ -1,0 +1,115 @@
+URL: jdbc:mysql://localhost:3306/mongo_tickets2
+Connection: com.mysql.jdbc.JDBC4Connection@166a22b
+Display all results:
+
+Event= 'Etown' Radio Show Taping
+
+Event= ** Virtual Gift Card **
+
+Event= **Gift Certificate**
+
+Event= **holiday package**
+
+Event= **TicketsNow.com Gift Card**
+
+Event= 10 Mile Crossing
+
+Event= 10 Unknowns
+
+Event= 10 Years
+
+Event= 10,000 Lakes Festival
+
+Event= 100 Proof
+URL: jdbc:mysql://localhost:3306/mongo_tickets2
+Connection: com.mysql.jdbc.JDBC4Connection@166a22b
+Display all results:
+
+Event= 'Etown' Radio Show Taping
+
+Event= ** Virtual Gift Card **
+
+Event= **Gift Certificate**
+
+Event= **holiday package**
+
+Event= **TicketsNow.com Gift Card**
+
+Event= 10 Mile Crossing
+
+Event= 10 Unknowns
+
+Event= 10 Years
+
+Event= 10,000 Lakes Festival
+
+Event= 100 Proof
+URL: jdbc:mysql://localhost:3306/mongo_tickets2
+Connection: com.mysql.jdbc.JDBC4Connection@1ff7a1e
+Display all results:
+
+Event= 'Etown' Radio Show Taping
+
+Event= ** Virtual Gift Card **
+
+Event= **Gift Certificate**
+
+Event= **holiday package**
+
+Event= **TicketsNow.com Gift Card**
+
+Event= 10 Mile Crossing
+
+Event= 10 Unknowns
+
+Event= 10 Years
+
+Event= 10,000 Lakes Festival
+
+Event= 100 Proof
+URL: jdbc:mysql://localhost:3306/mongo_tickets2
+Connection: com.mysql.jdbc.JDBC4Connection@166a22b
+Display all results:
+
+Event= 'Etown' Radio Show Taping
+
+Event= ** Virtual Gift Card **
+
+Event= **Gift Certificate**
+
+Event= **holiday package**
+
+Event= **TicketsNow.com Gift Card**
+
+Event= 10 Mile Crossing
+
+Event= 10 Unknowns
+
+Event= 10 Years
+
+Event= 10,000 Lakes Festival
+
+Event= 100 Proof
+URL: jdbc:mysql://localhost:3306/mongo_tickets2
+Connection: com.mysql.jdbc.JDBC4Connection@166a22b
+Display all results:
+
+Event= 'Etown' Radio Show Taping
+
+Event= ** Virtual Gift Card **
+
+Event= **Gift Certificate**
+
+Event= **holiday package**
+
+Event= **TicketsNow.com Gift Card**
+
+Event= 10 Mile Crossing
+
+Event= 10 Unknowns
+
+Event= 10 Years
+
+Event= 10,000 Lakes Festival
+
+Event= 100 Proof

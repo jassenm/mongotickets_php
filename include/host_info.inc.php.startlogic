@@ -1,0 +1,7 @@
+<?php
+
+#$domain = "75.3.22.7";
+$domain = "66.235.193.159";
+$root_url = "http://$domain/~quadtick";
+
+?>

@@ -1,0 +1,939 @@
+ Preparing for Import.......Invoking GetEvents method..... http://webservices2.ticketnetwork.com/GetEvents: 
+START_GET_ERROR
+
+END_GET_ERROR
+START_DEBUG_STR
+2008-07-28 21:40:32.083664 soapclient: instantiate SOAP with endpoint at http://webservices2-test.ticketnetwork.com/R2/TNServices.asmx?WSDL
+2008-07-28 21:40:32.083801 soapclient: call: operation=GetEvents, namespace=http://webservices2.ticketnetwork.com, soapAction=http://webservices2.ticketnetwork.com/GetEvents, rpcParams=, style=rpc, use=encoded, endpointType=soap
+params=array(18) {
+  ["websiteConfigID"]=>
+  int(4589)
+  ["numberOfEvents"]=>
+  NULL
+  ["eventID"]=>
+  NULL
+  ["eventDate"]=>
+  NULL
+  ["beginDate"]=>
+  NULL
+  ["endDate"]=>
+  NULL
+  ["venueID"]=>
+  NULL
+  ["stateProvinceID"]=>
+  NULL
+  ["parentCategoryID"]=>
+  int(1)
+  ["childCategoryID"]=>
+  int(63)
+  ["grandchildCategoryID"]=>
+  NULL
+  ["performerID"]=>
+  NULL
+  ["noPerformers"]=>
+  NULL
+  ["lowPrice"]=>
+  NULL
+  ["highPrice"]=>
+  NULL
+  ["sortDescending"]=>
+  NULL
+  ["modificationDate"]=>
+  NULL
+  ["onlyMine"]=>
+  NULL
+}
+headers=bool(false)
+2008-07-28 21:40:32.083917 soapclient: serializing param array for operation GetEvents
+2008-07-28 21:40:32.083972 soapclient: in serialize_val: name=ns7005:websiteConfigID, type=, name_ns=, type_ns=, use=encoded
+value=int(4589)
+attributes=bool(false)
+2008-07-28 21:40:32.084063 soapclient: in serialize_val: name=ns7005:numberOfEvents, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084122 soapclient: in serialize_val: name=ns7005:eventID, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084178 soapclient: in serialize_val: name=ns7005:eventDate, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084235 soapclient: in serialize_val: name=ns7005:beginDate, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084292 soapclient: in serialize_val: name=ns7005:endDate, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084349 soapclient: in serialize_val: name=ns7005:venueID, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084405 soapclient: in serialize_val: name=ns7005:stateProvinceID, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084460 soapclient: in serialize_val: name=ns7005:parentCategoryID, type=, name_ns=, type_ns=, use=encoded
+value=int(1)
+attributes=bool(false)
+2008-07-28 21:40:32.084523 soapclient: in serialize_val: name=ns7005:childCategoryID, type=, name_ns=, type_ns=, use=encoded
+value=int(63)
+attributes=bool(false)
+2008-07-28 21:40:32.084591 soapclient: in serialize_val: name=ns7005:grandchildCategoryID, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084649 soapclient: in serialize_val: name=ns7005:performerID, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084705 soapclient: in serialize_val: name=ns7005:noPerformers, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084761 soapclient: in serialize_val: name=ns7005:lowPrice, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084825 soapclient: in serialize_val: name=ns7005:highPrice, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084883 soapclient: in serialize_val: name=ns7005:sortDescending, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084938 soapclient: in serialize_val: name=ns7005:modificationDate, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.084993 soapclient: in serialize_val: name=ns7005:onlyMine, type=, name_ns=, type_ns=, use=encoded
+value=NULL
+attributes=bool(false)
+2008-07-28 21:40:32.085043 soapclient: wrapping RPC request with encoded method element
+2008-07-28 21:40:32.085091 soapclient: In serializeEnvelope length=859 body (max 1000 characters)=<ns7005:GetEvents xmlns:ns7005="http://webservices2.ticketnetwork.com"><ns7005:websiteConfigID xsi:type="xsd:int">4589</ns7005:websiteConfigID><ns7005:numberOfEvents  xsi:nil="true"/><ns7005:eventID  xsi:nil="true"/><ns7005:eventDate  xsi:nil="true"/><ns7005:beginDate  xsi:nil="true"/><ns7005:endDate  xsi:nil="true"/><ns7005:venueID  xsi:nil="true"/><ns7005:stateProvinceID  xsi:nil="true"/><ns7005:parentCategoryID xsi:type="xsd:int">1</ns7005:parentCategoryID><ns7005:childCategoryID xsi:type="xsd:int">63</ns7005:childCategoryID><ns7005:grandchildCategoryID  xsi:nil="true"/><ns7005:performerID  xsi:nil="true"/><ns7005:noPerformers  xsi:nil="true"/><ns7005:lowPrice  xsi:nil="true"/><ns7005:highPrice  xsi:nil="true"/><ns7005:sortDescending  xsi:nil="true"/><ns7005:modificationDate  xsi:nil="true"/><ns7005:onlyMine  xsi:nil="true"/></ns7005:GetEvents> style=rpc use=encoded encodingStyle=http://schemas.xmlsoap.org/soap/encoding/
+2008-07-28 21:40:32.085125 soapclient: headers:
+bool(false)
+2008-07-28 21:40:32.085163 soapclient: namespaces:
+array(0) {
+}
+2008-07-28 21:40:32.085230 soapclient: endpoint=http://webservices2-test.ticketnetwork.com/R2/TNServices.asmx?WSDL, soapAction=http://webservices2.ticketnetwork.com/GetEvents, namespace=http://webservices2.ticketnetwork.com, style=rpc, use=encoded, encodingStyle=http://schemas.xmlsoap.org/soap/encoding/
+2008-07-28 21:40:32.085266 soapclient: SOAP message length=1256 contents (max 1000 bytes)=<?xml version="1.0" encoding="ISO-8859-1"?><SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns7005:GetEvents xmlns:ns7005="http://webservices2.ticketnetwork.com"><ns7005:websiteConfigID xsi:type="xsd:int">4589</ns7005:websiteConfigID><ns7005:numberOfEvents  xsi:nil="true"/><ns7005:eventID  xsi:nil="true"/><ns7005:eventDate  xsi:nil="true"/><ns7005:beginDate  xsi:nil="true"/><ns7005:endDate  xsi:nil="true"/><ns7005:venueID  xsi:nil="true"/><ns7005:stateProvinceID  xsi:nil="true"/><ns7005:parentCategoryID xsi:type="xsd:int">1</ns7005:parentCategoryID><ns7005:childCategoryID xsi:type="xsd:int">63</ns7005:childCategoryID><ns7005:grandchildCategoryID  xsi:nil="true"/><ns7005:performerID  xsi:nil="true"/><ns7005:noPerformers  
+2008-07-28 21:40:32.085322 soapclient: transporting via HTTP
+2008-07-28 21:40:32.085662 soapclient: sending message, length=1256
+2008-07-28 21:40:32.085398 soap_transport_http: scheme = http
+2008-07-28 21:40:32.085432 soap_transport_http: host = webservices2-test.ticketnetwork.com
+2008-07-28 21:40:32.085460 soap_transport_http: path = /R2/TNServices.asmx
+2008-07-28 21:40:32.085490 soap_transport_http: query = WSDL
+2008-07-28 21:40:32.085522 soap_transport_http: set Host: webservices2-test.ticketnetwork.com
+2008-07-28 21:40:32.085573 soap_transport_http: set User-Agent: NuSOAP/0.7.2 (1.94)
+2008-07-28 21:40:32.085605 soap_transport_http: set Content-Type: text/xml; charset=ISO-8859-1
+2008-07-28 21:40:32.085633 soap_transport_http: set SOAPAction: "http://webservices2.ticketnetwork.com/GetEvents"
+2008-07-28 21:40:32.085706 soap_transport_http: entered send() with data of length: 1256
+2008-07-28 21:40:32.085742 soap_transport_http: connect connection_timeout 500, response_timeout 500, scheme http, host webservices2-test.ticketnetwork.com, port 80
+2008-07-28 21:40:32.085772 soap_transport_http: calling fsockopen with host webservices2-test.ticketnetwork.com connection_timeout 500
+2008-07-28 21:40:32.452717 soap_transport_http: set response timeout to 500
+2008-07-28 21:40:32.452776 soap_transport_http: socket connected
+2008-07-28 21:40:32.452838 soap_transport_http: set Content-Length: 1256
+2008-07-28 21:40:32.452881 soap_transport_http: HTTP request: POST /R2/TNServices.asmx?WSDL HTTP/1.0
+2008-07-28 21:40:32.452927 soap_transport_http: HTTP header: Host: webservices2-test.ticketnetwork.com
+2008-07-28 21:40:32.452982 soap_transport_http: HTTP header: User-Agent: NuSOAP/0.7.2 (1.94)
+2008-07-28 21:40:32.453011 soap_transport_http: HTTP header: Content-Type: text/xml; charset=ISO-8859-1
+2008-07-28 21:40:32.453041 soap_transport_http: HTTP header: SOAPAction: "http://webservices2.ticketnetwork.com/GetEvents"
+2008-07-28 21:40:32.453075 soap_transport_http: HTTP header: Content-Length: 1256
+2008-07-28 21:40:32.453126 soap_transport_http: wrote data to socket, length = 1503
+2008-07-28 21:40:32.539006 soap_transport_http: read line of 17 bytes: HTTP/1.1 200 OK
+2008-07-28 21:40:32.539072 soap_transport_http: read line of 19 bytes: Connection: close
+2008-07-28 21:40:32.539134 soap_transport_http: read line of 37 bytes: Date: Tue, 29 Jul 2008 04:01:36 GMT
+2008-07-28 21:40:32.539188 soap_transport_http: read line of 27 bytes: Server: Microsoft-IIS/6.0
+2008-07-28 21:40:32.539235 soap_transport_http: read line of 23 bytes: X-Powered-By: ASP.NET
+2008-07-28 21:40:32.539267 soap_transport_http: read line of 29 bytes: X-AspNet-Version: 2.0.50727
+2008-07-28 21:40:32.539302 soap_transport_http: read line of 35 bytes: Cache-Control: private, max-age=0
+2008-07-28 21:40:32.539336 soap_transport_http: read line of 39 bytes: Content-Type: text/xml; charset=utf-8
+2008-07-28 21:40:32.539370 soap_transport_http: read line of 22 bytes: Content-Length: 5025
+2008-07-28 21:40:32.539407 soap_transport_http: read line of 2 bytes: 
+2008-07-28 21:40:32.539477 soap_transport_http: found end of headers after length 250
+2008-07-28 21:40:32.539569 soap_transport_http: want to read content of length 5025
+2008-07-28 21:40:32.539618 soap_transport_http: read buffer of 2486 bytes
+2008-07-28 21:40:32.599312 soap_transport_http: read buffer of 1368 bytes
+2008-07-28 21:40:32.600394 soap_transport_http: read buffer of 1171 bytes
+2008-07-28 21:40:32.600453 soap_transport_http: read to EOF
+2008-07-28 21:40:32.600483 soap_transport_http: read body of length 5025
+2008-07-28 21:40:32.600517 soap_transport_http: received a total of 5275 bytes of data from server
+2008-07-28 21:40:32.600556 soap_transport_http: closed socket
+2008-07-28 21:40:32.600593 soap_transport_http: No Content-Encoding header
+2008-07-28 21:40:32.600622 soap_transport_http: end of send()
+2008-07-28 21:40:32.600670 soapclient: got response, length=5025 type=text/xml; charset=utf-8
+2008-07-28 21:40:32.600703 soapclient: Entering parseResponse() for data of length 5025 and type text/xml; charset=utf-8
+2008-07-28 21:40:32.600749 soapclient: Got response encoding: utf-8
+2008-07-28 21:40:32.600828 soapclient: Use encoding: UTF-8 when creating soap_parser
+2008-07-28 21:40:32.600982 soap_parser: Charset from HTTP Content-Type matches encoding from XML declaration
+2008-07-28 21:40:32.601013 soap_parser: Entering soap_parser(), length=5025, encoding=UTF-8
+2008-07-28 21:40:32.601266 soap_parser: found root struct GetEventsResponse, pos 2
+2008-07-28 21:40:32.602090 soap_parser: in buildVal() for Event(pos 4) of type 
+2008-07-28 21:40:32.602127 soap_parser: in buildVal, there are children
+2008-07-28 21:40:32.602176 soap_parser: in buildVal, adding Java Vector Event
+2008-07-28 21:40:32.603001 soap_parser: in buildVal() for Event(pos 21) of type 
+2008-07-28 21:40:32.603037 soap_parser: in buildVal, there are children
+2008-07-28 21:40:32.603076 soap_parser: in buildVal, adding Java Vector Event
+2008-07-28 21:40:32.603895 soap_parser: in buildVal() for Event(pos 38) of type 
+2008-07-28 21:40:32.603932 soap_parser: in buildVal, there are children
+2008-07-28 21:40:32.603970 soap_parser: in buildVal, adding Java Vector Event
+2008-07-28 21:40:32.604796 soap_parser: in buildVal() for Event(pos 55) of type 
+2008-07-28 21:40:32.604832 soap_parser: in buildVal, there are children
+2008-07-28 21:40:32.604870 soap_parser: in buildVal, adding Java Vector Event
+2008-07-28 21:40:32.605694 soap_parser: in buildVal() for Event(pos 72) of type 
+2008-07-28 21:40:32.605726 soap_parser: in buildVal, there are children
+2008-07-28 21:40:32.605763 soap_parser: in buildVal, adding Java Vector Event
+2008-07-28 21:40:32.606580 soap_parser: in buildVal() for Event(pos 89) of type 
+2008-07-28 21:40:32.606616 soap_parser: in buildVal, there are children
+2008-07-28 21:40:32.606654 soap_parser: in buildVal, adding Java Vector Event
+2008-07-28 21:40:32.607471 soap_parser: in buildVal() for Event(pos 106) of type 
+2008-07-28 21:40:32.607508 soap_parser: in buildVal, there are children
+2008-07-28 21:40:32.607546 soap_parser: in buildVal, adding Java Vector Event
+2008-07-28 21:40:32.608363 soap_parser: in buildVal() for Event(pos 123) of type 
+2008-07-28 21:40:32.608403 soap_parser: in buildVal, there are children
+2008-07-28 21:40:32.608441 soap_parser: in buildVal, adding Java Vector Event
+2008-07-28 21:40:32.608551 soap_parser: in buildVal() for GetEventsResult(pos 3) of type 
+2008-07-28 21:40:32.608580 soap_parser: in buildVal, there are children
+2008-07-28 21:40:32.608620 soap_parser: in buildVal, adding Java Vector GetEventsResult
+2008-07-28 21:40:32.608728 soap_parser: in buildVal() for GetEventsResponse(pos 2) of type struct
+2008-07-28 21:40:32.608756 soap_parser: in buildVal, there are children
+2008-07-28 21:40:32.608789 soap_parser: in buildVal, adding Java Vector GetEventsResponse
+2008-07-28 21:40:32.608853 soap_parser: parsed successfully, found root struct: 2 of name GetEventsResponse
+2008-07-28 21:40:32.609049 soapclient: sent message successfully and got a(n) array
+return=array(1) {
+  ["GetEventsResult"]=>
+  array(1) {
+    ["Event"]=>
+    array(8) {
+      [0]=>
+      array(16) {
+        ["ID"]=>
+        string(6) "796778"
+        ["Name"]=>
+        string(35) "Norfolk Tides vs. Pawtucket Red Sox"
+        ["Date"]=>
+        string(19) "2008-07-11T19:15:00"
+        ["DisplayDate"]=>
+        string(17) "07/11/2008 7:15PM"
+        ["Venue"]=>
+        string(11) "Harbor Park"
+        ["City"]=>
+        string(7) "Norfolk"
+        ["StateProvince"]=>
+        string(2) "VA"
+        ["ParentCategoryID"]=>
+        string(1) "1"
+        ["ChildCategoryID"]=>
+        string(2) "63"
+        ["GrandchildCategoryID"]=>
+        string(2) "25"
+        ["MapURL"]=>
+        string(0) ""
+        ["VenueID"]=>
+        string(4) "4000"
+        ["StateProvinceID"]=>
+        string(2) "46"
+        ["VenueConfigurationID"]=>
+        string(1) "0"
+        ["Clicks"]=>
+        string(1) "0"
+        ["IsWomensEvent"]=>
+        string(5) "false"
+      }
+      [1]=>
+      array(16) {
+        ["ID"]=>
+        string(6) "782177"
+        ["Name"]=>
+        string(40) "Indianapolis Indians vs. Syracuse Chiefs"
+        ["Date"]=>
+        string(19) "2008-07-28T19:00:00"
+        ["DisplayDate"]=>
+        string(17) "07/28/2008 7:00PM"
+        ["Venue"]=>
+        string(13) "Victory Field"
+        ["City"]=>
+        string(12) "Indianapolis"
+        ["StateProvince"]=>
+        string(2) "IN"
+        ["ParentCategoryID"]=>
+        string(1) "1"
+        ["ChildCategoryID"]=>
+        string(2) "63"
+        ["GrandchildCategoryID"]=>
+        string(2) "25"
+        ["MapURL"]=>
+        string(57) "http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg"
+        ["VenueID"]=>
+        string(3) "427"
+        ["StateProvinceID"]=>
+        string(2) "16"
+        ["VenueConfigurationID"]=>
+        string(1) "0"
+        ["Clicks"]=>
+        string(1) "0"
+        ["IsWomensEvent"]=>
+        string(5) "false"
+      }
+      [2]=>
+      array(16) {
+        ["ID"]=>
+        string(6) "782174"
+        ["Name"]=>
+        string(40) "Indianapolis Indians vs. Syracuse Chiefs"
+        ["Date"]=>
+        string(19) "2008-07-25T19:15:00"
+        ["DisplayDate"]=>
+        string(17) "07/25/2008 7:15PM"
+        ["Venue"]=>
+        string(13) "Victory Field"
+        ["City"]=>
+        string(12) "Indianapolis"
+        ["StateProvince"]=>
+        string(2) "IN"
+        ["ParentCategoryID"]=>
+        string(1) "1"
+        ["ChildCategoryID"]=>
+        string(2) "63"
+        ["GrandchildCategoryID"]=>
+        string(2) "25"
+        ["MapURL"]=>
+        string(57) "http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg"
+        ["VenueID"]=>
+        string(3) "427"
+        ["StateProvinceID"]=>
+        string(2) "16"
+        ["VenueConfigurationID"]=>
+        string(1) "0"
+        ["Clicks"]=>
+        string(1) "0"
+        ["IsWomensEvent"]=>
+        string(5) "false"
+      }
+      [3]=>
+      array(16) {
+        ["ID"]=>
+        string(6) "782175"
+        ["Name"]=>
+        string(40) "Indianapolis Indians vs. Syracuse Chiefs"
+        ["Date"]=>
+        string(19) "2008-07-26T19:00:00"
+        ["DisplayDate"]=>
+        string(17) "07/26/2008 7:00PM"
+        ["Venue"]=>
+        string(13) "Victory Field"
+        ["City"]=>
+        string(12) "Indianapolis"
+        ["StateProvince"]=>
+        string(2) "IN"
+        ["ParentCategoryID"]=>
+        string(1) "1"
+        ["ChildCategoryID"]=>
+        string(2) "63"
+        ["GrandchildCategoryID"]=>
+        string(2) "25"
+        ["MapURL"]=>
+        string(57) "http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg"
+        ["VenueID"]=>
+        string(3) "427"
+        ["StateProvinceID"]=>
+        string(2) "16"
+        ["VenueConfigurationID"]=>
+        string(1) "0"
+        ["Clicks"]=>
+        string(1) "0"
+        ["IsWomensEvent"]=>
+        string(5) "false"
+      }
+      [4]=>
+      array(16) {
+        ["ID"]=>
+        string(6) "782176"
+        ["Name"]=>
+        string(40) "Indianapolis Indians vs. Syracuse Chiefs"
+        ["Date"]=>
+        string(19) "2008-07-27T14:00:00"
+        ["DisplayDate"]=>
+        string(17) "07/27/2008 2:00PM"
+        ["Venue"]=>
+        string(13) "Victory Field"
+        ["City"]=>
+        string(12) "Indianapolis"
+        ["StateProvince"]=>
+        string(2) "IN"
+        ["ParentCategoryID"]=>
+        string(1) "1"
+        ["ChildCategoryID"]=>
+        string(2) "63"
+        ["GrandchildCategoryID"]=>
+        string(2) "25"
+        ["MapURL"]=>
+        string(57) "http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg"
+        ["VenueID"]=>
+        string(3) "427"
+        ["StateProvinceID"]=>
+        string(2) "16"
+        ["VenueConfigurationID"]=>
+        string(1) "0"
+        ["Clicks"]=>
+        string(1) "0"
+        ["IsWomensEvent"]=>
+        string(5) "false"
+      }
+      [5]=>
+      array(16) {
+        ["ID"]=>
+        string(6) "720150"
+        ["Name"]=>
+        string(34) "Chicago Cubs vs. Baltimore Orioles"
+        ["Date"]=>
+        string(19) "2008-06-26T03:30:00"
+        ["DisplayDate"]=>
+        string(14) "06/26/2008 TBA"
+        ["Venue"]=>
+        string(13) "Wrigley Field"
+        ["City"]=>
+        string(7) "Chicago"
+        ["StateProvince"]=>
+        string(2) "IL"
+        ["ParentCategoryID"]=>
+        string(1) "1"
+        ["ChildCategoryID"]=>
+        string(2) "63"
+        ["GrandchildCategoryID"]=>
+        string(2) "25"
+        ["MapURL"]=>
+        string(50) "http://www.indux.com/map/WrigleyField_baseball.gif"
+        ["VenueID"]=>
+        string(2) "69"
+        ["StateProvinceID"]=>
+        string(2) "15"
+        ["VenueConfigurationID"]=>
+        string(1) "0"
+        ["Clicks"]=>
+        string(1) "0"
+        ["IsWomensEvent"]=>
+        string(5) "false"
+      }
+      [6]=>
+      array(16) {
+        ["ID"]=>
+        string(6) "720155"
+        ["Name"]=>
+        string(34) "Chicago Cubs vs. Baltimore Orioles"
+        ["Date"]=>
+        string(19) "2008-06-25T03:30:00"
+        ["DisplayDate"]=>
+        string(14) "06/25/2008 TBA"
+        ["Venue"]=>
+        string(13) "Wrigley Field"
+        ["City"]=>
+        string(7) "Chicago"
+        ["StateProvince"]=>
+        string(2) "IL"
+        ["ParentCategoryID"]=>
+        string(1) "1"
+        ["ChildCategoryID"]=>
+        string(2) "63"
+        ["GrandchildCategoryID"]=>
+        string(2) "25"
+        ["MapURL"]=>
+        string(50) "http://www.indux.com/map/WrigleyField_baseball.gif"
+        ["VenueID"]=>
+        string(2) "69"
+        ["StateProvinceID"]=>
+        string(2) "15"
+        ["VenueConfigurationID"]=>
+        string(1) "0"
+        ["Clicks"]=>
+        string(1) "0"
+        ["IsWomensEvent"]=>
+        string(5) "false"
+      }
+      [7]=>
+      array(16) {
+        ["ID"]=>
+        string(6) "720164"
+        ["Name"]=>
+        string(34) "Chicago Cubs vs. Baltimore Orioles"
+        ["Date"]=>
+        string(19) "2008-06-24T03:30:00"
+        ["DisplayDate"]=>
+        string(14) "06/24/2008 TBA"
+        ["Venue"]=>
+        string(13) "Wrigley Field"
+        ["City"]=>
+        string(7) "Chicago"
+        ["StateProvince"]=>
+        string(2) "IL"
+        ["ParentCategoryID"]=>
+        string(1) "1"
+        ["ChildCategoryID"]=>
+        string(2) "63"
+        ["GrandchildCategoryID"]=>
+        string(2) "25"
+        ["MapURL"]=>
+        string(50) "http://www.indux.com/map/WrigleyField_baseball.gif"
+        ["VenueID"]=>
+        string(2) "69"
+        ["StateProvinceID"]=>
+        string(2) "15"
+        ["VenueConfigurationID"]=>
+        string(1) "0"
+        ["Clicks"]=>
+        string(1) "0"
+        ["IsWomensEvent"]=>
+        string(5) "false"
+      }
+    }
+  }
+}
+2008-07-28 21:40:32.609343 soapclient: return shifted value: 
+array(1) {
+  ["Event"]=>
+  array(8) {
+    [0]=>
+    array(16) {
+      ["ID"]=>
+      string(6) "796778"
+      ["Name"]=>
+      string(35) "Norfolk Tides vs. Pawtucket Red Sox"
+      ["Date"]=>
+      string(19) "2008-07-11T19:15:00"
+      ["DisplayDate"]=>
+      string(17) "07/11/2008 7:15PM"
+      ["Venue"]=>
+      string(11) "Harbor Park"
+      ["City"]=>
+      string(7) "Norfolk"
+      ["StateProvince"]=>
+      string(2) "VA"
+      ["ParentCategoryID"]=>
+      string(1) "1"
+      ["ChildCategoryID"]=>
+      string(2) "63"
+      ["GrandchildCategoryID"]=>
+      string(2) "25"
+      ["MapURL"]=>
+      string(0) ""
+      ["VenueID"]=>
+      string(4) "4000"
+      ["StateProvinceID"]=>
+      string(2) "46"
+      ["VenueConfigurationID"]=>
+      string(1) "0"
+      ["Clicks"]=>
+      string(1) "0"
+      ["IsWomensEvent"]=>
+      string(5) "false"
+    }
+    [1]=>
+    array(16) {
+      ["ID"]=>
+      string(6) "782177"
+      ["Name"]=>
+      string(40) "Indianapolis Indians vs. Syracuse Chiefs"
+      ["Date"]=>
+      string(19) "2008-07-28T19:00:00"
+      ["DisplayDate"]=>
+      string(17) "07/28/2008 7:00PM"
+      ["Venue"]=>
+      string(13) "Victory Field"
+      ["City"]=>
+      string(12) "Indianapolis"
+      ["StateProvince"]=>
+      string(2) "IN"
+      ["ParentCategoryID"]=>
+      string(1) "1"
+      ["ChildCategoryID"]=>
+      string(2) "63"
+      ["GrandchildCategoryID"]=>
+      string(2) "25"
+      ["MapURL"]=>
+      string(57) "http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg"
+      ["VenueID"]=>
+      string(3) "427"
+      ["StateProvinceID"]=>
+      string(2) "16"
+      ["VenueConfigurationID"]=>
+      string(1) "0"
+      ["Clicks"]=>
+      string(1) "0"
+      ["IsWomensEvent"]=>
+      string(5) "false"
+    }
+    [2]=>
+    array(16) {
+      ["ID"]=>
+      string(6) "782174"
+      ["Name"]=>
+      string(40) "Indianapolis Indians vs. Syracuse Chiefs"
+      ["Date"]=>
+      string(19) "2008-07-25T19:15:00"
+      ["DisplayDate"]=>
+      string(17) "07/25/2008 7:15PM"
+      ["Venue"]=>
+      string(13) "Victory Field"
+      ["City"]=>
+      string(12) "Indianapolis"
+      ["StateProvince"]=>
+      string(2) "IN"
+      ["ParentCategoryID"]=>
+      string(1) "1"
+      ["ChildCategoryID"]=>
+      string(2) "63"
+      ["GrandchildCategoryID"]=>
+      string(2) "25"
+      ["MapURL"]=>
+      string(57) "http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg"
+      ["VenueID"]=>
+      string(3) "427"
+      ["StateProvinceID"]=>
+      string(2) "16"
+      ["VenueConfigurationID"]=>
+      string(1) "0"
+      ["Clicks"]=>
+      string(1) "0"
+      ["IsWomensEvent"]=>
+      string(5) "false"
+    }
+    [3]=>
+    array(16) {
+      ["ID"]=>
+      string(6) "782175"
+      ["Name"]=>
+      string(40) "Indianapolis Indians vs. Syracuse Chiefs"
+      ["Date"]=>
+      string(19) "2008-07-26T19:00:00"
+      ["DisplayDate"]=>
+      string(17) "07/26/2008 7:00PM"
+      ["Venue"]=>
+      string(13) "Victory Field"
+      ["City"]=>
+      string(12) "Indianapolis"
+      ["StateProvince"]=>
+      string(2) "IN"
+      ["ParentCategoryID"]=>
+      string(1) "1"
+      ["ChildCategoryID"]=>
+      string(2) "63"
+      ["GrandchildCategoryID"]=>
+      string(2) "25"
+      ["MapURL"]=>
+      string(57) "http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg"
+      ["VenueID"]=>
+      string(3) "427"
+      ["StateProvinceID"]=>
+      string(2) "16"
+      ["VenueConfigurationID"]=>
+      string(1) "0"
+      ["Clicks"]=>
+      string(1) "0"
+      ["IsWomensEvent"]=>
+      string(5) "false"
+    }
+    [4]=>
+    array(16) {
+      ["ID"]=>
+      string(6) "782176"
+      ["Name"]=>
+      string(40) "Indianapolis Indians vs. Syracuse Chiefs"
+      ["Date"]=>
+      string(19) "2008-07-27T14:00:00"
+      ["DisplayDate"]=>
+      string(17) "07/27/2008 2:00PM"
+      ["Venue"]=>
+      string(13) "Victory Field"
+      ["City"]=>
+      string(12) "Indianapolis"
+      ["StateProvince"]=>
+      string(2) "IN"
+      ["ParentCategoryID"]=>
+      string(1) "1"
+      ["ChildCategoryID"]=>
+      string(2) "63"
+      ["GrandchildCategoryID"]=>
+      string(2) "25"
+      ["MapURL"]=>
+      string(57) "http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg"
+      ["VenueID"]=>
+      string(3) "427"
+      ["StateProvinceID"]=>
+      string(2) "16"
+      ["VenueConfigurationID"]=>
+      string(1) "0"
+      ["Clicks"]=>
+      string(1) "0"
+      ["IsWomensEvent"]=>
+      string(5) "false"
+    }
+    [5]=>
+    array(16) {
+      ["ID"]=>
+      string(6) "720150"
+      ["Name"]=>
+      string(34) "Chicago Cubs vs. Baltimore Orioles"
+      ["Date"]=>
+      string(19) "2008-06-26T03:30:00"
+      ["DisplayDate"]=>
+      string(14) "06/26/2008 TBA"
+      ["Venue"]=>
+      string(13) "Wrigley Field"
+      ["City"]=>
+      string(7) "Chicago"
+      ["StateProvince"]=>
+      string(2) "IL"
+      ["ParentCategoryID"]=>
+      string(1) "1"
+      ["ChildCategoryID"]=>
+      string(2) "63"
+      ["GrandchildCategoryID"]=>
+      string(2) "25"
+      ["MapURL"]=>
+      string(50) "http://www.indux.com/map/WrigleyField_baseball.gif"
+      ["VenueID"]=>
+      string(2) "69"
+      ["StateProvinceID"]=>
+      string(2) "15"
+      ["VenueConfigurationID"]=>
+      string(1) "0"
+      ["Clicks"]=>
+      string(1) "0"
+      ["IsWomensEvent"]=>
+      string(5) "false"
+    }
+    [6]=>
+    array(16) {
+      ["ID"]=>
+      string(6) "720155"
+      ["Name"]=>
+      string(34) "Chicago Cubs vs. Baltimore Orioles"
+      ["Date"]=>
+      string(19) "2008-06-25T03:30:00"
+      ["DisplayDate"]=>
+      string(14) "06/25/2008 TBA"
+      ["Venue"]=>
+      string(13) "Wrigley Field"
+      ["City"]=>
+      string(7) "Chicago"
+      ["StateProvince"]=>
+      string(2) "IL"
+      ["ParentCategoryID"]=>
+      string(1) "1"
+      ["ChildCategoryID"]=>
+      string(2) "63"
+      ["GrandchildCategoryID"]=>
+      string(2) "25"
+      ["MapURL"]=>
+      string(50) "http://www.indux.com/map/WrigleyField_baseball.gif"
+      ["VenueID"]=>
+      string(2) "69"
+      ["StateProvinceID"]=>
+      string(2) "15"
+      ["VenueConfigurationID"]=>
+      string(1) "0"
+      ["Clicks"]=>
+      string(1) "0"
+      ["IsWomensEvent"]=>
+      string(5) "false"
+    }
+    [7]=>
+    array(16) {
+      ["ID"]=>
+      string(6) "720164"
+      ["Name"]=>
+      string(34) "Chicago Cubs vs. Baltimore Orioles"
+      ["Date"]=>
+      string(19) "2008-06-24T03:30:00"
+      ["DisplayDate"]=>
+      string(14) "06/24/2008 TBA"
+      ["Venue"]=>
+      string(13) "Wrigley Field"
+      ["City"]=>
+      string(7) "Chicago"
+      ["StateProvince"]=>
+      string(2) "IL"
+      ["ParentCategoryID"]=>
+      string(1) "1"
+      ["ChildCategoryID"]=>
+      string(2) "63"
+      ["GrandchildCategoryID"]=>
+      string(2) "25"
+      ["MapURL"]=>
+      string(50) "http://www.indux.com/map/WrigleyField_baseball.gif"
+      ["VenueID"]=>
+      string(2) "69"
+      ["StateProvinceID"]=>
+      string(2) "15"
+      ["VenueConfigurationID"]=>
+      string(1) "0"
+      ["Clicks"]=>
+      string(1) "0"
+      ["IsWomensEvent"]=>
+      string(5) "false"
+    }
+  }
+}
+
+END_DEBUG_STR
+Done Calling http://webservices2.ticketnetwork.com/GetEvents.Importing data.... Array
+(
+    [Event] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 796778
+                    [Name] => Norfolk Tides vs. Pawtucket Red Sox
+                    [Date] => 2008-07-11T19:15:00
+                    [DisplayDate] => 07/11/2008 7:15PM
+                    [Venue] => Harbor Park
+                    [City] => Norfolk
+                    [StateProvince] => VA
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => 
+                    [VenueID] => 4000
+                    [StateProvinceID] => 46
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [1] => Array
+                (
+                    [ID] => 782177
+                    [Name] => Indianapolis Indians vs. Syracuse Chiefs
+                    [Date] => 2008-07-28T19:00:00
+                    [DisplayDate] => 07/28/2008 7:00PM
+                    [Venue] => Victory Field
+                    [City] => Indianapolis
+                    [StateProvince] => IN
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg
+                    [VenueID] => 427
+                    [StateProvinceID] => 16
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [2] => Array
+                (
+                    [ID] => 782174
+                    [Name] => Indianapolis Indians vs. Syracuse Chiefs
+                    [Date] => 2008-07-25T19:15:00
+                    [DisplayDate] => 07/25/2008 7:15PM
+                    [Venue] => Victory Field
+                    [City] => Indianapolis
+                    [StateProvince] => IN
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg
+                    [VenueID] => 427
+                    [StateProvinceID] => 16
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [3] => Array
+                (
+                    [ID] => 782175
+                    [Name] => Indianapolis Indians vs. Syracuse Chiefs
+                    [Date] => 2008-07-26T19:00:00
+                    [DisplayDate] => 07/26/2008 7:00PM
+                    [Venue] => Victory Field
+                    [City] => Indianapolis
+                    [StateProvince] => IN
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg
+                    [VenueID] => 427
+                    [StateProvinceID] => 16
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [4] => Array
+                (
+                    [ID] => 782176
+                    [Name] => Indianapolis Indians vs. Syracuse Chiefs
+                    [Date] => 2008-07-27T14:00:00
+                    [DisplayDate] => 07/27/2008 2:00PM
+                    [Venue] => Victory Field
+                    [City] => Indianapolis
+                    [StateProvince] => IN
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/427_VictoryField_Baseball_tn.jpg
+                    [VenueID] => 427
+                    [StateProvinceID] => 16
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [5] => Array
+                (
+                    [ID] => 720150
+                    [Name] => Chicago Cubs vs. Baltimore Orioles
+                    [Date] => 2008-06-26T03:30:00
+                    [DisplayDate] => 06/26/2008 TBA
+                    [Venue] => Wrigley Field
+                    [City] => Chicago
+                    [StateProvince] => IL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/WrigleyField_baseball.gif
+                    [VenueID] => 69
+                    [StateProvinceID] => 15
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [6] => Array
+                (
+                    [ID] => 720155
+                    [Name] => Chicago Cubs vs. Baltimore Orioles
+                    [Date] => 2008-06-25T03:30:00
+                    [DisplayDate] => 06/25/2008 TBA
+                    [Venue] => Wrigley Field
+                    [City] => Chicago
+                    [StateProvince] => IL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/WrigleyField_baseball.gif
+                    [VenueID] => 69
+                    [StateProvinceID] => 15
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+            [7] => Array
+                (
+                    [ID] => 720164
+                    [Name] => Chicago Cubs vs. Baltimore Orioles
+                    [Date] => 2008-06-24T03:30:00
+                    [DisplayDate] => 06/24/2008 TBA
+                    [Venue] => Wrigley Field
+                    [City] => Chicago
+                    [StateProvince] => IL
+                    [ParentCategoryID] => 1
+                    [ChildCategoryID] => 63
+                    [GrandchildCategoryID] => 25
+                    [MapURL] => http://www.indux.com/map/WrigleyField_baseball.gif
+                    [VenueID] => 69
+                    [StateProvinceID] => 15
+                    [VenueConfigurationID] => 0
+                    [Clicks] => 0
+                    [IsWomensEvent] => false
+                )
+
+        )
+
+)
+Done.Finished Importing .
+
+
